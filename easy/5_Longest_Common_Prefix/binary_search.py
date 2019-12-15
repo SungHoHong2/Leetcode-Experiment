@@ -32,11 +32,9 @@ class Solution:
                 low = middle + 1
             else:
                 high = middle - 1
-
             # print('loop', low, high, middle)
 
         middle = int((low + high) / 2)
-
         # print('result', low, high, strs[0][0:middle])
         return strs[0][0:middle]
 
