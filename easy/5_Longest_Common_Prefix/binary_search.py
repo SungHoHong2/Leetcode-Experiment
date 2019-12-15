@@ -3,7 +3,6 @@ class Solution:
     def isCommonPrefix(self, strs: List[str], length: int) -> bool:
 
         str1 = strs[0][0:length]
-        # print(str1, len)
 
         for i in range(1, len(strs)):
             if strs[i][0:length] != str1:
