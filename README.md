@@ -1,7 +1,7 @@
 # LeetCode Experiments 
 
-- [Easy](easy)
-    - Experimenting the easy level algorithms
-- medium 
-- hard 
+- [Easy Level](easy)
+    - Experimenting the easy level algorithms in leetcode 
+- Medium level  
+- Hard level 
 - ACM 
