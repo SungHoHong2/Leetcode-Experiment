@@ -1,6 +1,5 @@
 git config credential.helper store
 git pull origin master
-HOSTS="$(cat /etc/hostname)"
 LOCATION="$(pwd)"
 VERSION=3
 
