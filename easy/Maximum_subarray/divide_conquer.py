@@ -27,7 +27,6 @@ class Solution:
         p = (left + right) // 2
 
         # recursively run half
-
         # get the biggest number from the left
         left_sum = self.helper(nums, left, p)
 
