@@ -9,5 +9,4 @@ class Solution:
                 nums[i] += nums[i - 1]
 
             max_sum = max(nums[i], max_sum)
-
-            return max_sumn
+            return max_sum

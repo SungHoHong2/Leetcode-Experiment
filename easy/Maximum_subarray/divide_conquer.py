@@ -5,7 +5,8 @@ class Solution:
 
         left_subsum = float('-inf')
         curr_sum = 0
-        for i in range(p, left - 1, -1):
+        for i in range(p, left - 1, -1
+                       ):
             curr_sum += nums[i]
             left_subsum = max(left_subsum, curr_sum)
 
