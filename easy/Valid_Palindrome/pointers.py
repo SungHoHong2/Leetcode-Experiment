@@ -19,9 +19,8 @@ class Solution:
                 h -= 1
 
             # If characters are equal
-            elif (s[l] == s[h]):
-                l += 1
-                h -= 1
+ 
+ 
 
             # If characters are not equal then
             # sentence is not palindrome
