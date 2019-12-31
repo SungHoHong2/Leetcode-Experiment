@@ -10,6 +10,7 @@ class Solution(object):
         # two get pointers for nums1 and nums2
         p1 = m - 1
         p2 = n - 1
+
         # set pointer for nums1
         p = m + n - 1
 
