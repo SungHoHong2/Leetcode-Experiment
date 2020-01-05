@@ -1,14 +1,15 @@
 class Solution(object):
     def longestPalindrome(self, s):
-        """
-        :type s: str
-        :rtype: str
-        """
+
         new = "#".join("${}&".format(s))
         n = len(new)
         P = [0 for i in range(n)]
         C = 0
         R = 0
+
+        #   (J)   C   (I)   R
+        # ---|----|----|----|---
+
         for i in range(1, n - 1):
             j = C - (i - C)
             if R - i > P[j]:
@@ -24,4 +25,4 @@ class Solution(object):
                 C = i
 
         l, i = max((l, i) for i, l in enumerate(P))
-        return s[(i - l) / 2:(i + l) / 2]
+        return s[(i - l) // 2:(i + l) // 2]
