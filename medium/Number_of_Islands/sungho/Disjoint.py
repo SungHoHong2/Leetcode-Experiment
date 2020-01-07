@@ -4,13 +4,13 @@ class Solution:
         if not grid:
             return 0
 
-        N, M = len(grid), len(grid[0])
+        row, col = len(grid), len(grid[0])
 
         # table of indexes Note:(row, col)
-        parent = [[(i, j) for j in range(M)] for i in range(N)]
+        parent = [[(i, j) for j in range(col)] for i in range(row)]
 
         # set the table of ranking to 1
-        rank = [[1 for i in range(M)] for j in range(N)]
+        rank = [[1 for i in range(col)] for j in range(row)]
 
         # set the representative of the grouped elements
         def setParent(x, p):
@@ -64,16 +64,16 @@ class Solution:
                 # increase the number of rank and merge the group
                 setRank(p_a, rank_a + 1)
 
-        for i in range(N):
-            for j in range(M):
+        for i in range(row):
+            for j in range(col):
                 if grid[i][j] == '1':
                     for di, dj in [(i+1,j),(i,j+1)]:
                         # merge all the (row,col) that contains "1"
-                        if 0 <= di < N and 0 <= dj < M and grid[di][dj] == '1':
+                        if 0 <= di < row and 0 <= dj < col and grid[di][dj] == '1':
                             union((i, j), (di, dj))
         count = 0
-        for i in range(N):
-            for j in range(M):
+        for i in range(row):
+            for j in range(col):
 
                 # count the total number grouped elements
                 if grid[i][j] == '1' and find((i, j)) == (i, j):
