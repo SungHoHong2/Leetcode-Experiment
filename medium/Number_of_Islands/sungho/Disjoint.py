@@ -64,18 +64,13 @@ class Solution:
                 # increase the number of rank and merge the group
                 setRank(p_a, rank_a + 1)
 
-        # row +1 or col + 1
-        directions = [(1, 0), (0, 1)]
-
         for i in range(N):
             for j in range(M):
                 if grid[i][j] == '1':
-                    for di, dj in directions:
-                        ni, nj = i + di, j + dj
-
+                    for di, dj in [(i+1,j),(i,j+1)]:
                         # merge all the (row,col) that contains "1"
-                        if 0 <= ni < N and 0 <= nj < M and grid[ni][nj] == '1':
-                            union((i, j), (ni, nj))
+                        if 0 <= di < N and 0 <= dj < M and grid[di][dj] == '1':
+                            union((i, j), (di, dj))
         count = 0
         for i in range(N):
             for j in range(M):
