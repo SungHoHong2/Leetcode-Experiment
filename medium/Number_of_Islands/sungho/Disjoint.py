@@ -33,7 +33,7 @@ class Solution:
             x, y = i, j
 
             # if the node is not the parent
-            while parent[x][y] != (x, y):
+            if parent[x][y] != (x, y):
                 # get the index of the parent
                 x, y = parent[x][y]
 

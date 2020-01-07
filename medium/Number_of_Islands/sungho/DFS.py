@@ -7,13 +7,19 @@
 class Solution:
 
     def dfs(self, grid, r, c):
+
+        # check the total number of available indexes
         nr = len(grid)
         nc = len(grid[0])
 
+        # return if the table is zero or the table is out of range
         if r < 0 or c < 0 or r >= nr or c >= nc or grid[r][c] == '0':
-            return
+            return 
 
+        # mark the viewed table as zero
         grid[r][c] = '0'
+
+        # search through all the table recursively
         self.dfs(grid, r - 1, c)
         self.dfs(grid, r + 1, c)
         self.dfs(grid, r, c - 1)
@@ -21,25 +27,25 @@ class Solution:
 
     def numIslands(self, grid: List[List[str]]) -> int:
 
-        for i in grid:
-            print(i)
-
-        if grid == None or len(grid) == 0:
+        # if the grid has nothing return 0
+        if len(grid) == 0:
             return 0
 
-        # get the number of rows
+        # get the number of rows and cols
         nr = len(grid)
-
-        # get the number of columns
         nc = len(grid[0])
+
         num_islands = 0
 
+        # go through all over every cells of the table
         for r in range(0, nr):
             for c in range(0, nc):
+
+                # if there is a ground
                 if grid[r][c] == '1':
+                    # add one island
                     num_islands += 1
+                    # execute the recursive depth-first-search
                     self.dfs(grid, r, c)
 
         return num_islands
-
-
