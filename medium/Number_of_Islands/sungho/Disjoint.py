@@ -6,7 +6,7 @@ class Solution:
 
         N, M = len(grid), len(grid[0])
 
-        # table of indexes (row, col)
+        # table of indexes Note:(row, col)
         parent = [[(i, j) for j in range(M)] for i in range(N)]
 
         # set the table of ranking to 1
