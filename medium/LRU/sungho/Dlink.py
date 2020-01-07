@@ -19,12 +19,12 @@ class LRUCache():
     def get(self, key):
 
         # get the node from the dictionary
-        node = self.cache.get(key, None)
-        if not node:
+        if key not in self.cache:
             return -1
 
-        self.move_to_head(node)
-        return node.value
+            # note that DlinkedNode is cached thus it is required to identify the value
+        self.move_to_head(self.cache[key])
+        return self.cache[key].value
 
     def move_to_head(self, node):
         self.remove_node(node)
@@ -53,10 +53,8 @@ class LRUCache():
     def put(self, key, value):
 
         # get the node from the dictonary
-        node = self.cache.get(key)
+        if key not in self.cache:
 
-        # if the node does not exist create a new Node
-        if not node:
             newNode = DLinkedNode()
             newNode.value = value
             newNode.key = key
@@ -76,8 +74,8 @@ class LRUCache():
 
         else:
             # if the node exist update the value
-            node.value = value
-            self.move_to_head(node)
+            self.cache[key].value = value
+            self.move_to_head(self.cache[key])
 
     def pop_tail(self):
         # get the last node of the list and remove

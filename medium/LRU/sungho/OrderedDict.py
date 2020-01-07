@@ -5,7 +5,7 @@ class LRUCache():
         self.capacity = capacity
 
     def get(self, key):
-        if key not in self.cache:
+        if key not in self.cacshe:
             return -1
 
         self.cache.move_to_end(key)
