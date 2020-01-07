@@ -22,7 +22,7 @@ class LRUCache():
         if key not in self.cache:
             return -1
 
-            # note that DlinkedNode is cached thus it is required to identify the value
+        # note that DlinkedNode is cached thus it is required to identify the value
         self.move_to_head(self.cache[key])
         return self.cache[key].value
 
