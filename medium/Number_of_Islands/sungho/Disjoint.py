@@ -4,6 +4,7 @@ class Solution:
         if not grid:
             return 0
 
+
         row, col = len(grid), len(grid[0])
 
         # table of indexes Note:(row, col)
