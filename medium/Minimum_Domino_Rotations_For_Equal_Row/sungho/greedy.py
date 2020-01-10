@@ -1,44 +1,23 @@
 class Solution:
-
-    # Pick up the first element. It has two sides: A[0] and B[0].
-    # Check if one could make all elements in A row or B row to be equal to A[0].
-    # If yes, return the minimum number of rotations needed.
-
-    # Check if one could make all elements in A row or B row to be equal to B[0].
-    # If yes, return the minimum number of rotations needed.
-
-    # Otherwise return -1.
-
     def minDominoRotations(self, A: List[int], B: List[int]) -> int:
+
         def check(x, n):
-            """
-            Return min number of swaps
-            if one could make all elements in A or B equal to x.
-            Else return -1.
-            """
-            # how many rotations should be done
-            # to have all elements in A equal to x
-            # and to have all elements in B equal to x
-            rotations_a = rotations_b = 0
-            for i in range(n):
-                # rotations coudn't be done
+            rot_a = rot_b = 0
+            for i in range(0, n):
                 if A[i] != x and B[i] != x:
                     return -1
-                # A[i] != x and B[i] == x
                 elif A[i] != x:
-                    rotations_a += 1
-                # A[i] == x and B[i] != x
+                    rot_a += 1
                 elif B[i] != x:
-                    rotations_b += 1
-            # min number of rotations to have all
-            # elements equal to x in A or B
-            return min(rotations_a, rotations_b)
+                    rot_b += 1
+
+            return min(rot_a, rot_b)
 
         n = len(A)
-        rotations = check(A[0], n)
-        # If one could make all elements in A or B equal to A[0]
-        if rotations != -1 or A[0] == B[0]:
-            return rotations
-            # If one could make all elements in A or B equal to B[0]
+        rotation = check(A[0], n)
+        # if it is -1 and also A and B are the same
+        # the application can skip checking the B.
+        if rotation != -1 or A[0] == B[0]:
+            return rotation
         else:
             return check(B[0], n)
