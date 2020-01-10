@@ -1,23 +1,49 @@
-# 1. Any live cell with fewer than two live neighbors dies, as if caused by under-population.
-# 2. Any live cell with two or three live neighbors lives on to the next generation.
-# 3. Any live cell with more than three live neighbors dies, as if by over-population..
-# 4. Any dead cell with exactly three live neighbors becomes a live cell, as if by reproduction.
-# perform simultaneous updation as is required in the question
-
 class Solution:
-    def gameOfLifeInfinite(self, live):
-        ctr = collections.Counter((I, J)
-                                  for i, j in live
-                                  for I in range(i-1, i+2)
-                                  for J in range(j-1, j+2)
-                                  if I != i or J != j)
-        return {ij
-                for ij in ctr
-                if ctr[ij] == 3 or ctr[ij] == 2 and ij in live}
 
-    def gameOfLife(self, board):
-        live = {(i, j) for i, row in enumerate(board) for j, live in enumerate(row) if live}
+    def gameOfLifeInfinite(self, live):
+        counter = {}
+        # neighbors = [(1, 0), (1, -1), (0, -1), (-1, -1), (-1, 0), (-1, 1), (0, 1), (1, 1)]
+
+        # collect neighboring cells
+        for i, j in live:
+            for I in range(i - 1, i + 2):
+                for J in range(j - 1, j + 2):
+                    if I != i or J != j:
+                        if (I, J) not in counter:
+                            counter[(I, J)] = 1
+                        else:
+                            counter[(I, J)] += 1
+
+        rtn = set()
+
+        for c in counter:
+            if counter[c] == 3 or counter[c] == 2 and c in live:
+                rtn.add(c)
+
+        return rtn
+
+    def gameOfLife(self, board: List[List[int]]) -> None:
+        """
+        Do not return anything, modify board in-place instead.
+        """
+
+        rows = len(board)
+        cols = len(board[0])
+
+        live = set()
+        for row in range(rows):
+            for col in range(cols):
+                if board[row][col] == 1:
+                    live.add((row, col))
+
         live = self.gameOfLifeInfinite(live)
-        for i, row in enumerate(board):
-            for j in range(len(row)):
-                row[j] = int((i, j) in live)
+
+        for row in range(rows):
+            for col in range(cols):
+                board[row][col] = int((row, col) in live)
+
+
+
+
+
+

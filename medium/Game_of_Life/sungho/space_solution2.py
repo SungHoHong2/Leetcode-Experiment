@@ -4,6 +4,10 @@
 # 4. Any dead cell with exactly three live neighbors becomes a live cell, as if by reproduction.
 # perform simultaneous updation as is required in the question
 
+# -1 means the cell was live before but now dead.
+# 2 means the cell was dead before but now live.
+
+
 class Solution:
     def gameOfLife(self, board: List[List[int]]) -> None:
         """
