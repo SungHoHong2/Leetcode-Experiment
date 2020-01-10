@@ -10,7 +10,7 @@ class Solution:
     # Otherwise return -1.
 
     def minDominoRotations(self, A: List[int], B: List[int]) -> int:
-        def check(x):
+        def check(x, n):
             """
             Return min number of swaps
             if one could make all elements in A or B equal to x.
@@ -35,10 +35,10 @@ class Solution:
             return min(rotations_a, rotations_b)
 
         n = len(A)
-        rotations = check(A[0])
+        rotations = check(A[0], n)
         # If one could make all elements in A or B equal to A[0]
         if rotations != -1 or A[0] == B[0]:
             return rotations
             # If one could make all elements in A or B equal to B[0]
         else:
-            return check(B[0])
+            return check(B[0], n)
