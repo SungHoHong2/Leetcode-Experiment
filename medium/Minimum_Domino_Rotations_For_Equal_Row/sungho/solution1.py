@@ -9,21 +9,19 @@ class Solution:
         # We have countA[2] + countB[2] - same[2] = 6
         # so we can make 2 in a whole row.
 
-        countA = {0: 0, 1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0}
-        countB = {0: 0, 1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0}
-        same = {0: 0, 1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0}
+        countA = {i: 0 for i in range(7)}
+        countB = {i: 0 for i in range(7)}
+        same = {i: 0 for i in range(7)}
 
-        n = len(A)
-
-        for i in range(n):
+        for i in range(len(A)):
             countA[A[i]] += 1
             countB[B[i]] += 1
             if A[i] == B[i]:
                 same[A[i]] += 1
 
         for i in range(1, 7):
-            if countA[i] + countB[i] - same[i] == n:
-                return n - max(countA[i], countB[i])
+            if countA[i] + countB[i] - same[i] == len(A):
+                return len(A) - max(countA[i], countB[i])
 
         return -1
 
