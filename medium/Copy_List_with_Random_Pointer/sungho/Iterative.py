@@ -1,6 +1,5 @@
 class Solution(object):
     def __init__(self):
-        # Creating a visited dictionary to hold old node reference as "key" and new node reference as the "value"
         self.visited = {}
 
     def getClonedNode(self, node):
@@ -14,10 +13,6 @@ class Solution(object):
         return self.visited[node]
 
     def copyRandomList(self, head):
-        """
-        :type head: Node
-        :rtype: Node
-        """
 
         if not head:
             return head
