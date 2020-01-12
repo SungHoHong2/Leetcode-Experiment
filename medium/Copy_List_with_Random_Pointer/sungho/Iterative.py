@@ -4,17 +4,14 @@ class Solution(object):
         self.visited = {}
 
     def getClonedNode(self, node):
-        # If node exists then
-        if node:
-            # Check if its in the visited dictionary
-            if node in self.visited:
-                # If its in the visited dictionary then return the new node reference from the dictionary
-                return self.visited[node]
-            else:
-                # Otherwise create a new node, save the reference in the visited dictionary and return it.
-                self.visited[node] = Node(node.val, None, None)
-                return self.visited[node]
-        return None
+        if not node:
+            return None
+
+        if node in self.visited:
+            return self.visited[node]
+
+        self.visited[node] = Node(node.val, None, None)
+        return self.visited[node]
 
     def copyRandomList(self, head):
         """
