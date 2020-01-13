@@ -14,15 +14,16 @@ class Solution:
         if not head:
             return None
 
-            # attach the cloned nodes
+        # attach the cloned nodes
         ptr = head
         while ptr:
             newNode = Node(ptr.val, None, None)
             newNode.next = ptr.next
             ptr.next = newNode
-            ptr = newNode.next
 
-            # attach the random from the cloned nodes
+            ptr = ptr.next.next
+
+        # attach the random from the cloned nodes
         ptr = head
         while ptr:
             if ptr.random:
@@ -32,7 +33,7 @@ class Solution:
 
             ptr = ptr.next.next
 
-            # get only the new nodes and return
+        # get only the new nodes and return
         ptr_new = head.next
 
         while ptr_new:
