@@ -19,7 +19,6 @@ class Solution(object):
                 else: bal -= 1
                 if bal < 0: return False
             return bal == 0
-
         ans = []
         generate()
         return ans
