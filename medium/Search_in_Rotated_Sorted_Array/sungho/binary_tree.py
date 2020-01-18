@@ -7,7 +7,6 @@ class Solution:
         """
 
         def find_rotate_index(left, right):
-            print(left, right, nums[left], nums[right])
 
             # if first element is smaller than the last element
             if nums[left] < nums[right]:
@@ -29,16 +28,15 @@ class Solution:
 
                 # if the pivot is smaller than the right neighbor
                 # continue searching for the rotation point
-                else:
-                    # if the pivot is smaller than the left side
-                    if nums[pivot] < nums[left]:
-                        # search for the left area
-                        right = pivot - 1
+                # if the pivot is smaller than the left side
+                if nums[pivot] < nums[left]:
+                    # search for the left area
+                    right = pivot - 1
 
-                    # if the pviot is larger than the left side
-                    # search for the right area
-                    else:
-                        left = pivot + 1
+                # if the pviot is larger than the left side
+                # search for the right area
+                else:
+                    left = pivot + 1
 
         def search(left, right):
             """
@@ -55,15 +53,14 @@ class Solution:
                     return pivot
 
                 # if the pivot is larger than the target
-                else:
-                    if target < nums[pivot]:
-                        # search the left area
-                        right = pivot - 1
+                if target < nums[pivot]:
+                    # search the left area
+                    right = pivot - 1
 
-                    # if the pivot is smaller than the target
-                    else:
-                        # search for the right area
-                        left = pivot + 1
+                # if the pivot is smaller than the target
+                else:
+                    # search for the right area
+                    left = pivot + 1
             return -1
 
         n = len(nums)
