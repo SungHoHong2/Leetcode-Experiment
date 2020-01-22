@@ -6,7 +6,7 @@ class Solution:
         R, C = len(matrix), len(matrix[0])
 
         # create the matrix table that has the status unseen
-        seen = [[False] * C for _ in matrix]
+        seen = [[False for c in range(C)] for r in range(R)]
 
         # the answers that will be returned
         ans = []
