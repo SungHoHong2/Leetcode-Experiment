@@ -1,0 +1,13 @@
+1. Imagine you are given a real file system, how will you search files? DFS or BFS ?
+Generally speaking, BFS takes more memory than DFS, if the directory structure is not too deep, then DFS will be a good choice. If the directory is too deep, BFS may be a good choice as BFS can use locality, it could be faster than DFS.
+2. If the file content is very large (GB level), how will you modify your solution?
+we can first map the file size, if size is the same, then try to hash part of the content, if it is still same, then try to compare byte by byte.
+3. If you can only read the file by 1kb each time, how will you modify your solution?
+same.
+4. What is the time complexity of your modified solution? What is the most time consuming part and memory consuming part of it? How to optimize?
+n^2*k(file size).
+time consuming: compare file/chunk
+space consuming: generate hash for each file
+the above method and also optimize hash method like using sha256.
+5. How to make sure the duplicated files you find are not false positive?
+use file size, hash, byte by byte.
