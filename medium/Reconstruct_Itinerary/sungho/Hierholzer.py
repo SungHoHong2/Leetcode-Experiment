@@ -1,31 +1,41 @@
-class Solution(object):
-    def findItinerary(self, tickets):
-        """
-        :type tickets: List[List[str]]
-        :rtype: List[str]
-        """
-        from collections import defaultdict
-        self.flightMap = defaultdict(list)
+from collections import defaultdict
 
+
+class Solution:
+    def findItinerary(self, tickets: List[List[str]]) -> List[str]:
+
+        # create a dictionary that holds list
+        self.visitMap = defaultdict(list)
+
+        # iterate through the ticket
         for ticket in tickets:
-            origin, dest = ticket[0], ticket[1]
-            self.flightMap[origin].append(dest)
+            # map the dictionary with the origin, destiation
+            origin, destination = ticket[0], ticket[1]
+            self.visitMap[origin].append(destination)
 
-        # sort the itinerary based on the lexical order
-        for origin, itinerary in self.flightMap.items():
-        # Note that we could have multiple identical flights, i.e. same origin and destination.
-            itinerary.sort(reverse=True)
+        # sort the itinerary
+        for org, dest in self.visitMap.items():
+            dest.sort(reverse=True)
 
+        # initiate the result list
         self.result = []
+
+        # start the DFS
         self.DFS('JFK')
 
-        # reconstruct the route backwards
         return self.result[::-1]
 
     def DFS(self, origin):
-        destList = self.flightMap[origin]
+
+        # get the destination list
+        destList = self.visitMap[origin]
+
+        # iterate through destination list
         while destList:
-            #while we visit the edge, we trim it off from graph.
-            nextDest = destList.pop()
-            self.DFS(nextDest)
+            # get the destination item by popping
+            dest = destList.pop()
+            # recursively enter the DFS function
+            self.DFS(dest)
+
+        # append the result
         self.result.append(origin)
