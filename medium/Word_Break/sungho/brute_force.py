@@ -1,29 +1,15 @@
 class Solution:
-    def wordBreak(self, s, wordDict):
-        """
-        :type s: str
-        :type wordDict: Set[str]
-        :rtype: bool
-        """
-        return self.helper(0, s, wordDict, {})
+    def wordBreak(self, s: str, wordDict: List[str]) -> bool:
 
-    def helper(self, k, s, wordDict, cache):
-        if k == len(s):
+        return self.bruteBreak(s, set(wordDict), 0)
+
+    def bruteBreak(self, s, wordDict, start):
+
+        if start == len(s):
             return True
-        elif k in cache:
-            return cache[k]
-        else:
-            for i in range(k, len(s)):
-                if s[k:i + 1] in wordDict:
-                    if self.helper(i + 1, s, wordDict, cache):
-                        cache[k] = True
-                        return True
-        cache[k] = False
-        return cache[k]
 
+        for end in range(start + 1, len(s) + 1):
+            if s[start:end] in wordDict and self.bruteBreak(s, wordDict, end):
+                return True
 
-
-
-
-
-
+        return False
