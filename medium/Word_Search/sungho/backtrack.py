@@ -38,7 +38,7 @@ class Solution:
             if self.backtrack(row + rowOffset, col + colOffset, suffix[1:]):
                 return True
 
-                # return back to original state
+        # return back to original state
         self.board[row][col] = suffix[0]
 
         # return
