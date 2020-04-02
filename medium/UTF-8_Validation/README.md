@@ -22,3 +22,9 @@ Example 2
 10001100 = (3 byte) start with 10 
 00000100 = (3 byte) fails to start with 10 thus return false. 
 ```
+
+```
+Example 3 
+
+
+```
