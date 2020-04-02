@@ -8,8 +8,8 @@
 Example 1
 [197, 130, 1] -> 11000101 10000010 00000001.
 
-[11]000101 = 2 byte character   
-[10]000010 = (2 byte) starts with 10 
+[110]00101 = 2 bytes character   
+[10]000010 = (2 bytes) starts with 10 
 
 [0]0000001 = a single byte character 
 ```
@@ -18,13 +18,15 @@ Example 1
 Example 2 
 [235, 140, 4] -> 11101011 10001100 00000100
 
-[111]01011 = 3 byte character 
-10001100 = (3 byte) start with 10 
-00000100 = (3 byte) fails to start with 10 thus return false. 
+[1110]1011 = 3 bytes character 
+10001100 = (3 bytes) start with 10 
+00000100 = (3 bytes) fails to start with 10 thus return false. 
 ```
 
 ```
 Example 3 
+[250,145,145,145,145] -> 11111010 10010001 10010001 10010001 10010001
 
-
+[111110]10 = 5 bytes character but not a valid UTF-8 character 
+A valid UTF-8 character can be 1 - 4 bytes long
 ```
