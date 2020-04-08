@@ -30,3 +30,19 @@ Example 3
 [111110]10 = 5 bytes character but not a valid UTF-8 character 
 A valid UTF-8 character can be 1 - 4 bytes long
 ```
+
+<br>
+
+**& operation**
+- The `&` symbol is a bitwise AND operator.
+- masks the value to extract the lowest bit
+- tell you if the value is even or odd
+
+```
+11000101 = 197 
+10000000 = 128 
+01000000 = 64
+--------------
+1 - the left signifcant bit exists
+2 - the second signifcant bit exists 
+```
