@@ -17,14 +17,14 @@ class Solution:
         # 2^6
 
         for num in data:
-
             # Get the number of set most significant bits in the byte if
             # this is the starting byte of an UTF-8 character.
             mask = 1 << 7
 
             if n_bytes == 0:
                 while mask & num:
-                    print(mask, num, mask & num)
+                    # & symbol is a bitwise AND operator
+                    print(mask, num)
                     n_bytes += 1
                     mask = mask >> 1
 
@@ -40,7 +40,9 @@ class Solution:
                 # If this byte is a part of an existing UTF-8 character, then we
                 # simply have to look at the two most significant bits and we make
                 # use of the masks we defined before.
+                # check if it is the first byte [11...0] or the follwoing byte [10] doesn't exist
                 if not (num & mask1 and not (num & mask2)):
                     return False
             n_bytes -= 1
+
         return n_bytes == 0
