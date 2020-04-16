@@ -11,6 +11,8 @@
 
 ---
 **Solution 2**
-- Just find the next greater element in the array, on the left and one right
+- Just find the next greater element in the array
+- Since it is using the stack the time complexity is fixed to the stack size
+
 
 
