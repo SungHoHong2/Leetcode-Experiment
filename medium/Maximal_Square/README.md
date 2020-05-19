@@ -1,3 +1,3 @@
 ### Maximal Square
 
-![Dynamic](dynamic.png)
+- [dynamic programming](dynamic.md)
