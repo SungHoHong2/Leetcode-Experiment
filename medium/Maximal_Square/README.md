@@ -1,7 +1,7 @@
 ### Maximal Square
 
 - **Dynamic programming**
-    - [concepts](dynamic.md)
+    - [concepts](images/dynamic1.png)
     - [source code](dynamic.py)
     - [reference #1](https://www.youtube.com/watch?v=RElcqtFYTm0) 
 - **Optimal dynamic programming** 
