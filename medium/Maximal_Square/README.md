@@ -2,7 +2,7 @@
 
 - **Dynamic programming**
     - [concepts](dynamic.md)
-    - source code
+    - [source code](dynamic.py)
     - [reference #1](https://www.youtube.com/watch?v=RElcqtFYTm0) 
 - **Optimal dynamic programming** 
     - source code 
