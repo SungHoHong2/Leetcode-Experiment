@@ -8,7 +8,7 @@
 - **README template**
 
 ```
-### Binary Tree Right Side View
+### Problem Title
 
 - **Solution1**
     - [concepts](images/)
