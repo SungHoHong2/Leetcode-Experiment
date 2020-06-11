@@ -1,5 +1,4 @@
 ### LeetCode Experiments 
-Algorithm experiments based on Python3. 
 
 - [Easy Level](easy)
 - [Medium level](medium)  
