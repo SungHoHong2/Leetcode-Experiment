@@ -8,12 +8,8 @@
     - [source code](source/sentinel.py)
     
 - **BFS: One Queue + Level Size Measurements**
-    - [concepts](images/)
     - [source code](source/level_size.py)
-    - [reference #1]() 
  
 - **Recursive DFS**
-    - [concepts](images/)
     - [source code](source/dfs.py)
-    - [reference #1]() 
     
