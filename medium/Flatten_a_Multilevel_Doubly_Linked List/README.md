@@ -3,5 +3,4 @@
 
 - **DFS by Iteration**
     - [concepts](images/iterative.png)
-    - [source code](source/)
-    - [reference #1]() 
+    - [source code](source/iterative.py)
