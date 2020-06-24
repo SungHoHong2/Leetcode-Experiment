@@ -1,15 +1,12 @@
 ### Longest Palindromic Substring
 
 - **Brute Force**
-    - [source code](source/)
-    - [reference #1]() 
+    - [source code](source/brute.py)
 
-- **Solution2**
-    - [concepts](images/)
-    - [source code](source/)
-    - [reference #1]() 
+- **Dynamic Programming**
+    - [concepts](images/dynamic.png)
+    - [source code](source/dynamic.py)
 
-- **Solution3**
-    - [concepts](images/)
-    - [source code](source/)
-    - [reference #1]()    
+- **Expand Around Center**
+    - [concepts](images/expand.png)
+    - [source code](source/expand.py)
