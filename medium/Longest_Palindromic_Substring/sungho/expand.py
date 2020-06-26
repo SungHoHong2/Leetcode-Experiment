@@ -11,9 +11,6 @@ class Solution:
 
     def longestPalindrome(self, s: str) -> str:
 
-        if s == None or len(s) < 1:
-            return ""
-
         start = 0
         end = 0
 

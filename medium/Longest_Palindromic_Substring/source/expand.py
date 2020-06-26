@@ -2,9 +2,6 @@ class Solution:
 
     def longestPalindrome(self, s: str) -> str:
 
-        if s == None or len(s) < 1:
-            return ""
-
         # initialize the start and the end
         start = 0
         end = 0

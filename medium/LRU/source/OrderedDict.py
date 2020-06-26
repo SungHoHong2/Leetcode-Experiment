@@ -1,6 +1,5 @@
 from collections import OrderedDict
 
-
 class LRUCache():
     def __init__(self, capacity: int):
         # create OrderedDict which is a combination of hashap and linked-list
