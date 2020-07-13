@@ -56,7 +56,6 @@ class Solution:
         print('input', strs)
 
         # if the string has nothing return nothing
-
         if strs is None or len(strs) == 0:
             return ""
 
