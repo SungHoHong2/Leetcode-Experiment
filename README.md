@@ -1,11 +1,20 @@
 ### LeetCode Experiments 
 
-- [Easy Level](easy)
-- [Medium level](medium)  
-- Hard level 
-- ACM 
+Easy | 
+------------ | 
+Content from cell 1 | 
+Content in the first column |
 
-- **README template**
+Medium | 
+------------ | 
+Content from cell 1 | 
+Content in the first column |
+
+Hard | 
+------------ | 
+Content from cell 1 | 
+Content in the first column |
+
 
 ```
 ### Problem Title
