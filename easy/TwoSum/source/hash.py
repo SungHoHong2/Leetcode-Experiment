@@ -12,7 +12,6 @@ class Solution:
             if complement not in memory:
                 # add the current item to the dictionary
                 memory[nums[i]] = i
-
             else:
                 # return if the complement matches with the item in the dictionary
                 return [memory[complement], i]
