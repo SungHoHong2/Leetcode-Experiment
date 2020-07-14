@@ -3,7 +3,7 @@
 Easy | Solution | 
 ------------ | ------------ |
 [Two Sum](https://leetcode.com/problems/two-sum/) | [Solution](easy/TwoSum)  | 
-[Valid Palindrome](https://leetcode.com/problems/valid-parentheses/) | [Solution](easy/Valid_Palindrome) | 
+[Valid Palindrome](https://leetcode.com/problems/valid-parentheses/) | [Solution](easy/Valid_Parentheses) | 
 
 
 Medium | 
