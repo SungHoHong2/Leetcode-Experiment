@@ -1,9 +1,9 @@
 ### LeetCode Experiments 
 
-Easy | 
+Easy | Solution | 
 ------------ | 
-[Two Sum](easy/TwoSum) | 
-[Valid Palindrome](easy/Valid_Palindrome) | 
+[Two Sum](https://leetcode.com/problems/two-sum/) | [Solution](easy/TwoSum)  | 
+[Valid Palindrome](https://leetcode.com/problems/valid-parentheses/) | [Solution](easy/Valid_Palindrome) | 
 
 
 Medium | 
