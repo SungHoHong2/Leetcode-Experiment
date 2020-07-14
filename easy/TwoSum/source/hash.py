@@ -1,6 +1,6 @@
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
-        # create a dictionary
+
         memory = dict()
 
         # loop through the array
@@ -15,4 +15,4 @@ class Solution:
 
             else:
                 # return if the complement matches with the item in the dictionary
-                return [memory[nums[i]], i]
+                return [memory[complement], i]
