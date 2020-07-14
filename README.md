@@ -2,19 +2,16 @@
 
 Easy | 
 ------------ | 
-Content from cell 1 | 
-Content in the first column |
+Two Sum | 
+ 
 
 Medium | 
 ------------ | 
-Content from cell 1 | 
-Content in the first column |
+text | 
 
 Hard | 
 ------------ | 
-Content from cell 1 | 
-Content in the first column |
-
+text | 
 
 ```
 ### Problem Title
