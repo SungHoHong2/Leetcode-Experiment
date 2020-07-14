@@ -2,7 +2,7 @@
 
 Easy | 
 ------------ | 
-Two Sum | 
+[Two Sum](easy/TwoSum) | 
  
 
 Medium | 
