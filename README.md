@@ -3,7 +3,8 @@
 Easy | 
 ------------ | 
 [Two Sum](easy/TwoSum) | 
- 
+[Valid Palindrome](easy/Valid_Palindrome) | 
+
 
 Medium | 
 ------------ | 
