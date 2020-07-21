@@ -29,8 +29,5 @@ class Solution:
         self.color = image
         self.oldColor = image[sr][sc]
         self.newColor = newColor
-
         self.depthFirst(sr, sc)
-
         return self.color
-
