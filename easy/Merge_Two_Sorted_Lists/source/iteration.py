@@ -19,16 +19,16 @@ class Solution:
                 prev.next = l1
                 # pop the l1 array
                 l1 = l1.next
-                # if l2 is smaller than l1
+            # if l2 is smaller than l1
             else:
                 # connect l2 to the return header
                 prev.next = l2
                 # pop the l2 array
                 l2 = l2.next
-                # move on to the next return header
+            # move on to the next return header
             prev = prev.next
 
-            # connect the rest to the return header
+        # connect the rest to the return header
         prev.next = l1 if l1 else l2
 
         # return the header
