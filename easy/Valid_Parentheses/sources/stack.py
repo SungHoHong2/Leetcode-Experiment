@@ -1,32 +1,31 @@
 class Solution:
     def isValid(self, s: str) -> bool:
 
+        # set up the stack
         stack = []
+
+        # create a hashtable that maps the parenthesis
         mapping = {")": "(", "}": "{", "]": "["}
 
-        # iterate the string
-        for c in s:
-            # if the char is part of the mapping
-            if c in mapping:
+        # iterate the chars from the string
+        for char in s:
 
-                # if the stack is not empty
-                if stack:
-                    # pop the item
-                    top = stack.pop()
+            # if the char is the closing part of the parenthesis
+            if char in mapping:
 
-                # if the stack is empty
-                else:
-                    top = "#"
+                # if stack is true then run top_element = stack.pop()
+                # if stack is not true then add top_element = '#'
+                top_element = stack.pop() if stack else '#'
 
-                # if the popped item does not equal with the mapping
-                if mapping[c] != top:
-                    # return false
+                # if the top element is not the opening part of the parenthesis
+                if mapping[char] != top_element:
                     return False
 
-            # if char is not part of the mapping
+            # if the char is not the closing part of the parenthesis
             else:
-                # append the char in the stack
-                stack.append(c)
+                # append the stack
+                stack.append(char)
 
-        # if the stack is empty return True
+        # return true only when the stack is empty
         return not stack
+
