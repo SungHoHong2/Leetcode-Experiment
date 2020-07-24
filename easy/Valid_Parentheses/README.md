@@ -20,6 +20,7 @@ class Solution:
                 # if stack is not true then add top_element = '#'
 
                 # if the top element is not the opening part of the parenthesis
+                    # return false because it is a unmatching parenthesis
 
 
             # if the char is not the closing part of the parenthesis
