@@ -1,8 +1,7 @@
-### Valid Parenthesis
+# Valid Parenthesis
 
-- **Stack**
-    - [source code](sources/stack.py)
-
+**Stack**
+- [source code](sources/stack.py)
 
 ```python 
 class Solution:
