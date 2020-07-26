@@ -11,7 +11,7 @@ class Solution:
         prevHead = ListNode(-1)
         prev = prevHead
 
-        # loop until both l1 and l2 are empty
+        # loop until either l1 or l2 are empty
         while l1 and l2:
             # if l1 is smaller than l2
             if l1.val < l2.val:

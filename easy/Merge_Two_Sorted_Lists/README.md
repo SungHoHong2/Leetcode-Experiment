@@ -14,7 +14,7 @@ class Solution:
 
         # create a fake node to use as return header
 
-        # loop until both l1 and l2 are empty
+        # loop until either l1 or l2 are empty
             # if l1 is smaller than l2
                 # connect l1 to the return header
                 # pop the l1 array
