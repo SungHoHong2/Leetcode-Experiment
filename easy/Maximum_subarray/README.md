@@ -10,6 +10,7 @@ class Solution(object):
     def crosssum(self, nums, left, right, mid):
 
         # if the subarray has a single item
+        
             # return the item
 
         # get the largest sum from middle to left
@@ -35,5 +36,6 @@ class Solution(object):
         # return the biggest sum from the three subarrays
 
     def maxSubArray(self, nums):
+
         # invoke the recursive function
 ```
