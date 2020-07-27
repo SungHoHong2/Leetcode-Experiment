@@ -25,7 +25,6 @@ class Solution(object):
 - [source code](source/floyd.py)
 ```python
 class Solution(object):
-    
     # function for finding the next number 
     def getNext(self, n):
         # set up the return value
