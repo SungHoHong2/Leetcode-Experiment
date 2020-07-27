@@ -1,4 +1,4 @@
-# Two Sum
+### Two Sum
 
 **Brute Force**
 - [source code](source/brute.py)
