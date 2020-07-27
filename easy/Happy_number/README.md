@@ -15,7 +15,7 @@ class Solution(object):
         
     def isHappy(self, n):
         # create a hash set
-        # if n is not 1 and n is not in the hashset 
+        # loop until n is 1 or meets a cycle 
             # add a number in hashset
             # generate the next number
         # return true if the final result is 1 

@@ -18,7 +18,6 @@ text |
 
 ```
 # Problem Title
-
 **Solution1**
 - [concepts](images/)
 - [source code](source/)
