@@ -1,7 +1,7 @@
 ### Maximum Subarray
 
-**Solution1**
-- [source code](source/)
+**Divide & Conquer**
+- [source code](source/divide.py)
 
 ```python
 class Solution(object):
@@ -38,4 +38,16 @@ class Solution(object):
     def maxSubArray(self, nums):
 
         # invoke the recursive function
+```
+
+**Dynamic Programming**
+- [source code](source/dynamic.py)
+```python
+class Solution(object):
+    def maxSubArray(self, nums):
+        # set the current sum and the maxsum to the first element
+        # iterate through the numbers
+            # record the current sum of the subarray
+            # record the maximum sum of the subarray
+        # return the maximum sum
 ```
