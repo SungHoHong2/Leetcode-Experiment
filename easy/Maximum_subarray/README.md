@@ -51,3 +51,18 @@ class Solution(object):
             # record the maximum sum of the subarray
         # return the maximum sum
 ```
+
+**Greedy Algorithm**
+- [source code](source/greedy.py)
+
+```python
+class Solution(object):
+    def maxSubArray(self, nums):
+        # set up the maximum sum as the first item
+        # iterate the numbers
+            # if the number is bigger than zero
+                # add the current number with the previous number
+            # record the maximum sum
+        # return the maximum sum
+```
+
