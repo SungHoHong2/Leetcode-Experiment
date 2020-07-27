@@ -33,7 +33,6 @@ class Solution(object):
             # update the n with the quotient
             # add the results of the remainder
         # return the added results 
-    
     def isHappy(self, n):
         # set up the slow number 
         # set up the fast number that goes one step ahead of the slow number        
