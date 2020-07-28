@@ -10,5 +10,4 @@ class Solution(object):
             maxC += prices[i] - prices[i - 1]
             maxC = max(0, maxC)
             maxP = max(maxC, maxP)
-
         return maxP

@@ -9,6 +9,7 @@ Easy |
 [Happy Number](https://leetcode.com/problems/happy-number/)  [**[Solution]**](easy/Happy_number) | 
 [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)  [**[Solution]**](easy/Reverse_LinkedList) | 
 [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) [**[Solution]**](easy/Best_time)|
+
 Medium | 
 ------------ | 
 text | 
