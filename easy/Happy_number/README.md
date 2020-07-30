@@ -14,7 +14,7 @@ class Solution(object):
         # return the added results 
         
     def isHappy(self, n):
-        # create a hash set
+        # create a hash set to record the cycle
         # loop until n is 1 or meets a cycle 
             # add a number in hashset
             # generate the next number

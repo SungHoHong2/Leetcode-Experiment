@@ -5,7 +5,6 @@
 
 ```python
 class Solution(object):
-    
     # define crosssum function  
     def crosssum(self, nums, left, right, mid):
         # if the subarray has a single item        
