@@ -6,7 +6,7 @@
 ```python
 class Solution(object):
     # define crosssum function  
-    def crosssum(self, nums, left, right, mid):
+    def crossSum(self, nums, left, right, mid):
         # if the subarray has a single item        
             # return the item
         # get the largest sum from middle to left

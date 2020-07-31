@@ -39,15 +39,17 @@ class Solution:
 
 class Solution:
     def mergeTwoLists(self, l1, l2):
+        # (halting recursive fucntion)
         # if l1 is empty
             # return the l2 array
-
         # if l2 is empty
             # return the l1 array
 
+        # (returning array)
         # if l1 is smaller than l2
             # l1 goes first
-
+            # return l1 
         # if l2 is smaller than l1
             # l2 goes is first
+            # return l2
 ```
