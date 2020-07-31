@@ -11,6 +11,9 @@ Easy | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
 Easy | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) [**[Solution]**](easy/Best_time)|
 Easy | [Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/) [**[Solution]**](easy/Alien_dictionary) |
 Easy | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) [**[Solution]**](easy/Merge_Sorted_Array) |
+Easy | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) [**[Solution]**](easy/Reverse_Integer)| 
+Easy | []() [**[Solution]**]() |
+Easy | []() [**[Solution]**]() |
 
 ```
 ### Problem Title
