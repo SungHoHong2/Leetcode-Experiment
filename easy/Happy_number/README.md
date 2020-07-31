@@ -10,7 +10,7 @@ class Solution(object):
         # loop until n is depleted by dividing with ten
             # get the remainder     
             # update the n with the quotient
-            # add the results of the remainder
+            # add the results of the remainder powered by two 
         # return the added results 
         
     def isHappy(self, n):
@@ -31,7 +31,7 @@ class Solution(object):
         # loop until n is depleted by dividing with ten
             # get the remainder     
             # update the n with the quotient
-            # add the results of the remainder
+            # add the results of the remainder powered by two 
         # return the added results 
     def isHappy(self, n):
         # set up the slow number 
