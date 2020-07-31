@@ -12,8 +12,8 @@ Easy | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time
 Easy | [Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/) [**[Solution]**](easy/Alien_dictionary) |
 Easy | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) [**[Solution]**](easy/Merge_Sorted_Array) |
 Easy | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) [**[Solution]**](easy/Reverse_Integer)| 
-Easy | []() [**[Solution]**]() |
-Easy | []() [**[Solution]**]() |
+Easy | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) [**[Solution]**](easy/Valid_Palindrome) |
+Easy | [FizzBuzz]() [**[Solution]**]() |
 
 ```
 ### Problem Title
