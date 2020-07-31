@@ -13,7 +13,7 @@ class Solution:
 ```
 **Kadane's algorithm**
 - the algorithm for getting the `largest sum` of the `contiguous subarray`
-- [source code](source/one_pass.py)
+- [source code](source/kadane.py)
 ```python
 # max_so_far = 0 
 # max_ending_here = 0  
