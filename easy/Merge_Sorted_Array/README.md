@@ -20,8 +20,6 @@ class Solution(object):
                 # increase the index of the return array
             # empty the left array
             # empty the right array
-
-
     def merge(self, nums1, m, nums2, n):
         """
         :type nums1: List[int]
