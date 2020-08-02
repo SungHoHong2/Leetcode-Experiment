@@ -17,6 +17,7 @@ class Solution(object):
                     # increase the index of the left
                 # if right is smaller than left 
                     # right goes to the return array
+                    # increase the index of the right 
                 # increase the index of the return array
             # empty the left array
             # empty the right array
