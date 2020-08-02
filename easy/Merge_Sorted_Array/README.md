@@ -43,7 +43,7 @@ class Solution:
         """
         # make a copy of nums1
         # empty the nums1(return array)
-        # Two get pointers for nums1 and nums2.
+        # get pointers for nums1, nums2 and return array.
         # iterate until the nums1 or the num2 are empty
             # if nums1 is smaller
                 # append nums1 to return array
@@ -51,6 +51,7 @@ class Solution:
             # if nums2 is smaller
                 # append nums2 to return array
                 # increase the index of nums2
+            # increase the indes of the return array
         # if nums1 is not empty
             # append nums1 to the return array
         # if nums2 is not empty

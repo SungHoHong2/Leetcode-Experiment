@@ -4,31 +4,36 @@ class Solution:
         Do not return anything, modify nums1 in-place instead.
         """
         # make a copy of nums1
-        nums1_copy = nums1[:m]
+        _nums1 = nums1[:m]
         # empty the nums1(return array)
-        nums1[:] = []
-        # Two get pointers for nums1 and nums2.
-        p1 = 0
-        p2 = 0
+        nums1[:] = [None for i in nums1]
+        # get pointers for nums1, nums2 and return array.
+        i = j = k = 0
         # iterate until the nums1 or the num2 are empty
-        while p1 < m and p2 < n:
+        while i < m and j < n:
             # if nums1 is smaller
-            if nums1_copy[p1] < nums2[p2]:
+            if _nums1[i] < nums2[j]:
                 # append nums1 to return array
-                nums1.append(nums1_copy[p1])
+                nums1[k] = _nums1[i]
                 # increaese the index of nums1
-                p1 += 1
+                i += 1
             # if nums2 is smaller
             else:
                 # append nums2 to return array
-                nums1.append(nums2[p2])
+                nums1[k] = nums2[j]
                 # increase the index of nums2
-                p2 += 1
+                j += 1
+            # increase the indes of the return array
+            k += 1
         # if nums1 is not empty
-        if p1 < m:
+        while i < m:
             # append nums1 to the return array
-            nums1[p1 + p2:] = nums1_copy[p1:]
+            nums1[k] = _nums1[i]
+            i += 1
+            k += 1
         # if nums2 is not empty
-        if p2 < n:
+        while j < n:
             # append nums2 to the return array
-            nums1[p1 + p2:] = nums2[p2:]
+            nums1[k] = nums2[j]
+            j += 1
+            k += 1
