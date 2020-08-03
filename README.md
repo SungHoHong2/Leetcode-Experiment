@@ -17,7 +17,7 @@ Easy | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [**
 Easy | [FizzBuzz](https://leetcode.com/problems/fizz-buzz/solution/) | [**Naive,Hashmap**](easy/FizzBuzz) |
 Medium | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [**Solution**]() | 
 
-Difficulty | [Problem]() | [**Solution**]() | 
+Difficulty | [Problem]() | [**Solution**](medium/Add_Two_Numbers) | 
 
 ```
 ### Problem Title
