@@ -25,7 +25,3 @@ class Solution:
         # send the carry value to the next node just in case this is the end of the iteration
         # return the result without the dummy head
 ```
-
-- [sungho's solution](source/prev.py)
-- [yiting's solution](source/yiting.py)
-
