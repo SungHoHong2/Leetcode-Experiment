@@ -15,9 +15,9 @@ Easy | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) |
 Easy | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | [**PopPush**](easy/Reverse_Integer)| 
 Easy | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [**CmpReverse,TwoPointers**](easy/Valid_Palindrome) |
 Easy | [FizzBuzz](https://leetcode.com/problems/fizz-buzz/solution/) | [**Naive,Hashmap**](easy/FizzBuzz) |
-Medium | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [**Solution**]() | 
+Medium | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [**Solution**](medium/Add_Two_Numbers) | 
 
-Difficulty | [Problem]() | [**Solution**](medium/Add_Two_Numbers) | 
+Difficulty | [Problem]() | [**Solution**]() | 
 
 ```
 ### Problem Title
