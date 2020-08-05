@@ -1,7 +1,12 @@
 ### Valid Parenthesis
 
 **Stack**
-- [source code](sources/stack.py)
+- [Source code](sources/stack.py)
+- Time complexity : **O(n)**
+    - traverse the given string one character at a time
+    - push and pop operations on a stack take O(1)O(1) time.
+- Space complexity : **O(n)**
+    - push all opening brackets onto the stack and in the worst case, we will end up pushing all the brackets onto the stack
 
 ```python 
 class Solution:
