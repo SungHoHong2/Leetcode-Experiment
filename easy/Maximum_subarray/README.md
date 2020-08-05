@@ -27,7 +27,7 @@ class Solution(object):
         # invoke the recursive function
 ```
 
-**Dynamic Programming**
+**Dynamic Programming (Kadane's Algorithm)**
 - [source code](source/dynamic.py)
 ```python
 class Solution(object):
