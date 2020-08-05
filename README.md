@@ -16,7 +16,7 @@ Easy | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | [**Po
 Easy | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [**CmpReverse,TwoPointers**](easy/Valid_Palindrome) |
 Easy | [FizzBuzz](https://leetcode.com/problems/fizz-buzz/solution/) | [**Naive,Hashmap**](easy/FizzBuzz) |
 Medium | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [**Elementry Math**](medium/Add_Two_Numbers) | 
-Medium | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [**Brute,Expand,DP**](medium/Longest_Palindromic_Substring) | 
+Medium | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [**Brute,Expand4Center,DP**](medium/Longest_Palindromic_Substring) | 
 
 Difficulty | [Problem]() | [**Solution**]() | 
 
