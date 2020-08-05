@@ -1,7 +1,10 @@
 ### Longest Palindromic Substring
 
-**Brute Force**
+**Expand Around Center**
+- [concepts](images/expand.png)
 - [source code](source/brute.py)
+- [source code](source/expand.py)
+
 ```python
 class Solution:
     # function for checking the largest palindrome
@@ -25,9 +28,6 @@ class Solution:
         # return the largest substring        
 ```
 
-**Expand Around Center**
-- [concepts](images/expand.png)
-- [source code](source/expand.py)
 ```python
 class Solution:
     def longestPalindrome(self, s: str) -> str:
