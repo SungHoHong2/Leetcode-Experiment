@@ -2,8 +2,8 @@
 
 **Expand Around Center**
 - [concepts](images/expand.png)
-- [source code](source/brute.py)
-- [source code](source/expand.py)
+- [source code(1)](source/brute.py)
+- [source code(2)](source/expand.py)
 
 ```python
 class Solution:
