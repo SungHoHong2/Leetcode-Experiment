@@ -25,6 +25,26 @@ class Solution:
         # return the largest substring        
 ```
 
+**Expand Around Center**
+- [concepts](images/expand.png)
+- [source code](source/expand.py)
+```python
+class Solution:
+    def longestPalindrome(self, s: str) -> str:
+        # initialize the start and the end
+        # iterate the string
+            # in case the total length is odd
+            # in case the total length is even
+            # get the longest maxLength
+            # if the maxlength hits the record
+                # update the start and end variable
+        # after divided return the substring result
+    # function that returns the largest length of the palindrome
+        # set up the pointers for left and right
+        # expand until it there is no palindrome
+        # return the length of the palindrome
+```
+
 **Dynamic Programming**
 - [concepts](images/dynamic.png)
 - [source code](source/dynamic.py)
@@ -49,24 +69,4 @@ class Solution:
                 # end point of substring (make sure k < len(s))
                 # if cells from i and j are equal and the history is true
         # return the result
-```
-
-**Expand Around Center**
-- [concepts](images/expand.png)
-- [source code](source/expand.py)
-```python
-class Solution:
-    def longestPalindrome(self, s: str) -> str:
-        # initialize the start and the end
-        # iterate the string
-            # in case the total length is odd
-            # in case the total length is even
-            # get the longest maxLength
-            # if the maxlength hits the record
-                # update the start and end variable
-        # after divided return the substring result
-    # function that returns the largest length of the palindrome
-        # set up the pointers for left and right
-        # expand until it there is no palindrome
-        # return the length of the palindrome
 ```
