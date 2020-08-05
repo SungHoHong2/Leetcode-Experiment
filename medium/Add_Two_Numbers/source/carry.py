@@ -11,8 +11,8 @@ class Solution:
         curr = head
         # initialize the carry
         carry = 0
-        # iterate until either l1 or l2 are empty
-        while l1 and l2:
+        # iterate until either l1 and l2 are empty
+        while l1 or l2:
             # initialize x, y
             x = y = 0
             # if l1 is not empty assign x as l1.val

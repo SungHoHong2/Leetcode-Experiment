@@ -5,16 +5,15 @@
 ```python
 # Definition for singly-linked list.
 # class ListNode:
-#     def __init__(self, x):
-#         self.val = x
-#         self.next = None
-
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
 class Solution:
     def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
         # create return array
         # pointer that will be used for the iteration
         # initialize the carry
-        # iterate until either l1 or l2 are empty
+        # iterate until either l1 and l2 are empty
             # initialize x, y
             # if l1 is not empty assign x as l1.val
             # if l2 is not empty assign y as l2.val
