@@ -8,13 +8,13 @@ class Solution:
         # set the left and right index for the odd palindrome
         # set the variable for the largest odd palindrome
         # loop until left and right reach the end 
-            # if it is a plaindrome 
-                # increase the size of the odd paliindrome
+            # if it is a Palindrome 
+                # increase the size of the odd Palindrome
             # if it is not a palindrome 
                 # escape the loop
             # increase the left and right index 
         # left and right index for the even palindrome
-        # find the even palindrome using the same method of finding the odd palindrome 
+        # find the even palindrome using the same method of finding the odd Palindrome 
         # if odd palindrome is larger 
             # return the index for the odd palindrome 
         # if even palindrome is larger 
