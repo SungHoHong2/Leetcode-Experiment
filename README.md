@@ -1,4 +1,4 @@
-### LeetCode Experiments 
+### [LeetCode Experiments](https://docs.google.com/spreadsheets/d/1Md2vZlLWUp4Vde6O9dB0eS1YadMXfqYj-WxHJ8UX8OA/edit?usp=sharing) 
 
 Difficulty | Problem | Solution |
 ------------ | ------------ |  ------------ | 
@@ -15,7 +15,7 @@ Easy | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) |
 Easy | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | [**PopPush**](easy/Reverse_Integer)| 
 Easy | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [**CmpReverse,TwoPointers**](easy/Valid_Palindrome) |
 Easy | [FizzBuzz](https://leetcode.com/problems/fizz-buzz/solution/) | [**Naive,Hashmap**](easy/FizzBuzz) |
-Medium | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [**Solution**](medium/Add_Two_Numbers) | 
+Medium | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [**Elementry Math**](medium/Add_Two_Numbers) | 
 Medium | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [**Solution**](medium/Longest_Palindromic_Substring) | 
 
 Difficulty | [Problem]() | [**Solution**]() | 
