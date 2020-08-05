@@ -5,32 +5,24 @@
 ```python
 class Solution:
     # function for checking the largest palindrome
-        # set the left and right index for the odd palindrome
-        # set the variable for the largest odd palindrome
-        # loop until left and right reach the end 
-            # if it is a Palindrome 
-                # increase the size of the odd Palindrome
-            # if it is not a palindrome 
-                # escape the loop
-            # increase the left and right index 
-        # left and right index for the even palindrome
-        # find the even palindrome using the same method of finding the odd Palindrome 
-        # if odd palindrome is larger 
-            # return the index for the odd palindrome 
-        # if even palindrome is larger 
-            # return the index for the even palindrome and note that even has no centerpoint 
-
+    def palindrome(self, arr, index):
+        # set the variables for the odd palindrome
+        # loop until the palindrome is invalid 
+            # increase the size of the odd paliindrome
+            # increase the left and right index          
+        # set the variables for the even palindrome
+        # loop until the palindrome is invalid       
+        # return the largest odd or even palindrome
+        
     def longestPalindrome(self, s: str) -> str:
         # set the variable for the largest substring 
         # if the string is none
-            # return empty string 
-        # if the string length is only one 
-            # return the string
+            # return empty string
         # iterate the string
             # invoke palindrome checker and get the left and right index 
             # if the length of the substring creates a new record
                 # update the largest substring
-        # return the largest substring
+        # return the largest substring        
 ```
 
 **Dynamic Programming**
