@@ -1,7 +1,7 @@
-# Merge Two Sorted Lists
+### Merge Two Sorted Lists
 
 **Recursive**
-- [source code](source/recursive.py)
+- [Source code](source/recursive.py)
 - Time complexity : **O(n+m)** 
     - each recursive call increments the pointer to l1 or l2 by one
     - there will be `exactly one call` to mergeTwoLists per element in each list 
@@ -34,7 +34,7 @@ class Solution:
 ```
 
 **Iteration**
-- [source code](source/iteration.py)
+- [Source code](source/iteration.py)
 - Time complexity : **O(n+m)**
     - exactly one of l1 and l2 is incremented on each loop iteration
 - Space complexity : **O(1)**
