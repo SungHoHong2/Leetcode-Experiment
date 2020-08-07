@@ -1,6 +1,8 @@
 ### Best Time to Buy and Sell Stock
 **One Pass**
 - [source code](source/one_pass.py)
+- Time complexity : **O(n)** Only a single pass is needed.
+- Space complexity : **O(1)** Only two variables are used.
 ```python
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
@@ -11,6 +13,7 @@ class Solution:
             # keep track of the highest maximum profit  
         # return the maximum profit
 ```
+
 **Kadane's algorithm**
 - the algorithm for getting the `largest sum` of the `contiguous subarray`
 - [concept](image/kadane.png)
@@ -37,4 +40,3 @@ class Solution(object):
             # keep track of the maximum profit 
         # return the maximum profit 
 ```
-
