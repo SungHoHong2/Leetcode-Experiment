@@ -13,7 +13,7 @@ class Solution:
                 # skip
                 j -= 1
             # if the start and the end are not identical
-            if i < j and s[i].lower() != s[j].lower():
+            if s[i].lower() != s[j].lower():
                 # return false
                 return False
             # decrease the distance between start and end
