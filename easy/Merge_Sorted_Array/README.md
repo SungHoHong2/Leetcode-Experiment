@@ -1,6 +1,7 @@
 ### Merge Sorted Array
 **Merge and sort**
-- [source_code](source/recursive.py)
+- [Source_code](source/recursive.py)
+- Time complexity : **O((n+m)log(n + m))**
 ```python
 class Solution(object):
     # define a recursive merge sort
@@ -34,7 +35,10 @@ class Solution(object):
 ```
 
 **Two pointers / Start from the beginning**
-- [source code](source/begin.py)
+- [Source code](source/begin.py)
+- Time complexity : **O(n+m)**
+- Space complexity : **O(m)**
+
 ```python
 class Solution:
     def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
@@ -59,7 +63,10 @@ class Solution:
 ```
 
 **Two pointers / Start from the end**
-- [source code](source/end.py)
+- [Source code](source/end.py)
+- Time complexity : **O(n+m)**
+- Space complexity : **O(1)**
+
 ```python
 class Solution:
     def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
