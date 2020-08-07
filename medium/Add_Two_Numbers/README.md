@@ -13,7 +13,7 @@ class Solution:
         # create return array
         # pointer that will be used for the iteration
         # initialize the carry
-        # iterate until either l1 and l2 are empty
+        # iterate until both l1 and l2 are empty
             # initialize x, y
             # if l1 is not empty assign x as l1.val
             # if l2 is not empty assign y as l2.val
