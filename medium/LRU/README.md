@@ -1,8 +1,8 @@
 ### LRU
 
-- **Ordered dictionary**
-    - [source code](source/OrderedDict.py)
+**Ordered dictionary**
+- [source code](source/OrderedDict.py)
 
-- **HashMap + LinkedList**
-    - [source code](source/)
+**HashMap + LinkedList**
+- [source code](source/)
 

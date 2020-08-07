@@ -17,6 +17,11 @@ Easy | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [**
 Easy | [FizzBuzz](https://leetcode.com/problems/fizz-buzz/solution/) | [**Naive,Hashmap**](easy/FizzBuzz) |
 Medium | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [**Elementry Math**](medium/Add_Two_Numbers) | 
 Medium | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [**Brute,ExpandFrmCenter,DP**](medium/Longest_Palindromic_Substring) | 
+Medium | [LRU Cache](https://leetcode.com/problems/lru-cache/) | [**Solution**](medium/LRU) | 
+Medium | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | [**Solution**](medium/Number_of_Islands) | 
+Medium | [3Sum](https://leetcode.com/problems/3sum/) | [**Solution**](medium/3Sum) | 
+
+
 
 Difficulty | [Problem]() | [**Solution**]() | 
 
