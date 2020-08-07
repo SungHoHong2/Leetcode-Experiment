@@ -1,9 +1,11 @@
 ### Longest Palindromic Substring
 
 **Expand Around Center**
-- [concepts](images/expand.png)
-- [source code(1)](source/brute.py)
-- [source code(2)](source/expand.py)
+- [Concepts](images/expand.png)
+- [Source code(1)](source/brute.py)
+- [Source code(2)](source/expand.py)
+- Time complexity : **O(n^2)**
+- Space complexity : **O(1)**
 
 ```python
 class Solution:
@@ -48,6 +50,9 @@ class Solution:
 **Dynamic Programming**
 - [concepts](images/dynamic.png)
 - [source code](source/dynamic.py)
+- Time complexity : **O(n^2)**
+- Space complexity : **O(n^2)**
+
 ```python
 class Solution:
     def longestPalindrome(self, s: str) -> str:
