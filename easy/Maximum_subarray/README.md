@@ -2,7 +2,11 @@
 
 **Divide & Conquer**
 - [source code](source/divide.py)
-
+- Time complexity : **O(NlogN)**
+    - compute the solution with the help of master theorem
+- Space complexity :**O(logN)**
+    - keeping the recursion stack
+    
 ```python
 class Solution(object):
     # define crosssum function  
@@ -28,7 +32,10 @@ class Solution(object):
 ```
 
 **Dynamic Programming (Kadane's Algorithm)**
-- [source code](source/dynamic.py)
+- [Source code](source/dynamic.py)
+- Time complexity : **O(N)** since it's one pass along the array
+- Space complexity : **O(1)** since it's a constant space solution
+
 ```python
 class Solution(object):
     def maxSubArray(self, nums):
@@ -40,7 +47,9 @@ class Solution(object):
 ```
 
 **Greedy Algorithm**
-- [source code](source/greedy.py)
+- [Source code](source/greedy.py)
+- Time complexity : **O(N)** since it's one pass along the array.
+- Space complexity : **O(1)** since it's a constant space solution.
 
 ```python
 class Solution(object):
