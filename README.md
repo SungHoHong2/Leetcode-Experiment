@@ -23,18 +23,18 @@ Difficulty | [Problem]() | [**Solution**]() |
 ```
 ### Problem Title
 **Solution1**
-- [concepts](images/)
-- [source code](source/)
-- [reference #1]() 
+- [Concepts](images/)
+- [Source code](source/)
+- [Reference #1]() 
 
 **Solution2**
-- [concepts](images/)
-- [source code](source/)
-- [reference #1]() 
+- [Concepts](images/)
+- [Source code](source/)
+- [Reference #1]() 
 
 **Solution3**
-- [concepts](images/)
-- [source code](source/)
-- [reference #1]()    
+- [Concepts](images/)
+- [Source code](source/)
+- [Reference #1]()    
 ```
 
