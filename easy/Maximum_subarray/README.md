@@ -1,7 +1,7 @@
 ### Maximum Subarray
 
 **Divide & Conquer**
-- [source code](source/divide.py)
+- [Source code](source/divide.py)
 - Time complexity : **O(NlogN)**
     - compute the solution with the help of master theorem
 - Space complexity :**O(logN)**
