@@ -1,6 +1,6 @@
 ### Best Time to Buy and Sell Stock
 **One Pass**
-- [source code](source/one_pass.py)
+- [Source code](source/one_pass.py)
 - Time complexity : **O(n)** Only a single pass is needed.
 - Space complexity : **O(1)** Only two variables are used.
 ```python
@@ -15,9 +15,9 @@ class Solution:
 ```
 
 **Kadane's algorithm**
-- the algorithm for getting the `largest sum` of the `contiguous subarray`
-- [concept](image/kadane.png)
-- [source code](source/kadane.py)
+- The algorithm for getting the `largest sum` of the `contiguous subarray`
+- [Concept](image/kadane.png)
+- [Source code](source/kadane.py)
 ```python
 # max_so_far = 0 
 # max_ending_here = 0  
