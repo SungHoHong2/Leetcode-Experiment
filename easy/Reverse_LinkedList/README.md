@@ -1,7 +1,10 @@
 ### Reverse Linked List
 **Recursive**
-- [concepts](images/recursive.png)
-- [source code](source/recursive.py)
+- [Concepts](images/recursive.png)
+- [Source code](source/recursive.py)
+- Time complexity : **O(n)** Assume that nn is the list's length
+- Space complexity : **O(n)** The extra space comes from implicit stack space due to recursion
+
 ```python
 # Definition for singly-linked list.
 # class ListNode:
@@ -20,7 +23,10 @@ class Solution:
 ```
 
 **Iteration**
-- [source code](source/iteration.py)
+- [Source code](source/iteration.py)
+- Time complexity : **O(n)** Assume that nn is the list's length
+- Space complexity : **O(1)**
+
 ```python
 class Solution:
     def reverseList(self, head: ListNode) -> ListNode:
