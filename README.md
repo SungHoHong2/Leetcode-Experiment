@@ -21,8 +21,6 @@ Medium | [LRU Cache](https://leetcode.com/problems/lru-cache/) | [**Solution**](
 Medium | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | [**Solution**](medium/Number_of_Islands) | 
 Medium | [3Sum](https://leetcode.com/problems/3sum/) | [**Solution**](medium/3Sum) | 
 
-
-
 Difficulty | [Problem]() | [**Solution**]() | 
 
 ```
