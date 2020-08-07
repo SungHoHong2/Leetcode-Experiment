@@ -1,7 +1,9 @@
 ### Happy Number 
 
 **Detect Cycles with a HashSet**
-- [source code](source/hashset.py)
+- [Source code](source/hashset.py)
+- Time complexity : **O(log(n))**(Challenging) 
+- Space complexity : **O(log(n))**(Challenging) 
 ```python
 class Solution(object):
     # function for generating the next number 
@@ -23,6 +25,8 @@ class Solution(object):
 
 **Floyd's Cycle-Finding Algorithm**
 - [source code](source/floyd.py)
+- Time complexity : **O(log(n))** 
+- Space complexity : **O(1)**(Challenging) 
 ```python
 class Solution(object):
     # function for finding the next number 
