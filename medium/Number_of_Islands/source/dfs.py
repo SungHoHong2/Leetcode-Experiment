@@ -15,7 +15,7 @@ class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:
 
         # if the grid has nothing return 0
-        if len(grid) == 0:
+        if not grid:
             return 0
         # initialize the total number of islands
         total = 0
