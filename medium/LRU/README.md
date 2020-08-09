@@ -21,7 +21,7 @@ class LRUCache():
 ```
 
 **HashMap + LinkedList**
-- [Source code](source/)
+- [Source code](source/DoubleLink.py)
 ```python
 # strucutre for double-linked node
 class DLinkedNode():
