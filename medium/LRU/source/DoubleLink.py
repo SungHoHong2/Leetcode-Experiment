@@ -82,7 +82,7 @@ class LRUCache():
                 del self.cache[tail.key]
         # if the key is part of the cache
         else:
-            # update the cache
+            # update the value of the key
             self.cache[key].value = value
             # update the item as the most recently viewed
             self.move_to_head(self.cache[key])
