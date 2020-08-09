@@ -3,6 +3,7 @@
 Difficulty | Problem | Solution |
 ------------ | ------------ |  ------------ | 
 Easy | [Two Sum](https://leetcode.com/problems/two-sum/) | [**Hashmap**](easy/TwoSum) | 
+Easy | [Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [**Two Pointers**](medium/Two_Sum_II) | 
 Easy | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [**Stack**](easy/Valid_Parentheses) | 
 Easy | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [**Iteration,Recursive**](easy/Merge_Two_Sorted_Lists) |  
 Easy | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) |  [**DivCon,DP,Greedy**](easy/Maximum_subarray) | 
