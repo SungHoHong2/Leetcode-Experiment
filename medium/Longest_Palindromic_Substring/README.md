@@ -51,6 +51,7 @@ class Solution:
 - [Concepts(1)](images/dynamic.png)
 - [Concepts(2)](images/dynamic2.png)
 - [Source code](source/dynamic.py)
+- [Reference](https://www.youtube.com/watch?v=UflHuQj6MVA&t=359s)
 - Time complexity : **O(n^2)**
 - Space complexity : **O(n^2)**
 
