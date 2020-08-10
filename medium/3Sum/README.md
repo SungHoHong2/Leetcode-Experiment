@@ -54,6 +54,19 @@ class Solution:
 ```
 
 **No-Sort**
-- [Concepts](images/)
-- [Source code](source/)
-- [Reference #1]()   
+- [Source code](source/noSort.py)
+```python
+class Solution:
+    def threeSum(self, nums: List[int]) -> List[List[int]]:
+        # create a set for return value and checking for duplicates
+        # create a hashmap
+        # iterate the numbers
+            # if the variable are not in the duplicate
+                # add the variable in the hashset
+                # iterate the rightside array of the current element
+                    # calculate the complement
+                    # if the complement is in the hashmap and it is part of the current index
+                        # add the results(fix the orders because the answer may append duplicates)
+                    # add the leftmost value in the hashmap and the current index as the key
+        # return the array
+```
