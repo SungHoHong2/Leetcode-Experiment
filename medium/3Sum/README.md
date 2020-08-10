@@ -7,7 +7,7 @@ class Solution:
         # set the return array that contains the elements that sum up to zero
         # assume that the input array is already sorted 
         # iterate the numbers
-            # if the input cannot produce zero  
+            # if the current index is above zero  
                 # finish iteration 
             # if the first element or the neighboring element is not the same 
                 # invoke the twoPointer function
@@ -27,12 +27,33 @@ class Solution:
                 # loop until left element is not a duplicate of the previous element
 ```
 
-**Solution2**
-- [Concepts](images/)
-- [Source code](source/)
-- [Reference #1]() 
+**Hashset**
+- [Source code](source/hashset.py)
+```python
+class Solution:
+    def threeSum(self, nums: List[int]) -> List[List[int]]:
+        # set the return array
+        # assume that the array is already sorted
+        # iterate the array
+            # if the current element is above zero
+                # stop the iteration
+            # if the element is the first or not duplicated
+                # invoke the twoSum function
+        # return the result
 
-**Solution3**
+    def twoSum(self, nums: List[int], i: int, res: List[List[int]]):
+        # create a hashset
+        # set the index of the leftmost element that is at the rightside of the current element
+        # iterate the array
+            # calculate the complement
+            # if the complement is not in the memory
+                # record the current element
+            # if the complement is in the hashset
+                # skip the leftmost indexes that are duplicates
+            # increament the leftmost index
+```
+
+**No-Sort**
 - [Concepts](images/)
 - [Source code](source/)
 - [Reference #1]()   
