@@ -1,7 +1,3 @@
-<style>
-
-</style>
-
 ### [LeetCode Experiments](https://docs.google.com/spreadsheets/d/1Md2vZlLWUp4Vde6O9dB0eS1YadMXfqYj-WxHJ8UX8OA/edit?usp=sharing) 
 
 Difficulty | Problem | Solution |
