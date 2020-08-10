@@ -48,8 +48,8 @@ class Solution:
 ```
 
 **Dynamic Programming**
-- [Concepts](images/dynamic.png)
-- [Concepts](images/dynamic2.png)
+- [Concepts(1)](images/dynamic.png)
+- [Concepts(2)](images/dynamic2.png)
 - [Source code](source/dynamic.py)
 - Time complexity : **O(n^2)**
 - Space complexity : **O(n^2)**
