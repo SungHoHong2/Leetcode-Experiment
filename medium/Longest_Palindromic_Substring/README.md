@@ -21,8 +21,8 @@ class Solution:
         
     def longestPalindrome(self, s: str) -> str:
         # set the variable for the largest substring 
-        # if the string is none
-            # return empty string
+        # if the string is less than equal to one
+            # return the original input 
         # iterate the string
             # invoke palindrome checker and get the left and right index 
             # if the length of the substring creates a new record

@@ -27,9 +27,9 @@ class Solution:
     def longestPalindrome(self, s: str) -> str:
         # set the variable for the largest substring
         maxString = ""
-        # if the string is none
-        if len(s) == 0 or len(s) == 1:
-            # return empty string
+        # if the string is less than equal to one
+        if len(s) <= 1 :
+            # return the original input
             return s
         # iterate the string
         for i in range(1, len(s)):
