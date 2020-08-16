@@ -5,20 +5,20 @@ class Solution:
         # create a hashmap
         seen = {}
         # iterate the numbers
-        for i, val1 in enumerate(nums):
+        for i in range(len(nums)):
             # if the variable are not in the duplicate
-            if val1 not in dups:
+            if nums[i] not in dups:
                 # add the variable in the hashset
-                dups.add(val1)
+                dups.add(nums[i])
                 # iterate the rightside array of the current element
-                for j, val2 in enumerate(nums[i+1:]):
+                for j in range(i+1, len(nums)):
                     # calculate the complement
-                    complement = -val1 - val2
+                    complement = 0 - nums[i] - nums[j]
                     # if the complement is in the hashmap and it is part of the current index
                     if complement in seen and seen[complement] == i:
                         # add the results(fix the orders because the answer may append duplicates)
-                        res.add(tuple(sorted((val1, val2, complement))))
+                        res.add(tuple(sorted((nums[i], nums[j], complement))))
                     # add the leftmost value in the hashmap and the current index as the key
-                    seen[val2] = i
+                    seen[nums[j]] = i
         # return the array
         return res

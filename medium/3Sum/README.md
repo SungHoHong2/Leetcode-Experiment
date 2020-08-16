@@ -7,7 +7,7 @@ class Solution:
         # set the return array that contains the elements that sum up to zero
         # assume that the input array is already sorted 
         # iterate the numbers
-            # if the current index is above zero  
+            # f the twoSum2 cannont produce zero anymore 
                 # finish iteration 
             # if the first element or the neighboring element is not the same 
                 # invoke the twoPointer function

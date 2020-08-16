@@ -73,7 +73,7 @@ class Solution:
         # merge two groups together
         def union(a, b):
             # get the parents of both 'a' and 'b'
-            # return the ranks of both 'a' and 'b'
+            # return the ranks of the parents of both 'a' and 'b'
             # if the rank of the 'b' is higher
                 # set the parent of 'a' to parent of 'b'
             # if the rank of the 'a' is higher
