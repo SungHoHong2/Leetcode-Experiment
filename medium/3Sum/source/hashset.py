@@ -1,7 +1,7 @@
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
         # set the return array
-        res = []
+        res = list()
         # assume that the array is already sorted
         nums.sort()
         # iterate the array
@@ -10,7 +10,7 @@ class Solution:
             if nums[i] > 0:
                 # stop the iteration
                 break
-            # if the element is the first or not duplicated
+                # if the element is the first or not duplicated
             if i == 0 or nums[i - 1] != nums[i]:
                 # invoke the twoSum function
                 self.twoSum(nums, i, res)
@@ -18,24 +18,26 @@ class Solution:
         return res
 
     def twoSum(self, nums: List[int], i: int, res: List[List[int]]):
-        # # create a hashset
+        # create a hashset
         hashset = set()
         # set the index of the leftmost element that is at the rightside of the current element
-        j = i + 1
+        left = i + 1
         # iterate the array
-        while j < len(nums):
+        while left < len(nums):
             # calculate the complement
-            complement = -nums[i] - nums[j]
+            complement = 0 - nums[i] - nums[left]
             # if the complement is not in the memory
             if complement not in hashset:
                 # record the current element
-                hashset.add(nums[j])
-            # if the complement is in the hashset
+                hashset.add(nums[left])
+                # increase the leftmost index
+                left += 1
+                # if the complement is in the hashset
             else:
-                res.append([nums[i], nums[j], complement])
+                # add the answer to the return list
+                res.append([nums[i], nums[left], complement])
+                # increase the leftmost index
+                left += 1
                 # skip the leftmost indexes that are duplicates
-                while j + 1 < len(nums) and nums[j] == nums[j + 1]:
-                    j += 1
-            # increament the leftmost index
-            j += 1
-
+                while left < len(nums) and nums[left - 1] == nums[left]:
+                    left += 1

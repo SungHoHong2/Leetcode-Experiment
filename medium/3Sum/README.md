@@ -48,9 +48,12 @@ class Solution:
             # calculate the complement
             # if the complement is not in the memory
                 # record the current element
-            # if the complement is in the hashset
+                # increase the leftmost index
+                # if the complement is in the hashset
+            # if the complement is in the memory
+                # add the answer to the return list
+                # increase the leftmost index
                 # skip the leftmost indexes that are duplicates
-            # increament the leftmost index
 ```
 
 **No-Sort**
