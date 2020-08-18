@@ -8,7 +8,6 @@ class Solution:
             check = {}
             for i in range(start, end):
                 ch = s[i]
-
                 # print(ch, ch in check)
                 if ch in check:
                     return False

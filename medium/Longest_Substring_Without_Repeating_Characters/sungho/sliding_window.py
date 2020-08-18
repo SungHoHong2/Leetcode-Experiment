@@ -20,5 +20,4 @@ class Solution:
             else:
                 del chkTable[s[i]]
                 i += 1
-
         return ans
