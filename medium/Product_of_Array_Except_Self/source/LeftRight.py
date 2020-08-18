@@ -9,7 +9,7 @@ class Solution:
         for i in range(1, len(nums)):
             # track the history of the aggregated product until one element is left in the nums array
             left[i] = nums[i - 1] * left[i - 1]
-        # Aggregate the products from the left
+        # Aggregate the products from the right
         right[len(nums) - 1] = 1
         for i in reversed(range(len(nums) - 1)):
             # track the history of the aggregated product until one element is left in the nums array
