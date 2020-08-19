@@ -23,7 +23,8 @@ Medium | [Number of Islands](https://leetcode.com/problems/number-of-islands/) |
 Medium | [3Sum](https://leetcode.com/problems/3sum/) | [**Two Pointers,Hashset,No Sorting**](medium/3Sum) | 
 Medium | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [**Left and Right, O(1) space**](medium/Product_of_Array_Except_Self) | 
 Medium | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [**Brute Force, Sliding Window**]() | 
-Medium | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [**Solution**]() | 
+Medium | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [**Connected Components, Sorting, MergeSorting the TreeNode**](medium/Merge_Intervals) | 
+
 
 Difficulty | [Problem]() | [**Solution**]() | 
 
