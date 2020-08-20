@@ -1,6 +1,5 @@
 class Solution:
     def minDominoRotations(self, A: List[int], B: List[int]) -> int:
-
         def check(x, n):
             rot_a = rot_b = 0
             for i in range(0, n):
@@ -13,11 +12,13 @@ class Solution:
 
             return min(rot_a, rot_b)
 
-        n = len(A)
-        rotation = check(A[0], n)
-        # if it is -1 and also A and B are the same
-        # the application can skip checking the B.
+        # invoke the check function and get the minimum number of rotations
+        rotation = check(A[0], len(A))
+        # if the rotation value is valid or A and B have the same value
         if rotation != -1 or A[0] == B[0]:
+            # return the minimun numvber of rotations
             return rotation
+        # if the rotation does not provide any value
         else:
-            return check(B[0], n)
+            # get the return value from B
+            return check(B[0], len(B))
