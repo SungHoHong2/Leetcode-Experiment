@@ -24,7 +24,7 @@ Medium | [3Sum](https://leetcode.com/problems/3sum/) | [**Two Pointers,Hashset,N
 Medium | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [**Left and Right, O(1) space**](medium/Product_of_Array_Except_Self) | 
 Medium | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [**Brute Force, Sliding Window**]() | 
 Medium | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [**Connected Components, Sorting, MergeSorting the TreeNode**](medium/Merge_Intervals) | 
-Medium | [Minimum Domino Rotations For Equal Row](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/) | [**Solution**](medium/Minimum_Domino_Rotations_For_Equal_Row) | 
+Medium | [Minimum Domino Rotations For Equal Row](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/) | [**Greedy,Hashmap,TopBottom**](medium/Minimum_Domino_Rotations_For_Equal_Row) | 
 Medium | [Game of Life](https://leetcode.com/problems/game-of-life/) | [**Solution**](medium/Game_of_Life) | 
 Medium | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | [**Solution**](medium/Copy_List_with_Random_Pointer) | 
 
