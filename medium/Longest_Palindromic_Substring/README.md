@@ -66,12 +66,11 @@ class Solution:
         #  a [0, 0, 0, 0, 0]
         #  b [0, 0, 0, 0, 0]
         # create the table
-        # set the start variable 
-        # set the maximum length of the palindrome  
-        # create true for single characters positioned diagonally
-        # update true for neighboring twin characters
-        # update true for cells that represent palindrome larger than 3
-        # palindrome size from 3 to totalarray k = (n+1)
+        # set the start variable
+        # set the maximum length of the palindrome
+        # check the palindrome of a single character
+        # check the palindrome of a neighboring character
+        # check the palindrome that has the size from 3 to n
             # starting point of the substring (make sure n-k != 0)
                 # end point of substring (make sure k < len(s))
                 # if cells from i and j are equal and the history is true
