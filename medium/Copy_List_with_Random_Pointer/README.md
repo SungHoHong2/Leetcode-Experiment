@@ -17,7 +17,7 @@ class Solution:
         # return the node
 ```
 
-**Iterative with O(N) Space**
+**~~Iterative with~~ O(N) Space**
 - [Source code](source/)
 ```python
 class Solution(object):
