@@ -52,10 +52,8 @@ class LRUCache():
         # remove the current item by connecting the neighbors
     # function for adding a new item
     def add_node(self, node):
-        # connnect the new item with the head pointer
-        # connect the new item with the most recently viewed item
-        # update the most recently viewed item as the second item
-        # connect the head pointer with the new item
+        # update the pointers of the new item
+        # update the pointers of the neighbors 
     def put(self, key, value):
         # if the key is not part of the cache
             # create a new item
