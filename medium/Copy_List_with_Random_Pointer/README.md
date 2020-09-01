@@ -1,6 +1,6 @@
 ### Copy List with Random Pointer
 **Recursive**
-- [Source code](source/)
+- [Source code](source/Recursive.py)
 ```python
 class Solution:
     def __init__(self):
@@ -17,8 +17,8 @@ class Solution:
         # return the node
 ```
 
-**~~Iterative with~~ O(N) Space**
-- [Source code](source/)
+**Iteration with O(N) Space**
+- [Source code](source/Iteration.py)
 ```python
 class Solution(object):
     def __init__(self):
@@ -45,8 +45,8 @@ class Solution(object):
         # return the header of the new linked-list
 ```
 
-**Iterative with O(1) Space**
-- [Source code](source/)
+**Iteration with O(1) Space**
+- [Source code](source/Iteration2.py)
 ```python
 class Solution:
     def copyRandomList(self, head: 'Node') -> 'Node':
