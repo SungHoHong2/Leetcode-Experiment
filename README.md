@@ -1,7 +1,7 @@
 ### [LeetCode Experiments](https://docs.google.com/spreadsheets/d/1Md2vZlLWUp4Vde6O9dB0eS1YadMXfqYj-WxHJ8UX8OA/edit?usp=sharing) 
 
-- [Easy](easy)  
-- [Medium](medium)
+- [Easy](Easy.md)  
+- [Medium](Medium.md)
 - Hard 
 
 ```
