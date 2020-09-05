@@ -3,7 +3,7 @@
 - [Concepts](images/Brute.png)
     - computes every possible solution to a problem 
     - selects one that fulfills the requirements
-- [Source code](source/)
+- [Source code](source/Recursion.py)
 
 **Backtracking**
 - [Concepts](images/Backtrack.png)

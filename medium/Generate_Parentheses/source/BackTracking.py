@@ -1,22 +1,23 @@
 class Solution(object):
+    def backtrack(self, ans, left, right, ansSize, rtnArray):
+        # if the answer has the expected length
+        if len(ans) == ansSize:
+            # include the answer to the return array
+            rtnArray.append(ans)
+            # finish the recursive function
+            return
+        # if the number of opnening is not enough
+        if left < (ansSize // 2):
+            # create an answer with additional opening
+            self.backtrack(ans + '(', left + 1, right, ansSize, rtnArray)
+        # if the number of closing is smaller than opening
+        if right < left:
+            # create an answer with additional closing
+            self.backtrack(ans + ')', left, right + 1, ansSize, rtnArray)
     def generateParenthesis(self, N):
         # set the return list
-        ans = list()
-        def backtrack(S='', left=0, right=0):
-            # if the length is twice as the original
-            if len(S) == 2 * N:
-                # include the answer to the return array
-                ans.append(S)
-                # finish the recursive function
-                return
-            # if more opening can be created
-            if left < N:
-                # create an answer with additional opening
-                backtrack(S + '(', left + 1, right)
-            # if the number of closing is smaller than opening
-            if right < left:
-                # create a answeir with additional closing
-                backtrack(S + ')', left, right + 1)
-
-        backtrack()
-        return ans
+        rtnArray = list()
+        # run the backtrack function
+        self.backtrack('',0,0, N*2, rtnArray)
+        # return the list of answers
+        return rtnArray
