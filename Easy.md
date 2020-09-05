@@ -1,3 +1,5 @@
+### Easy
+
 | Problem | Solution |
 | ------------ |  ------------ | 
 | [Two Sum](https://leetcode.com/problems/two-sum/) | [**Hashmap**](easy/TwoSum) | 

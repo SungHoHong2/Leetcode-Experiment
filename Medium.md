@@ -1,3 +1,5 @@
+### Medium
+
 | Problem | Solution |
 | ------------ |  ------------ | 
 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [**Elementry Math**](medium/Add_Two_Numbers) | 
