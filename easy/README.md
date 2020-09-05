@@ -15,5 +15,4 @@
 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [**CmpReverse,TwoPointers**](easy/Valid_Palindrome) |
 | [FizzBuzz](https://leetcode.com/problems/fizz-buzz/solution/) | [**Naive,Hashmap**](easy/FizzBuzz) |
 
-
-| Difficulty | [Problem]() | [**Solution**]() | 
+| [Problem]() | [**Solution**]() | 
