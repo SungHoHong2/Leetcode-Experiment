@@ -6,6 +6,7 @@
 
 class Solution(object):
     def generateParenthesis(self, N):
+        # return empty list when the answer expects zero parenthesis
         if N == 0: return ['']
         rtnArray = []
         # iterate the available total number of parenthesis
