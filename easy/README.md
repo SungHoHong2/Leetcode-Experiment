@@ -16,4 +16,4 @@
 | [FizzBuzz](https://leetcode.com/problems/fizz-buzz/solution/) | [**Naive,Hashmap**](easy/FizzBuzz) |
 
 
-Difficulty | [Problem]() | [**Solution**]() | 
+| Difficulty | [Problem]() | [**Solution**]() | 
