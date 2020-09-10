@@ -15,6 +15,6 @@
 | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | [**Recursive,Iterative with O(N),O(1)**](medium/Copy_List_with_Random_Pointer) | 
 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [**BruteForce,Backtracking,Closure**](medium/Generate_Parentheses) | 
 | [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/) | [**Priority Queues,Chronological Ordering**](medium/Meeting_Rooms_II) | 
-| [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | [**Solution**](medium/Subarray_Sum_Equals_K) | 
+| [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | [**Hashmap**](medium/Subarray_Sum_Equals_K) | 
 
 | [Problem]() | [**Solution**]() | 
