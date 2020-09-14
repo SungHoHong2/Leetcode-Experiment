@@ -83,5 +83,4 @@ class Solution:
                 # Target = 5
                     # search the left side of the array
         # return -1 if no target is found in the array
-
 ```
