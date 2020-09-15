@@ -33,13 +33,13 @@ class Solution:
         # return -1 if there is no target in the array 
                 
     def search(self, nums, target):
-        # get the total length of 
+        # get the total length of nums
         # if there are no numbers  
             # return -1 
         # if there is a single number 
             # return zero if the single number matches with the target otherwise -1
-        # find the smallest elemement in the array = rotate_index 
-        # if target is the smallest element 
+        # find the rotate_index in the array = rotate_index 
+        # if target is the rotate_index 
             # return the rotate_index 
         # if array is not rotated
             # perform binary search on the entire array 
