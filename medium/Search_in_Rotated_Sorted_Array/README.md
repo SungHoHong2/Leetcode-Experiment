@@ -64,23 +64,15 @@ class Solution:
             # get the pivot
             # if the pivot is the target
                 # return the index of the pivot
-            # implies no rotation in the array
-                #  S     M     E
-                # [0,1,2,3,4,5,6]
-                # if the target is smaller than the pivot
-                # Target = 1
+            # no rotation found between start and middle
+                # if target is in the leftside (small to medium)
                     # search the left side of the array
-                # if the target is bigger than the pviot
-                # Target = 5
+                # if target is in the rightside (note that we cannot compare with size because there may be a rotation)
+                    # search the rightside
+            # rotation found between start and middle
+                # if the target is in the rightside (small to medium)
                     # search the right side of the array
-            # implies a rotation in the array
-                #  S     M     E
-                # [4,5,6,0,1,2,3]
-                # if the target is larget than the middle
-                # Target = 1
-                    # search the right side of the array
-                # if the target is smaller than the middle
-                # Target = 5
-                    # search the left side of the array
+                # if the target is in the leftside
+                    # search the leftside
         # return -1 if no target is found in the array
 ```
