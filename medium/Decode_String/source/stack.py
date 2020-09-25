@@ -12,7 +12,7 @@ class Solution:
             if c.isdigit():
                 # if the repeat is two digits (ex 32[a])
                 repeat = repeat * 10 + int(c)
-                # if it is a opening bracket
+            # if it is a opening bracket
             elif c == '[':
                 # first add the currently accumulated string
                 stack.append(curString)
@@ -22,7 +22,7 @@ class Solution:
                 curString = ''
                 # set the repeat pointer to zero
                 repeat = 0
-                # if it is a closing bracket
+            # if it is a closing bracket
             elif c == ']':
                 # pop out the number from the stack
                 num = stack.pop()
@@ -30,10 +30,9 @@ class Solution:
                 prevString = stack.pop()
                 # append the string with the new repeated data
                 curString = prevString + num * curString
-                # if char is a data
+            # if char is a data
             else:
                 # append the char
                 curString += c
-                # return the accumulated result
+        # return the accumulated result
         return curString
-
