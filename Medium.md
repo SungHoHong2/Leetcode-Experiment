@@ -19,7 +19,7 @@
 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [**Binary search,One-pass Binary Search**](medium/Search_in_Rotated_Sorted_Array) |
 | [Decode String](https://leetcode.com/problems/decode-string/) | [**Stack,Recursion**](medium/Decode_String) |
 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [**Sort,Count**](medium/Group_Anagrams) |
-| [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | [**Solution**](medium/Spiral_Matrix) |
+| [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | [**Simulation,Layers**](medium/Spiral_Matrix) |
 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) | [**Solution**](medium/K_Closest_Points_to_Origin) |
 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | [**Solution**](medium/Container_With_Most_Water) |
 
