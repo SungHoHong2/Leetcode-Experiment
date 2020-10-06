@@ -23,6 +23,4 @@
 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) | [**Solution**](medium/K_Closest_Points_to_Origin) |
 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | [**Solution**](medium/Container_With_Most_Water) |
 
-
-
 | [Problem]() | [**Solution**]() |

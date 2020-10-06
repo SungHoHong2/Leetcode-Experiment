@@ -1,8 +1,9 @@
-### [LeetCode Experiments](https://docs.google.com/spreadsheets/d/1Md2vZlLWUp4Vde6O9dB0eS1YadMXfqYj-WxHJ8UX8OA/edit?usp=sharing)
+### [Leetcode Experiments](https://docs.google.com/spreadsheets/d/1Md2vZlLWUp4Vde6O9dB0eS1YadMXfqYj-WxHJ8UX8OA/edit?usp=sharing)
 
-- [Easy](Easy.md)
-- [Medium](Medium.md)
-- Hard
+- [Algorithm Lectures](Theory.md)
+- [Easy Questions from Leetcode](Easy.md)
+- [Medium Questions from Leetcode](Medium.md)
+- [Hard Questions from Leetcode]()
 
 ```
 ### Problem Title
