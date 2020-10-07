@@ -9,27 +9,36 @@ class Solution(object):
 ```
 
 **Divide and Conquer**
-- quick selecting by a pivot x
-    - choose some random element `x = A[i]`
-    - split the array into two buckets:
-        - one bucket of all the elements less than x,
-        - another bucket of all the elements greater than or equal to x
-      
-- Suppose `work(i, j, K)` of partially sorting the subarray `(points[i], points[i+1], ..., points[j])` 
-    - the smallest `K elements` of this subarray occur in the first K positions `(i, i+1, ..., i+K-1)`.
-- `quickselect` by a random pivot element from the subarray
-    - we have two pointers i and j, and move these pointers to the elements that are in the wrong bucket -- then, we swap these elements.
-    - After, we have two buckets `[oi, i]` and `[i+1, oj]`, where `(oi, oj)` are the original `(i, j)` values when calling `work(i, j, K)`
-- Say the first bucket has `10 items` and the second bucket has `15 items`.
-    - If we were trying to partially sort say, `K = 5` items, then we only need to partially sort the first bucket: `work(oi, i, 5)`. 
-    - Otherwise, if we were trying to partially sort say, `K = 17 items`, then the first 10 items are already partially sorted, and we only need to partially sort the next 7 items: `work(i+1, oj, 7)`.
+- [Concepts](images/divide.png)
+- [Source code](source/Recursive.py)
+```python
+class Solution(object):
+    def kClosest(self, points, K):
+        # create a lambda function that calculates the euclidean distance
 
+        def sort(i, j, K):
+            # return when recursion tree reaches the leaf
+            # get the pivot index that will sort array A[ i...pivot...j ]
+            # place the pivot in the front of the array A[ pivot.i....j ]
+            # return the partitioned index A[i] <= A[mid] <= A[j]
+            # if the number of Kth element is smaller than the partitioned index
+                # sort recursively from the left array
+            # if the number of kth element is bigger than the partitioned index
+                # sort recursively from the right array
 
-- [Concepts](images/)
-- [Source code](source/)
-- [Reference #1]()
+        def partition(i, j):
+            # save the pivot index
+            # get the distance value of the pivot
+            # move to the index that needs to be sorted
+            # loop until the sorting is complete
+                # increment from left if the distance of ith index is smaller than the pivot
+                # increment from right if the distance of ith index is bigger than the pivot
+                # break if the sorting is complete
+                # place the smaller value to the leftside and bigger value to the rigtside of the pivot
+            # move the pivot value to the middle index
+            # return middle index
 
-**Solution3**
-- [Concepts](images/)
-- [Source code](source/)
-- [Reference #1]()
+        # invoke sort function
+        # return the kth amount of sorted result
+```
+
