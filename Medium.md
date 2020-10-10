@@ -21,7 +21,7 @@
 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [**Sort,Count**](medium/Group_Anagrams) |
 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | [**Simulation,Layers**](medium/Spiral_Matrix) |
 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) | [**Sort,Divide&Conquer**](medium/K_Closest_Points_to_Origin) |
-| [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | [**Solution**](medium/Container_With_Most_Water) |
+| [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | [**Two Pointers**](medium/Container_With_Most_Water) |
 | [Next Permutation](https://leetcode.com/problems/next-permutation/) | [**Solution**](medium/Next_Permutation) |
 | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | [**Solution**](medium/Letter_Combinations_of_a_Phone_Number) |
 | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | [**Solution**](medium/Insert_Delete_GetRandom) |
