@@ -3,7 +3,7 @@
 - [Algorithm Lectures](Theory.md)
 - [Easy Questions from Leetcode](Easy.md)
 - [Medium Questions from Leetcode](Medium.md)
-- [Hard Questions from Leetcode]()
+- [Hard Questions from Leetcode](Hard.md)
 
 ```
 ### Problem Title
