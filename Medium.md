@@ -8,7 +8,7 @@
 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | [**DFS,BFS,Disjoint Set**](medium/Number_of_Islands) |
 | [3Sum](https://leetcode.com/problems/3sum/) | [**Two Pointers,Hashset,No Sorting**](medium/3Sum) |
 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [**Left and Right, O(1) space**](medium/Product_of_Array_Except_Self) |
-| [Longest Substring Without Repeating Characters][] | [**Brute Force, Sliding Window**]() |
+| [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/submissions/) | [**Brute Force, Sliding Window**]() |
 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [**Connected Components, Sorting, MergeSorting the TreeNode**](medium/Merge_Intervals) |
 | [Minimum Domino Rotations For Equal Row](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/) | [**Greedy,Hashmap,TopBottom**](medium/Minimum_Domino_Rotations_For_Equal_Row) |
 | [Game of Life](https://leetcode.com/problems/game-of-life/) | [**O(mn),O(1),Infinite Space**](medium/Game_of_Life) |
@@ -20,17 +20,10 @@
 | [Decode String](https://leetcode.com/problems/decode-string/) | [**Stack,Recursion**](medium/Decode_String) |
 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [**Sort,Count**](medium/Group_Anagrams) |
 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | [**Simulation,Layers**](medium/Spiral_Matrix) |
-| [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) | [**Solution**](medium/K_Closest_Points_to_Origin) |
+| [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) | [**Sort,Divide&Conquer**](medium/K_Closest_Points_to_Origin) |
 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | [**Solution**](medium/Container_With_Most_Water) |
 | [Next Permutation](https://leetcode.com/problems/next-permutation/) | [**Solution**](medium/Next_Permutation) |
 | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | [**Solution**](medium/Letter_Combinations_of_a_Phone_Number) |
 | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | [**Solution**](medium/Insert_Delete_GetRandom) |
 
-
-
-
-
 | [Problem]() | [**Solution**]() |
-
-
-[]: https://leetcode.com/problems/longest-substring-without-repeating-characters/
