@@ -26,8 +26,9 @@
 | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | [**Backtracking**](medium/Letter_Combinations_of_a_Phone_Number) |
 | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | [**HashMap + ArrayList**](medium/Insert_Delete_GetRandom) |
 | [Find Duplicate File in System](https://leetcode.com/problems/find-duplicate-file-in-system/) | [**HashMap**](medium/Find_Duplicate_File_in_System) |
-| [Decode Ways](https://leetcode.com/problems/decode-ways/) | [**Solution**](medium/Decode_Ways) |
+| [Decode Ways](https://leetcode.com/problems/decode-ways/) | [**Memoization,Iteration**](medium/Decode_Ways) |
 | [Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/) | [**Solution**](medium/Reconstruct_Itinerary) |
 | [Word Break](https://leetcode.com/problems/word-break/) | [**Solution**](medium/Word_Break) |
 | [Word Search](https://leetcode.com/problems/word-search/) | [**Solution**](medium/Word_Search) |
+
 | [Problem]() | [**Solution**]() |
