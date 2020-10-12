@@ -29,6 +29,13 @@
 | [Decode Ways](https://leetcode.com/problems/decode-ways/) | [**Memoization,Iteration**](medium/Decode_Ways) |
 | [Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/) | [**Backtracking,Hierholzer's Algorithm**](medium/Reconstruct_Itinerary) |
 | [Word Break](https://leetcode.com/problems/word-break/) | [**BFS,Memoization,Iteration**](medium/Word_Break) |
-| [Word Search](https://leetcode.com/problems/word-search/) | [**Solution**](medium/Word_Search) |
+| [Word Search](https://leetcode.com/problems/word-search/) | [**Backtrack**](medium/Word_Search) |
+| [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/) | [**Solution**]() |
+| [Coin Change](https://leetcode.com/problems/coin-change/) | [**Solution**]() |
+| [Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/) | [**Solution**]() |
+| [Before and After Puzzle](https://leetcode.com/problems/before-and-after-puzzle/) | [**Solution**]() |
+| [Permutations](https://leetcode.com/problems/permutations/) | [**Solution**]() |
+
+
 
 | [Problem]() | [**Solution**]() |
