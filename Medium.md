@@ -36,5 +36,4 @@
 | [Before and After Puzzle](https://leetcode.com/problems/before-and-after-puzzle/) | [**Solution**](medium/Before_and_after_Puzzle) |
 | [Permutations](https://leetcode.com/problems/permutations/) | [**Solution**](medium/Permutation) |
 
-
 | [Problem]() | [**Solution**]() |
