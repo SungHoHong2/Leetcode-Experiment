@@ -12,9 +12,5 @@ class Solution:
                 if coins[j] <= i:
                     # update the answer by adding or without the coins
                     dp[i] = min(dp[i], dp[i - coins[j]] + 1)
-        # return -1 if the final answer is invalid
-        if dp[amount] > amount:
-            return -1
-        # return the result if the final answer is valid
-        else:
-            return dp[amount]
+        # return the minimum number of coins or -1 if invalid
+        return dp[amount] if dp[amount] <= amount else -1
