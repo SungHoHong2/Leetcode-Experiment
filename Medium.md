@@ -38,6 +38,4 @@
 | [Permutations](https://leetcode.com/problems/permutations/) | [**Solution**](medium/Permutation) |
 | [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/) | [**BellmanFord**](medium/Cheapest_Flights_Within_K_Stops) |
 
-
-
 | [Problem]() | [**Solution**]() |
