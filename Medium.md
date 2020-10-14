@@ -31,9 +31,12 @@
 | [Word Break](https://leetcode.com/problems/word-break/) | [**BFS,Memoization,Iteration**](medium/Word_Break) |
 | [Word Search](https://leetcode.com/problems/word-search/) | [**Backtrack**](medium/Word_Search) |
 | [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/) | [**Binary Search,Divide and Conquer,Search Space Reduction**](medium/Search_a_2D_Matrix II) |
-| [Coin Change](https://leetcode.com/problems/coin-change/) | [**Solution**](medium/Coin_Change) |
+| [Coin Change](https://leetcode.com/problems/coin-change/) | [**TopDown,BottomUp**](medium/Coin_Change) |
 | [Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/) | [**Solution**](medium/Time_Based_Key_Value_Store) |
 | [Before and After Puzzle](https://leetcode.com/problems/before-and-after-puzzle/) | [**Solution**](medium/Before_and_after_Puzzle) |
 | [Permutations](https://leetcode.com/problems/permutations/) | [**Solution**](medium/Permutation) |
+| [Coin Change2](https://leetcode.com/problems/coin-change-2/) | [**DP**]() |
+
+
 
 | [Problem]() | [**Solution**]() |
