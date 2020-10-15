@@ -1,18 +1,35 @@
 ### Minimum Cost Tree From Leaf Values
-- Each node has either 0 or 2 children.
-- The values of `arr` correspond to the values of each leaf in an in-order traversal of the tre
-- The value of each non-leaf node is equal to the product of the largest leaf value in its left and right subtree respectively.
+**Remove the element from the smallest**
+- [Concepts](images/Smallest.png)
+- [Source code](source/Smallest.py)
+```python
+class Solution:
+    def mctFromLeafValues(self, arr: List[int]) -> int:
+        # set the variable to return the sum of non-leaf nodes
+        # loop until the array is depleted
+            # get the index of the smallest element in the array
+            # get the neighboring leaves of the smallest leaf
+            # pop the smallest leaf
+            # accumulate the result by multiplying the smallest with the smallest neighboring leaf
+        # return the accumulated result 
+        pass
+```
 
----
-**Solution 1**
-- We remove the element from the smallest to bigger.
-- We check the `min(left, right)`
-- For each element `a`, `cost = min(left, right) * a`
-
----
-**Solution 2**
-- Just find the next greater element in the array
-- Since it is using the stack the time complexity is fixed to the stack size
-
-
-
+**Optimized Solution**
+- [Concepts](images/Optimized.png)
+- [Source code](source/Optimized.py)
+```python
+class Solution:
+    def mctFromLeafValues(self, A: List[int]) -> int:
+        # set the variable to return the sum of non-leaf nodes
+        # append infinite value to the stack
+        # iterate the items from the input
+            # loop when the current item is bigger than the latest item
+                # pop the latest item
+                # get the neighboring items
+                # multiply with the smallest neighbor and accumulate the result
+            # append the elements according to the descending order
+        # since the array is ordered, multiply from right to left
+        # return the accumulated result
+        pass 
+```
