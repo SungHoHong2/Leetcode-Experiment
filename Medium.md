@@ -34,7 +34,7 @@
 | [Coin Change](https://leetcode.com/problems/coin-change/) | [**TopDown,BottomUp**](medium/Coin_Change) |
 | [Coin Change2](https://leetcode.com/problems/coin-change-2/) | [**DP**](medium/Coin_Change_2) |
 | [Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/) | [**Hashmap + Binary Search**](medium/Time_Based_Key_Value_Store) |
-| [Before and After Puzzle](https://leetcode.com/problems/before-and-after-puzzle/) | [**Solution**](medium/Before_and_after_Puzzle) |
+| [Before and After Puzzle](https://leetcode.com/problems/before-and-after-puzzle/) | [**Using Sets**](medium/Before_and_after_Puzzle) |
 | [Permutations](https://leetcode.com/problems/permutations/) | [**Solution**](medium/Permutation) |
 | [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/) | [**BellmanFord**](medium/Cheapest_Flights_Within_K_Stops) |
 
