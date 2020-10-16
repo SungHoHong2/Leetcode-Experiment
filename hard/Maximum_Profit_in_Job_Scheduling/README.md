@@ -17,7 +17,7 @@ class Solution:
         pass
 
     def sortScheduling(self, jobs, j):
-        # return 0 if the recursion exceeds the valid number of jobs
+        # return 0 if the recursion requests for incompatible jobs
         # return the current profit if the recursive tree reached the leaf
         # if the result of the current job is not recorded
             # find the compatible job

@@ -15,7 +15,7 @@ class Solution:
         return -1
 
     def sortScheduling(self, jobs, j):
-        # return 0 if the recursion exceeds the valid number of jobs
+        # return 0 if the recursion requests for incompatible jobs
         if j == -1:
             return 0
         # return the current profit if the recursive tree reached the leaf
