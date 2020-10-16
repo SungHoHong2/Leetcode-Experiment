@@ -43,6 +43,4 @@
 | [Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/) | [**Solution**](medium/Fraction_to_Recurring_Decimal) |
 | [Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/) | [**Solution**](medium/Minimum_Time_Difference) |
 
-
-
 | [Problem]() | [**Solution**]() |

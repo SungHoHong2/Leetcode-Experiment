@@ -12,16 +12,13 @@ class Job:
 class Solution:
     def getNonConflicting(self, jobs, n):
         # search the job that ends earlier than the current job
-            # find the job that does not conflict with the current job
-                # return the index
-        # if every job is conflicting return -1
+            # return the index of the latest job that does not conflict with the current job
+        # return -1 if every job is conflicting
         pass
 
     def sortScheduling(self, jobs, j):
-        # if the job is incompatible
-            # return zero profit
-        # if the recursive tree reached the leaf
-            # return the current profit
+        # return 0 if the recursion exceeds the valid number of jobs
+        # return the current profit if the recursive tree reached the leaf
         # if the result of the current job is not recorded
             # find the compatible job
             # record the maximum possible profit for the current job
@@ -29,8 +26,8 @@ class Solution:
         pass
 
     def jobScheduling(self, startTime: List[int], endTime: List[int], profit: List[int]) -> int:
-        # initialize a list to store jobs (start, finish, profit)
-        # append all the jobs
+        # initialize a list to store jobs
+        # append all the jobs (start, finish, profit)
         # sort the jobs by finish time
         # initialize a map that records the maximum profit for each jobs
         # run the recursvie tree from top to bottom
