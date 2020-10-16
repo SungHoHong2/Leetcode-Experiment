@@ -39,8 +39,6 @@ class Solution:
         # sort the jobs by finish time
         jobs.sort(key=lambda x:x.finish)
         # initialize a map that records the maximum profit for each jobs
-        self.M = dict()
-        for j in range(len(profit)):
-            self.M[j] = 0
+        self.M = [0 for i in range(len(jobs))]
         # run the recursvie tree from top to bottom
         return self.sortScheduling(jobs,len(jobs)-1)
