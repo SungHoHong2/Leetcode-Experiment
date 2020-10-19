@@ -40,7 +40,7 @@
 | [UTF-8 Validation](https://leetcode.com/problems/utf-8-validation/) | [**String,Bit Manipulation**](medium/UTF-8_Validation) |
 | [Word Ladder](https://leetcode.com/problems/word-ladder/) | [**BFS,Bi-directional BFS**](medium/Word_Ladder) |
 | [Minimum Cost Tree From Leaf Values](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/) | [**Remove the element from the smallest, Optimized**](medium/Minimum_Cost_Tree_From_Leaf_Values) |
-| [Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/) | [**Solution**](medium/Fraction_to_Recurring_Decimal) |
-| [Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/) | [**Solution**](medium/Minimum_Time_Difference) |
+| [Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/) | [**Long Division**](medium/Fraction_to_Recurring_Decimal) |
+| [Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/) | [**Sorted by Minutes**](medium/Minimum_Time_Difference) |
 
 | [Problem]() | [**Solution**]() |
