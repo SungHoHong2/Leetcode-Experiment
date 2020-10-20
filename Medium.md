@@ -43,7 +43,7 @@
 | [Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/) | [**Long Division**](medium/Fraction_to_Recurring_Decimal) |
 | [Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/) | [**Sorted by Minutes**](medium/Minimum_Time_Difference) |
 | [Asteroid Collision](https://leetcode.com/problems/asteroid-collision/) | [**Stack**](medium/Asteroid_Collision) |
-| [Maximal Square](https://leetcode.com/problems/maximal-square/) | [**Solution**](medium/Maximal_Square) |
+| [Maximal Square](https://leetcode.com/problems/maximal-square/) | [**DP, Space Optimal DP**](medium/Maximal_Square) |
 | [Longest String Chain](https://leetcode.com/problems/longest-string-chain/) | [**Solution**]() |
 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | [**Solution**](medium/Binary_Tree_Right_Side_View) |
 | [Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/) | [**Solution**](medium/Flatten_a_Multilevel_Doubly_Linked List) |
