@@ -24,7 +24,7 @@ class Solution:
         def select(left, right, k_smallest):
             # return the item if the recursion reach the leaf 
             # select a random pivot_index between
-            # get the index of the pviot from the partition
+            # get the index of the pivot from the partition
             # if the index of the pivot is the Kth smallest 
                 # return the value 
             # if pivot is bigger than the kth smallest 

@@ -9,5 +9,4 @@
 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [**Solution**]() | 
 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | [**Solution**]() | 
 
-
 | [Problem]() | [**Solution**]() | 
