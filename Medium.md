@@ -45,7 +45,7 @@
 | [Asteroid Collision](https://leetcode.com/problems/asteroid-collision/) | [**Stack**](medium/Asteroid_Collision) |
 | [Maximal Square](https://leetcode.com/problems/maximal-square/) | [**DP, Space Optimal DP**](medium/Maximal_Square) |
 | [Longest String Chain](https://leetcode.com/problems/longest-string-chain/) | [**DP**]() |
-| [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | [**Solution**](medium/Binary_Tree_Right_Side_View) |
+| [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | [**BFS + Two Queues, BFS + Sentinel, BFS + Level Size, DFS**](medium/Binary_Tree_Right_Side_View) |
 | [Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/) | [**Solution**](medium/Flatten_a_Multilevel_Doubly_Linked List) |
 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [**Solution**](medium/Kth_Largest_Element_in_an_Array) |
 
