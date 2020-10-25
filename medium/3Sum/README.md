@@ -44,12 +44,11 @@ class Solution:
     def twoSum(self, nums: List[int], i: int, res: List[List[int]]):
         # create a hashset
         # set the index of the leftmost element that is at the rightside of the current element
-        # iterate the array
+        # loop until the indexes converge 
             # calculate the complement
             # if the complement is not in the memory
                 # record the current element
                 # increase the leftmost index
-                # if the complement is in the hashset
             # if the complement is in the memory
                 # add the answer to the return list
                 # increase the leftmost index
