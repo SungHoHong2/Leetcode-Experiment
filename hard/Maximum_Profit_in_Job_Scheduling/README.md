@@ -38,6 +38,8 @@ class Solution:
 
 **Bottom-Up**
 - [Source code](source/BottomUp.py)
+- [Source code(Textbook)](source/BottomUp_2.py)
+
 ```python
 class Job:
     def __init__(self, start, finish, profit):
