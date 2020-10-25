@@ -69,6 +69,6 @@ class Solution:
                     # calculate the complement
                     # if the complement is in the hashmap and it is part of the current index
                         # add the results(fix the orders because the answer may append duplicates)
-                    # add the leftmost value in the hashmap and the current index as the key
+                    # store the leftmost value as the complement(key) and the current element as the value in the hashmap
         # return the array
 ```
