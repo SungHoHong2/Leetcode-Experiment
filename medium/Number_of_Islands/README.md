@@ -2,7 +2,6 @@
 
 **Depth First Search**
 - [Source code](source/dfs.py)
-
 ```python
 class Solution:
     def dfs(self, grid, r, c):

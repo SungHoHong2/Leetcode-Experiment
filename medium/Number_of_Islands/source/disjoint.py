@@ -9,6 +9,20 @@ class Solution:
         parents = [[(r, c) for c in range(col)] for r in range(row)]
         # set the ranking table for the parents
         ranking = [[1 for c in range(col)] for r in range(row)]
+        # find the parent of the node
+        def getParent(curr):
+            # get the index of the node
+            x, y = curr
+            # set the temporary pointer just in case the current node already has a parent
+            i, j = x, y
+            # if the selected node already has a parent
+            if parents[i][j] != curr:
+                # get the address of the parent
+                i, j = parents[i][j]
+                # update the parent table of that node
+                parents[x][y] = parents[i][j]
+            # return the index of the parent
+            return parents[x][y]
         # set parent of the cell
         def setParent(curr, parent):
             # get the address of the current cell
@@ -27,23 +41,10 @@ class Solution:
             x, y = parent
             # update the rank
             ranking[x][y] = rank
-        # find the parent of the node
-        def find(current):
-            # get the index of the node
-            x, y = current
-            # set the temporary pointer just in case the current node already has a parent
-            i, j = x, y
-            # if the selected node already has a parent
-            if parents[i][j] != current:
-                # get the address of the parent
-                i, j = parents[i][j]
-            # update the parent table of that node
-            parents[x][y] = parents[i][j]
-            # return the index of the parent
-            return parents[x][y]
+        # merge two parents
         def union(a, b):
             # get the parents of both 'a' and 'b'
-            p_a, p_b = find(a), find(b)
+            p_a, p_b = getParent(a), getParent(b)
             # return the ranks of both 'a' and 'b'
             rank_a, rank_b = getRank(p_a), getRank(p_b)
             # if the rank of the 'b' is higher
@@ -76,7 +77,7 @@ class Solution:
         for i in range(row):
             for j in range(col):
                 # if it is a ground and is the parent
-                if grid[i][j] == '1' and find((i, j)) == (i, j):
+                if grid[i][j] == '1' and getParent((i, j)) == (i, j):
                     # increase the number of islands
                     totalIslands += 1
         # return the number of islands
