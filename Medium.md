@@ -2,11 +2,11 @@
 
 | Problem | Solution |
 | ------------ |  ------------ |
-| [x] [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [**Elementry Math**](medium/Add_Two_Numbers) |
-| [x] [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [**Expand from Center,DP**](medium/Longest_Palindromic_Substring) |
-| [x] [LRU Cache](https://leetcode.com/problems/lru-cache/) | [**HashMap + LinkedList**](medium/LRU) |
-| [x] [Number of Islands](https://leetcode.com/problems/number-of-islands/) | [**DFS,BFS,Disjoint Set**](medium/Number_of_Islands) |
-| [x] [3Sum](https://leetcode.com/problems/3sum/) | [**Two Pointers,Hashset,No Sorting**](medium/3Sum) |
+| [1] [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [**Elementry Math**](medium/Add_Two_Numbers) |
+| [1] [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [**Expand from Center,DP**](medium/Longest_Palindromic_Substring) |
+| [1] [LRU Cache](https://leetcode.com/problems/lru-cache/) | [**HashMap + LinkedList**](medium/LRU) |
+| [1] [Number of Islands](https://leetcode.com/problems/number-of-islands/) | [**DFS,BFS,Disjoint Set**](medium/Number_of_Islands) |
+| [1] [3Sum](https://leetcode.com/problems/3sum/) | [**Two Pointers,Hashset,No Sorting**](medium/3Sum) |
 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [**Left and Right, O(1) space**](medium/Product_of_Array_Except_Self) |
 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/submissions/) | [**Brute Force, Sliding Window**]() |
 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [**Connected Components, Sorting, MergeSorting the TreeNode**](medium/Merge_Intervals) |
