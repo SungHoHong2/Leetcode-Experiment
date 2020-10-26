@@ -57,6 +57,7 @@ class Solution:
 
 **No-Sort**
 - [Source code](source/noSort.py)
+- [Source code(2)](source/noSort_2.py)
 ```python
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
