@@ -49,6 +49,14 @@ class Solution:
         # get the length of the row and the col of the grid
         # set the parent table where all items themselves are the parents
         # set the ranking table for the parents
+        # find the parent of the node
+        def getParent(current):
+            # get the index of the node
+            # set the temporary pointer just in case the current node already has a parent
+            # if the selected node already has a parent
+                # get the address of the parent
+            # update the parent table of that node
+            # return the index of the parent
         # set parent of the cell
         def setParent(curr, parent):
             # get the address of the current cell
@@ -61,14 +69,6 @@ class Solution:
         def setRank(parent, rank):
             # get the address of the parent
             # update the rank
-        # find the parent of the node
-        def find(current):
-            # get the index of the node
-            # set the temporary pointer just in case the current node already has a parent
-            # if the selected node already has a parent
-                # get the address of the parent
-            # update the parent table of that node
-            # return the index of the parent
         # merge two groups together
         def union(a, b):
             # get the parents of both 'a' and 'b'
