@@ -21,8 +21,8 @@ class Solution:
             # partitioned the array at the correct place
                 # return the result when the length of the whole array is even
                 # return the result when the length of the whole array is odd
-            # shrink the leftside partition
-            # shrink the rightside partition
+            # shrink the left side partition
+            # shrink the right side partition
             pass
 ```
 
