@@ -2,7 +2,7 @@
 
 | Problem | Solution |
 | ------------ |  ------------ | 
-| [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | [**Solution**]() | 
+| [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | [**Brute force,DP,Stack,TwoPointers**](hard/Trapping_Rain_Water) | 
 | [Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/) | [**TopDown,BottomUp**](hard/Maximum_Profit_in_Job_Scheduling) | 
 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [**Solution**]() | 
 | [Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/) | [**Solution**]() | 
