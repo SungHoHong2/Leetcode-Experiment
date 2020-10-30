@@ -1,4 +1,4 @@
-### Problem Title
+### Product of ARray Except Self 
 **Left and Right product lists**
 - [Concepts](images/LeftRight.png)
 - [Source code](source/LeftRight.py)
