@@ -3,22 +3,22 @@ class Solution:
         # set a hashset
         hashset = set()
         # set the return variable
-        ans = i = j = 0
+        ans = start = end = 0
         # loop until start or end exceeds the limit
-        while i < len(s) and j < len(s):
+        while start < len(s) and end < len(s):
             # if end pointer is unique
-            if s[j] not in hashset:
+            if s[end] not in hashset:
                 # record the end character in the hashset
-                hashset.add(s[j])
+                hashset.add(s[end])
                 # increase the end pointer
-                j += 1
+                end += 1
                 # record the maximum return value
-                ans = max(ans, j - i)
+                ans = max(ans, end - start)
             # if the right pointer is a duplicate
             else:
                 # remove the the start character from the hashset
-                hashset.remove(s[i])
+                hashset.remove(s[start])
                 # increase the start pointer
-                i += 1
+                start += 1
         # return the answer
         return ans
