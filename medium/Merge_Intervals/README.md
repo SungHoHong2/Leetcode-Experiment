@@ -17,7 +17,8 @@ class Solution:
 **MergeSorting the TreeNode**
 - I want to do it without sorting, because:
 - How do you add intervals and merge them for a large stream of intervals?
-
+- Why do we use middle for comparison and not start or end boundaries?
+    - The reason is that we can use merge-sort technique to query the merged intervals result when the left subtree does not overlap with the right subtree.    
 - [Source code](source/TreeMergeSort.py)
 ```python
 # declare a treenode 
