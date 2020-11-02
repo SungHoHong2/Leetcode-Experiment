@@ -1,27 +1,4 @@
 ### Merge Intervals
-**Connected Components**
-- [Source code](source/)
-
-```python
-class Solution:
-    def merge(self, intervals: List[List[int]]) -> List[List[int]]:
-        # sort the intervals
-        # set a flag for merge
-        # loop until there is no intervals to merge
-            # set the merge flag to false
-            # compare all the intervals with double for-loops
-                # if there is a merge break
-                # inner for-loop  
-                    # get the interval from i
-                    # get the interval from j
-                    # check if the two intervals overlap
-                        # merge interval to i
-                        # remove the interval of j
-                        # set the merge flag to true
-                        # break
-        # return the result
-```
-
 **Sorting**
 - [Source code](source/Sorting.py)
 ```python
@@ -38,6 +15,9 @@ class Solution:
 ```
 
 **MergeSorting the TreeNode**
+- I want to do it without sorting, because:
+- How do you add intervals and merge them for a large stream of intervals?
+
 - [Source code](source/TreeMergeSort.py)
 ```python
 # declare a treenode 
