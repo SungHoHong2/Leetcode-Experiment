@@ -8,7 +8,7 @@
 | `1` [Number of Islands](https://leetcode.com/problems/number-of-islands/) | [**DFS,BFS,Disjoint Set**](medium/Number_of_Islands) |
 | `1` [3Sum](https://leetcode.com/problems/3sum/) | [**Two Pointers,Hashset,No Sorting**](medium/3Sum) |
 | `1` [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [**Left and Right, O(1) space**](medium/Product_of_Array_Except_Self) |
-| `1` [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [**Brute Force, Sliding Window**](medium/Longest_Substring_Without_Repeating_Characters) |
+| `1` [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [**Brute Sliding Window, Optimized**](medium/Longest_Substring_Without_Repeating_Characters) |
 | `1` [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [**Connected Components, Sorting, MergeSorting the TreeNode**](medium/Merge_Intervals) |
 | `1` [Minimum Domino Rotations For Equal Row](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/) | [**Greedy,Hashmap,TopBottom**](medium/Minimum_Domino_Rotations_For_Equal_Row) |
 | `1` [Game of Life](https://leetcode.com/problems/game-of-life/) | [**O(mn),O(1),Infinite Space**](medium/Game_of_Life) |

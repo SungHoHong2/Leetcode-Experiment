@@ -21,7 +21,7 @@ class Solution:
     - The reason is that we can use merge-sort technique to query the merged intervals result when the left subtree does not overlap with the right subtree.    
 - [Source code](source/TreeMergeSort.py)
 ```python
-# declare a treenode 
+# declare a TreeNode 
 class TreeNode:
     def __init__(self, start, end, middle):
         # set starting point 
