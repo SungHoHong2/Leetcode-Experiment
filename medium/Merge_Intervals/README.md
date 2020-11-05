@@ -8,7 +8,7 @@ class Solution:
         # set the return list
         # iterate through the intervals 
             # if it is the first interval or the previous interval does not overlap with the current interval
-                # append to merge 
+                # append to the return list 
             # if it s not the first interval and the previous interval overlaps with the current interval
                 # merge the current interval with the previous interval
         # return the result
