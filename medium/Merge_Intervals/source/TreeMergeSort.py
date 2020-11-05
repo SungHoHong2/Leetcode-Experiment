@@ -1,12 +1,12 @@
 # declare a treenode
 class TreeNode:
-    def __init__(self, start, end, middle):
+    def __init__(self, start, end):
         # set starting point
         self.start = start
         # set ending point
         self.end = end
         # get the middle point
-        self.middle = middle
+        self.middle = (start + end) // 2
         # set the pointers for the child nodes
         self.left = self.right = None
 class Solution:
@@ -21,39 +21,39 @@ class Solution:
             # if there is no root
             if not self.root:
                 # create a root node for the TreeNode
-                self.root = TreeNode(start, end, (start + end) // 2)
+                self.root = TreeNode(start, end)
             # if there is a root
             else:
                 # append the node to the TreeNode
-                self.add(self.root, start, end)
+                self.add(self.root, TreeNode(start, end))
         # return the result of the TreeNode
         return self.query(self.root)
-    def add(self, node, start, end):
+    def add(self, node, new):
         # if the new end is smaller than current middle
-        if end < node.middle:
+        if new.end < node.middle:
             # if there is left child
             if node.left:
                 # append the node to the left child
-                self.add(node.left, start, end)
+                self.add(node.left, new)
             # if there is not left child
             else:
                 # create new left child
-                node.left = TreeNode(start, end, (start + end) // 2)
+                node.left = new
         # if the start pointer is bigger than the middle
-        elif start > node.middle:
+        elif new.start > node.middle:
             # if there is a right child
             if node.right:
-                self.add(node.right, start, end)
+                self.add(node.right, new)
             # if there is no right child
             else:
                 # create a new right child
-                node.right = TreeNode(start, end, (start + end) // 2)
+                node.right = new
         # the new start or end overlaps the current middle
         else:
             # update the start time
-            node.start = min(node.start, start)
+            node.start = min(node.start, new.start)
             # update the end time
-            node.end = max(node.end, end)
+            node.end = max(node.end, new.end)
     def query(self, node):
         # the node is empty
         if not node:
