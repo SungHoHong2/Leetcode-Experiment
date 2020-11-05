@@ -23,7 +23,7 @@ class Solution:
 ```python
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
-        # set a hashset
+        # set a hashmap
         # set the return variable
         # loop until the end exceeds the limit
             # if the end character is a duplicate
