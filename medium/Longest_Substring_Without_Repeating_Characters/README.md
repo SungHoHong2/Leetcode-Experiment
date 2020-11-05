@@ -1,22 +1,4 @@
 ### Longest Substring Without Repeating Characters
-**Brute Force**
-- [Source code](source/Brute.py)
-```python
-class Solution:
-    def allUnique(self, s, start, end):
-        # setup a hashset
-        # iterate from start
-            # if duplicate is found
-                # return false
-            # record the characters in the hashmap
-        # return true if there is no duplicate found
-    def lengthOfLongestSubstring(self, s: str) -> int:
-        # set the return value 
-        # iterate the entire string twice
-                # check for duplicated characters
-                    # if the characters are unique update the answer
-        # return the answer
-```
 
 **Sliding Window**
 - [Source code](source/SlidingWindow.py)
