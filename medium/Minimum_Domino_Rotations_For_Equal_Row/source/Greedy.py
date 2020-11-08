@@ -22,11 +22,9 @@ class Solution:
     def minDominoRotations(self, A: List[int], B: List[int]) -> int:
         # invoke the check function and get the minimum number of rotations
         rotation = self.check(A, B, A[0])
-
-        # if the rotation value is valid or A and B have the same value
-        if rotation != -1 or A[0] == B[0]:
+        # return the result if the rotation value is valid
+        if rotation != -1 :
             return rotation
         # if the rotation does not provide any value
         else:
             return self.check(A, B, B[0])
-
