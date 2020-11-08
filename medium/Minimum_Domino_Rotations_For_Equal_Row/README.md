@@ -3,7 +3,7 @@
 - [Source code](source/Greedy.py)
 ```python
 class Solution:
-    def check(self, x, n):
+    def check(self, A, B, target):
         # set up the variable for rotations made by A and. B
         # iterate the dominos
             # if both A and B are different from the target
