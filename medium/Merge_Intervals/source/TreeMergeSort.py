@@ -59,40 +59,39 @@ class Solution:
         if not node:
             # return the empty result
             return []
-        # merge-sort divide and conquer
+        # get the array from the left and the right child
         left_intervals = self.query(node.left)
         right_intervals = self.query(node.right)
         # set the return variable
         res = []
-        # set the inserted flag
+        # set the flag to check whether the current node is merged with the intervals from the left
         inserted = False
         # iterate the left intervals
         for lres in left_intervals:
-            # if the left intervals overlap with the current node
-            if lres[1] >= node.start:
-                # create a new overlap node
-                res.append([min(lres[0], node.start), node.end])
-                # set the inserted flag as true
-                inserted = True
-                # break from the iteration
-                break
             # if the left intervals do not overlap with the current node
-            else:
-                # append the interval to the result
+            if lres[1] < node.start:
+                # append the interval to the return array
                 res.append(lres)
-        # if the inserted flag is false
+            # if the left intervals overlap with the current node
+            else:
+                # merge the interval with the current node and append to the return array
+                res.append([min(lres[0], node.start), node.end])
+                # break from the iteration and skip adding the current node
+                inserted = True
+                break
+        # if there was no merge of the current node
         if not inserted:
-            # append the head interval
+            # append the interval to the return array
             res.append([node.start, node.end])
         # iterate the right intervals
         for rres in right_intervals:
-            # if the right interval overlaps with the current interval
-            if rres[0] <= node.end:
-                # update the interval from the result array
-                res[-1][1] = max(node.end, rres[1])
             # if the right interval does not overlap with the current interval
-            else:
-                # append the interval to the result
+            if node.end < rres[0]:
+                # append the interval to the return array
                 res.append(rres)
+            # if the right interval overlaps with the current interval
+            else:
+                # merge the interval with the rightmost interval in the return array
+                res[-1][1] = max(node.end, rres[1])
         # return the result array
         return res
