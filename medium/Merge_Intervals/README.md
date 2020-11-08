@@ -41,6 +41,7 @@ class Solution:
             # if there is a root
                 # append the node to the TreeNode 
         # return the result of the TreeNode
+        pass 
     def add(self, node, new):
         # if the new end is smaller than current middle 
             # if there is left child 
