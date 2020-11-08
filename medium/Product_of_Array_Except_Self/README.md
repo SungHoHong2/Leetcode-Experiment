@@ -27,8 +27,3 @@ class Solution:
         # return the answer
 ```
 
-
-**Solution3**
-- [Concepts](images/)
-- [Source code](source/)
-- [Reference #1]()    

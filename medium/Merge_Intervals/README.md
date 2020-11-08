@@ -12,6 +12,7 @@ class Solution:
             # if it s not the first interval and the previous interval overlaps with the current interval
                 # merge the current interval with the previous interval
         # return the result
+        pass
 ```
 
 **MergeSorting the TreeNode**
@@ -28,6 +29,7 @@ class TreeNode:
         # set ending point 
         # get the middle point 
         # set the pointers for the child nodes
+        pass 
 class Solution:
     def merge(self, intervals: List[List[int]]) -> List[List[int]]:
         # set root node
@@ -39,7 +41,7 @@ class Solution:
             # if there is a root
                 # append the node to the TreeNode 
         # return the result of the TreeNode
-    def add(self, node, start, end):
+    def add(self, node, new):
         # if the new end is smaller than current middle 
             # if there is left child 
                 # append the node to the left child 
@@ -52,6 +54,7 @@ class Solution:
         # the new start or end overlaps the current middle
             # update the start time 
             # update the end time
+        pass 
     def query(self, node):
         # the node is empty 
             # return the empty result 
@@ -73,6 +76,7 @@ class Solution:
             # if the right interval does not overlap with the current interval
                 # append the interval to the result 
         # return the result array 
+        pass 
 ```
 
 
