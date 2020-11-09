@@ -13,11 +13,11 @@ class Solution:
         # set up a return hashset
         rtn = set()
         # iterate the counter hashmap
-        for c in counter:
-            # if the exisitng neighbors are alive and have 3 or 2 live neighbors
-            if counter[c] == 3 or counter[c] == 2 and c in live:
+        for key, value in counter.items():
+            # if the current cell is alive with 2 live neighbors or have 3 live neighbors
+            if value == 3 or (value == 2 and key in live):
                 # add the index to the return hashset
-                rtn.add(c)
+                rtn.add(key)
         # return the hashhset
         return rtn
 

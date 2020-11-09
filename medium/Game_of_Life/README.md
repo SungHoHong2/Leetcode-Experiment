@@ -26,6 +26,7 @@ class Solution:
                     # the current cell dies
                 # if the current cell is dead and the total number of neighbors are 3
                     # the current cell lives
+        pass
 ```
 
 **O(1) Space Solution**
@@ -49,6 +50,7 @@ class Solution:
                 # if the current cell is dead and the total number of neighbors are 3
                     # the current cell lives
         # modfiy the -1 and 2 to get the correct return value
+        pass
 ```
 
 **Infinite Board**
@@ -64,9 +66,10 @@ class Solution:
                 # increase the number of existing neighbors
         # set up a return hashset
         # iterate the counter hashmap
-            # if the exisitng neighbors are alive and have 3 or 2 live neighbors
+            # if the current cell is alive with 2 live neighbors or have 3 live neighbors
                 # add the index to the return hashset
         # return the hashhset
+        pass
 
     def gameOfLife(self, board: List[List[int]]) -> None:
         """
@@ -81,4 +84,5 @@ class Solution:
         # return the alive cells after running the iteration function
         # iterate the board
                 # update the live cells
+        pass
 ```
