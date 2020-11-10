@@ -1,21 +1,30 @@
 ### Merge k Sorted Lists
 **Brute Force**
-- [Concepts](images/)
-- [Source code](source/)
-- [Reference #1]()
+- [Source code](source/Brute.py)
+```python
+class Solution:
+    def mergeKLists(self, lists: List[ListNode]) -> ListNode:
+        # set the array for storing all the lists
+        # set the fake header and the current pointer
+        # iterate all the lists
+            # append the items to the total array
+        # sort the array and create the returning linked-list
+        # return the result
+```
 
 **Compare one by one**
-- [Concepts](images/)
-- [Source code](source/)
-- [Reference #1]()
+- [Source code](source/Compare.py)
+```python
+class Solution:
+    def mergeKLists(self, lists: List[ListNode]) -> ListNode:
+        # set the fake header and the current pointer
+        # set current pointers for all the lists
+        # compare all the lists one item at a time and add the smallest item for the result
+        # return the result
+```
 
 **Optimize Approach 2 by Priority Queue**
-- [Concepts](images/)
-- [Source code](source/)
-- [Reference #1]()
+- [Source code](source/Priority.py)
 
 **Merge with Divide And Conquer**
-- [Concepts](images/)
-- [Source code](source/)
-- [Reference #1]()
-
+- [Source code](source/Merge.py)
