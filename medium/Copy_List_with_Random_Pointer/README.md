@@ -22,6 +22,10 @@ class Solution:
 ```
 
 **Iteration with O(N) Space**
+- Intuition
+    1. Declare a cache that stores the pointers of the node
+    2. Explore the linked-list while storing the nodes in cache and creating the new linked-list
+
 - [Source code](source/Iteration.py)
 ```python
 class Solution(object):
