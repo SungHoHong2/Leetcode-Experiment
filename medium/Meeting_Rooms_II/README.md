@@ -1,5 +1,9 @@
 ### Meeting Rooms II
 **Priority Queues**
+- Concepts
+    1. Sort the meetings according to start time 
+    2. Use the priority queue to store the non overlapping meetings
+    3. Use the priority queue to return the earliest finish time of the valid meetings
 - [Source code](source/Priority.py)
 ```python
 import heapq
@@ -15,9 +19,14 @@ class Solution:
                 # empty the finished meeting and add the current meeting
             # add the finish time of the current meeting to the heap
         # return the size of the heap
+        pass
 ```
 
 **Chronological Ordering**
+- Concepts 
+    1. Create two arrays sorted by start and finish time 
+    1. Give rooms for all the meeting rooms that are sorted by start time  
+    1. Reduce the meeting rooms by checking the rooms of the finish time
 - [Source code](source/Chronological.py)
 ````python
 class Solution:
@@ -34,4 +43,5 @@ class Solution:
                 # increment the pointer for the finish time
             # increase the number of used room
         # return the number of used rooms
+        pass
 ````
