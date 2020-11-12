@@ -1,6 +1,7 @@
 ### Copy List with Random Pointer
 **Recursive**
 - Intuition
+    1. Declare a global cache that stores the pointers of the node
     1. Explore from root to leaf and add all the nodes in cache 
     2. Return from leaf to root and use the cache to set the random pointers 
 - [Source code](source/Recursive.py)
