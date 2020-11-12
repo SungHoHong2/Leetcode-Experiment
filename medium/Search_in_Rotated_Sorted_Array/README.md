@@ -1,5 +1,8 @@
 ### Search in Rotated Sorted Array
 **Binary search**
+- Concepts
+    1. Run the binary search for finding the rotation index
+    2. Decide whether the target index belongs at the left half or right half 
 - [Source code](source/Binary.py)
 ```python
 class Solution:
@@ -54,6 +57,14 @@ class Solution:
 ```
 
 **One-pass Binary Search**
+- Concepts
+    1. Add additional condition checks in the normal binary search
+    2. When checking the pivot of binary search 
+        - Pivot element is larger than the first element in the array
+            - Subarray from the first element to the pivot is non-rotated
+        - Pivot element is smaller than the first element of the array
+            - Subarray from the pivot element to the last one is non-rotated
+       
 - [Source code](source/ReferredBinary.py)
 ```python
 class Solution:
