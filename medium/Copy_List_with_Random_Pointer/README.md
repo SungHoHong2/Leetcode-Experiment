@@ -54,6 +54,11 @@ class Solution(object):
 ```
 
 **Iteration with O(1) Space**
+- Intuition
+    - Avoid using `hashtable` to store the pointers 
+    1. Store the new items next to the old items in the linked list 
+    2. Find the nodes for random pointers by looking into the old items (items.next)
+    3. Remove the old items in the linked list    
 - [Source code](source/Iteration2.py)
 ```python
 class Solution:
