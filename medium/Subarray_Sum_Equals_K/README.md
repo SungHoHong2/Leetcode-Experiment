@@ -1,4 +1,11 @@
-### Subarray Sum Equals K
+### Subarray Sum Equals K 
+
+**Using Cumulative Sum**
+- Unfinished work 
+
+**Without Space**
+- Unfinished work 
+
 **Hashmap**
 - [Concepts](images/Hashmap.png)
     1. Assuming the equation `sum[i]−sum[j]=k` 
