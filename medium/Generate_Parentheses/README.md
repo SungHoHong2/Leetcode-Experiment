@@ -17,6 +17,7 @@ class Solution(object):
             # append closing
             # go to the left child of the recursive tree
             # go back to the parent of the recursive tree
+        pass
     def valid(self, A):
         # initiate a flag for checking the balance
         # iterate the list
@@ -24,10 +25,12 @@ class Solution(object):
             # if the list contains closing decrement the balance
             # if the number closing is more than the opening
         # return true if the number of opening and closing are equal
+        pass
     def generateParenthesis(self, n):
         # set up the return array
         # invoke the generate function
         # return the list of answers
+        pass
 ```
 
 **Backtracking**
@@ -35,6 +38,8 @@ class Solution(object):
     - Extension of the Brute Force 
     - Potential solutions can be discarded before they have been finished
 - [Source code](source/BackTracking.py)
+- [Source code2](source/BackTracking.py)
+
 ```python
 class Solution(object):
     def backtrack(self, ans, left, right, ansSize, rtnArray):
@@ -45,10 +50,12 @@ class Solution(object):
             # create an answer with additional opening
         # if the number of closing is smaller than opening
             # create an answer with additional closing
+        pass
     def generateParenthesis(self, N):
         # set the return list
         # run the backtrack function
         # return the list of answers
+        pass
 ```
 
 **Closure Number**
@@ -64,4 +71,5 @@ class Solution(object):
                 # get the list of answers when the number of opening is N - c - 1
                     # generate the answer and add to the returning list
         # return the list of answers
+        pass
 ```
