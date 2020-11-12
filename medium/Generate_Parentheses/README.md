@@ -61,6 +61,7 @@ class Solution(object):
 **Closure Number**
 - [Concepts](images/Closure.png)
 - [Source code](source/Closure.py)
+- [Source code (Applied Memoization)](source/Closure_DP.py)
 ```python
 class Solution(object):
     def generateParenthesis(self, N):
