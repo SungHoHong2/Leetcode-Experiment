@@ -38,7 +38,7 @@ class Solution(object):
     - Extension of the Brute Force 
     - Potential solutions can be discarded before they have been finished
 - [Source code](source/BackTracking.py)
-- [Source code2](source/BackTracking.py)
+- [Source code2](source/BackTracking2.py)
 
 ```python
 class Solution(object):
