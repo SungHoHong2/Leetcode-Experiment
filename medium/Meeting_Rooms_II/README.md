@@ -1,7 +1,7 @@
 ### Meeting Rooms II
 **Priority Queues**
 - Concepts
-    1. Sort the meetings according to Finish time 
+    1. Sort the meetings according to start time 
     2. Use the priority queue to store the non overlapping meetings
     3. Use the priority queue to return the earliest finish time of the valid meetings
 - [Source code](source/Priority.py)
