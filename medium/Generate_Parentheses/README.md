@@ -39,6 +39,7 @@ class Solution(object):
 - [Concepts](images/Backtrack.png)
     - Extension of the Brute Force 
     - Potential solutions can be discarded before they have been finished
+- [Backtrack v3](source/BackTracking3.py)
 - [Backtrack v2](source/BackTracking2.py)
 - [Backtrack v1](source/BackTracking.py)
 
@@ -64,6 +65,7 @@ class Solution(object):
 - [Concepts](images/Closure.png)
 - [Source code (Applied Memoization)](source/Closure_DP.py)
 - [Source code](source/Closure.py)
+
 ```python
 class Solution(object):
     def generateParenthesis(self, N):
