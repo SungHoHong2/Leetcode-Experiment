@@ -15,7 +15,7 @@
 | `1` [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | [**Recursive,Iterative with O(N),O(1)**](medium/Copy_List_with_Random_Pointer) |
 | `1` [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [**BruteForce,Backtracking,Closure**](medium/Generate_Parentheses) |
 | `1` [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/) | [**Priority Queues,Chronological Ordering**](medium/Meeting_Rooms_II) |
-| `0` [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | [**Hashmap**](medium/Subarray_Sum_Equals_K) |
+| `1` [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | [**Hashmap**](medium/Subarray_Sum_Equals_K) |
 | `0` [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [**Binary search,One-pass Binary Search**](medium/Search_in_Rotated_Sorted_Array) |
 | [Decode String](https://leetcode.com/problems/decode-string/) | [**Stack,Recursion**](medium/Decode_String) |
 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [**Sort,Count**](medium/Group_Anagrams) |
