@@ -2,7 +2,8 @@
 **Binary search**
 - Concepts
     1. Run the binary search for finding the rotation index
-    2. If rotated, decide whether the target index belongs at the left half or right half 
+    1. If not rotated, search the whole array using binary search
+    2. If rotated, search left or right half of the array that contains the target
 - [Source code](source/Binary.py)
 ```python
 class Solution:
