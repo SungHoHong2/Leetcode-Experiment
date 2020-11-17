@@ -64,11 +64,11 @@ class Solution(object):
 **Closure Number**
 - [Concepts](images/Closure.png)
 ```
-# f(0) = ""
-# f(1) = (f(0))
-# f(2) = (f(0))f(1) (f(1))
-# f(3) = (f(0))f(2) (f(1))f(1) (f(2))
-# f(n) = (f(0))f(n-1) (f(1))f(n-2) ... (f(n-1))  
+ f(0) = ""
+ f(1) = (f(0))
+ f(2) = (f(0))f(1) (f(1))
+ f(3) = (f(0))f(2) (f(1))f(1) (f(2))
+ f(n) = (f(0))f(n-1) (f(1))f(n-2) ... (f(n-1))  
 ```
 - [Source code (Applied Memoization)](source/Closure_DP.py)
 - [Source code](source/Closure.py)
