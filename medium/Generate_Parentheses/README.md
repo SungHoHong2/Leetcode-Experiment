@@ -1,8 +1,8 @@
 ### Generate Parentheses
 **Brute Force**
 - [Concepts](images/Brute.png)
-    - computes every possible solution to a problem 
-    - selects one that fulfills the requirements
+    - Computes every possible solution to a problem 
+    - Selects one that fulfills the requirements
 - [Recursion v2](source/Recursion2.py)
 - [Recursion v1](source/Recursion.py)
 
