@@ -1,21 +1,19 @@
 class Solution(object):
     def spiralOrder(self, matrix):
-
         # set the list for return
-        ans = []
+        ans = list()
         # if the matrix is empty
         if not matrix:
             # return empty array
             return ans
         # set the length of the row and the column
         R, C = len(matrix), len(matrix[0])
-        # set the pointer for iteration and the maximum number of interation
-        iteration, max_iteration = 0, min(R, C)
+        # set the maximum number of interation
+        iterations = min(R, C)
         # set the start point of the row and column
         r = c = 0
-        # iterate the total number of matrix
-        # two iterations cover one layer of the matrix
-        while iteration < max_iteration:
+        # explore the each layer of matrix using 2 iterations
+        for iteration in range(iterations):
             # even number of iteration
             if iteration % 2 == 0:
                 # collect the top side of the layer
@@ -36,7 +34,5 @@ class Solution(object):
                     ans.append(matrix[i][c])
                 # shrink the layer
                 c, R = c + 1, R - 1
-            # increase iteration
-            iteration += 1
         # return the list
         return ans

@@ -6,6 +6,7 @@ class Solution(object):
     def kClosest(self, points, K):
         # sort the array based on the euclidean distance to the original point 
         # return the kth amount of the list
+        pass
 ```
 
 **Divide and Conquer**
@@ -25,6 +26,7 @@ class Solution(object):
                 # sort recursively from the left array
             # if the number of kth element is bigger than the partitioned index
                 # sort recursively from the right array
+            pass
 
         def partition(i, j):
             # save the pivot index
@@ -37,6 +39,7 @@ class Solution(object):
                 # place the smaller value to the leftside and bigger value to the rigtside of the pivot
             # move the pivot value to the middle index
             # return middle index
+            pass
 
         # invoke sort function
         # return the kth amount of sorted result
