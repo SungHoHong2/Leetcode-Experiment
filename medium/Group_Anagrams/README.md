@@ -20,7 +20,7 @@ class Solution(object):
 ```
 
 **Categorize by Count**
-- [Source code](source/)
+- [Source code](source/Count.py)
 ```python
 class Solution:
     def groupAnagrams(strs):
