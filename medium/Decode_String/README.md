@@ -1,5 +1,7 @@
 ### Decode String
 **Using Stack**
+- Concepts
+    - Use the stack to store the repeated numbers and characters 
 - [Source code](source/stack.py)
 ```python
 class Solution:

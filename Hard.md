@@ -8,7 +8,7 @@
 | [Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/) | [**Tarjan**](hard/Critical_Connections_in_a_Network) | 
 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [**Compare one by one, Priority Queue, Divide And Conquer**]() | 
 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | [**Sliding Window, Optimized**](hard/Minimum_Window_Substring) | 
-| [Integer to English Words](https://leetcode.com/problems/integer-to-english-words/) | [**Solution**]() | 
+| [Integer to English Words](https://leetcode.com/problems/integer-to-english-words/) | [**Divide and Conquer**](hard/Integer_to_English_Words) | 
 | [Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/) | [**Solution**]() | 
 | [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | [**Solution**]() | 
 
