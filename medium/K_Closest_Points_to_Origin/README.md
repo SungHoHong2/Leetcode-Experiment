@@ -12,10 +12,12 @@ class Solution(object):
         pass
 ```
 
-**Divide and Conquer**
+**Quick Sort**
 - [Concepts](images/divide.png)
     - Apply the same tactic while implementing the quick-sort from scratch
-- [Source code](source/Recursive.py)
+    - Sort until Kth number of items are sorted to the left
+- [Quick Sort v2](source/Quicksort2.py)
+- [Quick Sort v1](source/Quicksort1.py)
 ```python
 class Solution(object):
     def kClosest(self, points, K):
