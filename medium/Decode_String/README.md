@@ -30,7 +30,7 @@ class Solution:
 
 **Using Recursion**
 - Concepts 
-    - The recursion uses an internal stack to store the previous state.
+    - Use the recursion to make use of the internal stack
 - [Source code](source/recursive.py)
 
 ```python
