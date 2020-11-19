@@ -13,21 +13,23 @@ class Solution:
             # if char is the repeat number
                 # if the repeat is two digits (ex 32[a])
             # if it is a opening bracket
-                # first add the currently accumulated string
-                # add the number of repeats
+                # save the state of the previous string
+                # save the state for the number of repeats for the current string 
                 # set the current string pointer to zero
                 # set the repeat pointer to zero
             # if it is a closing bracket
                 # pop out the number from the stack
-                # pop out the current string from the stack
+                # pop out the previous string from the stack
                 # append the string with the new repeated data
             # if char is a data
                 # append the char
         # return the accumulated result
+        pass
 ```
 
 **Using Recursion**
-- The recursion uses an internal call stack to store the previous state.
+- Concepts 
+    - The recursion uses an internal stack to store the previous state.
 - [Source code](source/recursive.py)
 
 ```python
@@ -46,4 +48,5 @@ class Solution:
                 # ignore the closing bracket
                 # add the repeated number of strings from the recursive function
         # return the result
+        pass
 ```

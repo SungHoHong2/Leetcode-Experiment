@@ -15,4 +15,5 @@ class Solution:
             # if the right side is shorter
                 # move from the right
         # return the maximum area
+        pass
 ```
