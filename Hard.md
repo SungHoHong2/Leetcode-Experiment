@@ -10,6 +10,12 @@
 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | [**Sliding Window, Optimized**](hard/Minimum_Window_Substring) | 
 | [Integer to English Words](https://leetcode.com/problems/integer-to-english-words/) | [**Divide and Conquer**](hard/Integer_to_English_Words) | 
 | [Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/) | [**Backtracking, Optimized**]() | 
-| [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | [**Solution**]() | 
+| [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | [**DFS,BFS**]() | 
+| [Alien Dictionary](https://leetcode.com/problems/alien-dictionary/) | [**Solution**]() | 
+| [Text Justification](https://leetcode.com/problems/text-justification/) | [**Solution**]() | 
+| [Cherry Pickup](https://leetcode.com/problems/cherry-pickup/) | [**Solution**]() | 
+| [Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/) | [**Solution**]() | 
+| [First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | [**Solution**]() | 
+| [Burst Balloons](https://leetcode.com/problems/burst-balloons/) | [**Solution**]() | 
 
 | [Problem]() | [**Solution**]() | 
