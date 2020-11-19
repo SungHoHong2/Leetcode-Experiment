@@ -1,6 +1,9 @@
 ### Spiral Matrix
 
 **Simulation**
+- Concepts
+    - Create an additional matrix to keep track of visited cells 
+    - Explore the matrix by following the spiral direction 
 - [Source code](source/Simulation.py)
 ```python
 class Solution(object):
@@ -23,11 +26,11 @@ class Solution(object):
                 # change the direction
                 # update the current cell
         # return the answer
+        pass
 ```
 
 **Layer-by-Layer**
 - [Source code](source/Layer.py)
-
 ```python
 class Solution(object):
     def spiralOrder(self, matrix):
@@ -49,4 +52,5 @@ class Solution(object):
                 # shrink the layer
             # increase iteration
         # return the list
+        pass
 ```
