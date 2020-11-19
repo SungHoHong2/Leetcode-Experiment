@@ -2,7 +2,8 @@
 **Using Stack**
 - Concepts
     - Use the stack to store the repeated numbers and characters 
-- [Source code](source/stack.py)
+- [Stack v2](source/stack2.py)
+- [Stack v1](source/stack.py)
 ```python
 class Solution:
     def decodeString(self, s: str) -> str:
