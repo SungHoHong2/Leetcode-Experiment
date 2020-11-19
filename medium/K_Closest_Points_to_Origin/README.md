@@ -1,5 +1,8 @@
 ### K Closest Points to Origin
 **Sort**
+- Concepts
+    - Sort the the points according to the distance
+    - Return `K`th closest points
 - [Source code](source/Sort.py)
 ```python
 class Solution(object):
@@ -11,6 +14,7 @@ class Solution(object):
 
 **Divide and Conquer**
 - [Concepts](images/divide.png)
+    - Apply the same tactic while implementing the quick-sort from scratch
 - [Source code](source/Recursive.py)
 ```python
 class Solution(object):

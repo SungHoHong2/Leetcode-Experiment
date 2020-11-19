@@ -30,6 +30,9 @@ class Solution(object):
 ```
 
 **Layer-by-Layer**
+- Concept
+    - Refrain from using the visited table 
+    - Follow the concept of peeling the outer-layers while exploring the matrix
 - [Source code](source/Layer.py)
 ```python
 class Solution(object):
