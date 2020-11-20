@@ -10,7 +10,6 @@
 #         self.right = None
 
 class Codec:
-
     def serialize(self, root):
         def rserialize(root, string):
             # append the string with "None," when the node is blank
@@ -34,7 +33,6 @@ class Codec:
             # create the right child
             # return the node
             pass
-
         # create the array by dividing the string with ','
         # invoke recursion
         # return the tree
