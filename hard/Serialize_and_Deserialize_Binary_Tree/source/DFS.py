@@ -8,41 +8,46 @@
 class Codec:
 
     def serialize(self, root):
-        """ Encodes a tree to a single string.
-        :type root: TreeNode
-        :rtype: str
-        """
-
         def rserialize(root, string):
-            """ a recursive helper function for the serialize() function."""
+            # append the string with "None," when the node is blank
             if root is None:
                 string += 'None,'
+            # if the node has value
             else:
+                # append the value to the return string
                 string += str(root.val) + ','
+                # append the value from the left child
                 string = rserialize(root.left, string)
+                # append the value from the right child
                 string = rserialize(root.right, string)
+            # return the string
             return string
 
+        # start dfs
         return rserialize(root, '')
 
     def deserialize(self, data):
-        """Decodes your encoded data to tree.
-        :type data: str
-        :rtype: TreeNode
-        """
-
         def rdeserialize(l):
-            """ a recursive helper function for deserialization."""
+            # if the current item is None
             if l[0] == 'None':
+                # pop the current item
                 l.pop(0)
+                # return None
                 return None
-
+            # create the node with the current item
             root = TreeNode(l[0])
+            # pop the current item
             l.pop(0)
+            # create the left child
             root.left = rdeserialize(l)
+            # create the right child
             root.right = rdeserialize(l)
+            # return the node
             return root
 
+        # create the array by dividing the string with ','
         data_list = data.split(',')
+        # invoke recursion
         root = rdeserialize(data_list)
+        # return the tree
         return root
