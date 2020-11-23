@@ -1,18 +1,18 @@
-### Letter Combinations of a Phone Number
-**Backtracking**
-- Concepts 
-    - Use a global hashmap that stores the list of characters for each numbers
-    - Use recursion to print out all the possible combinations
-- [Source code](source/Backtrack.py)
-```python
 class Solution:
     def backtrack(self, combination, next_digits):
+        # set a list as the result
+        ans = list()
         # if recursive tree has reached its leaf
-            # append the finished combination to the return list
+        if len(next_digits) == 0:
+            # append the possible answer as the result
+            ans.append(combination)
         # if there are still digits to check
-            # iterate the letters which are mapped to the number
-                # provide the combination and the next digit to the next recursive tree
-        pass 
+        else:
+            # append the results to the return array from the next recursions
+            for letter in self.phone[next_digits[0]]:
+                ans.extend(self.backtrack(combination + letter, next_digits[1:]))
+        # return the result
+        return ans
 
     def letterCombinations(self, digits):
         # set the map for all the characters mapped to the number
@@ -24,10 +24,8 @@ class Solution:
                       '7': ['p', 'q', 'r', 's'],
                       '8': ['t', 'u', 'v'],
                       '9': ['w', 'x', 'y', 'z']}
-        # set the return list
         # if there is no input
-            # return the empty list
-            # invoke the recursive function
-        # return the list 
-        pass 
-```
+        if not digits:
+            return list()
+        # return the list from recursion
+        return self.backtrack("", digits)
