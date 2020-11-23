@@ -8,8 +8,6 @@ class Solution:
             element = path.split()
             # place the directory
             directory = element[0]
-            # set up a list to store the directory+filename
-            filenames = []
             # iterate the filenames
             for tmp in element[1:]:
                 temp = tmp.split("(")[1]
@@ -17,9 +15,7 @@ class Solution:
                 filename = tmp.split("(")[0]
                 # get the content
                 content = temp.split(")")[0]
-                # append the directory+filename to the list
-                filenames.append(directory+filename)
                 # store the content as the key and value as the list
                 tracker[content].append(directory+'/'+filename)
-        # return files that contain duplicates
+        # return files that contain duplicates or return an empty array if no duplicates exists
         return [value for key,value in tracker.items() if len(value) > 1]

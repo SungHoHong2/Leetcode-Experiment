@@ -8,12 +8,10 @@ class Solution:
         # iterate the paths from the input
             # split the paths into (directory, filenames)
             # place the directory
-            # set up a list to store the directory+filename
             # iterate the filenames
                 # get the filename
                 # get the content
-                # append the directory+filename to the list
                 # store the content as the key and value as the list
-        # return files that contain duplicates
+        # return files that contain duplicates or return an empty array if no duplicates exists
         pass
 ```
