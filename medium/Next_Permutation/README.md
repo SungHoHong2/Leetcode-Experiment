@@ -7,10 +7,10 @@
     - Find `pivot` which is the `descending number` from the right
         - `9876[0]43210`
     - Swap the `pivot` with the number that is larger from the right
-        - `9876[0]43210`
-    -     
+        - `9876[0]432[1]0` -> `9876[1]432[0]0` -> `9876143200`
+    - Reverse the numbers of the rightside of the pivot
+        - `98761[43200]` -> `98761[00234]` -> `9876100234`
 - [Source code](source/Single.py)
-
 ```python
 class Solution:
     def nextPermutation(self, nums: List[int]) -> None:
