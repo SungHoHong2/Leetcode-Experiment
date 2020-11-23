@@ -11,7 +11,7 @@ class Solution:
         if i >= 0:
             # find the smallest item that is from the right side of the pivot
             j = len(nums) - 1
-            while j >= 0 and nums[j] <= nums[i]:
+            while j >= i and nums[j] <= nums[i]:
                 j -= 1
             # swap the next larger number number with the pivot
             self.swap(nums, i, j)
