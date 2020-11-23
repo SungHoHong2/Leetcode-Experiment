@@ -21,9 +21,7 @@ class RandomizedSet:
     def remove(self, val: int) -> bool:
         # if the item is in the hashmap
         if val in self.rdict:
-            # get the latest item from the list
-            # 1 2 3 4  5
-            # a b c d [e]
+            # get the latest item appended in the list
             last_element = self.rlist[-1]
             # get the index of the removing item
             idx = self.rdict[val]
@@ -32,7 +30,7 @@ class RandomizedSet:
             self.rdict[last_element] = idx
             # delete the lastest index in the array
             self.rlist.pop()
-            # delete the removing item in teh map
+            # delete the removing item in the map
             del self.rdict[val]
             # return true
             return True
@@ -42,4 +40,3 @@ class RandomizedSet:
     def getRandom(self) -> int:
         # use the built-in random.choice function to return the item from the list
         return random.choice(self.rlist)
-
