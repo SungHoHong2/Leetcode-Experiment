@@ -3,9 +3,9 @@
 **Single Pass Approach**
 - [Concepts](images/Single.png)
     - Suppose that numbers with the ascending order from the right is the biggest number 
-        - `54321`, `9876543210`
+        - `9876543210`
     - Find `pivot` which is the `descending number` from the right
-        - `9876[0]43210`
+        - `9876043210` -> `9876[0]43210`
     - Swap the `pivot` with the number that is larger from the right
         - `9876[0]432[1]0` -> `9876[1]432[0]0` -> `9876143200`
     - Reverse the numbers of the rightside of the pivot
