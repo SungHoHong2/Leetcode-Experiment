@@ -22,7 +22,7 @@ class RandomizedSet:
             # get the latest item appended in the list
             # get the index of the removing item
             # override the removing item with the latest item in the list and update latest item in the map 
-            # delete the lastest index in the array
+            # delete the latest index in the array
             # delete the removing item in the map
             # return true
         # return false
