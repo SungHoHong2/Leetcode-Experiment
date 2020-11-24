@@ -11,7 +11,7 @@
 | [Integer to English Words](https://leetcode.com/problems/integer-to-english-words/) | [**Divide and Conquer**](hard/Integer_to_English_Words) | 
 | [Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/) | [**Backtracking, Optimized**](hard/Remove_Invalid_Parentheses) | 
 | [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | [**DFS,BFS**](hard/Serialize_and_Deserialize_Binary_Tree) | 
-| [Alien Dictionary](https://leetcode.com/problems/alien-dictionary/) | [**Solution**]() | 
+| [Alien Dictionary](https://leetcode.com/problems/alien-dictionary/) | [**BFS,DFS**]() | 
 | [Text Justification](https://leetcode.com/problems/text-justification/) | [**Solution**]() | 
 | [Cherry Pickup](https://leetcode.com/problems/cherry-pickup/) | [**Solution**]() | 
 | [Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/) | [**Solution**]() | 
