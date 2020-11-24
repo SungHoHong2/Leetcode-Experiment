@@ -33,12 +33,6 @@ class Solution:
 
 **Iterative Approach**
 - [Concepts](images/iteration.png)
-    - `dp[i]` is the number of ways of decoding substring `s[:i]`
-    - `dp[i] = dp[i-1] + dp[i-2]`
-        - Accumulate the possible results of both two digits and one digit
-    - `dp[i] = dp[i-1] + 0`
-        - Accumulate the possible result of one digit 
-    
 - [Source code](source/iteration.py)
 ```python
 class Solution(object):
