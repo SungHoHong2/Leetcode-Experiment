@@ -12,7 +12,7 @@
 | [Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/) | [**Backtracking, Optimized**](hard/Remove_Invalid_Parentheses) | 
 | [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | [**DFS,BFS**](hard/Serialize_and_Deserialize_Binary_Tree) | 
 | [Alien Dictionary](https://leetcode.com/problems/alien-dictionary/) | [**BFS,DFS**]() | 
-| [Text Justification](https://leetcode.com/problems/text-justification/) | [**Solution**]() | 
+| [Text Justification](https://leetcode.com/problems/text-justification/) | [**RR**]() | 
 | [Cherry Pickup](https://leetcode.com/problems/cherry-pickup/) | [**Solution**]() | 
 | [Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/) | [**Solution**]() | 
 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | [**Solution**]() | 
