@@ -6,21 +6,20 @@
 class Solution:
     def wordBreak(self, s: str, wordDict: List[str]) -> bool:
         # create a list of to record the results of the substring
+        # set the inputs as global
         # invoke the recursion
         pass
 
-    def bruteBreak(self, s, wordDict, start, memo):
-        # if the recursion reaches the leaf
-            # return as True
-        # if a record is found
-            # return the result from the record
+    def bruteBreak(self, start, memo):
+        # return true if the recursion reaches the leaf
+        # return the record if a record is found
         # iterate from start to the end
             # if the substring matches with the wordDict and recursion no mismatches afterwards
                 # record the result as true
                 # return True
         # if nothing found cache the memo with False
         # return False
-        pass 
+        pass
 ```
 
 
