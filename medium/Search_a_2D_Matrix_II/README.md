@@ -68,6 +68,15 @@ class Solution:
 ``` 
 
 **Search Space Reduction**
+- Concept
+    - Since the rows are sorted from left-to-right
+        - every value to the right of the current value is larger 
+        - If the current value is already larger than target,
+            - Every value to its right will also be too large.        
+    - Start from the `bottom-left` 
+    - If the current value is larger than target, move one row `up`
+    - If the current value is smaller than target, move one column `right` 
+
 - [Source code](source/Reduction.py)
 ```python
 class Solution:
