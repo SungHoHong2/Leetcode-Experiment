@@ -1,7 +1,8 @@
 ### Reconstruct Itinerary
 **Backtracking + Greedy**
-- `Backtracking` is used to enumerate all possible solutions for a problem, in a trial-fail-and-fallback strategy.
-- `Greedy algorithm` is used at each step we would pick the destination `greedily` in lexical order
+- Concept 
+    - `Backtracking` is used to enumerate all possible solutions for a problem, in a trial-fail-and-fallback strategy.
+    - `Greedy algorithm` is used at each step we would pick the destination `greedily` in lexical order
 - [Source code](source/backtrack.py)
 
 ```python
@@ -30,12 +31,12 @@ class Solution(object):
         pass
 ```
 
-**Hierholzer's Algorithm**
-- In graph theory, an `Eulerian trail` is a trail in a finite graph that visits every edge exactly once (allowing for revisiting vertices).
-- `Hierholzer's algorithm` is the stepwise construction of the Eulerian cycle by connecting disjunctive circles.
-    - It starts with a random node and then follows an arbitrary unvisited edge to a neighbor. 
-    - This step is repeated until one returns to the starting node. This yields a first circle in the graph.
-    - If this circle covers all nodes it is an Eulerian cycle and the algorithm is finished. Otherwise, one chooses another node among the cycles' nodes with unvisited edges and constructs another circle, called subtour.
+**Post Order DFS**
+- Concept
+    - Suppose each input is guaranteed to have a solution
+    - Collect the destination of the flight backwards 
+        - Reverse the lexical order 
+        - Collect the destination at the final destination
 - [Source code](source/hierholzer.py)
 
 ```python
