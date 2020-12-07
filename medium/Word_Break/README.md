@@ -52,15 +52,13 @@ class Solution(object):
 ```python
 class Solution(object):
     def wordBreak(self, s, wordDict):
-        # set up a list to record the substrings
+        # set up the dp table
         # iterate the string
             # interate the substring backwards
-                # get teh sbustring
-                # check the validity of the previous substring
                 # if the current word is valid and the previous substrings are valid
                     # return true
                     # no need to check the rest of the substrings
         # return the final result of the record
-        pass 
+        pass
 ```
  
