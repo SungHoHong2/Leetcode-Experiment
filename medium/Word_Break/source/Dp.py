@@ -1,20 +1,16 @@
 class Solution(object):
     def wordBreak(self, s, wordDict):
-        # set up a list to record the substrings
-        table = [False]*(len(s))
+        # set up the dp table
+        table = [False for i in s]
         # iterate the string
         for j in range(len(s)):
             # interate the substring backwards
             for i in range(j, -1, -1):
-                # get teh sbustring
-                word_so_far = s[i:j+1]
-                # check the validity of the previous substring
-                left_is_breakable = table[i-1] if i > 0 else True
                 # if the current word is valid and the previous substrings are valid
-                if word_so_far in wordDict and left_is_breakable:
+                if s[i:j+1] in wordDict and (table[i-1] if i > 0 else True):
                     # return true
                     table[j] = True
                     # no need to check the rest of the substrings
                     break
         # return the final result of the record
-        return table[-1]
+        return table[len(s)-1]
