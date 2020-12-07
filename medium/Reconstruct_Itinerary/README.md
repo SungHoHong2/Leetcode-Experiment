@@ -7,34 +7,28 @@
 ```python
 class Solution(object):
     def findItinerary(self, tickets):
-        # set a map that uses a value as a list
+        # set a map that stores the desintations of the flight tickets
         # iterate the tickets
             # store the key as the origin and the append the possible destinations
         # set a map that tracks the visited flights
-        # iterate the map that stores all possible destinations
+        # sort the desintations in a lexical order and set the visited flights
             # sort the destinations according to the lexical order
             # append the visited map with the list of unvisited flights
         # get the total number of ticket
-        # set up the return list
         # initialize the starting route with JFK
-        # start the recursion
-        # return the result
-        pass 
+        # return the possible route from backtracking
+        pass
 
     def backtracking(self, origin, route):
-        # if the recursion found the full travel path
-            # store the route to the result
-            # return true
+        # return the route if the recursion found the full path
         # iterate the destinations from the current flight
             # if the destination is not a visited flight
                 # mark the destination flight as visited
                 # invoke the recursion with the next destination
-                # if the recursion found a full path
-                    # return true
-        # if the full path is not found return false
+                # return the route if the recursion found a full path
+        # return the empty list if the full path is not found 
         pass
 ```
-
 
 **Hierholzer's Algorithm**
 - In graph theory, an `Eulerian trail` is a trail in a finite graph that visits every edge exactly once (allowing for revisiting vertices).
