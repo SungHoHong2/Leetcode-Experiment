@@ -37,26 +37,24 @@ class Solution(object):
     - Collect the destination of the flight backwards 
         - Reverse the lexical order 
         - Collect the destination at the final destination
-- [Source code](source/hierholzer.py)
+- [Source code](source/dfs.py)
 
 ```python
-class Solution(object):
-    def findItinerary(self, tickets):
+class Solution:
+    def findItinerary(self, tickets: List[List[str]]) -> List[str]:
         # set up the map that uses the origin as the key and the list of destinations as the value
         # iterate the tickets
             # store the key as the origin and the destination as the value to the map
         # sort the destination according to the lexical descending order
             # Note that we could have multiple identical flights, i.e. same origin and destination.
-        # set up the return array
         # start the depth-first search from JFK
-        # reconstruct the route backwards
-        pass 
+        pass
 
-    def DFS(self, origin):
+    def dfs(self, origin):
+        # set the returning array 
         # get the destination list
-        # loop until the destination list is depleted
-            # pop the descending order of destination
-            # invoke the dfs recursion
+        # explore the destinations of the origin
         # append the origin to the array
-        pass 
+        # return the array
+        pass
 ```
