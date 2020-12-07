@@ -29,22 +29,23 @@ class Solution:
 ```
 
 **Divide and Conquer**
-- For a sorted two-dimensional array
-- Base Case
-    - If the array contains no items then target cannot be matched 
-    - If the target is smaller than the array's smallest item `(found in the top-left corner)` then the target does not exist
-    - If the target is larger than the array's largest item `(found in the bottom-right corner)`, then the target does not exist 
-- Recursive Case
-    - If the base case conditions have not been met, 
-        - The target could potentially be present. 
-    - Seek along the matrix's middle column for an index row `matrix[row-1][mid] < target < matrix[row][mid]`
-    - The existing matrix can be partitioned into four submatrices around this index
-        - The `top-left and bottom-right submatrices` cannot contain target
-            - Following the idea from the `base case`
-                - Increasing the row implies that the target is bigger than the `top left`
-                - Halting at some row implies that the target is smaller than the `bottom right`
-        - Search the area of `bottom-left and top-right submatrices`  
 - [Concepts](images/Divide.png)
+    - Suppose there is a sorted two-dimensional array
+    - Base Case
+        - If the array contains no items then target cannot be matched 
+        - If the target is smaller than the array's smallest item `(found in the top-left corner)` then the target does not exist
+        - If the target is larger than the array's largest item `(found in the bottom-right corner)`, then the target does not exist 
+    - Recursive Case
+        - If the base case conditions have not been met, 
+            - The target could potentially be present. 
+        - Seek along the matrix's middle column for an index row `matrix[row-1][mid] < target < matrix[row][mid]`
+        - The existing matrix can be partitioned into four submatrices around this index
+            - The `top-left and bottom-right submatrices` cannot contain target
+                - Following the idea from the `base case`
+                    - Increasing the row implies that the target is bigger than the `top left`
+                    - Halting at some row implies that the target is smaller than the `bottom right`
+            - Search the area of `bottom-left and top-right submatrices`  
+
 - [Source code](source/Divide.py)
 ```python
 class Solution:
