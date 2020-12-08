@@ -1,5 +1,9 @@
 ### Coin Change
 **Top down**
+- Concept
+    - Provide an optimal substructure property
+    - Suppose `F(S)` is a minimum number of coins needed to make change for amount `S`
+    - ![Image of Yaktocat](images/dp.png)
 - [Source code](source/Topdown.py)
 ```python
 class Solution:
