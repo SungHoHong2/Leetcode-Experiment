@@ -1,4 +1,4 @@
-### Problem Title
+### Palindrome Pairs
 **Hashmap**
 - [Concepts](images/)
     ![hashmap](images/Hashmap.png)
