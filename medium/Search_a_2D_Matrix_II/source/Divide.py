@@ -1,22 +1,21 @@
 class Solution:
     def search_rec(self,left, up, right, down):
-        # return false if the submatrix is empty
+        # return false if the target does not exist
         if left > right or up > down:
             return False
-        # return false if the `target` is not in top-left and bottom-right submatrice
+        # return false if the `target` is within the in top-left and bottom-right submatrices
         elif self.target < self.matrix[up][left] or self.target > self.matrix[down][right]:
             return False
-        # get the pivot
+        # get the horizontal pivot
         mid = left + (right-left) // 2
-        # locate `row` such that matrix[row-1][mid] < target < matrix[row][mid]
+        # get the veritcal pivot
         row = up
         while row <= down and self.matrix[row][mid] <= self.target:
             # return true if the target is found while locating the middle
             if self.matrix[row][mid] == self.target:
-                print((left, up, right, down), mid, row)
                 return True
             row += 1
-        # invoke recursions for the bottom-left and the top-right submatrice
+        # explore the target in the bottom-left and the top-right submatrices
         return self.search_rec(left, row, mid-1, down) or self.search_rec(mid+1, up, right, row-1)
 
     def searchMatrix(self, matrix, target):
@@ -29,4 +28,4 @@ class Solution:
             # return false
             return False
         # invoke recursion
-        return self.search_rec(0, 0, len(matrix[0])-1, len(matrix)-1,)
+        return self.search_rec(0, 0, len(matrix[0])-1, len(matrix)-1)

@@ -50,21 +50,20 @@ class Solution:
 ```python
 class Solution:
     def search_rec(self,left, up, right, down):
-        # return false if the submatrix is empty
-        # return false if the `target` is not in top-left and bottom-right submatrice
-        # get the pivot
-        # locate `row` such that matrix[row-1][mid] < target < matrix[row][mid]
+        # return false if the target does not exist 
+        # return false if the `target` is within the in top-left and bottom-right submatrices
+        # get the horizontal pivot
+        # get the veritcal pivot
             # return true if the target is found while locating the middle
-        # invoke recursions for the bottom-left and the top-right submatrice
-        pass 
+        # explore the target in the bottom-left and the top-right submatrices
+        pass
 
     def searchMatrix(self, matrix, target):
         # set the target variable to global
         # set the matrix variable to global
-        # if the input is empty
-            # return false
+        # return false if the input is empty
         # invoke recursion
-        pass 
+        pass
 ``` 
 
 **Search Space Reduction**
