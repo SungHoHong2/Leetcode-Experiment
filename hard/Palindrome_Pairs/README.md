@@ -2,9 +2,7 @@
 **Hashmap**
 - [Concepts](images/)
     ![hashmap](images/Hashmap.png)
-
-- [Source code](source/)
-- [Reference #1]()
+- [Source code](source/Hashmap.py)
 
 **Solution2**
 - [Concepts](images/)
