@@ -1,6 +1,6 @@
 ### Palindrome Pairs
 **Hashmap**
-- [Concepts](images/)
+- Concepts
     - Case1: A palindrome pair is formed by 2 words that are the reverse of each other.
     - Case2: The first word is shorter than the second word. 
         - The second word starts with a palindrome, and ends with the reverse of the first word.
