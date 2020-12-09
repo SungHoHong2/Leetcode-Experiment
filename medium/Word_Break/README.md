@@ -1,5 +1,5 @@
 ### Word Break
-**Recursion with memoization**
+**Top Down**
 - [Concepts](images/memoization.png)
 - [Source code](source/Memoization.py)
 ```python
@@ -22,8 +22,23 @@ class Solution:
         pass
 ```
 
+**Bottom Up**
+- [Concepts](images/dp.png)
+- [Source code](source/Dp.py)
+```python
+class Solution(object):
+    def wordBreak(self, s, wordDict):
+        # set up the dp table
+        # iterate the string
+            # interate the substring backwards
+                # if the current word is valid and the previous substrings are valid
+                    # return true
+                    # no need to check the rest of the substrings
+        # return the final result of the record
+        pass
+```
 
-**Using Breadth-First-Search**
+**BFS**
 - [Concepts](images/bfs.png)
 - [Source code](source/BFS.py)
 ```python
@@ -46,19 +61,4 @@ class Solution(object):
         pass 
 ```
 
-**Using Dynamic Programming**
-- [Concepts](images/dp.png)
-- [Source code](source/Dp.py)
-```python
-class Solution(object):
-    def wordBreak(self, s, wordDict):
-        # set up the dp table
-        # iterate the string
-            # interate the substring backwards
-                # if the current word is valid and the previous substrings are valid
-                    # return true
-                    # no need to check the rest of the substrings
-        # return the final result of the record
-        pass
-```
  
