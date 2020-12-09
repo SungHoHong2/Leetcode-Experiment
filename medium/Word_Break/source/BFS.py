@@ -1,7 +1,5 @@
 class Solution(object):
     def wordBreak(self, s, wordDict):
-        # convert the wordDict to set
-        wordSet = set(wordDict)
         # set up a queue to search all the substrings
         queue = list()
         # set the record of visited for the substrings
@@ -17,7 +15,7 @@ class Solution(object):
                 # iterate the substring
                 for end in range(start+1,len(s)+1):
                     # if the substring is part of the wordset
-                    if s[start:end] in wordSet:
+                    if s[start:end] in wordDict:
                         # append the the end index to the queue
                         queue.append(end)
                         # if end index reached the final index of the string

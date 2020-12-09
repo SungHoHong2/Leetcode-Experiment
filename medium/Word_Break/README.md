@@ -44,7 +44,6 @@ class Solution(object):
 ```python
 class Solution(object):
     def wordBreak(self, s, wordDict):
-        # convert the wordDict to set
         # set up a queue to search all the substrings
         # set the record of visited for the substrings
         # append the queue with the starting point zero
