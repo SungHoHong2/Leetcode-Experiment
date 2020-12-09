@@ -16,6 +16,11 @@
 | [Cherry Pickup](https://leetcode.com/problems/cherry-pickup/) | [**Top Down,Bottom Up**](hard/Cherry_Pickup) | 
 | [Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/) | [**Hashmap,Trie**](hard/Palindrome_Pairs) | 
 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | [**Hashmap O(n)**](hard/First_Missing_Positive) | 
-| [Burst Balloons](https://leetcode.com/problems/burst-balloons/) | [**Solution**]() | 
+| [Burst Balloons](https://leetcode.com/problems/burst-balloons/) | [**TopDown,BottomUp**](hard/Burst_Balloons) | 
+| [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | [**Solution**]() | 
+| [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) | [**Solution**]() | 
+| [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) | [**Solution**]() | 
+| [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/) | [**Solution**]() | 
+| [The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/) | [**Solution**]() | 
 
 | [Problem]() | [**Solution**]() | 
