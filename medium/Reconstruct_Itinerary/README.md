@@ -8,26 +8,27 @@
 ```python
 class Solution(object):
     def findItinerary(self, tickets):
-        # set a map that stores the desintations of the flight tickets
+        # set a map that stores flight as the key and the destinations as the value
         # iterate the tickets
             # store the key as the origin and the append the possible destinations
         # set a map that tracks the visited flights
         # sort the destinations in a lexical order and set the visited flights
             # sort the destinations according to the lexical order
             # append the visited map with the list of unvisited flights
-        # set the total number of airports == tickets + 1 
+        # set the total number of airports that needs to be included in the route == tickets + 1 
         # initialize the starting route with JFK
-        # return the possible route from backtracking
+        # return the complete route from backtracking
         pass
 
     def backtracking(self, origin, route):
-        # return the route if the recursion found the full path
+        # return the route if the all the airports are included in the route
         # iterate the destinations from the current flight
             # if the destination is not a visited flight
-                # mark the destination flight as visited
+                # update the destination flight as visited
                 # invoke the recursion with the next destination
-                # return the route if the recursion found a full path
-        # return the empty list if the full path is not found 
+                # reset the destination flight
+                # return the route if all the airports are included in the route
+        # return the empty list if no complete route is found 
         pass
 ```
 
@@ -47,15 +48,13 @@ class Solution:
         # iterate the tickets
             # store the key as the origin and the destination as the value to the map
         # sort the destination according to the lexical descending order
-            # Note that we could have multiple identical flights, i.e. same origin and destination.
         # start the depth-first search from JFK
         pass
 
     def dfs(self, origin):
         # set the returning array 
-        # get the destination list
         # explore the destinations of the origin
-        # append the origin to the array
+        # append the origin to the array after finishing the search
         # return the array
         pass
 ```
