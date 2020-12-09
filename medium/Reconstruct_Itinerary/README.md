@@ -35,9 +35,8 @@ class Solution(object):
 - Concept
     - Suppose each input is guaranteed to have a solution
     - Collect the destination of the flight backwards 
-        - Reverse the lexical order 
-        - Collect the destination at the final destination
-    - Follow `Post Order` because the `dfs` may find the incomplete destination  before finding complete destination
+        - Reverse the lexical order since the answer is collected in `post order` 
+    - Follow `post Order` because the `dfs` may find the incomplete destination  before finding complete destination
         - `Post order` allows the dfs to collect the order that connects the flight in a complete destination  
 - [Source code](source/dfs.py)
 
