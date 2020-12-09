@@ -14,7 +14,7 @@
 | [Alien Dictionary](https://leetcode.com/problems/alien-dictionary/) | [**BFS,DFS**](hard/Alien_Dictionary) | 
 | [Text Justification](https://leetcode.com/problems/text-justification/) | [**RR**](hard/Text_Justification) | 
 | [Cherry Pickup](https://leetcode.com/problems/cherry-pickup/) | [**Top Down,Bottom Up**](hard/Cherry_Pickup) | 
-| [Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/) | [**Solution**](hard/Palindrome_Pairs) | 
+| [Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/) | [**Hashmap,Trie**](hard/Palindrome_Pairs) | 
 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | [**Solution**]() | 
 | [Burst Balloons](https://leetcode.com/problems/burst-balloons/) | [**Solution**]() | 
 
