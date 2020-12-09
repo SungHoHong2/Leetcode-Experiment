@@ -12,10 +12,10 @@ class Solution(object):
         # iterate the tickets
             # store the key as the origin and the append the possible destinations
         # set a map that tracks the visited flights
-        # sort the desintations in a lexical order and set the visited flights
+        # sort the destinations in a lexical order and set the visited flights
             # sort the destinations according to the lexical order
             # append the visited map with the list of unvisited flights
-        # get the total number of ticket
+        # set the total number of airports == tickets + 1 
         # initialize the starting route with JFK
         # return the possible route from backtracking
         pass
