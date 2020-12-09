@@ -37,6 +37,8 @@ class Solution(object):
     - Collect the destination of the flight backwards 
         - Reverse the lexical order 
         - Collect the destination at the final destination
+    - Use `Post Order` because the dfs may find the incomplete destination first before finding complete desintation
+        - Post order allows the dfs to collect the order that connects the flight in a complete destination  
 - [Source code](source/dfs.py)
 
 ```python
