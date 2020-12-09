@@ -5,7 +5,7 @@
 ```python
 class Solution:
     def wordBreak(self, s: str, wordDict: List[str]) -> bool:
-        # create a list to record the results of the substring
+        # create a list that will be used for memoization
         # set the inputs as global
         # invoke the recursion
         pass
