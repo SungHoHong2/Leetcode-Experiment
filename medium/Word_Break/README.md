@@ -10,7 +10,7 @@ class Solution:
         # invoke the recursion
         pass
 
-    def bruteBreak(self, start, memo):
+    def dp(self, start, memo):
         # return true if the recursion reaches the leaf
         # return the record if a record is found
         # iterate from start to the end

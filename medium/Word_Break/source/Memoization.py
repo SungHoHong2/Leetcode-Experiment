@@ -5,9 +5,9 @@ class Solution:
         # set the inputs as global
         self.s, self.wordDict = s, wordDict
         # invoke the recursion
-        return self.bruteBreak(0, memo)
+        return self.dp(0, memo)
 
-    def bruteBreak(self, start, memo):
+    def dp(self, start, memo):
         # return true if the recursion reaches the leaf
         if start == len(self.s):
             return True
@@ -17,7 +17,7 @@ class Solution:
         # iterate from start to the end
         for end in range(start+1, len(self.s) + 1):
             # if the substring matches with the wordDict and recursion no mismatches afterwards
-            if self.s[start:end] in self.wordDict and self.bruteBreak(end, memo):
+            if self.s[start:end] in self.wordDict and self.dp(end, memo):
                 # record the result as true
                 memo[start] = True
                 # return True
