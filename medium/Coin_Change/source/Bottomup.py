@@ -5,12 +5,12 @@ class Solution:
         # if total amount is zero there is zero coins
         dp[0] = 0
         # iterate the amount by one
-        for i in range(1, amount + 1):
+        for amt in range(1, amount + 1):
             # iterate through the coins
-            for j in range(0, len(coins)):
+            for coin in coins:
                 # if the coins can fit with the amount
-                if coins[j] <= i:
+                if coin <= amt:
                     # update the answer by adding or without the coins
-                    dp[i] = min(dp[i], dp[i - coins[j]] + 1)
+                    dp[amt] = min(dp[amt], dp[amt - coin] + 1)
         # return the minimum number of coins or -1 if invalid
-        return dp[amount] if dp[amount] <= amount else -1
+        return dp[amount] if dp[amount] != float('inf') else -1
