@@ -2,8 +2,8 @@ class Solution:
     def binary_search(self, matrix, target, start, vertical):
         # set the lowest index
         lo = start
-        # set the highest index
-        hi = len(matrix) - 1 if vertical else len(matrix[0]) - 1
+        # set the highest index for vertical or horizontal
+        hi = len(matrix)-1 if vertical else len(matrix[0])-1
         # loop until the lowest index meets the highest
         while hi >= lo:
             # get the middle
