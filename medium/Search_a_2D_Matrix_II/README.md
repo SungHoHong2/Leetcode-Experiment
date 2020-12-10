@@ -1,5 +1,7 @@
 ### Search a 2D Matrix II
 **Binary Search**
+- Concept
+    - Diagonally traverse the matrix while searching both vertically and horizontally
 - [Source code](source/Binary.py)
 ```python
 class Solution:
