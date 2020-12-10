@@ -19,7 +19,7 @@ class Solution:
         # mark the word as searched to prevent infinite loop
         # traverse the neighboring elements
             # return true if the snake is found from the recursion
-        # rest the table back to original state to allow other recursions to search
+        # reset the table back to original state to allow other recursions to search
         # return false when no snake is found
         pass
 ```
