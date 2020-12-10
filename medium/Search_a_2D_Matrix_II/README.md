@@ -5,7 +5,7 @@
 class Solution:
     def binary_search(self, matrix, target, start, vertical):
         # set the lowest index
-        # set the highest index
+        # set the highest index for vertical or horizontal
         # loop until the lowest index meets the highest
             # get the middle
             # if it is a horizontal search
