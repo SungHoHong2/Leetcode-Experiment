@@ -32,8 +32,8 @@ class Solution(object):
         # iterate the string
             # interate the substring backwards
                 # if the current word is valid and the previous substrings are valid
-                    # return true
-                    # no need to check the rest of the substrings
+                    # set the dp table to true
+                    # ignore the rest of the substrings
         # return the final result of the record
         pass
 ```
