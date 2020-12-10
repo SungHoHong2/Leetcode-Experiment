@@ -8,10 +8,10 @@ class Solution:
         # set the highest index for vertical or horizontal
         # loop until the lowest index meets the highest
             # get the middle
-            # if it is a horizontal search
-                # binary search the columns
             # if it is a vertical search
                 # binary search the rows
+            # if it is a horizontal search
+                # binary search the columns
         # return false if no target was found
         pass 
 
