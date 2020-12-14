@@ -12,8 +12,6 @@
 ```python
 class Solution:
     def beforeAndAfterPuzzles(self, phrases: List[str]) -> List[str]:
-class Solution:
-    def beforeAndAfterPuzzles(self, phrases: List[str]) -> List[str]:
         # create the map that stores the first string of the phrases as the key and the rest as a set
         # create the map that stores the last string of the phrases as the key and the rest as a set
         # create the return set
