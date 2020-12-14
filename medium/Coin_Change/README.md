@@ -6,22 +6,21 @@
 - [Source code](source/Topdown.py)
 ```python
 class Solution:
+class Solution:
     def coinChange(self, coins: List[int], amount: int) -> int:
         # create the cache to record the results
         # base case: when the amount is zero then amount of required coins is zero
         # invoke the recursion
         pass
-
+       
     def topdown(self, coins, remain):
-        # return false if there is no matching accumulation of coins
-        # return zero if all the coins matched the amount
+        # return false if there is no matching accumulation of coins  
         # return the recorded result if the answer is already explored
         # set the min variable to get the minimum collection of coins to match the amount
         # iterate the coins
             # get the number of possible coins from the recursion
             # Update the min value if the result is valid (note that need to + 1 for the final result)
-        # record -1 if the min is invalid
-        # record the min if the min is valid
+        # update the minimal number of coins that fits into the certain amount
         # return the number of coins that are required to match the amount
         pass
 ```

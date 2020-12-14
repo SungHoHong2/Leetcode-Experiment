@@ -32,11 +32,11 @@
 | `1` [Word Search](https://leetcode.com/problems/word-search/) | [**Backtrack**](medium/Word_Search) |
 | `1` [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/) | [**Binary Search,Divide and Conquer,Search Space Reduction**](medium/Search_a_2D_Matrix_II) |
 | `1` [Coin Change](https://leetcode.com/problems/coin-change/) | [**TopDown,BottomUp**](medium/Coin_Change) |
-| [Coin Change2](https://leetcode.com/problems/coin-change-2/) | [**DP**](medium/Coin_Change_2) |
-| [Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/) | [**Hashmap + Binary Search**](medium/Time_Based_Key_Value_Store) |
-| [Before and After Puzzle](https://leetcode.com/problems/before-and-after-puzzle/) | [**Using Sets**](medium/Before_and_after_Puzzle) |
-| [Permutations](https://leetcode.com/problems/permutations/) | [**Backtracking**](medium/Permutation) |
-| [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/) | [**BellmanFord**](medium/Cheapest_Flights_Within_K_Stops) |
+| `0` [Coin Change2](https://leetcode.com/problems/coin-change-2/) | [**DP**](medium/Coin_Change_2) |
+| `0` [Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/) | [**Hashmap + Binary Search**](medium/Time_Based_Key_Value_Store) |
+| `0` [Before and After Puzzle](https://leetcode.com/problems/before-and-after-puzzle/) | [**Using Sets**](medium/Before_and_after_Puzzle) |
+| `0` [Permutations](https://leetcode.com/problems/permutations/) | [**Backtracking**](medium/Permutation) |
+| `0` [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/) | [**BellmanFord**](medium/Cheapest_Flights_Within_K_Stops) |
 | [UTF-8 Validation](https://leetcode.com/problems/utf-8-validation/) | [**String,Bit Manipulation**](medium/UTF-8_Validation) |
 | [Word Ladder](https://leetcode.com/problems/word-ladder/) | [**BFS,Bi-directional BFS**](medium/Word_Ladder) |
 | [Minimum Cost Tree From Leaf Values](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/) | [**Remove the element from the smallest, Optimized**](medium/Minimum_Cost_Tree_From_Leaf_Values) |

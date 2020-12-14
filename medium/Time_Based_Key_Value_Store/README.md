@@ -1,6 +1,8 @@
 ### Time Based Key-Value Store
 **HashMap + Binary Search**
-- [Source code](source/HashBinary.py)
+- [Source code v2](source/HashBinary.py)
+- [Source code v1](source/HashBinary2.py)
+
 ```python
 class TimeMap:
     def __init__(self):
