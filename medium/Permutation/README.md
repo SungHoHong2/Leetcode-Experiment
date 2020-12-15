@@ -1,6 +1,7 @@
 ### Permutations
 **Backtracking**
 - [Concepts](images/backtracking.png)
+    - Generate all possible cases in the leaves of the recursion tree
 - [Source code](source/backtracking.py)
 ```python
 class Solution:
