@@ -1,7 +1,7 @@
 ### Coin Change 2
 **Bottom Up**
 - Concept
-    - introduce a dp table
+    - Knapsack problem
         - the row represents the amount from 0 to amount 
         - the column represents the coins that are used to fill the amount 
 - [Source code](source/BottomUp.py)
