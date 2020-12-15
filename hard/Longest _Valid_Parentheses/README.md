@@ -1,7 +1,7 @@
 ### Longest Valid Parentheses
 **Using Dynamic Programming**
-- [Concepts](images/)
-
+- Concepts
+    - Apply dynamic programming
     ![concept](images/DP.png)
 - [Source code](source/)
 - [Reference #1]()
