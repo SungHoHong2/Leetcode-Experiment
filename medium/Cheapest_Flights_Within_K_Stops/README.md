@@ -1,7 +1,7 @@
 ### Cheapest Flights Within K Stops
 **Dijkstra's Algorithm**
 - Concepts 
-- [Source code]()
+- [Source code](source/dijkstra.py)
 ```python
 import heapq
 class Solution(object):
@@ -23,7 +23,7 @@ class Solution(object):
 **Depth-First-Search with Memoization**
 - Concepts 
     - `recursion(neighbor, stops + 1) + weight(node, neighbor)`
-- [Source code]()
+- [Source code](source/memoization.py)
 ```python
 class Solution:
     def findShortest(self, node, stops, dst, n):
