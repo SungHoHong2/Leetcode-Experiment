@@ -2,7 +2,7 @@
 **Using Dynamic Programming**
 - Concepts
     - Apply dynamic programming
-    ![concept](images/DP.png)
+    - ![concept](images/DP.png)
 - [Source code](source/)
 - [Reference #1]()
 
