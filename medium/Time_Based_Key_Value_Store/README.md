@@ -1,5 +1,8 @@
 ### Time Based Key-Value Store
 **HashMap + Binary Search**
+- Concept 
+    - Apply a map that stores the timestamp and the values 
+    - Use binary search to search the value according to the timestamp  
 - [Source code v2](source/HashBinary.py)
 - [Source code v1](source/HashBinary2.py)
 
