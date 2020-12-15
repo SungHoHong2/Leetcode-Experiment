@@ -17,7 +17,7 @@ class Solution:
 - [Concepts](images/)
 - [Source code](source/TopDown.py)
 ```python
-class Solution(object):
+class Solution(object):__
     def dp(self, i, j):
         # if state is not in the cache
             # if current pattern is the last pattern
