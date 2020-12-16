@@ -23,7 +23,7 @@ class Solution:
                 # return false if the following byte is not a following byte
                 if not (bin_rep[0] == '1' and bin_rep[1] == '0'):
                     return False
-            # decrement the total number of bytes of the group
+            # decrement the total number of following bytes
             n_bytes -= 1
         # return true if all the bytes follow the rules
         return n_bytes == 0
