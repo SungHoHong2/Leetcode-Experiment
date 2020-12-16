@@ -8,9 +8,8 @@
 import heapq
 class Solution(object):
     def findCheapestPrice(self, n, flights, src, dst, K):
-        # create a map that treats list as a value 
+        # create map using source as the key and the destination and the weight as the value      
         # create a priority queue
-        # store map using source as the key and the destination and the weight as the value      
         # append information of the starting point (price, stops, city) to the heap 
         # loop until the heap depletes 
             # get the information of the current city from the heap
@@ -53,7 +52,7 @@ class Solution:
 ```python
 class Solution:
     def findCheapestPrice(self, n: int, flights: List[List[int]], src: int, dst: int, K: int) -> int:
-        # create the whole array for storing distances and swapping
+        # create the bellman table with rows as number of stops and cols as destinations 
         # set the distances of the origin node to zero
         # K + 1 iterations of Bellman Ford
             # update all the flights from the previous result
