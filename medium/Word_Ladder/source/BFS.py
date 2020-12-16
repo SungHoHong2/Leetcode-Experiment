@@ -4,38 +4,38 @@ class Solution(object):
         if endWord not in wordList:
             return 0
         # set the total length of the words
-        L = len(beginWord)
+        wordLength = len(beginWord)
         # set the map to hold combination of words that can be formed
-        all_combo_dict = collections.defaultdict(list)
+        wordMap = collections.defaultdict(list)
         # iterate the words from the input
         for word in wordList:
             # check all possible combinations by iterating the total length of the word
-            for i in range(L):
+            for i in range(wordLength):
                 # store the intermediate words as the key and append the word as the value
-                # (example) key:*ot value:['hot', 'dot', 'lot']
-                all_combo_dict[word[:i] + "*" + word[i+1:]].append(word)
+                wordMap[word[:i]+'*'+word[i+1:]].append(word)
         # create and append the beginWord and the number of changes in the queue
-        queue = collections.deque([(beginWord, 1)])
+        queue = collections.deque([(beginWord,1)])
         # set a map to track the visited word
-        visited = {beginWord: True}
-        # loop the queue until it is depleted
+        visited = dict()
+        # start the BFS until it reaches the endWord
+        visited[beginWord] = True
         while queue:
             # pop from the queue
-            current_word, level = queue.popleft()
+            word, level = queue.popleft()
             # check all possible combinations by iterating the total length of the word
-            for i in range(L):
+            for i in range(wordLength):
                 # get the intermediate words for current word
-                intermediate_word = current_word[:i] + "*" + current_word[i+1:]
+                intermediate = word[:i]+'*'+word[i+1:]
                 # get all the possible candidates from the map
-                for word in all_combo_dict[intermediate_word]:
+                for nextWord in wordMap[intermediate]:
                     # return the total number of changes if the word reached the goal
-                    if word == endWord:
+                    if nextWord == endWord:
                         return level + 1
                     # if the converted word is not yet visited
-                    if word not in visited:
-                        # mark the converted word as visisted
-                        visited[word] = True
+                    if nextWord not in visited:
+                        # mark the converted word as visited
+                        visited[nextWord] = True
                         # add the converted word to the queue
-                        queue.append((word, level + 1))
+                        queue.append((nextWord, level+1))
         # return 0 if the word cannot converted to its goal
         return 0
