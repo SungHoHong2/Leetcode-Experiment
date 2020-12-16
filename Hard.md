@@ -18,8 +18,9 @@
 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | [**Hashmap O(n)**](hard/First_Missing_Positive) | 
 | [Burst Balloons](https://leetcode.com/problems/burst-balloons/) | [**TopDown,BottomUp**](hard/Burst_Balloons) | 
 | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | [**Recursion**](hard/Binary_Tree_Maximum_Path_Sum) | 
-| [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) | [**Solution**]() | 
-| [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) | [**Solution**]() | 
+| [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) | [**Solution**](hard/Regular_Expression_Matching) | 
+| [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) | [**Solution**](hard/Longest_Valid_Parentheses) | 
+| [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | [**Solution**](hard/Largest_Rectangle_in_Histogram) | 
 | [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/) | [**Solution**]() | 
 | [The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/) | [**Solution**]() | 
 
