@@ -1,6 +1,8 @@
 ### Cheapest Flights Within K Stops
 **Dijkstra's Algorithm**
 - Concepts 
+    - Apply the priority queue to pop the smallest cost 
+    - Accumulate the costs until the destination is reached 
 - [Source code](source/dijkstra.py)
 ```python
 import heapq
