@@ -8,7 +8,7 @@
 ```python
 class Solution(object):
     def ladderLength(self, beginWord, endWord, wordList):
-        # return 0 if the endword is not in the wordlist
+        # return 0 if the endWord is not in the wordList
         # set the total length of the words
         # set the map to hold combination of words that can be formed
         # iterate the words from the input
@@ -49,7 +49,7 @@ class Solution(object):
         pass
 
     def ladderLength(self, beginWord, endWord, wordList):
-        # return 0 if the endword is not in the wordlist      
+        # return 0 if the endWord is not in the wordList      
         # set the total length of the words
         # set the map to hold combination of words that can be formed
         # iterate the words from the input
