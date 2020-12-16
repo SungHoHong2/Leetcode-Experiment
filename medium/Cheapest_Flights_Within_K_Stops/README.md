@@ -12,8 +12,8 @@ class Solution(object):
         # create a priority queue
         # append information of the starting point (price, stops, city) to the heap 
         # loop until the heap depletes 
-            # get the information of the current city from the heap
-            # return the price if the current city is the destiation 
+            # get the information of the city that accumulated the cheapest price
+            # return the price if the current city is the destination 
             # if there are still number of stops left
                 # iterate the neighbors of the current city 
                     # append the next city to the heap
@@ -27,15 +27,16 @@ class Solution(object):
 - [Source code](source/memoization.py)
 ```python
 class Solution:
-    def findShortest(self, node, stops, dst, n):
+    def findShortest(self, city, stops, dst, n):
         # return 0 if the destination is reached    
         # return inf if there are no more number of stops 
         # return the cache if the result of the cost is already cached
+        # set a variable for recording the minimum cost 
         # Iterate the weights of the neighbors 
             # if there is a neighbor according to the adjacency matrix 
                 # get the minimal cost created from traveling to the destination
-        # cache the cost 
-        # return the cost 
+        # cache the minimum cost 
+        # return the minimum cost 
         pass
     
     def findCheapestPrice(self, n: int, flights: List[List[int]], src: int, dst: int, K: int) -> int:
