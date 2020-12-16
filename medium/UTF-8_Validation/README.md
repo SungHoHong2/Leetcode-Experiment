@@ -3,18 +3,18 @@
 - [Source code](source/StringManipulate.py)
 ```python
 class Solution:
-    def validUtf8(self, data):
-        # set the variable to count the total number of grouped bytes
+    def validUtf8(self, data: List[int]) -> bool:
+        # set the variable to keep track of the number of following bytes
         # iterate the numbers from the input
             # convert the numbers into binary representation of 8 bits
-            # if it is the first byte of the group
-                # count the total number of following bytes until zero
-                # continue the loop if the there is only one byte in the group
-                # return false if there is only 1 or more than 4 at the first byte
-            # if the group is more than 1 and the first byte is valid
-                # return false if the most significants 2bits are not 1,0
-            # decrement the total number of bytes of the group
-        # return true if all the bytes in the group are processed
+            # if the current byte is the first byte
+                # count the total number of following bytes
+                # continue if the there are no following bytes
+                # return false if the first byte is a following byte or has more than 4 following bytes
+            # if the current byte is a following byte
+                # return false if the following byte is not a following byte
+            # decrement the total number of following bytes
+        # return true if all the bytes follow the rules
         pass
 ```
 
@@ -23,19 +23,20 @@ class Solution:
 ```python
 class Solution:
     def validUtf8(self, data):
-        # set the variable to count the total number of grouped bytes
-        # set the mask to check the most significant bit
-        # set the mask to check the second most significant bit
+        # set the variable to keep track of the number of following bytes
+        # set a mask by shifting 00000001 to left 7 times -> 10000000
+        # set a mask by shifting 00000001 to left 6 times -> 01000000
         # iterate the numbers from the input
-            # set a mask to check the most significant bit
-            # if the number is the first byte of the group
-                # loop until the num is not zero
+            # set a mask by shifting 00000001 to left 7 times -> 10000000
+            # if the current byte is the first byte
+                # loop until the AND result becomes zero
                     # increase the number of total following bytes
-                    # shift the mask to mask the second significant bit
-                # continue the loop if the there is only one byte in the group
-                # return false if there is only 1 or more than 4 at the first byte
-            # if the group is more than 1 and the first byte is valid
-                # return false if the most significants 2bits are not 1,0
-            # decrement the total number of bytes of the group
-        # return true if all the bytes in the group are processed
+                    # shift the mask to right
+                # continue if the there are no following bytes
+                # return false if the first byte is a following byte or has more than 4 following bytes
+            # if the current byte is a following byte
+                # return false if the following byte is not a following byte
+            # decrement the total number of following bytes
+        # return true if all the bytes follow the rules
+        pass
 ```
