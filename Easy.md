@@ -16,5 +16,6 @@
 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | [**PopPush**](easy/Reverse_Integer)| 
 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [**CmpReverse,TwoPointers**](easy/Valid_Palindrome) |
 | [FizzBuzz](https://leetcode.com/problems/fizz-buzz/solution/) | [**Naive,Hashmap**](easy/FizzBuzz) |
+| [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | [**Solution**]() | 
 
 | [Problem]() | [**Solution**]() | 

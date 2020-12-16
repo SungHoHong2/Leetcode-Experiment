@@ -23,7 +23,7 @@ class Solution(object):
 
 **Depth-First-Search with Memoization**
 - Concepts 
-    - `recursion(neighbor, stops + 1) + weight(node, neighbor)`
+    - `recursion(neighbor, stops - 1) + weight(node, neighbor)`
 - [Source code](source/memoization.py)
 ```python
 class Solution:
