@@ -1,6 +1,6 @@
 ### Problem Title
 **Histogram:DP**
-- [Concepts](images/)
+- [Concepts](images/Histogram.png)
     - Compute the maximum width to convert the input into a set of histograms
     - Compute the maximal area for each histogram
 - [Source code](source/Histogram.py)
