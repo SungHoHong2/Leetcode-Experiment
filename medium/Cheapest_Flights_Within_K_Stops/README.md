@@ -27,7 +27,7 @@ class Solution(object):
 - [Source code](source/memoization.py)
 ```python
 class Solution:
-    def findShortest(self, city, stops, dst, n):
+    def findShortest(self, city, stops, dst):
         # return 0 if the destination is reached    
         # return inf if there are no more number of stops 
         # return the cache if the result of the cost is already cached
