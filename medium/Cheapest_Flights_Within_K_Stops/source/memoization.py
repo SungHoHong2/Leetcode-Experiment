@@ -12,21 +12,19 @@ class Solution:
         # set a variable for recording the minimum cost
         ans = float('inf')
         # Iterate the weights of the neighbors
-        for neigh, weight in enumerate(self.adjMatrix[city]):
-            # if there is a neighbor according to the adjacency matrix
-            if weight > 0:
-                # get the minimal cost created from traveling to the destination
-                ans = min(ans, self.findShortest(neigh, stops - 1, dst) + weight)
+        for neigh, weight in self.flightMap[city]:
+            # get the minimal cost created from traveling to the destination
+            ans = min(ans, self.findShortest(neigh, stops - 1, dst) + weight)
         # cache the minimum cost
         self.cache[(city, stops)] = ans
         # return the minimum cost
         return self.cache[(city, stops)]
 
     def findCheapestPrice(self, n: int, flights: List[List[int]], src: int, dst: int, K: int) -> int:
-        # set an adjacency matrix that uses weights as the value
-        self.adjMatrix = [[0 for i in range(n)] for i in range(n)]
+        # create map using source as the key and the destination and the weight as the value
+        self.flightMap = collections.defaultdict(list)
         for u, v, w in flights:
-            self.adjMatrix[u][v] = w
+            self.flightMap[u].append((v,w))
         # set a cache
         self.cache = dict()
         # return the result from the recursion

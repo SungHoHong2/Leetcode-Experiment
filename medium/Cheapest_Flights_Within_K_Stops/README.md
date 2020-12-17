@@ -33,14 +33,13 @@ class Solution:
         # return the cache if the result of the cost is already cached
         # set a variable for recording the minimum cost 
         # Iterate the weights of the neighbors 
-            # if there is a neighbor according to the adjacency matrix 
-                # get the minimal cost created from traveling to the destination
+            # get the minimal cost created from traveling to the destination
         # cache the minimum cost 
         # return the minimum cost 
         pass
     
     def findCheapestPrice(self, n: int, flights: List[List[int]], src: int, dst: int, K: int) -> int:
-        # set an adjacency matrix that uses weights as the value 
+        # create map using source as the key and the destination and the weight as the value      
         # set a cache 
         # return the result from the recursion
         # return the result or -1 if the result is inf 
@@ -66,7 +65,7 @@ class Solution:
 class Solution:
     def findCheapestPrice(self, n: int, flights: List[List[int]], src: int, dst: int, K: int) -> int:
         # create two arrays for storing distances and swapping 
-        # set the distnace of the origin node to zero
+        # set the distance of the origin node to zero
         # K + 1 iterations of Bellman Ford
             # Iterate K times 
                 # even number & 1  = 0, odd number & 1 = 1 
