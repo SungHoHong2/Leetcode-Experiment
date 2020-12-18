@@ -1,7 +1,7 @@
 ### Minimum Cost Tree From Leaf Values
 **Remove from the smallest**
 - [Concepts](images/Smallest.png)
-    - Combine the smallest neighboring leaves to get the maximum value 
+    - Combine the smallest neighboring leaves to get the smallest possible sum 
 - [Source code](source/Smallest.py)
 ```python
 class Solution:
@@ -18,7 +18,7 @@ class Solution:
 
 **Stack**
 - [Concepts](images/Optimized.png)
-    - Apply stack to combine the smallest neighboring leaves to get the maximum value 
+    - Apply stack to combine the smallest neighboring leaves to get the smallest possible sum  
 - [Source code](source/Optimized.py)
 ```python
 class Solution:

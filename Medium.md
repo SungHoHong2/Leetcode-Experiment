@@ -36,10 +36,10 @@
 | `1` [Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/) | [**Hashmap + Binary Search**](medium/Time_Based_Key_Value_Store) |
 | `1` [Before and After Puzzle](https://leetcode.com/problems/before-and-after-puzzle/) | [**Using Sets**](medium/Before_and_after_Puzzle) |
 | `1` [Permutations](https://leetcode.com/problems/permutations/) | [**Backtracking**](medium/Permutation) |
-| `0` [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/) | [**Dijkstra,Memoization,BellmanFord**](medium/Cheapest_Flights_Within_K_Stops) |
-| `0` [UTF-8 Validation](https://leetcode.com/problems/utf-8-validation/) | [**String,Bit Manipulation**](medium/UTF-8_Validation) |
-| `0` [Word Ladder](https://leetcode.com/problems/word-ladder/) | [**BFS,Bi-directional BFS**](medium/Word_Ladder) |
-| `0` [Minimum Cost Tree From Leaf Values](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/) | [**Remove from the smallest, Optimized**](medium/Minimum_Cost_Tree_From_Leaf_Values) |
+| `1` [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/) | [**Dijkstra,Memoization,BellmanFord**](medium/Cheapest_Flights_Within_K_Stops) |
+| `1` [UTF-8 Validation](https://leetcode.com/problems/utf-8-validation/) | [**String,Bit Manipulation**](medium/UTF-8_Validation) |
+| `1` [Word Ladder](https://leetcode.com/problems/word-ladder/) | [**BFS,Bi-directional BFS**](medium/Word_Ladder) |
+| `1` [Minimum Cost Tree From Leaf Values](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/) | [**Remove from the smallest, Optimized**](medium/Minimum_Cost_Tree_From_Leaf_Values) |
 | `0` [Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/) | [**Long Division**](medium/Fraction_to_Recurring_Decimal) |
 | `0` [Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/) | [**Sorted by Minutes**](medium/Minimum_Time_Difference) |
 | [Asteroid Collision](https://leetcode.com/problems/asteroid-collision/) | [**Stack**](medium/Asteroid_Collision) |
