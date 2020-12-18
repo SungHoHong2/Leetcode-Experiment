@@ -22,7 +22,7 @@ class Solution:
 - [Source code](source/Optimized.py)
 ```python
 class Solution:
-    def mctFromLeafValues(self, A: List[int]) -> int:
+    def mctFromLeafValues(self, arr: List[int]) -> int:
         # set the variable to return the sum of non-leaf nodes
         # append infinite value to the stack
         # iterate the items from the input
