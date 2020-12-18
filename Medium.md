@@ -40,8 +40,8 @@
 | `1` [UTF-8 Validation](https://leetcode.com/problems/utf-8-validation/) | [**String,Bit Manipulation**](medium/UTF-8_Validation) |
 | `1` [Word Ladder](https://leetcode.com/problems/word-ladder/) | [**BFS,Bi-directional BFS**](medium/Word_Ladder) |
 | `1` [Minimum Cost Tree From Leaf Values](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/) | [**Remove from the smallest, Optimized**](medium/Minimum_Cost_Tree_From_Leaf_Values) |
-| `0` [Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/) | [**Long Division**](medium/Fraction_to_Recurring_Decimal) |
-| `0` [Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/) | [**Sorted by Minutes**](medium/Minimum_Time_Difference) |
+| `1` [Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/) | [**Long Division**](medium/Fraction_to_Recurring_Decimal) |
+| `1` [Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/) | [**Sorted by Minutes**](medium/Minimum_Time_Difference) |
 | [Asteroid Collision](https://leetcode.com/problems/asteroid-collision/) | [**Stack**](medium/Asteroid_Collision) |
 | [Maximal Square](https://leetcode.com/problems/maximal-square/) | [**DP, Space Optimal DP**](medium/Maximal_Square) |
 | [Longest String Chain](https://leetcode.com/problems/longest-string-chain/) | [**DP**]() |
@@ -49,5 +49,6 @@
 | [Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/) | [**DFS by recursion, DFS by iteration**](medium/Flatten_a_Multilevel_Doubly_Linked_List) |
 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [**Heap,QuickSort**](medium/Kth_Largest_Element_in_an_Array) |
 | [Plus One Linked List](https://leetcode.com/problems/plus-one-linked-list/) | [**Solution**]() |
+| [4Sum](https://leetcode.com/problems/4sum/) | [**Solution**](medium/4Sum) |
 
 | [Problem]() | [**Solution**]() |

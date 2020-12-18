@@ -1,5 +1,9 @@
 ### 3Sum
 **Two Pointers**
+- Concepts 
+    - Sort the numbers in ascending order 
+    - Only need to search before the positive number
+        - Each search expands from center to find the three integers that sum up to zero 
 - [Source code](source/twoPointers.py)
 ```python
 class Solution:
