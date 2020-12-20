@@ -50,5 +50,6 @@
 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [**Heap,QuickSort**](medium/Kth_Largest_Element_in_an_Array) |
 | [Plus One Linked List](https://leetcode.com/problems/plus-one-linked-list/) | [**Solution**]() |
 | [4Sum](https://leetcode.com/problems/4sum/) | [**Solution**](medium/4Sum) |
+| [4Sum II](https://leetcode.com/problems/4sum-ii/) | [**Solution**](medium/4Sum_II) |
 
-| [Problem]() | [**Solution**]() |
+| [Problem]() | [**Solution**]() | 
