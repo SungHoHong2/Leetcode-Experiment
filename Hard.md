@@ -22,7 +22,7 @@
 | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) | [**DP,Stack,Without Space**](hard/Longest_Valid_Parentheses) | 
 | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | [**Stack**](hard/Largest_Rectangle_in_Histogram) | 
 | [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/) | [**Histogram,Stack,Max Height**](hard/Maximal_Rectangle) | 
-| [The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/) | [**Solution**]() | 
+| [The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/) | [**Max Heap**](hard/The_Skyline_Problem) | 
 | [Word Search II](https://leetcode.com/problems/word-search-ii/) | [**Solution**]() | 
 | [Edit Distance](https://leetcode.com/problems/edit-distance/) | [**Solution**]() | 
 | [Jump Game II](https://leetcode.com/problems/jump-game-ii/) | [**Solution**]() | 
