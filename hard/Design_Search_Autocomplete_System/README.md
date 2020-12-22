@@ -54,7 +54,6 @@ class AutocompleteSystem:
 - [Source code](source/Trie.py)
 ```python
 class AutocompleteSystem:
-
     def __init__(self, sentences, times):
         # create a Trie and store the input 
         # set the global head of the Trie 
