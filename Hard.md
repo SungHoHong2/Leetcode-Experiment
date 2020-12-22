@@ -25,7 +25,7 @@
 | [The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/) | [**Max Heap**](hard/The_Skyline_Problem) | 
 | [Word Search II](https://leetcode.com/problems/word-search-ii/) | [**Trie**](hard/Word_Search_II) | 
 | [Edit Distance](https://leetcode.com/problems/edit-distance/) | [**DP**](hard/Edit_Distance) | 
-| [Jump Game II](https://leetcode.com/problems/jump-game-ii/) | [**Solution**]() | 
+| [Jump Game II](https://leetcode.com/problems/jump-game-ii/) | [**Solution**](hard/Jump_Game_II) | 
 | [Design Search Autocomplete System](https://leetcode.com/problems/design-search-autocomplete-system/) | [**Solution**]() | 
 
 | [Problem]() | [**Solution**]() | 
