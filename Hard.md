@@ -26,6 +26,11 @@
 | [Word Search II](https://leetcode.com/problems/word-search-ii/) | [**Trie**](hard/Word_Search_II) | 
 | [Edit Distance](https://leetcode.com/problems/edit-distance/) | [**DP**](hard/Edit_Distance) | 
 | [Jump Game II](https://leetcode.com/problems/jump-game-ii/) | [**Solution**](hard/Jump_Game_II) | 
-| [Design Search Autocomplete System](https://leetcode.com/problems/design-search-autocomplete-system/) | [**Solution**]() | 
+| [Design Search Autocomplete System](https://leetcode.com/problems/design-search-autocomplete-system/) | [**Hashmap, Two level Hashmap, Trie**](hard/Design_Search_Autocomplete_System) | 
+| [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | [**Solution**]() | 
+| [Employee Free Time](https://leetcode.com/problems/employee-free-time/) | [**Solution**]() | 
+| [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/) | [**Solution**]() | 
+| [Reaching Points](https://leetcode.com/problems/reaching-points/) | [**Solution**]() | 
+| [Consecutive Numbers Sum](https://leetcode.com/problems/consecutive-numbers-sum/) | [**Solution**]() | 
 
 | [Problem]() | [**Solution**]() | 
