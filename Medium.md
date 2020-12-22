@@ -51,5 +51,6 @@
 | [Plus One Linked List](https://leetcode.com/problems/plus-one-linked-list/) | [**Solution**]() |
 | [4Sum](https://leetcode.com/problems/4sum/) | [**Solution**](medium/4Sum) |
 | [4Sum II](https://leetcode.com/problems/4sum-ii/) | [**Solution**](medium/4Sum_II) |
+| [Jump Game](https://leetcode.com/problems/jump-game/) | [**Solution**]() | 
 
 | [Problem]() | [**Solution**]() | 

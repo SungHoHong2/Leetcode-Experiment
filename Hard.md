@@ -24,7 +24,7 @@
 | [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/) | [**Histogram,Stack,Max Height**](hard/Maximal_Rectangle) | 
 | [The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/) | [**Max Heap**](hard/The_Skyline_Problem) | 
 | [Word Search II](https://leetcode.com/problems/word-search-ii/) | [**Trie**](hard/Word_Search_II) | 
-| [Edit Distance](https://leetcode.com/problems/edit-distance/) | [**Solution**]() | 
+| [Edit Distance](https://leetcode.com/problems/edit-distance/) | [**DP**](hard/Edit_Distance) | 
 | [Jump Game II](https://leetcode.com/problems/jump-game-ii/) | [**Solution**]() | 
 | [Design Search Autocomplete System](https://leetcode.com/problems/design-search-autocomplete-system/) | [**Solution**]() | 
 
