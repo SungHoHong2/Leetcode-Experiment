@@ -29,7 +29,7 @@
 | [Design Search Autocomplete System](https://leetcode.com/problems/design-search-autocomplete-system/) | [**Hashmap, Two level Hashmap, Trie**](hard/Design_Search_Autocomplete_System) | 
 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | [**Insertion Sort + Binary Search**](hard/Find_Median_from_Data_Stream) | 
 | [Employee Free Time](https://leetcode.com/problems/employee-free-time/) | [**Greedy,Heap**](hard/Employee_Free_Time) | 
-| [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/) | [**Solution**]() | 
+| [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/) | [**DP,Binary Search**](hard/Split_Array_Largest_Sum) | 
 | [Reaching Points](https://leetcode.com/problems/reaching-points/) | [**Solution**]() | 
 | [Consecutive Numbers Sum](https://leetcode.com/problems/consecutive-numbers-sum/) | [**Solution**]() | 
 
