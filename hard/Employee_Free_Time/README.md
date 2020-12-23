@@ -1,5 +1,5 @@
 ### Employee Free Time
-**Events**
+**Greedy**
 - [Concepts](images/)
     - sort the whole intervals and apply Greedy 
 - [Source code](source/Events.py)
