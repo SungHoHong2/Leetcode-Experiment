@@ -21,8 +21,8 @@ class Solution:
 - [Concepts](images/)
     - Suppose `[7,2,5,10,8]` and `2`
     - `max_sum([7,2,5,10,8], 2)` will be in the range `[10, 32]` 
-        - 32 is the total sum of the array
-        - 10 is the smallest maximum value that the subset can hold 
+        - `32` is the largest value that a single subset can have
+        - `10` is the smallest value that a single subset can have  
     - Find the minimum value in this range with which can form 2 sub-arrays
         1. Start with 10
             - can form into 4 sub arrays `[7, 2],[5],[10],[8]`
@@ -49,6 +49,5 @@ class Solution:
          
         1. `[18,17]` breaks the loop and end the smallest maximum subset as `18` 
          
-
 - [Source code](source/)
 - [Reference #1]()
