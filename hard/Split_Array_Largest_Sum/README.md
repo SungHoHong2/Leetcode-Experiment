@@ -49,5 +49,21 @@ class Solution:
          
         1. `[18,17]` breaks the loop and end the smallest maximum subset as `18` 
          
-- [Source code](source/)
-- [Reference #1]()
+- [Source code](source/binary.py)
+```python
+class Solution(object):
+    def is_valid(self, nums, m, mid):
+        # count the number of subsets that has the value within the pivot
+        # return true if the number of subsets is valid 
+        pass
+    
+    def splitArray(self, nums, m):
+        # set the smallest value of the subset as the low and the largest as the right
+        # set the returning value that records the smallest maximum value of the subset        
+        # run binary search until low and high coverges
+            # get the pivot 
+            # update the answer and explore left if the subsets are valid
+            # explore right if the the subsets are invalid 
+        # return the smallest maximum value of the subset 
+        pass
+```
