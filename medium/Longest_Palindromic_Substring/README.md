@@ -18,6 +18,7 @@ class Solution:
         # set the variables for the even palindrome
         # loop until the palindrome is invalid       
         # return the largest odd or even palindrome
+        pass
         
     def longestPalindrome(self, s: str) -> str:
         # set the variable for the largest substring 
@@ -27,26 +28,9 @@ class Solution:
             # invoke palindrome checker and get the left and right index 
             # if the length of the substring creates a new record
                 # update the largest substring
-        # return the largest substring        
+        # return the largest substring       
+        pass
 ```
-
-```python
-class Solution:
-    def longestPalindrome(self, s: str) -> str:
-        # initialize the start and the end
-        # iterate the string
-            # in case the total length is odd
-            # in case the total length is even
-            # get the longest maxLength
-            # if the maxlength hits the record
-                # update the start and end variable
-        # after divided return the substring result
-    # function that returns the largest length of the palindrome
-        # set up the pointers for left and right
-        # expand until it there is no palindrome
-        # return the length of the palindrome
-```
-
 **Dynamic Programming**
 - [Concepts(1)](images/dynamic.png)
 - [Concepts(2)](images/dynamic2.png)
@@ -75,4 +59,5 @@ class Solution:
                 # end point of substring (make sure k < len(s))
                 # if cells from i and j are equal and the history is true
         # return the result
+        pass
 ```
