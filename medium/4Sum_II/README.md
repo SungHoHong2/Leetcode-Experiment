@@ -3,9 +3,17 @@
 - [Concepts](images/)
 - [Source code](source/Hashmap.py)
 ```python
-
+class Solution:
+    def fourSumCount(self, A: List[int], B: List[int], C: List[int], D: List[int]) -> int:
+        # set a return variable that records the number possible solutions
+        # create a table that records the complements
+        # iterate both list A and B
+                # record the number of all possible sum
+        # iterate both list C and D
+                # accumulate the number of possible sum that equals to zero
+        # return the possible numbers
+        pass
 ```
-
 
 **kSum II**
 - [Concepts](images/)
