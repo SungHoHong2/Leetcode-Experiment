@@ -1,24 +1,24 @@
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
         # create a set for return value and checking for duplicates
-        res, dups = set(), set()
+        res, dup = set(), set()
         # iterate the numbers
         for i in range(len(nums)):
             # if the variable are not in the duplicate
-            if nums[i] not in dups:
-                # create a hashmap
+            if nums[i] not in dup:
+                # create a hashmap for complements
                 cache = set()
-                # add the variable in the hashset
-                dups.add(nums[i])
+                # record the duplicate in the hashset
+                dup.add(nums[i])
                 # iterate the rightside array of the current element
                 for left in range(i+1, len(nums)):
                     # calculate the complement
                     complement = 0 - nums[i] - nums[left]
-                    # if the complement is in the hashmap and it is part of the current index
+                    # if the complement is in the hashmap
                     if complement in cache:
                         # add the results(fix the orders because the answer may append duplicates)
-                        res.add(tuple(sorted((nums[i], nums[left], complement))))
-                    # add the leftmost value in the hashmap and the current index as the key
+                        res.add(tuple(sorted([nums[i], nums[left], complement])))
+                    # add the leftmost value as the future complement in the hashmap
                     cache.add(nums[left])
-        # return the array
+        # return the answers
         return res

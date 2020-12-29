@@ -69,16 +69,16 @@ class Solution:
 ```python
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
-        # create sets for the return array and checking for duplicates
+        # create a set for return value and checking for duplicates
         # iterate the numbers
             # if the variable are not in the duplicate
-                # create a hashset to store the complements 
-                # add the variable in the hashset
+                # create a hashmap for complements
+                # record the duplicate in the hashset
                 # iterate the rightside array of the current element
                     # calculate the complement
-                    # if the complement is in the hashmap and it is part of the current index
+                    # if the complement is in the hashmap
                         # add the results(fix the orders because the answer may append duplicates)
-                    # add the leftmost value in the hashmap and the current index as the key
-        # return the array
+                    # add the leftmost value as the future complement in the hashmap
+        # return the answers
         pass
 ```
