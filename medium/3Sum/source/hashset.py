@@ -35,7 +35,7 @@ class Solution:
                 # if the complement is in the memory
             else:
                 # add the answer to the return list
-                res.append([nums[i], nums[left], complement])
+                res.append([nums[i], complement, nums[left]])
                 # increase the leftmost index
                 left += 1
                 # skip the leftmost indexes that are duplicates
