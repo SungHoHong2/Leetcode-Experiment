@@ -69,10 +69,10 @@ class Solution:
 ```python
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
-        # create a set for return value and checking for duplicates
+        # create sets for the return array and checking for duplicates
         # iterate the numbers
             # if the variable are not in the duplicate
-                # create a hashmap
+                # create a hashset to store the complements 
                 # add the variable in the hashset
                 # iterate the rightside array of the current element
                     # calculate the complement
