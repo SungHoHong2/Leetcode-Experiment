@@ -2,11 +2,13 @@
 
 | Problem | Solution |
 | ------------ |  ------------ |
-| `1` [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [**Elementry Math**](medium/Add_Two_Numbers) |
-| `1` [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [**Expand from Center,DP**](medium/Longest_Palindromic_Substring) |
-| `1` [LRU Cache](https://leetcode.com/problems/lru-cache/) | [**HashMap + LinkedList**](medium/LRU) |
-| `1` [Number of Islands](https://leetcode.com/problems/number-of-islands/) | [**DFS,BFS,Disjoint Set**](medium/Number_of_Islands) |
-| `1` [3Sum](https://leetcode.com/problems/3sum/) | [**Two Pointers,Hashset,No Sorting**](medium/3Sum) |
+| `2` [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [**Elementry Math**](medium/Add_Two_Numbers) |
+| `2` [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [**Expand from Center,DP**](medium/Longest_Palindromic_Substring) |
+| `2` [LRU Cache](https://leetcode.com/problems/lru-cache/) | [**HashMap + LinkedList**](medium/LRU) |
+| `2` [Number of Islands](https://leetcode.com/problems/number-of-islands/) | [**DFS,BFS,Disjoint Set**](medium/Number_of_Islands) |
+| `2` [3Sum](https://leetcode.com/problems/3sum/) | [**Two Pointers,Hashset,No Sorting**](medium/3Sum) |
+| `0` [4Sum](https://leetcode.com/problems/4sum/) | [**Solution**](medium/4Sum) |
+| `0` [4Sum II](https://leetcode.com/problems/4sum-ii/) | [**Solution**](medium/4Sum_II) |
 | `1` [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [**Left and Right, O(1) space**](medium/Product_of_Array_Except_Self) |
 | `1` [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [**Sliding Window, Optimized**](medium/Longest_Substring_Without_Repeating_Characters) |
 | `1` [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [**Connected Components, Sorting, MergeSorting the TreeNode**](medium/Merge_Intervals) |
@@ -42,15 +44,13 @@
 | `1` [Minimum Cost Tree From Leaf Values](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/) | [**Remove from the smallest, Optimized**](medium/Minimum_Cost_Tree_From_Leaf_Values) |
 | `1` [Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/) | [**Long Division**](medium/Fraction_to_Recurring_Decimal) |
 | `1` [Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/) | [**Sorted by Minutes**](medium/Minimum_Time_Difference) |
-| [Asteroid Collision](https://leetcode.com/problems/asteroid-collision/) | [**Stack**](medium/Asteroid_Collision) |
-| [Maximal Square](https://leetcode.com/problems/maximal-square/) | [**DP, Space Optimal DP**](medium/Maximal_Square) |
-| [Longest String Chain](https://leetcode.com/problems/longest-string-chain/) | [**DP**]() |
-| [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | [**BFS + Two Queues, BFS + Sentinel, BFS + Level Size, DFS**](medium/Binary_Tree_Right_Side_View) |
-| [Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/) | [**DFS by recursion, DFS by iteration**](medium/Flatten_a_Multilevel_Doubly_Linked_List) |
+| `0` [Asteroid Collision](https://leetcode.com/problems/asteroid-collision/) | [**Stack**](medium/Asteroid_Collision) |
+| `0` [Maximal Square](https://leetcode.com/problems/maximal-square/) | [**DP, Space Optimal DP**](medium/Maximal_Square) |
+| `0` [Longest String Chain](https://leetcode.com/problems/longest-string-chain/) | [**DP**]() |
+| `0` [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | [**BFS + Two Queues, BFS + Sentinel, BFS + Level Size, DFS**](medium/Binary_Tree_Right_Side_View) |
+| `0` [Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/) | [**DFS by recursion, DFS by iteration**](medium/Flatten_a_Multilevel_Doubly_Linked_List) |
 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [**Heap,QuickSort**](medium/Kth_Largest_Element_in_an_Array) |
 | [Plus One Linked List](https://leetcode.com/problems/plus-one-linked-list/) | [**Solution**]() |
-| [4Sum](https://leetcode.com/problems/4sum/) | [**Solution**](medium/4Sum) |
-| [4Sum II](https://leetcode.com/problems/4sum-ii/) | [**Solution**](medium/4Sum_II) |
 | [Jump Game](https://leetcode.com/problems/jump-game/) | [**Solution**]() | 
 
 | [Problem]() | [**Solution**]() | 
