@@ -18,7 +18,7 @@ class Solution:
         # return the answers
         pass
     
-    def twoSum2(self, nums: List[int], i: int, res: List[List[int]]):
+    def twoSum(self, nums: List[int], i: int, res: List[List[int]]):
         # get the 3 indexes (current, leftmost from the current, and the rightmost indexes) 
         # loop until the indexes converge 
             # calculate the sum
