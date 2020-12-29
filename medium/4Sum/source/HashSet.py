@@ -1,5 +1,4 @@
 class Solution:
-
     def kSum(self, nums: List[int], target: int, k: int) -> List[List[int]]:
         # set a list that stores the group of four integers that sums up to the target
         res = list()
@@ -22,30 +21,33 @@ class Solution:
         # return the collection of answers
         return res
 
-    def twoSum(self, nums: List[int], target: int) -> List[List[int]]:
-        # set a return list
+    def twoSum(self, nums, target):
+        # set a return array
         res = list()
-        # set a left and right
-        left, right = 0, len(nums) - 1
-        # loop until left and right converge
-        while (left < right):
-            # compute the sum of left and right
-            sum = nums[left] + nums[right]
-            # move left to right if the sum is smaller than the target
-            if sum < target:
+        # create a hashset
+        cache = set()
+        # set the index of the leftmost element that is at the rightside of the current element
+        left, right = 0, len(nums)
+        # loop until the indexes converge
+        while left < right:
+            # calculate the complement
+            complement = target - nums[left]
+            # if the complement is not in the memory
+            if complement not in cache:
+                # record the current element
+                cache.add(nums[left])
+                # increase the leftmost index
                 left += 1
-            # move right to left if the sum is bigger than the target
-            elif sum > target:
-                right -= 1
-            # append the answer if the sum is equal
+                # if the complement is in the memory
             else:
-                res.append([nums[left], nums[right]])
+                # add the answer to the return list
+                res.append([nums[left], complement])
+                # increase the leftmost index
                 left += 1
-                right -= 1
-            # skip the duplicated inputs
-            while left < right and nums[left - 1] == nums[left]:
-                left += 1
-        # return the collection of answers
+                # skip the leftmost indexes that are duplicates
+                while left < right and nums[left - 1] == nums[left]:
+                    left += 1
+        # return an array
         return res
 
     def fourSum(self, nums: List[int], target: int) -> List[List[int]]:
