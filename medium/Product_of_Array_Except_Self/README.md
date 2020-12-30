@@ -2,7 +2,6 @@
 **Left and Right product lists**
 - [Concepts](images/LeftRight.png)
 - [Source code](source/LeftRight.py)
-
 ```python
 class Solution:
     def productExceptSelf(self, nums: List[int]) -> List[int]:
@@ -14,9 +13,12 @@ class Solution:
         # Calculate the product that excludes the original element in the nums array
             # calculate the products of the left and the right calculation
         # return the answer
+        pass
 ```
 
 **O(1) space**
+- Concept 
+    - Implement the same algorithm above while excluding the right and left arrays
 - [Source code](source/Space.py)
 ```python
 class Solution:
@@ -25,5 +27,6 @@ class Solution:
         # Aggregate the products from the left
         # Aggregate the products from the right
         # return the answer
+        pass
 ```
 
