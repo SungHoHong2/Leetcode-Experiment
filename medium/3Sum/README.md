@@ -49,7 +49,7 @@ class Solution:
         pass
 
     def twoSum(self, nums: List[int], i: int, res: List[List[int]]):
-        # create a hashset
+        # create a hashset for complements
         # set the index of the leftmost element that is at the rightside of the current element
         # loop until the indexes converge 
             # calculate the complement
@@ -68,17 +68,22 @@ class Solution:
 - [Source code(2)](source/noSort_2.py)
 ```python
 class Solution:
+    
+    def twoSum(self, nums, i, target, res):
+        # create a hashset for complements
+        # iterate from left to right
+            # calculate the complement
+            # if the complement is in the hashset
+                # add the results(fix the orders because the answer may append duplicates)
+            # record the complement if the complement is not in the hashset
+        pass
+
     def threeSum(self, nums: List[int]) -> List[List[int]]:
-        # create a set for return value and checking for duplicates
-        # iterate the numbers
-            # if the variable are not in the duplicate
-                # create a hashmap for complements
-                # record the duplicate in the hashset
-                # iterate the rightside array of the current element
-                    # calculate the complement
-                    # if the complement is in the hashmap
-                        # add the results(fix the orders because the answer may append duplicates)
-                    # add the leftmost value as the future complement in the hashmap
-        # return the answers
+        # create sets for return value and checking for duplicates
+        # iterate the each number and run twoSum function 
+            # run twoSum only on nonduplicates
+                # record the duplicates in the set
+                # invoke the twoSum function 
+        # return the collections that sum up to zero 
         pass
 ```
