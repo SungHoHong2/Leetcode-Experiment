@@ -64,9 +64,9 @@ class Solution:
                 # append the interval to the return array
             # if the left intervals overlap with the current node
                 # merge the interval with the current node and append to the return array
-                # break from the iteration and skip adding the current node
-        # if there was no merge of the current node
-            # append the interval to the return array
+                # break to skip adding future nodes that overlaps with the current node
+        # if there was no merge between the left interval and the current node 
+            # append the current node to the return array
         # iterate the right intervals
             # if the right interval does not overlap with the current interval
                 # append the interval to the return array
