@@ -64,11 +64,11 @@ class Solution:
 ```
 
 **No-Sort**
-- [Source code](source/noSort.py)
+- [Source code(3)](source/noSort_3.py)
 - [Source code(2)](source/noSort_2.py)
+- [Source code](source/noSort.py)
 ```python
 class Solution:
-    
     def twoSum(self, nums, i, target, res):
         # create a hashset for complements
         # iterate from left to right
