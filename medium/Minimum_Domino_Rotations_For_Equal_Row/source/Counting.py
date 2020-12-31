@@ -1,11 +1,11 @@
 class Solution:
     def minDominoRotations(self, A: List[int], B: List[int]) -> int:
         # create a map counting the number of hits for A
-        countA = {i: 0 for i in range(7)}
+        countA = {i: 0 for i in range(1,7)}
         # create a map counting the number of hits for B
-        countB = {i: 0 for i in range(7)}
+        countB = {i: 0 for i in range(1,7)}
         # create a map counting the number of hits for both A and B
-        same = {i: 0 for i in range(7)}
+        same = {i: 0 for i in range(1,7)}
         # iterate the dominos
         for i in range(len(A)):
             # count the number of hits for A

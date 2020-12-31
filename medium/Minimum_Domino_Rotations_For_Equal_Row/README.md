@@ -16,7 +16,7 @@ class Solution:
     def minDominoRotations(self, A: List[int], B: List[int]) -> int:
         # invoke the check function and get the minimum number of rotations
         # if the rotation value is valid
-            # return the minimun numvber of rotations
+            # return the minimum number of rotations
         # if the rotation does not provide any value
             # get the return value from B
 ```
