@@ -10,13 +10,9 @@
 ```python
 class Solution:
     def gameOfLife(self, board: List[List[int]]) -> None:
-        """
-        Do not return anything, modify board in-place instead.
-        """
         # set the up the list of eight directions of the cell
-        # set the number of rows
-        # set the number of columns
-        # copy the board
+        # set the length of row and column 
+        # copy the board used for checking the previous status
         # iterate the board
                 # set the temporary variable to count the neighbors
                 # scan all the neighbors of the cell
