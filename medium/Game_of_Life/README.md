@@ -54,6 +54,8 @@ class Solution:
 ```
 
 **Infinite Board**
+- Concept
+    - Avoid storing the entire board in memory 
 - [Source code](source/Infinite.py)
 
 ```python 

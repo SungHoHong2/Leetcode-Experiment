@@ -40,8 +40,7 @@ class Solution:
                     live.add((row, col))
         # return the alive cells after running the iteration function
         live = self.iteration(live)
-        # iterate the board
-        for row in range(rows):
-            for col in range(cols):
-                # update the live cells
-                board[row][col] = int((row, col) in live)
+        # allow one row of the board in memory when updating the live cell
+        for i, row in enumerate(board):
+            for j in range(len(row)):
+                row[j] = int((i, j) in live)
