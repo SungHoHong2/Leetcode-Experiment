@@ -30,12 +30,9 @@ class Solution:
 ```python
 class Solution:
     def gameOfLife(self, board: List[List[int]]) -> None:
-        """
-        Do not return anything, modify board in-place instead.
-        """
         # set the up the list of eight directions of the cell
-        # set the number of rows
-        # set the number of columns
+        # set the length of row and column 
+        # copy the board used for checking the previous status
         # iterate the board
                 # set the temporary variable to count the neighbors
                 # scan all the neighbors of the cell
@@ -45,7 +42,7 @@ class Solution:
                     # the current cell dies
                 # if the current cell is dead and the total number of neighbors are 3
                     # the current cell lives
-        # modfiy the -1 and 2 to get the correct return value
+        # update the -1 and 2 to get the correct return value
         pass
 ```
 
@@ -53,7 +50,6 @@ class Solution:
 - Concept
     - Avoid storing the entire board in memory 
 - [Source code](source/Infinite.py)
-
 ```python 
 class Solution:
     def iteration(self, live):
@@ -62,25 +58,17 @@ class Solution:
         # iterate the live cells
             # get the neighbors of current live cell
                 # increase the number of existing neighbors
-        # set up a return hashset
-        # iterate the counter hashmap
-            # if the current cell is alive with 2 live neighbors or have 3 live neighbors
-                # add the index to the return hashset
-        # return the hashhset
+        # set up the hashset that collects the future live cells 
+        # iterate the neighbors of the live cell 
+            # if the cell is alive with 2 live neighbors or have 3 live neighbors
+                # add the index of the live cell
+        # return the future live cells
         pass
 
     def gameOfLife(self, board: List[List[int]]) -> None:
-        """
-        Do not return anything, modify board in-place instead.
-        """
-        # set the variable of the row
-        # set the variable of the column
+        # set the length of the row and column
         # set up the hashset to store the indexes of the live cell
-        # iterate the board
-                # if the cell is alive
-                    # add to the hashset
         # return the alive cells after running the iteration function
-        # iterate the board
-                # update the live cells
+        # allow one row of the board in memory when updating the live cell
         pass
 ```
