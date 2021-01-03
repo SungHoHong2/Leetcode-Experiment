@@ -47,7 +47,10 @@ class Solution:
 
 **Infinite Board**
 - Concept
-    - Avoid storing the entire board in memory 
+    - Assume that the live cells are very sparsely distributed in the board
+        - Reduce the computation by using only the live cells to get the next live cells
+    - Avoid allocating the entire board in memory 
+        - Allocate one row at a time when updating the board
 - [Source code](source/Infinite.py)
 ```python 
 class Solution:
