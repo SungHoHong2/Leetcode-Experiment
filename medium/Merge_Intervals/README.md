@@ -5,11 +5,11 @@
 class Solution:
     def merge(self, intervals: List[List[int]]) -> List[List[int]]:
         # sort the intervals based the starting point
-        # set the return list
-        # iterate through the intervals 
-            # if it is the first interval or the previous interval does not overlap with the current interval
-                # append to the return list 
-            # if it s not the first interval and the previous interval overlaps with the current interval
+        # set the return list appended with the first interval
+        # iterate through the intervals
+            # if the previous interval does not overlap with the current interval
+                # append to the return list
+            # if the previous interval overlaps with the current interval
                 # merge the current interval with the previous interval
         # return the result
         pass
@@ -28,18 +28,15 @@ class TreeNode:
         # set ending point
         # get the middle point
         # set the pointers for the child nodes
-        pass 
+        pass
 class Solution:
     def merge(self, intervals: List[List[int]]) -> List[List[int]]:
-        # set root node
-        # if there is no intervals
+        # return empty list if there is no intervals
+        # set root node with the first interval
         # iterate the intervals
-            # if there is no root
-                # create a root node for the TreeNode
-            # if there is a root
-                # append the node to the TreeNode
+            # append the node to the TreeNode
         # return the result of the TreeNode
-        pass 
+        pass
     def add(self, node, new):
         # if the new end is smaller than current middle
             # if there is left child
@@ -49,31 +46,28 @@ class Solution:
         # if the start pointer is bigger than the middle
             # if there is a right child
             # if there is no right child
-        # the new start or end overlaps the current middle
+        # if the new start or end overlaps the current middle
             # update the start time
             # update the end time
         pass
     def query(self, node):
-        # the node is empty
-            # return the empty result
-        # get the array from the left and the right child
         # set the return variable
-        # set the flag to check whether the current node is merged with the intervals from the left
+        # return the empty result if the node is empty
+        # get the array from the left and the right child
         # iterate the left intervals
             # if the left intervals do not overlap with the current node
                 # append the interval to the return array
             # if the left intervals overlap with the current node
-                # merge the interval with the current node and append to the return array
-                # break to skip adding future nodes that overlaps with the current node
-        # if there was no merge between the left interval and the current node 
-            # append the current node to the return array
+                # merge the interval with the current node
+                # break to skip appending the future nodes that overlaps with the current node
+        # append the current node to the return array
         # iterate the right intervals
             # if the right interval does not overlap with the current interval
                 # append the interval to the return array
             # if the right interval overlaps with the current interval
                 # merge the interval with the rightmost interval in the return array
         # return the result array
-        pass 
+        pass
 ```
 
 
