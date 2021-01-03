@@ -12,7 +12,6 @@ class Solution:
     def gameOfLife(self, board: List[List[int]]) -> None:
         # set the up the list of eight directions of the cell
         # set the length of row and column 
-        # copy the board used for checking the previous status
         # iterate the board
                 # set the temporary variable to count the neighbors
                 # scan all the neighbors of the cell
