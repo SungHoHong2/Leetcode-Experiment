@@ -9,11 +9,11 @@
 | `2` [3Sum](https://leetcode.com/problems/3sum/) | [**Two Pointers,Hashset,No Sorting**](medium/3Sum) |
 | `2` [4Sum](https://leetcode.com/problems/4sum/) | [**Two Pointers,Hashset**](medium/4Sum) |
 | `2` [4Sum II](https://leetcode.com/problems/4sum-ii/) | [**Two Groups, Design for N arrays**](medium/4Sum_II) |
-| `1` [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [**Left and Right, O(1) space**](medium/Product_of_Array_Except_Self) |
-| `1` [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [**Sliding Window, Optimized**](medium/Longest_Substring_Without_Repeating_Characters) |
-| `1` [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [**Connected Components, Sorting, MergeSorting the TreeNode**](medium/Merge_Intervals) |
-| `1` [Minimum Domino Rotations For Equal Row](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/) | [**Greedy,Counting**](medium/Minimum_Domino_Rotations_For_Equal_Row) |
-| `1` [Game of Life](https://leetcode.com/problems/game-of-life/) | [**O(mn),O(1),Infinite Space**](medium/Game_of_Life) |
+| `2` [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [**Left and Right, O(1) space**](medium/Product_of_Array_Except_Self) |
+| `2` [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [**Sliding Window, Optimized**](medium/Longest_Substring_Without_Repeating_Characters) |
+| `2` [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [**Connected Components, Sorting, MergeSorting the TreeNode**](medium/Merge_Intervals) |
+| `2` [Minimum Domino Rotations For Equal Row](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/) | [**Greedy,Counting**](medium/Minimum_Domino_Rotations_For_Equal_Row) |
+| `2` [Game of Life](https://leetcode.com/problems/game-of-life/) | [**O(mn),O(1),Infinite Space**](medium/Game_of_Life) |
 | `1` [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | [**Recursive,Iterative with O(N),O(1)**](medium/Copy_List_with_Random_Pointer) |
 | `1` [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [**BruteForce,Backtracking,Closure**](medium/Generate_Parentheses) |
 | `1` [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/) | [**Priority Queues,Chronological Ordering**](medium/Meeting_Rooms_II) |
