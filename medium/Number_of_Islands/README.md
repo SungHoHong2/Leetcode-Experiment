@@ -4,6 +4,9 @@
 - Concept
     - Apply dfs to mark all the grounds into water 
     - Increment the number of island every time the new dfs starts
+    - Complexity 
+        - Time `O(mn)`: `m` is the number of rows and `n` is the number of columns
+        - Space `O(mn)` : worst case when the grid is all grounds 
 - [Source code](source/dfs.py)
 ```python
 class Solution:
@@ -11,6 +14,7 @@ class Solution:
         # skip if the table is viewed, water, or out of range
         # mark index as viewed
         # search through all the table recursively
+        pass
     def numIslands(self, grid: List[List[str]]) -> int:
         # if the grid has nothing return 0
         # set variable for the total number of islands 
@@ -18,20 +22,24 @@ class Solution:
                 # if there is a ground
                     # add one island
                     # execute the recursive depth-first-search
-        # return the total number of islands 
+        # return the total number of islands
+        pass 
 ```
 
 **Breadth First Search**
 - Concept
-    - Apply bfs to mark all the grounds into water 
-    - Increment the number of island every time the new dfs starts
+    - Apply bfs and deplete all the grounds
+    - Increment the number of island every time the new bfs starts
+    - Complexity 
+        - Time `O(mn)`: `m` is the number of rows and `n` is the number of columns
+        - Space `O(mn)` : worst case when the grid is all grounds     
 - [Source code](source/bfs.py)
 ```python
 class Solution:
     def numIslands(self, grid):
         # if there is not grid return 0
         # set variable for the total number of islands
-        # create a set that contains the address of the cells containig value "1"
+        # create a set that contains the address of the cells containing value "1"
         # loop the set until the set is empty
             # increase the number of total islands
             # init a queue
@@ -41,14 +49,18 @@ class Solution:
                 # empty the neighbors of the (row,col) that are in the set
                     # if the neighbors are part of the set
                         # remove the neighbor from the set
-                        # add the neighhbor to the queue
+                        # add the neighbor to the queue
         # return the final result
+        pass
 ```
 
 **Disjoint Set**
 - Concept
     - Apply disjoint set to group all the neighboring grounds under a single parent
     - The number of parents reflects the number of islands
+    - Complexity 
+        - Time `O(mn)`: `m` is the number of rows and `n` is the number of columns
+        - Space `O(mn)` : it is required by the union-find data structure    
 - [Source code](source/disjoint.py)
 
 ```python
@@ -59,12 +71,12 @@ class Solution:
         # set the parent table where all items themselves are the parents
         # set the ranking table for the parents
         # find the parent of the node
-        def getParent(current):
+        def getParent(curr):
             # get the index of the node
             # set the temporary pointer just in case the current node already has a parent
             # if the selected node already has a parent
                 # get the address of the parent
-            # update the parent table of that node
+                # update the parent table of that node
             # return the index of the parent
             pass
         # set parent of the cell
