@@ -3,9 +3,8 @@
 **Hashmap**
 - [Concepts](images/Hashmap.png)
     1. Assuming the equation `sum[i]+sum[j]=k` 
-        - Find the number of possible `sum[j]` from `sum[i]-k=sum[j]` 
-    1. Use the `hashmap` to record the total number of possible subsets for creating every possible `sum[i]` 
-    1. Count the number of subsets by finding the `sum[j]` that are equal to `sum[i]-k` 
+    1. Use the `hashmap` to record the possible results from continuous subsets
+    1. Count the number of continuous subsets that equals `k` by finding the `sum[j]` that are equal to `sum[i]-k` 
 - [Source code](source/Hashmap.py)
 ```python
 class Solution:
@@ -22,4 +21,5 @@ class Solution:
             # if the sum does not exist in the hashmap 
                 # start counting the sum in hashmap 
         # return the number of counts
+        pass
 ```

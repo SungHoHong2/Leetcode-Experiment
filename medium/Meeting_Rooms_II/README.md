@@ -13,7 +13,6 @@
 ```python
 from heapq import heappush
 from heapq import heappop
-
 class Solution:
     def minMeetingRooms(self, intervals: List[List[int]]) -> int:
         # return zero if there are not scheduled meetings
