@@ -9,7 +9,7 @@
 ```python
 class Solution:
     def subarraySum(self, nums: List[int], k: int) -> int:
-        # initialize a hashmap 
+        # initialize a hashmap that records the number of contiguous subsets that sum up to a number
         # set the variables for counter and the sum 
         # record the number of contiguous subsets that sum up to zero
         # iterate the numbers 
