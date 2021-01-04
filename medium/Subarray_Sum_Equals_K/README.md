@@ -10,7 +10,7 @@
 class Solution:
     def subarraySum(self, nums: List[int], k: int) -> int:
         # initialize a hashmap that records the number of contiguous subsets that sum up to a number
-        # set the variables for counter and the sum 
+        # set the variables for the number of subsets and the sum of the current subset 
         # record the number of contiguous subsets that sum up to zero
         # iterate the numbers 
             # expand the size of the contiguous subset
