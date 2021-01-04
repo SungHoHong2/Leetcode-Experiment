@@ -13,13 +13,10 @@ class Solution:
         # set the variables for counter and the sum 
         # record the number of contiguous subsets that sum up to zero
         # iterate the numbers 
-            # accumulate the sum 
-            # if the sum subtracted from k is found in hashmap
-                # subarray sum of k exists so increase the number of counts
-            # if the sum is found again in the hashmap  
-                # increase the number of counts 
-            # if the sum does not exist in the hashmap 
-                # start counting the sum in hashmap 
+            # expand the size of the contiguous subset
+            # if the contiguous subset that sums up to k is found
+                # aggregate the number of subsets that can be equal to k
+            # record the number of the contiguous subsets that equals to a certain number
         # return the number of counts
         pass
 ```
