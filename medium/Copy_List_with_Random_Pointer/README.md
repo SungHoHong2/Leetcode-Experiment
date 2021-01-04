@@ -6,6 +6,14 @@
     1. Return from leaf to root and use the cache to set the random pointers 
 - [Source code](source/Recursive.py)
 ```python
+"""
+# Definition for a Node.
+class Node:
+    def __init__(self, x: int, next: 'Node' = None, random: 'Node' = None):
+        self.val = int(x)
+        self.next = next
+        self.random = random
+"""
 class Solution:
     def __init__(self):
         # initialize a cache
