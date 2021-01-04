@@ -8,28 +8,25 @@
 
 ```python
 class Solution(object):
-    def generate(self, ans, ansSize, rtnArray):
+    def generate(self, ans):
         # if the generated answer has the expected length
             # if the generated array contains
                 # add the answer to the return list
         # if the generated answer does not have the expected length
-            # append opening
-            # go to the right child of the recursive tree
-            # go back to the parent
-            # append closing
-            # go to the left child of the recursive tree
-            # go back to the parent of the recursive tree
+            # invoke the recursive with additional opening
+            # invoke the recursive with additional closing 
         pass
-    def valid(self, A):
-        # initiate a flag for checking the balance
+    def valid(self, ans):
+        # set the balance to check the validity of the parenthesis
         # iterate the list
             # if the list contains opening increment the balance
             # if the list contains closing decrement the balance
-            # if the number closing is more than the opening
+            # if the number of closing is more than the opening
         # return true if the number of opening and closing are equal
         pass
     def generateParenthesis(self, n):
         # set up the return array
+        # set the total size of the parenthesis
         # invoke the generate function
         # return the list of answers
         pass
@@ -57,31 +54,6 @@ class Solution(object):
     def generateParenthesis(self, N):
         # set the return list
         # run the backtrack function
-        # return the list of answers
-        pass
-```
-
-**Closure Number**
-- [Concepts](images/Closure.png)
-```
- f(0) = ""
- f(1) = (f(0))
- f(2) = (f(0))f(1) (f(1))
- f(3) = (f(0))f(2) (f(1))f(1) (f(2))
- f(n) = (f(0))f(n-1) (f(1))f(n-2) ... (f(n-1))  
-```
-- [Source code (Applied Memoization)](source/Closure_DP.py)
-- [Source code](source/Closure.py)
-
-```python
-class Solution(object):
-    def generateParenthesis(self, N):
-        # return empty list when the answer expects zero Parentheses
-        # set the returning list
-        # iterate the available total number of parenthesis
-            # get the list of answers when the number of opening is "c"
-                # get the list of answers when the number of opening is N - c - 1
-                    # generate the answer and add to the returning list
         # return the list of answers
         pass
 ```
