@@ -4,7 +4,6 @@
     - Computes every possible solution to a problem 
     - Selects one that fulfills the requirements
 - [Recursion v2](source/Recursion2.py)
-- [Recursion v1](source/Recursion.py)
 
 ```python
 class Solution(object):
@@ -37,23 +36,23 @@ class Solution(object):
     - Extension of the Brute Force 
     - Potential solutions can be discarded before they have been finished
 - [Backtrack v3](source/BackTracking3.py)
-- [Backtrack v2](source/BackTracking2.py)
-- [Backtrack v1](source/BackTracking.py)
 
 ```python
 class Solution(object):
-    def backtrack(self, ans, left, right, ansSize, rtnArray):
+    def generate(self, ans, left, right):
         # if the answer has the expected length
             # include the answer to the return array
-            # finish the recursive function
-        # if the number of opnening is not enough
-            # create an answer with additional opening
-        # if the number of closing is smaller than opening
-            # create an answer with additional closing
+        # if the length of the generated string is not enough
+            # if the number of opening is not enough
+                # run the recursion with additional opening
+            # if the number of closing is smaller than opening
+                # run the recursion with additional closing
         pass
-    def generateParenthesis(self, N):
+        
+    def generateParenthesis(self, n):
         # set the return list
-        # run the backtrack function
+        # set the total size of the valid parenthesis
+        # run the recursion function
         # return the list of answers
         pass
 ```
