@@ -9,16 +9,16 @@
 class Solution:
     def __init__(self):
         # initialize a cache
+        pass
     def copyRandomList(self, head: 'Node') -> 'Node':
-        # if the node is null
-            # return none
-        # if the node is in the cache
-            # return the cached node
+        # return none if the node is null
+        # return the cached node if the node is in the cache
         # create a node
         # add the node to the cache
         # receive the recursive function from the next
         # receive the recursive function from the random
         # return the node
+        pass
 ```
 
 **Iteration with O(N) Space**
