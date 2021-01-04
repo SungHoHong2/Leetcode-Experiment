@@ -11,7 +11,7 @@ class Solution:
     def subarraySum(self, nums: List[int], k: int) -> int:
         # initialize a hashmap 
         # set the variables for counter and the sum 
-        # count zero in hashmap 
+        # count the number of contiguous subsets that sum up to zero
         # iterate the numbers 
             # accumulate the sum 
             # if the sum subtracted from k is found in hashmap
