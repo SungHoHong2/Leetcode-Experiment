@@ -1,6 +1,9 @@
 ### Number of Islands
 
 **Depth First Search**
+- Concept
+    - Apply dfs to mark all the grounds into water 
+    - Increment the number of island every time the new dfs starts
 - [Source code](source/dfs.py)
 ```python
 class Solution:
@@ -19,6 +22,9 @@ class Solution:
 ```
 
 **Breadth First Search**
+- Concept
+    - Apply bfs to mark all the grounds into water 
+    - Increment the number of island every time the new dfs starts
 - [Source code](source/bfs.py)
 ```python
 class Solution:
@@ -40,6 +46,9 @@ class Solution:
 ```
 
 **Disjoint Set**
+- Concept
+    - Apply disjoint set to group all the neighboring grounds under a single parent
+    - The number of parents reflects the number of islands
 - [Source code](source/disjoint.py)
 
 ```python
@@ -57,18 +66,22 @@ class Solution:
                 # get the address of the parent
             # update the parent table of that node
             # return the index of the parent
+            pass
         # set parent of the cell
         def setParent(curr, parent):
             # get the address of the current cell
             # store the parent address to the current cell
+            pass
         # return the rank of the parent
         def getRank(parent):
             # get the address of the parent
             # return the rank from the table
+            pass
         # update the rank of the parent
         def setRank(parent, rank):
             # get the address of the parent
             # update the rank
+            pass
         # merge two groups together
         def union(a, b):
             # get the parents of both 'a' and 'b'
@@ -79,6 +92,7 @@ class Solution:
                 # set the parent of 'b' to parent of 'a'
             # if the ranks of 'a' and 'b' are the same
                 # increase the number of rank and merge the group
+            pass
         # iterate the grid
                 # if the cell is the ground
                     # get the right and bottom cells
@@ -88,4 +102,5 @@ class Solution:
                 # if it is a ground and is the parent
                     # increase the number of islands
         # return the number of islands
+        pass
 ```
