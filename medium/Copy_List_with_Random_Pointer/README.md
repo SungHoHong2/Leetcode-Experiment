@@ -31,17 +31,17 @@ class Solution:
 class Solution(object):
     def __init__(self):
         # create a cache
+        pass
     # get cloned node function
     def getClonedNode(self, node):
-        # if the node is NULL
-            # return None
-        # if the node is in the cache
-            # return the node from the cache
+        # return None if the node is NULL
+        # return the cache if the node is in the cache
         # save the node in the cache
         # return the node
+        pass
+    
     def copyRandomList(self, head):
-        # if the node is NULL
-            # return None
+        # return None if the node is NULL
         # save the header for the original linked-list
         # create a header for the new linked-list
         # save the pointer to return the header of the new linked-list
@@ -51,6 +51,7 @@ class Solution(object):
             # move the previous linked-list forward
             # move the new linked-list forward
         # return the header of the new linked-list
+        pass
 ```
 
 **Iteration with O(1) Space**
@@ -63,8 +64,7 @@ class Solution(object):
 ```python
 class Solution:
     def copyRandomList(self, head: 'Node') -> 'Node':
-        # if the node is Null
-            # return None
+        # return None if the node is Null
         # set the current pointer to the head
         # loop until the Linked-list is depleted
             # create a new node
@@ -81,4 +81,5 @@ class Solution:
         # loop until the new Linked-list is depleted
             # connect the only nodes from the new linked-list
         # return the new Linked-list
+        pass
 ```

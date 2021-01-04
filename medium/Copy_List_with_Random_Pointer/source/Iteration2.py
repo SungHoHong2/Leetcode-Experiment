@@ -1,26 +1,16 @@
-"""
-# Definition for a Node.
-class Node:
-    def __init__(self, x: int, next: 'Node' = None, random: 'Node' = None):
-        self.val = int(x)
-        self.next = next
-        self.random = random
-"""
 class Solution:
     def copyRandomList(self, head: 'Node') -> 'Node':
-        # if the node is Null
+        # return None if the node is Null
         if not head:
-            # return None
             return None
         # set the current pointer to the head
         ptr = head
         # loop until the Linked-list is depleted
         while ptr:
             # create a new node
-            newNode = Node(ptr.val, None, None)
+            new_node = Node(ptr.val, None, None)
             # interweave the new node
-            newNode.next = ptr.next
-            ptr.next = newNode
+            new_node.next, ptr.next = ptr.next, new_node
             # move the current pointer forward
             ptr = ptr.next.next
         # set the current pointer to the head
