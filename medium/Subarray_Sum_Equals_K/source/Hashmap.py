@@ -4,7 +4,7 @@ class Solution:
         hashmap = collections.defaultdict(int)
         # set the variables for counter and the sum
         count, sum = 0, 0
-        # count zero in hashmap
+        # count the number of contiguous subsets that sum up to zero
         hashmap[0] = 1
         # iterate the numbers
         for i in nums:
