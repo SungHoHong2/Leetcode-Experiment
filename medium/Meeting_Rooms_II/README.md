@@ -42,9 +42,8 @@ class Solution:
 ````python
 class Solution:
     def minMeetingRooms(self, intervals: List[List[int]]) -> int:
-        # If there are no more scheduled meetings
-            # return zero
-        # set a variable to keep track of used rooms
+        # Return zero if there are no more scheduled meetings
+        # Set a variable to keep track of used rooms
         # Sort the start time of the meetings
         # Sort the finish time of the meetings
         # Set the pointer for start and finish time array
