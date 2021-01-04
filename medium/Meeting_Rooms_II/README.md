@@ -3,7 +3,7 @@
 - Concepts
     1. Sort the meetings according to start time 
     2. Use the priority queue to store the non overlapping meetings
-    3. Get the size of the priority queue to return the earliest finish time of the valid meetings\
+    3. Get the size of the priority queue to return the earliest finish time of the valid meetings
     - Time Complexity
         - `O(nlogn)`: sorting the array 
         - `O(nlogn)`: `O(logn)` for heap operation and `O(n)` for the input iteration
