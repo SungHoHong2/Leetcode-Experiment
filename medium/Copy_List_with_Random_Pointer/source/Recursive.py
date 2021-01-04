@@ -5,7 +5,7 @@ class Solution:
     def copyRandomList(self, head: 'Node') -> 'Node':
         # return none if the node is null
         if not head:
-            return none
+            return None
         # return the cached node if the node is in the cache
         if head in self.visited:
             return self.visited[head]
