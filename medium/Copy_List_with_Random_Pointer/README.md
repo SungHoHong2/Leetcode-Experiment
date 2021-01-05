@@ -1,6 +1,6 @@
 ### Copy List with Random Pointer
 **Recursive**
-- Intuition
+- Concepts
     1. Declare a global cache that stores the pointers of the node
     1. Explore from root to leaf and add all the nodes in cache 
     1. Return from leaf to root and use the cache to set the random pointers 
@@ -34,10 +34,13 @@ class Solution:
 ```
 
 **Iteration with O(N) Space**
-- Intuition
+- Concepts
     1. Declare a cache that stores the pointers of the node
     2. Explore the linked-list while storing the nodes in cache and creating the new linked-list
-
+    - Time Complexity
+        - `O(n)` : the number of nodes in the linked list
+    - Space Complexity 
+        - `O(n)` : the recursion stack and the hashmap 
 - [Source code](source/Iteration.py)
 ```python
 class Solution(object):
@@ -67,11 +70,16 @@ class Solution(object):
 ```
 
 **Iteration with O(1) Space**
-- Intuition
+- Concepts
     - Avoid using `hashtable` to store the pointers 
     1. Store the new items next to the old items in the linked list 
     2. Find the nodes for random pointers by looking into the old items (items.next)
     3. Remove the old items in the linked list    
+    - Time Complexity
+        - `O(n)` : the number of nodes in the linked list
+    - Space Complexity 
+        - `O(1)` : does not create new linked list     
+    
 - [Source code](source/Iteration2.py)
 ```python
 class Solution:
