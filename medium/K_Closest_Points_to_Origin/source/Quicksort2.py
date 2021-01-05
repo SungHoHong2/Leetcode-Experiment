@@ -5,7 +5,7 @@ class Solution(object):
 
         def sort(left, right, K):
             # return when recursion tree reaches the leaf
-            if left == right:
+            if left >= right:
                 return
             # find the random pivot index
             pivot = random.randint(left, right)
