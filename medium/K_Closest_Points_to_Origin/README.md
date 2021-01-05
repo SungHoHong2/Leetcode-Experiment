@@ -17,35 +17,34 @@ class Solution(object):
     - Apply the same tactic while implementing the quick-sort from scratch
     - Sort until Kth number of items are sorted to the left
 - [Quick Sort v2](source/Quicksort2.py)
-- [Quick Sort v1](source/Quicksort1.py)
 ```python
 class Solution(object):
     def kClosest(self, points, K):
-        # create a lambda function that calculates the euclidean distance        
-        def sort(i, j, K):
+        def dist(i):
+            pass
+    
+        def sort(left, right, K):
             # return when recursion tree reaches the leaf
             # find the random pivot index
             # place the pivot in the front of the array
             # parition the index based on the random pivot and get the pivot index
-            # if the number of elements in the leftside is more than K 
-                # sort recursively from the left array
+            # if the number of elements in the leftside is more than K
+                # reduce the scope of the return by sorting out the left side of the input
             # if the number of elements of the left side is less than K 
-                # explore more elements in the right side just enough to match the K
+                # increase the scope of the return by sorting the right side of the input
             pass
 
-        def partition(i, j):
-            # save the pivot index
-            # get the distance of the pivot
+        def partition(left, right):
+            # set the pivot and the left index 
             # quick-sort the elements using the pivot 
-            while True:
                 # increment from left if the distance is smaller than the pivot's
                 # decrement from right if the distance is larger than the pivot's
                 # break if the sorting is complete
                 # swap the incompatible distances between left and right
-                pass
             # swap the pivot with the recently swapped leftside distance
             # return middle index
             pass
+        
         # invoke sort function
         # return the kth amount of sorted result
         pass
