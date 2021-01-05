@@ -23,7 +23,8 @@ class Solution:
             # if the pivot is larger than the left side
             #        L   P   R
             # ex) [4,5,6,7,0,1,2,3]               
-            # search for the right area                    
+            # search for the right area     
+        pass               
 
     def binarySearch(self,nums, target, left, right):
         # loop until the whole array is searched 
@@ -35,6 +36,7 @@ class Solution:
             # if the pivot is smaller than the target
                 # search for the right area of the array 
         # return -1 if there is no target in the array 
+        pass
                 
     def search(self, nums, target):
         # get the total length of nums
@@ -55,6 +57,7 @@ class Solution:
         # ex) [4,5,6,7,0,1,2]
         #     target = 6 first = 4 
         # search until the rotate_index 
+        pass
 ```
 
 **One-pass Binary Search**
@@ -78,15 +81,12 @@ class Solution:
             # get the pivot
             # if the pivot is the target
                 # return the index of the pivot
-            # no rotation found between start and middle
-                # if target is in the leftside (small to medium)
-                    # search the left side of the array
-                # if target is in the rightside (note that we cannot compare with size because there may be a rotation)
-                    # search the rightside
-            # rotation found between start and middle
-                # if the target is in the rightside (small to medium)
-                    # search the right side of the array
-                # if the target is in the leftside
-                    # search the leftside
+            # if no rotation found between start and middle
+                # search the leftside if target is in the leftside 
+                # search rightside if target is in the rightside 
+            # if no rotation found between middle and end
+                # search rightside if the target is in the rightside 
+                # search leftside if the target is in the leftside
         # return -1 if no target is found in the array
+        pass
 ```

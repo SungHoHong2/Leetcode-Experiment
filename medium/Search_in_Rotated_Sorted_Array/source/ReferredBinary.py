@@ -13,24 +13,20 @@ class Solution:
                 # return the index of the pivot
                 return mid
             # no rotation found between start and middle
-            if nums[mid] >= nums[start]:
-                # if target is in the leftside (small to medium)
+            if nums[start] <= nums[mid] :
+                # search the leftside if target is in the leftside
                 if nums[start] <= target < nums[mid]:
-                    # search the left side of the array
-                    end = mid -1
-                # if target is in the rightside (note that we cannot compare with size because there may be a rotation)
+                    end = mid - 1
+                # search rightside if target is in the rightside
                 else:
-                    # search the rightside
                     start = mid + 1
-            # rotation found between start and middle
+            # no rotation found between middle and end
             else:
-                # if the target is in the rightside (small to medium)
+                # search rightside if the target is in the rightside
                 if nums[mid] < target <= nums[end]:
-                    # search the right side of the array
                     start = mid + 1
-                # if the target is in the leftside
+                # search leftside if the target is in the leftside
                 else:
-                    # search the leftside
-                    end = mid -1
+                    end = mid - 1
         # return -1 if no target is found in the array
         return -1
