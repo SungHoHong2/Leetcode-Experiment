@@ -1,34 +1,30 @@
 class Solution:
     def decodeString(self, s: str) -> str:
-        # set the stack
+        # create a stack that stores the current string and the repeated number
         stack = list()
-        # set the repeat
-        repeat = 0
-        # set the current string
-        currString = ""
+        # initialize the pointer of repeat and current string
+        repeat, currString = 0, ""
         # iterate the input
         for c in s:
-            # if the input is a digit
+            # if char is part of the repeat number
             if c.isdigit():
-                # set the repeat
+                # record the repeat considering the number may be two digits (ex 32[a])
                 repeat = repeat * 10 + int(c)
-            # if the char is open
+            # if the char is an opening bracket
             elif c == '[':
-                # save the repeat
+                # save the state of the number of repeats for the current string
                 stack.append(repeat)
-                # save the current string as the previous string
+                # save the state of the previously created string
                 stack.append(currString)
-                # renew the repeat and the current string
-                repeat = 0
-                currString = ""
-            # if the char is close
+                # renew the state of the repeat and the current string
+                repeat, currString = 0, ""
+            # if the char is a closing bracket
             elif c == ']':
-                # restore the previous string and repeat
-                currString = str(stack.pop()) + currString * int(stack.pop())
-                # attach the previous with the newly formed string
-            # if the char is an alphabet
+                # combine the previous result with the repeating current string
+                currString = str(stack.pop()) + int(stack.pop()) * currString
+            # if char is a data
             else:
-                # append it to the current string
+                # append the char to the current string
                 currString += c
-        # return the result
+        # return the accumulated result
         return currString

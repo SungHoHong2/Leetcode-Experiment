@@ -8,22 +8,18 @@
 class Solution:
     def decodeString(self, s: str) -> str:
         # create a stack that stores the current string and the repeated number
-        # intialize the pointer of current string
-        # initizlie the pointer of repeated numbers
+        # initialize the pointer of repeat and current string
         # iterate the input
-            # if char is the repeat number
-                # if the repeat is two digits (ex 32[a])
-            # if it is a opening bracket
-                # save the state of the previous string
-                # save the state for the number of repeats for the current string 
-                # set the current string pointer to zero
-                # set the repeat pointer to zero
-            # if it is a closing bracket
-                # pop out the number from the stack
-                # pop out the previous string from the stack
-                # append the string with the new repeated data
+            # if char is part of the repeat number
+                # record the repeat considering the number may be two digits (ex 32[a])
+            # if the char is an opening bracket
+                # save the state of the number of repeats for the current string
+                # save the state of the previously created string
+                # renew the state of the repeat and the current string
+            # if the char is a closing bracket
+                # combine the previous result with the repeating current string
             # if char is a data
-                # append the char
+                # append the char to the current string
         # return the accumulated result
         pass
 ```
@@ -35,19 +31,22 @@ class Solution:
 
 ```python
 class Solution:
-    # set the global index
+    def __init__(self):
+        # set the global index
+        pass
+    
     def decodeString(self, s: str) -> str:
         # set the result string
         # iterate until the input is depleted to the end
-            # if the string is not a digit
-                # append to the result
-                # increase the index
             # if the string is a digit
-                # get the total number of integers
+                # compute the repeats
                 # ignore the open bracket
                 # get the string from recursive operations
                 # ignore the closing bracket
                 # add the repeated number of strings from the recursive function
+            # if the string is not a digit
+                # append to the result
+                # increase the index
         # return the result
         pass
 ```
