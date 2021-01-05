@@ -8,14 +8,12 @@
 ```python
 class Solution(object):
     def spiralOrder(self, matrix):
-        # if the matrix is empty
-            # return a empty row
+        # return a empty row if the matrix is empty
         # get the number of rows and cols
         # create the matrix for checking the visited cells
         # initialize a list for return
-        # set the order of direction for the row (down,up)
-        # set the order of direction for the column (right,left)
-        # initalize the pointers for the direction
+        # set the order of direction (right,down,left,up)
+        # initialize the index for the matrix and the direction
         # iterate the total number of cells in the matrix
             # append the current cell
             # set the current cell visited
@@ -38,8 +36,7 @@ class Solution(object):
 class Solution(object):
     def spiralOrder(self, matrix):
         # set the list for return
-        # if the matrix is empty
-            # return empty array
+        # return empty array if the matrix is empty
         # set the length of the row and the column
         # set the pointer for iteration and the maximum number of interation
         # set the start point of the row and column
