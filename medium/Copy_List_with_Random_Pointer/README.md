@@ -4,6 +4,10 @@
     1. Declare a global cache that stores the pointers of the node
     1. Explore from root to leaf and add all the nodes in cache 
     1. Return from leaf to root and use the cache to set the random pointers 
+    - Time Complexity
+        - `O(n)` : the number of nodes in the linked list
+    - Space Complexity 
+        - `O(n)` : the recursion stack and the hashmap 
 - [Source code](source/Recursive.py)
 ```python
 """
