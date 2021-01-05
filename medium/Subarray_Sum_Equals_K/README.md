@@ -14,8 +14,7 @@ class Solution:
         # record the number of contiguous subsets that sum up to zero
         # iterate the numbers 
             # expand the size of the contiguous subset
-            # if the contiguous subset that sums up to k is found
-                # aggregate the number of subsets that can be equal to k
+            # aggregate the number of contiguous subsets that can be equal to k
             # record the number of the contiguous subsets that equals to a certain number
         # return the number of counts
         pass

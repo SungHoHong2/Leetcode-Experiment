@@ -10,10 +10,8 @@ class Solution:
         for i in nums:
             # expand the size of the contiguous subset
             sum += i
-            # if the contiguous subset that sums up to k is found
-            if (sum-k) in hashmap:
-                # aggregate the number of subsets that can be equal to k
-                count += hashmap[sum-k]
+            # aggregate the number of subsets that can be equal to k
+            count += hashmap[sum-k]
             # record the number of the contiguous subsets that equals to a certain number
             hashmap[sum] += 1
         # return the number of counts
