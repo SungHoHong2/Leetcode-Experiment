@@ -38,19 +38,17 @@ class Solution(object):
         # set the list for return
         # return empty array if the matrix is empty
         # set the length of the row and the column
-        # set the pointer for iteration and the maximum number of interation
+        # set the pointer for iteration and the maximum number of iteration
         # set the start point of the row and column
-        # iterate the total number of matrix
         # two iterations cover one layer of the matrix
             # even number of iteration
                 # collect the top side of the layer
                 # collect the right side of the layer
-                # shrink the layer
+                # shrink the layer for the odd iteration
             # odd number of iteration
                 # collect the bottom side of the layer
                 # collect the left side of the layer
-                # shrink the layer
-            # increase iteration
+                # shrink the layer for the even iteration
         # return the list
         pass
 ```
