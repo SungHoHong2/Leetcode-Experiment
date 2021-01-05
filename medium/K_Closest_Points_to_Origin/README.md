@@ -25,17 +25,18 @@ class Solution(object):
     
         def sort(left, right, K):
             # return when recursion tree reaches the leaf
-            # find the random pivot index
-            # place the pivot in the front of the array
             # parition the index based on the random pivot and get the pivot index
-            # if the number of elements in the leftside is more than K
+            # get the sorted length
+            # if the sorted result is more than K
                 # reduce the scope of the return by sorting out the left side of the input
-            # if the number of elements of the left side is less than K 
+            # if the sorted result is less than K 
                 # increase the scope of the return by sorting the right side of the input
             pass
 
         def partition(left, right):
-            # set the pivot and the left index 
+            # find the random pivot index
+            # place the pivot in the front of the array
+            # set the pivot and the left index
             # quick-sort the elements using the pivot 
                 # increment from left if the distance is smaller than the pivot's
                 # decrement from right if the distance is larger than the pivot's
