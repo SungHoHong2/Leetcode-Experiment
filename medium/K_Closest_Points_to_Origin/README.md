@@ -25,7 +25,7 @@ class Solution(object):
     
         def sort(left, right, K):
             # return when recursion tree reaches the leaf
-            # parition the index based on the random pivot and get the pivot index
+            # partition the index based on the random pivot and get the pivot index
             # get the sorted length
             # if the sorted result is more than K
                 # reduce the scope of the return by sorting out the left side of the input
@@ -39,10 +39,10 @@ class Solution(object):
             # set the pivot and the left index
             # quick-sort the elements using the pivot 
                 # increment from left if the distance is smaller than the pivot's
-                # decrement from right if the distance is larger than the pivot's
+                # decrement from right if the distance is larger than or equal to the pivot's
                 # break if the sorting is complete
                 # swap the incompatible distances between left and right
-            # swap the pivot with the recently swapped leftside distance
+            # swap the pivot with the right index
             # return middle index
             pass
         
@@ -50,4 +50,3 @@ class Solution(object):
         # return the kth amount of sorted result
         pass
 ```
-
