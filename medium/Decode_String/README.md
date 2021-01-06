@@ -5,6 +5,20 @@
 - [Stack v2](source/stack2.py)
 - [Stack v1](source/stack.py)
 ```python
+"""
+  3[a]2[bc]
+  stack = [3], curr = a 
+  stack = [] curr = aaa
+  stack = [2, aaa] curr= bc 
+  stack = [] curr= aaa + bcbc
+ 
+  3[2[bc]]
+  stack = [3] curr = ''
+  stack = [3,2] curr = bc 
+  stack = [3] curr = bcbc  
+  stack = [] curr = bcbcbcbcbcbc
+"""
+
 class Solution:
     def decodeString(self, s: str) -> str:
         # create a stack that stores the current string and the repeated number
