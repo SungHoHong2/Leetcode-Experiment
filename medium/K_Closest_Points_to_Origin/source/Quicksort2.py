@@ -7,7 +7,7 @@ class Solution(object):
             # return when recursion tree reaches the leaf
             if left >= right:
                 return
-                # parition the index based on the random pivot and get the pivot index
+            # get the middle index from the quick-sort partition
             mid = partition(left, right)
             # get the sorted length
             sorted_total = (mid - left + 1)
