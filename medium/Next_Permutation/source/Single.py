@@ -3,30 +3,22 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
-        # find the item that has the ascending order
+        # searching from the rightside to find the number that decreases
         i = len(nums) - 2
-        while i >= 0 and nums[i + 1] <= nums[i]:
+        while i >= 0 and nums[i] >= nums[i + 1]:
             i -= 1
-        # if the pivot that has the ascending order is found
+        # if the decreasing number is found
         if i >= 0:
-            # find the smallest item that is from the right side of the pivot
+            # find the smallest number that is bigger than the decreasing number from the rightside
             j = len(nums) - 1
-            while j >= i and nums[j] <= nums[i]:
+            while j >= i and nums[i] >= nums[j]:
                 j -= 1
-            # swap the next larger number number with the pivot
-            self.swap(nums, i, j)
-        # reverse all the items in the right side of the pivot
-        self.reverse(nums, i + 1)
-
-    def swap(self, nums, i, j):
-        temp = nums[i]
-        nums[i] = nums[j]
-        nums[j] = temp
-
-    def reverse(self, nums, start):
-        i = start
-        j = len(nums) - 1
+                # swap the positions of the two numbers
+            nums[i], nums[j] = nums[j], nums[i]
+        # make the rightside the smallest number by reversing all the numbers
+        i, j = i + 1, len(nums) - 1
         while i < j:
-            self.swap(nums, i, j)
+            nums[i], nums[j] = nums[j], nums[i]
             i += 1
             j -= 1
+

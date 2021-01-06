@@ -17,16 +17,9 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
-        # find the item that has the ascending order 
-        # if the pivot that has the ascending order is found 
-            # find the smallest item that is from the right side of the pivot
-            # swap the next larger number number with the pivot 
-        # reverse all the items in the right side of the pivot
-        pass 
-
-    def swap(self, nums, i, j):
-        pass 
-
-    def reverse(self, nums, start):
-        pass
+        # searching from the rightside to find the number that decreases
+        # if the decreasing number is found
+            # find the smallest number that is bigger than the decreasing number from the rightside
+            # swap the positions of the two numbers
+        # make the rightside the smallest by reversing all the numbers
 ```

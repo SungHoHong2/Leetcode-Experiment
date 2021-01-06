@@ -3,7 +3,7 @@
 **Simulation**
 - Concepts
     - Create an additional matrix to keep track of visited cells 
-    - Explore the matrix by following the spiral direction 
+    - Explore the matrix by changing the directions when the index exceeds the matrix 
 - [Source code](source/Simulation.py)
 ```python
 class Solution(object):
@@ -29,11 +29,17 @@ class Solution(object):
 
 **Layer-by-Layer**
 - Concept
-    - Refrain from using the visited table 
-    - Follow the concept of peeling the outer-layers while exploring the matrix
+    - Refrain from using the visited cells 
+    - Shrink the explorable outer-layers for each iteration
 - [Source code](source/Layer.py)
 ```python
 class Solution(object):
+    """
+    Assume that each iteration consists of two attempts [0,1] [2,3] [4,] 
+    0 0 0 0 
+    3 4 4 1    
+    2 2 2 1
+    """
     def spiralOrder(self, matrix):
         # set the list for return
         # return empty array if the matrix is empty
