@@ -18,7 +18,7 @@ class Solution:
       stack = [3,2] curr = bc 
       stack = [3] curr = bcbc  
       stack = [] curr = bcbcbcbcbcbc
-    """
+    """~~~~
     def decodeString(self, s: str) -> str:
         # create a stack that stores the current string and the repeated number
         # initialize the pointer of repeat and current string

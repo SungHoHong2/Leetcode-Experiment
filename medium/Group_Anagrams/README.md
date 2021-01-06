@@ -2,6 +2,9 @@
 
 **Categorize by Sorted String**
 - [Concepts](images/Sorted.png)
+    - Sort the characters of the each strings in ascending order 
+    - Apply the sorted strings as the key of the hashmap 
+    - Group all the strings that share the same table using the hashmap 
 - [Source code](source/Sorted.py)
 ```python
 class Solution(object):
@@ -14,6 +17,10 @@ class Solution(object):
 ```
 
 **Categorize by Count**
+- Concepts 
+    - Avoid sorting the strings
+    - Create a one-dimension table that count the number of alphabets included in each string 
+    - Group all the strings that share the same table using the hashmap 
 - [Source code](source/Count.py)
 ```python
 class Solution:
