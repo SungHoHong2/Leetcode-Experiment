@@ -1,24 +1,24 @@
 class Solution:
     def maxArea(self, height: List[int]) -> int:
         # set the variable the check the maximum area
-        maxarea = 0
+        area = 0
         # set the pointer of the left
-        l = 0
+        left = 0
         # set the pointer of the right
-        r = len(height) -1
+        right = len(height) - 1
         # iterate until the items from the list are checked
-        while l < r:
+        while left < right:
             # get the shortest height from the left and right
-            _height = min(height[l], height[r])
+            top = min(height[left], height[right])
             # update the maximum area of the height
-            maxarea = max(maxarea, _height * (r-l))
+            area = max(area, top * (right-left))
             # if the left side is shorter
-            if height[l] < height[r]:
+            if height[left] < height[right]:
                 # move from the left
-                l += 1
+                left += 1
             # if the right side is shorter
             else:
                 # move from the right
-                r -=1
+                right -= 1
         # return the maximum area
-        return maxarea
+        return area
