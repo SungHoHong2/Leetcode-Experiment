@@ -6,7 +6,7 @@ class Solution:
     def decodeString(self, s: str) -> str:
         # set the result string
         currString = ''
-        # iterate until the input is depleted to the end
+        # iterate until the input is depleted to the end or the current index is not a char
         while self.index < len(s) and s[self.index] != ']':
             # if the string is a digit
             if s[self.index].isdigit():
@@ -17,12 +17,10 @@ class Solution:
                     self.index += 1
                 # ignore the open bracket
                 self.index += 1
-                # get the string from recursive operations
-                prevString = self.decodeString(s)
+                # add the repeated number of strings from the recursive function
+                currString += self.decodeString(s) * repeat
                 # ignore the closing bracket
                 self.index += 1
-                # add the repeated number of strings from the recursive function
-                currString += prevString * repeat
             # if the string is not a digit
             else:
                 # append to the result

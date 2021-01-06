@@ -5,21 +5,20 @@
 - [Stack v2](source/stack2.py)
 - [Stack v1](source/stack.py)
 ```python
-"""
-  3[a]2[bc]
-  stack = [3], curr = a 
-  stack = [] curr = aaa
-  stack = [2, aaa] curr= bc 
-  stack = [] curr= aaa + bcbc
- 
-  3[2[bc]]
-  stack = [3] curr = ''
-  stack = [3,2] curr = bc 
-  stack = [3] curr = bcbc  
-  stack = [] curr = bcbcbcbcbcbc
-"""
-
 class Solution:
+    """
+      3[a]2[bc]
+      stack = [3], curr = a 
+      stack = [] curr = aaa
+      stack = [2, aaa] curr= bc 
+      stack = [] curr= aaa + bcbc
+     
+      3[2[bc]]
+      stack = [3] curr = ''
+      stack = [3,2] curr = bc 
+      stack = [3] curr = bcbc  
+      stack = [] curr = bcbcbcbcbcbc
+    """
     def decodeString(self, s: str) -> str:
         # create a stack that stores the current string and the repeated number
         # initialize the pointer of repeat and current string
@@ -45,10 +44,14 @@ class Solution:
 
 ```python
 class Solution:
+    """
+    using internal stack
+        replace the stack with the internal stack 
+        3[a]2[bc] = [a] [bc] are constructed by recursion 
+    """    
     def __init__(self):
         # set the global index
         pass
-    
     def decodeString(self, s: str) -> str:
         # set the result string
         # iterate until the input is depleted to the end
