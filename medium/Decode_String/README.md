@@ -40,7 +40,7 @@ class Solution:
 
 **Using Recursion**
 - Concepts 
-    - Use the recursion to make use of the internal stack
+    - replace the stack with the internal stack used in recursion
 - [Source code](source/recursive.py)
 
 ```python
