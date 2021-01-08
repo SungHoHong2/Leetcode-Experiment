@@ -15,6 +15,14 @@ class Solution:
 
     def letterCombinations(self, digits):
         # set the map for all the characters mapped to the number
+        self.phone = {'2': ['a', 'b', 'c'],
+                      '3': ['d', 'e', 'f'],
+                      '4': ['g', 'h', 'i'],
+                      '5': ['j', 'k', 'l'],
+                      '6': ['m', 'n', 'o'],
+                      '7': ['p', 'q', 'r', 's'],
+                      '8': ['t', 'u', 'v'],
+                      '9': ['w', 'x', 'y', 'z']}
         # set the answer as an array
         # return the answer if there is no input
         # invoke the recursive function

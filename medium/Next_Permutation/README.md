@@ -14,13 +14,14 @@
         - `O(n)`: In worst case, only three scans of the whole array are needed 
     - Space Complexity 
         -  `O(1)`: No extra space is used. In place replacements are done
+
 - [Source code](source/Single.py)
 ```python
 class Solution:
     def nextPermutation(self, nums: List[int]) -> None:
         """
         Do not return anything, modify nums in-place instead.
-        """
+        """                                         
         # searching from the rightside to find the number that decreases
         # if the decreasing number is found
             # find the smallest number that is bigger than the decreasing number from the rightside
