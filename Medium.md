@@ -24,7 +24,7 @@
 | `2` [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | [**Simulation,Layers**](medium/Spiral_Matrix) |
 | `2` [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) | [**Sort,QuickSort**](medium/K_Closest_Points_to_Origin) |
 | `2` [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | [**Two Pointers**](medium/Container_With_Most_Water) |
-| `w` [Next Permutation](https://leetcode.com/problems/next-permutation/) | [**Single Pass Approach**](medium/Next_Permutation) |
+| `2` [Next Permutation](https://leetcode.com/problems/next-permutation/) | [**Single Pass Approach**](medium/Next_Permutation) |
 | `w` [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | [**Backtracking**](medium/Letter_Combinations_of_a_Phone_Number) |
 | `w` [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | [**HashMap + ArrayList**](medium/Insert_Delete_GetRandom) |
 | `w` [Find Duplicate File in System](https://leetcode.com/problems/find-duplicate-file-in-system/) | [**HashMap**](medium/Find_Duplicate_File_in_System) |

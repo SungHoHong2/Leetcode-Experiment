@@ -10,6 +10,10 @@
         - `9876[0]432[1]0` -> `9876[1]432[0]0` -> `9876143200`
     - Reverse the numbers of the rightside of the pivot
         - `98761[43200]` -> `98761[00234]` -> `9876100234`
+    - Time Complexity 
+        - `O(n)`: In worst case, only three scans of the whole array are needed 
+    - Space Complexity 
+        -  `O(1)`: No extra space is used. In place replacements are done
 - [Source code](source/Single.py)
 ```python
 class Solution:
