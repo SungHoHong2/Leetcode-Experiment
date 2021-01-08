@@ -10,22 +10,22 @@ class RandomizedSet:
         pass
 
     def insert(self, val: int) -> bool:
-        # if the inserted item is already in the map
-            # return false
-        # add key as the inserted item and the total length of the list as the value to the map
-        # append to inserted item to the list
+        # return false if the inserted item is already in the hashmap
+        # add key as the inserted item and value as the future index of the array to the hashmap
+        # append inserted item to the array
         # return true
-        pass 
+        pass
 
     def remove(self, val: int) -> bool:
         # if the item is in the hashmap
-            # get the latest item appended in the list
+            # get the latest item appended in the array
             # get the index of the removing item
-            # override the removing item with the latest item in the list and update latest item in the map 
+            # override the removing item with the latest item in the array
+            # update latest item in the map with the index of the removing item
             # delete the latest index in the array
             # delete the removing item in the map
             # return true
-        # return false
+        # return false if there is no item in the hashmap
         pass
 
     def getRandom(self) -> int:
