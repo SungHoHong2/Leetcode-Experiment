@@ -1,32 +1,33 @@
 class Solution:
     def __init__(self):
         # set a map to record the possible characters
-        self.memo = {}
+        self.dp = dict()
 
-    def recursive_with_memo(self, index, s) -> int:
-        # if the recursive tree reaches the largest index
+    def recursive(self, index, s) -> int:
+        # return 1 if the last two digits are valid
         if index == len(s):
             return 1
-        # If the string starts with a zero, it can't be decoded
+        # return 0 if the last single digit is zero (invalid)
         if s[index] == '0':
             return 0
-        # if the recursive tree reaches the second largest index
+        # return 1 if the last single digit is valid
         if index == len(s)-1 :
             return 1
-        # return the recorded result if the same number is found
-        if index in self.memo:
-            return self.memo[index]
-        # get the results from the recursive function using a single number and valid two digit number
-        ans = self.recursive_with_memo(index+1, s) + (self.recursive_with_memo(index+2, s) if (int(s[index : index+2]) <= 26) else 0)
-        # record the result for the current number
-        self.memo[index] = ans
+        # return the cached result if the rightside of the digits are visited
+        if index in self.dp:
+            return self.dp[index]
+        # get the combinations from a single digit
+        ans = self.recursive(index+1, s)
+        # get the combinations from a double digit if it is valid
+        ans += self.recursive(index+2, s) if int(s[index : index+2]) <= 26 else 0
+        # record the possible combinations for the current digit
+        self.dp[index] = ans
         # return the result
-        return self.memo[index]
+        return self.dp[index]
 
     def numDecodings(self, s: str) -> int:
-        # if there is no input
+        # return 0 if there is no input
         if not s:
-            # return 0
             return 0
-        # invoke the recursive tree
-        return self.recursive_with_memo(0, s)
+        # invoke the recursion
+        return self.recursive(0, s)
