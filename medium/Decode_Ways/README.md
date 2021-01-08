@@ -12,7 +12,7 @@
 ```python
 class Solution:
     def __init__(self):
-        # set a map to record the possible characters
+        # set the dp table to record the possible characters
         pass
 
     def recursive(self, index, s) -> int:
