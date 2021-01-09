@@ -18,4 +18,4 @@ class Solution:
                 # store the content as the key and value as the list
                 tracker[content].append(directory+'/'+filename)
         # return files that contain duplicates or return an empty array if no duplicates exists
-        return [value for key,value in tracker.items() if len(value) > 1]
+        return [ v for v in tracker.values() if len(v) > 1]
