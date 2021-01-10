@@ -1,9 +1,9 @@
 class Solution:
-    def binarySearch(self, matrix, target, start, vertical):
+    def binary_search(self, target, start, vertical):
         # set the lowest index
         low = start
         # set the highest index for vertical or horizontal
-        high = len(matrix)-1 if vertical else len(matrix[0])-1
+        high = len(self.matrix)-1 if vertical else len(self.matrix[0])-1
         # loop until the lowest index meets the highest
         while low <= high:
             # get the middle
@@ -11,18 +11,18 @@ class Solution:
             # if it is a vertical search
             if vertical:
                 # binary search the rows
-                if matrix[mid][start] < target:
+                if self.matrix[mid][start] < target:
                     low = mid + 1
-                elif matrix[mid][start] > target:
+                elif self.matrix[mid][start] > target:
                     high = mid -1
                 else:
                     return True
             # if it is a horizontal search
             else:
                 # binary search the columns
-                if matrix[start][mid] < target:
+                if self.matrix[start][mid] < target:
                     low = mid + 1
-                elif matrix[start][mid] > target:
+                elif self.matrix[start][mid] > target:
                     high = mid -1
                 else:
                     return True
@@ -30,19 +30,19 @@ class Solution:
         return False
 
     def searchMatrix(self, matrix, target):
-        # if there is not input
+        # return false if the matrix is empty
         if not matrix:
-            # return false
             return False
+        # globalize the input
+        self.matrix = matrix
         # iterate the matrix diagonally
         for i in range(min(len(matrix), len(matrix[0]))):
             # binary search the target vertically
-            vertical = self.binarySearch(matrix,target,i,True)
+            vertical = self.binary_search(target, i, True)
             # binary search the target horizontally
-            horizontal = self.binarySearch(matrix,target,i,False)
-            # if the target is found
+            horizontal = self.binary_search(target, i, False)
+            # return true if the target is found
             if vertical or horizontal:
-                # return true
                 return True
         # return false if the target was not found with binary search
         return False

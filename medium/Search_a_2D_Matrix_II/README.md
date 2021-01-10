@@ -5,7 +5,7 @@
 - [Source code](source/Binary.py)
 ```python
 class Solution:
-    def binary_search(self, matrix, target, start, vertical):
+    def binary_search(self, target, start, vertical):
         # set the lowest index
         # set the highest index for vertical or horizontal
         # loop until the lowest index meets the highest
@@ -15,19 +15,17 @@ class Solution:
             # if it is a horizontal search
                 # binary search the columns
         # return false if no target was found
-        pass 
+        pass
 
     def searchMatrix(self, matrix, target):
-        # if there is not input
-            # return false
-
+        # return false if the matrix is empty
+        # globalize the input
         # iterate the matrix diagonally
             # binary search the target vertically
             # binary search the target horizontally
-            # if the target is found
-                # return true
+            # return true if the target is found
         # return false if the target was not found with binary search
-        pass 
+        pass
 ```
 
 **Divide and Conquer**
