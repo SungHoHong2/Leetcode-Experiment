@@ -27,13 +27,13 @@
 | `2` [Next Permutation](https://leetcode.com/problems/next-permutation/) | [**Single Pass Approach**](medium/Next_Permutation) |
 | `2` [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | [**Backtracking**](medium/Letter_Combinations_of_a_Phone_Number) |
 | `2` [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | [**HashMap + ArrayList**](medium/Insert_Delete_GetRandom) |
-| `w` [Find Duplicate File in System](https://leetcode.com/problems/find-duplicate-file-in-system/) | [**HashMap**](medium/Find_Duplicate_File_in_System) |
-| `w` [Decode Ways](https://leetcode.com/problems/decode-ways/) | [**Memoization,Iteration**](medium/Decode_Ways) |
-| `1` [Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/) | [**Backtracking,DFS**](medium/Reconstruct_Itinerary) |
-| `1` [Word Break](https://leetcode.com/problems/word-break/) | [**BFS,Memoization,Iteration**](medium/Word_Break) |
-| `1` [Word Search](https://leetcode.com/problems/word-search/) | [**Backtrack**](medium/Word_Search) |
-| `1` [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/) | [**Binary Search,Divide and Conquer,Search Space Reduction**](medium/Search_a_2D_Matrix_II) |
-| `1` [Coin Change](https://leetcode.com/problems/coin-change/) | [**TopDown,BottomUp**](medium/Coin_Change) |
+| `2` [Find Duplicate File in System](https://leetcode.com/problems/find-duplicate-file-in-system/) | [**HashMap**](medium/Find_Duplicate_File_in_System) |
+| `2` [Decode Ways](https://leetcode.com/problems/decode-ways/) | [**Memoization,Iteration**](medium/Decode_Ways) |
+| `w` [Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/) | [**Backtracking,DFS**](medium/Reconstruct_Itinerary) |
+| `w` [Word Break](https://leetcode.com/problems/word-break/) | [**BFS,Memoization,Iteration**](medium/Word_Break) |
+| `w` [Word Search](https://leetcode.com/problems/word-search/) | [**Backtrack**](medium/Word_Search) |
+| `w` [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/) | [**Binary Search,Divide and Conquer,Search Space Reduction**](medium/Search_a_2D_Matrix_II) |
+| `w` [Coin Change](https://leetcode.com/problems/coin-change/) | [**TopDown,BottomUp**](medium/Coin_Change) |
 | `1` [Coin Change2](https://leetcode.com/problems/coin-change-2/) | [**DP**](medium/Coin_Change_2) |
 | `1` [Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/) | [**Hashmap + Binary Search**](medium/Time_Based_Key_Value_Store) |
 | `1` [Before and After Puzzle](https://leetcode.com/problems/before-and-after-puzzle/) | [**Using Sets**](medium/Before_and_after_Puzzle) |
