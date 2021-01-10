@@ -53,7 +53,7 @@ class Solution:
         # return false if the target does not exist 
         # return false if the `target` is within the in top-left and bottom-right submatrices
         # get the horizontal pivot
-        # get the veritcal pivot == matrix[row-1][mid] < target < matrix[row][mid]
+        # get the vertical pivot == matrix[row-1][mid] < target < matrix[row][mid]
             # return true if the target is found while locating the middle
         # explore the target in the bottom-left and the top-right submatrices
         pass
