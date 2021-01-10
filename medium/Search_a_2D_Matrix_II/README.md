@@ -59,7 +59,6 @@ class Solution:
         pass
 
     def searchMatrix(self, matrix, target):
-        # set the target variable to global
         # set the matrix variable to global
         # return false if the input is empty
         # invoke recursion
