@@ -49,7 +49,7 @@ class Solution:
 - [Source code](source/Divide.py)
 ```python
 class Solution:
-    def search_rec(self,left, up, right, down):
+    def search_rec(self, target, left, up, right, down):
         # return false if the target does not exist 
         # return false if the `target` is within the in top-left and bottom-right submatrices
         # get the horizontal pivot
