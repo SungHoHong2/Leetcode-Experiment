@@ -1,16 +1,16 @@
 class Solution(object):
     def wordBreak(self, s, wordDict):
         # set up the dp table
-        table = [False for i in s]
+        dp = [False for _ in s]
         # iterate the string
-        for j in range(len(s)):
+        for end in range(len(s)):
             # interate the substring backwards
-            for i in range(j, -1, -1):
+            for start in range(end+1,-1,-1):
                 # if the current word is valid and the previous substrings are valid
-                if s[i:j+1] in wordDict and (table[i-1] if i > 0 else True):
-                    # return true
-                    table[j] = True
-                    # no need to check the rest of the substrings
+                if s[start:end+1] in wordDict and (dp[start-1] if start > 0 else True):
+                    # set the dp table to true
+                    dp[end] = True
+                    # ignore the rest of the substrings
                     break
         # return the final result of the record
-        return table[len(s)-1]
+        return dp[len(s)-1]

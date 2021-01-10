@@ -8,19 +8,23 @@ class Solution:
             self.flightMap[ticket[0]].append(ticket[1])
         # sort the destination according to the lexical descending order
         for key in self.flightMap:
-            # Note that we could have multiple identical flights, i.e. same origin and destination.
             self.flightMap[key].sort(reverse=True)
         # start the depth-first search from JFK
         return self.dfs('JFK')[::-1]
 
-    def dfs(self, origin):
-        ans = []
-        # get the destination list
-        destinations = self.flightMap[origin]
-        # explore the destinations of the origin
-        while destinations:
-            ans.extend(self.dfs(destinations.pop()))
-        # append the origin to the array
-        ans.append(origin)
-        # return the array
+    def dfs(self, src):
+        """
+        post-order dfs:
+        start accumulating the destinations at the finishing point of the dfs
+        """
+        # set the returning array
+        ans = list()
+        # get the list of destinations
+        dests = self.flightMap[src]
+        # explore and collect destinations using dfs
+        while dests:
+            ans += self.dfs(dests.pop())
+        # add the source to the returning array
+        ans.append(src)
+        # return the destinations
         return ans

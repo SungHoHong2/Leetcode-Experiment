@@ -51,10 +51,15 @@ class Solution:
         # start the depth-first search from JFK
         pass
 
-    def dfs(self, origin):
+    def dfs(self, src):
+        """
+        post-order dfs: 
+        start accumulating the destinations at the finishing point of the dfs
+        """
         # set the returning array 
-        # explore the destinations of the origin
-        # append the origin to the array after finishing the search
-        # return the array
+        # get the list of destinations 
+        # explore and collect destinations using dfs
+        # add the source to the returning array 
+        # return the destinations
         pass
 ```
