@@ -7,16 +7,15 @@
 class Solution:
     def exist(self, board: List[List[str]], word: str) -> bool:
         # set the table as the global pointer
-        # iterate all possible cells
-                # invoke recursion
-                    # return true if the snake is found
+        # iterate all possible cells in the board 
+                # return true if the snake is found from the recursion 
         # return false if the snake is not found
         pass
 
     def backtrack(self, row, col, suffix):
         # return true if the snake is completed
-        # if the row and column exceeds the table or the target character does no create the snake
-        # mark the word as searched to prevent infinite loop
+        # return false if the index exceeds the board or the suffix does not match
+        # mark the index as visited
         # traverse the neighboring elements
             # return true if the snake is found from the recursion
         # reset the table back to original state to allow other recursions to search
