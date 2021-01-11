@@ -1,6 +1,6 @@
 class Solution(object):
     def wordBreak(self, s, wordDict):
-        # set up a queue to search all the substrings
+        # set up a queue for bfs
         queue = list()
         # set the record of visited for the substrings
         visited = [False for i in range(len(s))]
@@ -8,13 +8,13 @@ class Solution(object):
         queue.append(0)
         # loop until the queue is depleted
         while queue:
-            # pop the next begining index of the substring
+            # pop the next beginning index of the substring
             start = queue.pop()
             # if the substring is not visited
             if not visited[start]:
                 # iterate the substring
                 for end in range(start+1,len(s)+1):
-                    # if the substring is part of the wordset
+                    # if the substring is part of the wordDict
                     if s[start:end] in wordDict:
                         # append the the end index to the queue
                         queue.append(end)
