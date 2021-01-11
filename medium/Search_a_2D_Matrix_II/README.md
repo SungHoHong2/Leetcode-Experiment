@@ -49,9 +49,17 @@ class Solution:
 - [Source code](source/Divide.py)
 ```python
 class Solution:
-    def search_rec(self, target, left, up, right, down):
+    def recursion(self, target, left, up, right, down):
+        """
+        target = 5
+        [ 1,2,  3, [4,5]]
+        [ 2,3, [4],[5,6]]
+        [[3,4],[6], 8,9]
+        [[4,5], 7,  8,9]
+        once the target is between the two rows, the target is in down,left or top,right
+        """
         # return false if the target does not exist 
-        # return false if the `target` is within the in top-left and bottom-right submatrices
+        # return false if the target is within the in top-left and bottom-right submatrices              
         # get the horizontal pivot
         # get the vertical pivot == matrix[row-1][mid] < target < matrix[row][mid]
             # return true if the target is found while locating the middle

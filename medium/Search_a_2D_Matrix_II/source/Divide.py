@@ -1,31 +1,36 @@
 class Solution:
-    def search_rec(self,left, up, right, down):
+    def recursion(self, target, left, up, right, down):
+        """
+        target = 5
+        [ 1,2,  3, [4,5]]
+        [ 2,3, [4],[5,6]]
+        [[3,4],[6], 8,9]
+        [[4,5], 7,  8,9]
+        once the target is between the two rows, the target is in down,left or top,right
+        """
         # return false if the target does not exist
         if left > right or up > down:
             return False
-        # return false if the `target` is within the in top-left and bottom-right submatrices
-        elif self.target < self.matrix[up][left] or self.target > self.matrix[down][right]:
+        # return false if the target is within the in top-left and bottom-right submatrices
+        elif self.matrix[up][left] > target or self.matrix[down][right] < target:
             return False
         # get the horizontal pivot
-        mid = left + (right-left) // 2
-        # get the veritcal pivot
-        row = up
-        while row <= down and self.matrix[row][mid] <= self.target:
+        mid_col = left + (right - left) // 2
+        # get the vertical pivot == matrix[row-1][mid] < target < matrix[row][mid]
+        mid_row = up
+        while mid_row <= down and self.matrix[mid_row][mid_col] <= target :
             # return true if the target is found while locating the middle
-            if self.matrix[row][mid] == self.target:
+            if target == self.matrix[mid_row][mid_col]:
                 return True
-            row += 1
+            mid_row += 1
         # explore the target in the bottom-left and the top-right submatrices
-        return self.search_rec(left, row, mid-1, down) or self.search_rec(mid+1, up, right, row-1)
+        return self.recursion(target, left, mid_row, mid_col-1, down) or self.recursion(target, mid_col+1, up, right, mid_row-1)
 
     def searchMatrix(self, matrix, target):
-        # set the target variable to global
-        self.target = target
         # set the matrix variable to global
         self.matrix = matrix
-        # if the input is empty
+        # return false if the input is empty
         if not matrix:
-            # return false
             return False
         # invoke recursion
-        return self.search_rec(0, 0, len(matrix[0])-1, len(matrix)-1)
+        return self.recursion(target, 0, 0, len(matrix[0])-1, len(matrix)-1)
