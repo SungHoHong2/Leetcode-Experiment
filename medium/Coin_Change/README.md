@@ -26,16 +26,16 @@ class Solution:
 
 **Bottom up**
 - [Concepts](images/Bottomup.png)
+- [Source code v2](source/Bottomup2.py)
 - [Source code](source/Bottomup.py)
 ```python
 class Solution:
     def coinChange(self, coins: List[int], amount: int) -> int:
         # set the array to record the results of each amount
         # if total amount is zero there is zero coins
-        # iterate the amount by one
-            # iterate through the coins
-                # if the coins can fit with the amount
-                    # update the answer by adding or without the coins
+        # iterate the coins
+            # iterate the amount that fits into the current coin
+                # update the answer by adding or without the coins
         # return the minimum number of coins or -1 if invalid
         pass
 ```
