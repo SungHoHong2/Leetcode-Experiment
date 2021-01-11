@@ -3,6 +3,12 @@
 - Concept 
     - `Backtracking` is used to enumerate all possible solutions for a problem, in a trial-fail-and-fallback strategy.
     - `Greedy algorithm` is used at each step we would pick the destination `greedily` in lexical order
+- Time Complexity `O(E^d)`
+    - `E` is the number of total flights
+    - `d` is the number of flights from an airport
+- Space Complexity `O(V+E)`
+    - `V` is the number of airports 
+    - `E` is the number of flights 
 - [Source code](source/backtrack.py)
 
 ```python
@@ -40,6 +46,13 @@ class Solution(object):
         - Reverse the lexical order since the answer is collected in `post order` 
     - Follow `post Order` because the `dfs` may find the incomplete destination  before finding complete destination
         - `Post order` allows the dfs to collect the order that connects the flight in a complete destination  
+- Time Complexity `O(E * Elog(E))`
+    - `E`: The DFS traverses each edge once
+    - `NlogN`: need to sort the outgoing edges for each vertex.
+        - In the worst case where the graph is not balanced, i.e. the connections are centered in a single airport.
+- Space Complexity `O(V+E)`
+    - `V` is the number of airports 
+    - `E` is the number of flights 
 - [Source code](source/dfs.py)
 
 ```python
