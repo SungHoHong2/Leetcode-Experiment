@@ -1,8 +1,7 @@
 ### Coin Change
 **Top down**
-- Concept
+- [Concept](images/dp.png)
     - Provide an optimal substructure property
-    ![Image of Yaktocat](images/dp.png)
 - [Source code](source/Topdown.py)
 ```python
 class Solution:
