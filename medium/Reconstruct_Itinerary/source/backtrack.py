@@ -19,9 +19,11 @@ class Solution(object):
         # initialize the starting route with JFK
         route = ['JFK']
         # return the complete route from backtracking
-        return self.backtrack('JFK', route)
+        return self.backtrack(route)
 
-    def backtrack(self, src, route):
+    def backtrack(self, route):
+        # get the current destination
+        src = route[-1]
         # return the route if the all the airports are included in the route
         if len(route) == self.flights:
             return route
@@ -32,7 +34,7 @@ class Solution(object):
                 # update the destination flight as visited
                 self.visited[src][i] = 1
                 # invoke the recursion with the next destination
-                ans = self.backtrack(dest, route + [dest])
+                ans = self.backtrack(route + [dest])
                 # reset the destination flight
                 self.visited[src][i] = 0
                 # return the route if all the airports are included in the route
