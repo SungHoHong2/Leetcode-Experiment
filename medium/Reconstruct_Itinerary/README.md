@@ -57,10 +57,9 @@ class Solution:
         post-order dfs: 
         start accumulating the destinations at the finishing point of the dfs
         """
-        # set the returning array 
-        # get the list of destinations 
+        # set the returning array
         # explore and collect destinations using dfs
-        # add the source to the returning array 
+        # add the source to the returning array
         # return the destinations
         pass
 ```
