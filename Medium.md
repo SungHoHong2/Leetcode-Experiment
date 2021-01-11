@@ -29,7 +29,7 @@
 | `2` [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | [**HashMap + ArrayList**](medium/Insert_Delete_GetRandom) |
 | `2` [Find Duplicate File in System](https://leetcode.com/problems/find-duplicate-file-in-system/) | [**HashMap**](medium/Find_Duplicate_File_in_System) |
 | `2` [Decode Ways](https://leetcode.com/problems/decode-ways/) | [**Memoization,Iteration**](medium/Decode_Ways) |
-| `w` [Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/) | [**Backtracking,DFS**](medium/Reconstruct_Itinerary) |
+| `2` [Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/) | [**Backtracking,DFS**](medium/Reconstruct_Itinerary) |
 | `w` [Word Break](https://leetcode.com/problems/word-break/) | [**BFS,Memoization,Iteration**](medium/Word_Break) |
 | `w` [Word Search](https://leetcode.com/problems/word-search/) | [**Backtrack**](medium/Word_Search) |
 | `w` [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/) | [**Binary Search,Divide and Conquer,Search Space Reduction**](medium/Search_a_2D_Matrix_II) |

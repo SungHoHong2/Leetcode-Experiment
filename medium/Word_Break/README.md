@@ -2,6 +2,9 @@
 **Top Down**
 - [Concepts](images/memoization.png)
 - [Source code](source/Memoization.py)
+- Time complexity `O(n^3)`
+    - `O(n)`: iterate the wordDict 
+    - `O(n^2)`: the size of the recursion tree is `n^2` in worst case
 ```python
 class Solution:
     def wordBreak(self, s: str, wordDict: List[str]) -> bool:
@@ -10,7 +13,7 @@ class Solution:
         # invoke the recursion
         pass
 
-    def dp(self, start, memo):
+    def topdown(self, start, dp):
         # return true if the recursion reaches the leaf
         # return the record if a record is found
         # iterate from start to the end
@@ -30,7 +33,7 @@ class Solution(object):
     def wordBreak(self, s, wordDict):
         # set up the dp table
         # iterate the string
-            # interate the substring backwards
+            # iterate the substring backwards
                 # if the current word is valid and the previous substrings are valid
                     # set the dp table to true
                     # ignore the rest of the substrings
@@ -48,10 +51,10 @@ class Solution(object):
         # set the record of visited for the substrings
         # append the queue with the starting point zero
         # loop until the queue is depleted
-            # pop the next begining index of the substring
+            # pop the next beginning index of the substring
             # if the substring is not visited
                 # iterate the substring
-                    # if the substring is part of the wordset
+                    # if the substring is part of the wordDict
                         # append the the end index to the queue
                         # if end index reached the final index of the string
                             # return true
