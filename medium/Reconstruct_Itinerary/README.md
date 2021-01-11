@@ -20,7 +20,7 @@ class Solution(object):
         # return the complete route from backtracking
         pass
 
-    def backtracking(self, origin, route):
+    def backtrack(self, src, route):
         # return the route if the all the airports are included in the route
         # iterate the destinations from the current flight
             # if the destination is not a visited flight
