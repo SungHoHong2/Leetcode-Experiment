@@ -52,13 +52,13 @@ class Solution:
         # start the depth-first search from JFK
         pass
 
-    def dfs(self, src):
+    def dfs(self, src, flightMap):
         """
         post-order dfs: 
         start accumulating the destinations at the finishing point of the dfs
         """
         # set the returning array
-        # explore and collect destinations using dfs
+        # deplete and collect destinations using dfs
         # add the source to the returning array
         # return the destinations
         pass
