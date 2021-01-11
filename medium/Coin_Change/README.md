@@ -6,7 +6,6 @@
 - [Source code](source/Topdown.py)
 ```python
 class Solution:
-class Solution:
     def coinChange(self, coins: List[int], amount: int) -> int:
         # create the cache to record the results
         # base case: when the amount is zero then amount of required coins is zero
