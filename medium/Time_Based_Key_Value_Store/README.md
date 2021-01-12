@@ -3,8 +3,9 @@
 - Concept 
     - Apply a map that stores the timestamp and the values 
     - Use binary search to search the value according to the timestamp  
-- [Source code v2](source/HashBinary.py)
-- [Source code v1](source/HashBinary2.py)
+- [Source code v3](source/HashBinary3.py)
+- [Source code v2](source/HashBinary2.py)
+- [Source code v1](source/HashBinary.py)
 
 ```python
 class TimeMap:
@@ -14,12 +15,20 @@ class TimeMap:
 
     def set(self, key: str, value: str, timestamp: int) -> None:
         # append the key and the value
-        pass 
+        pass
 
     def get(self, key: str, timestamp: int) -> str:
-        # return empty string if the key is not in the map
-        # bisect.bisect function to return the position of requested timestamp in the sorted list (Note that bisect requires the list to be already sorted)
-        # return the result of the value if not return empty string
+        # return an emtpy string if there is a key in the hashmap
+        # get the history of the key 
+        # set the pointers for binary search 
+        # return empty if the earliest history is later than the requested timestamp 
+        # return the latest history if it is earlier than the requested timestamp 
+        # start binary search 
+            # get the pivot
+            # return the pivot if it equals to the timestamp  
+            # explore the leftside if the timestamp is larger than the pviot 
+            # explore the rightside if the timestamp is smaller than the pivot
+        # return the value of the right index
         pass
 ```
 

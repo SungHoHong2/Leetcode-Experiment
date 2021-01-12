@@ -26,7 +26,7 @@ class Solution:
 
 **Bottom up**
 - [Concepts](images/Bottomup.png)
-- [Source code v2](source/Bottomup2.py)
+- [Source code v2](source/BottomUp2.py)
 - [Source code](source/Bottomup.py)
 ```python
 class Solution:
