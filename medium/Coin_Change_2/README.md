@@ -3,7 +3,9 @@
 - Concept
     - Knapsack problem
         - the row represents the amount from 0 to amount 
-        - the column represents the coins that are used to fill the amount 
+        - the column represents the coins that are used to fill the amount
+- Time Complexity `O(n*amount)`
+    - `n` is the number of available coins 
 - [Source code](source/BottomUp.py)
 ```python
 class Solution:
@@ -16,4 +18,3 @@ class Solution:
         # return the possible number of combination to reach the result   
         pass    
 ```
-
