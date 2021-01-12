@@ -6,7 +6,6 @@
     - Create a map that stores the last string as the key and the rest of the strings as the value 
         - `writing code` = `first["code"] = {"writing"}`
     - Merge all of the possible overlaps using the two maps
-- [Source code v1](source/UsingSets.py)
 - [Source code v2](source/UsingSets2.py)
 
 ```python
