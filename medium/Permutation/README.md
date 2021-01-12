@@ -6,7 +6,7 @@
 ```python
 class Solution:
     def permute(self, nums):
-        # globalize the return list and the inputs
+        # globalize the input
         # return the possible permutations
         pass
 

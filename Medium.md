@@ -36,8 +36,8 @@
 | `2` [Coin Change](https://leetcode.com/problems/coin-change/) | [**TopDown,BottomUp**](medium/Coin_Change) |
 | `2` [Coin Change2](https://leetcode.com/problems/coin-change-2/) | [**DP**](medium/Coin_Change_2) |
 | `2` [Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/) | [**Hashmap + Binary Search**](medium/Time_Based_Key_Value_Store) |
-| `w` [Before and After Puzzle](https://leetcode.com/problems/before-and-after-puzzle/) | [**Using Sets**](medium/Before_and_after_Puzzle) |
-| `w` [Permutations](https://leetcode.com/problems/permutations/) | [**Backtracking**](medium/Permutation) |
+| `2` [Before and After Puzzle](https://leetcode.com/problems/before-and-after-puzzle/) | [**Using Sets**](medium/Before_and_after_Puzzle) |
+| `2` [Permutations](https://leetcode.com/problems/permutations/) | [**Backtracking**](medium/Permutation) |
 | `w` [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/) | [**Dijkstra,Memoization,BellmanFord**](medium/Cheapest_Flights_Within_K_Stops) |
 | `1` [UTF-8 Validation](https://leetcode.com/problems/utf-8-validation/) | [**String,Bit Manipulation**](medium/UTF-8_Validation) |
 | `1` [Word Ladder](https://leetcode.com/problems/word-ladder/) | [**BFS,Bi-directional BFS**](medium/Word_Ladder) |
