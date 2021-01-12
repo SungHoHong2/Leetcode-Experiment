@@ -18,5 +18,5 @@ class Solution:
             # invoke the next recursion with the using the next index
             # recover the swapped array to its original state
         # return the possible permutations  
-        pass      
+        pass
 ```
