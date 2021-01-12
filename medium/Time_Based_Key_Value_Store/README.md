@@ -2,7 +2,9 @@
 **HashMap + Binary Search**
 - Concept 
     - Apply a map that stores the timestamp and the values 
-    - Use binary search to search the value according to the timestamp  
+    - Use binary search to search the value according to the timestamp
+- Time Complexity
+- Space Complexity
 - [Source code v3](source/HashBinary3.py)
 - [Source code v2](source/HashBinary2.py)
 - [Source code v1](source/HashBinary.py)
@@ -26,7 +28,7 @@ class TimeMap:
         # start binary search 
             # get the pivot
             # return the pivot if it equals to the timestamp  
-            # explore the leftside if the timestamp is larger than the pviot 
+            # explore the leftside if the timestamp is larger than the pivot 
             # explore the rightside if the timestamp is smaller than the pivot
         # return the value of the right index
         pass
