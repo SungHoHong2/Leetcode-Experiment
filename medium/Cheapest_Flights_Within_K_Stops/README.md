@@ -5,7 +5,7 @@
     - Accumulate the costs until the destination is reached 
 - [Source code](source/dijkstra.py)
 ```python
-import heapq
+from heapq import heappush,heappop
 class Solution(object):
     def findCheapestPrice(self, n, flights, src, dst, K):
         # create map using source as the key and the destination and the weight as the value      
