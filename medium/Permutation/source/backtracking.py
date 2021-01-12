@@ -1,21 +1,21 @@
 class Solution:
     def permute(self, nums):
         # globalize the return list and the inputs
-        self.ans, self.n, self.nums = list(), len(nums), nums
-        # invoke recursion and start from swapping with the first index
-        self.backtrack(0)
+        self.nums = nums
         # return the possible permutations
-        return self.ans
+        return self.backtrack(0)
 
-    def backtrack(self, first):
+    def backtrack(self, i):
         # append the result if all indexes are used for swapping
-        if first == self.n:
-            self.ans.append(self.nums[:])
+        if i == len(self.nums):
+            return [self.nums[:]]
         # iterate all the indexes that can be swapped with the selected index
-        for i in range(first, self.n):
+        ans = list()
+        for j in range(i, len(self.nums)):
             # swap the index with the selected index
-            self.nums[first], self.nums[i] = self.nums[i], self.nums[first]
+            self.nums[i], self.nums[j] = self.nums[j], self.nums[i]
             # invoke the next recursion with the using the next index
-            self.backtrack(first+1)
+            ans += self.backtrack(i + 1)
             # recover the swapped array to its original state
-            self.nums[first], self.nums[i] = self.nums[i], self.nums[first]
+            self.nums[i], self.nums[j] = self.nums[j], self.nums[i]
+        return ans

@@ -7,15 +7,16 @@
 class Solution:
     def permute(self, nums):
         # globalize the return list and the inputs
-        # invoke recursion and start from swapping with the first index
         # return the possible permutations
         pass
 
-    def backtrack(self, first):
-        # append the result if all indexes are used for swapping
+    def backtrack(self, i):
+        # return the result if all indexes are used for swapping
+        # set the array to store the possible permutation
         # iterate all the indexes that can be swapped with the selected index
             # swap the index with the selected index
             # invoke the next recursion with the using the next index
             # recover the swapped array to its original state
-        pass
+        # return the possible permutations  
+        pass      
 ```
