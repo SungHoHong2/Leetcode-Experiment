@@ -41,7 +41,7 @@ class Solution(object):
         # check all possible combinations by iterating the total length of the word
             # get the intermediate words for current word
             # get all the possible candidates from the map
-                # If the interediate word is already visited by the other BFS 
+                # If the intermediate word is already visited by the other BFS 
                     # return the current number of conversions + conversions from other BFS 
                 # if the converted word is not yet visited                
                     # save the words in the map with the number of conversions
