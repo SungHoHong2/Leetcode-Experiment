@@ -64,6 +64,8 @@ class Solution:
 ```
 
 **No-Sort**
+- Concept 
+    - No sorting means, the algorithm cannot handle the duplicates
 - [Source code(3)](source/noSort_3.py)
 - [Source code(2)](source/noSort_2.py)
 - [Source code](source/noSort.py)
@@ -81,7 +83,7 @@ class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
         # create sets for return value and checking for duplicates
         # iterate the each number and run twoSum function 
-            # run twoSum only on nonduplicates
+            # run twoSum only on non duplicates
                 # record the duplicates in the set
                 # invoke the twoSum function 
         # return the collections that sum up to zero 
