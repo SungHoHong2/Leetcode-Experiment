@@ -2,7 +2,8 @@
 **Breadth First Search**
 - Concepts 
     - DFS will not work since the answer requires **smallest** number of changes from the startWord to the endWord 
-    - BFS requires to use a FIFO queue to check the destination layer by layer
+    - BFS requires to use a `FIFO queue` to check the destination layer by layer
+        - if `LIFO queue` is used then it will be as same as DFS 
     - Apply hashmap that uses intermediate such as `*ot` as key and possible words such as `'hot','dot','lot'`  
 - [Source code](source/BFS.py)
 ```python

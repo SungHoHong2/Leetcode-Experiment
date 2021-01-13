@@ -6,8 +6,8 @@
 | `3` [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [**Expand from Center,DP**](medium/Longest_Palindromic_Substring) |
 | `3` [LRU Cache](https://leetcode.com/problems/lru-cache/) | [**HashMap + LinkedList**](medium/LRU) |
 | `3` [Number of Islands](https://leetcode.com/problems/number-of-islands/) | [**DFS,BFS,Disjoint Set**](medium/Number_of_Islands) |
-| `2` [3Sum](https://leetcode.com/problems/3sum/) | [**Two Pointers,Hashset,No Sorting**](medium/3Sum) |
-| `2` [4Sum](https://leetcode.com/problems/4sum/) | [**Two Pointers,Hashset**](medium/4Sum) |
+| `3` [3Sum](https://leetcode.com/problems/3sum/) | [**Two Pointers,Hashset,No Sorting**](medium/3Sum) |
+| `3` [4Sum](https://leetcode.com/problems/4sum/) | [**Two Pointers,Hashset**](medium/4Sum) |
 | `2` [4Sum II](https://leetcode.com/problems/4sum-ii/) | [**Two Groups, Design for N arrays**](medium/4Sum_II) |
 | `2` [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [**Left and Right, O(1) space**](medium/Product_of_Array_Except_Self) |
 | `2` [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [**Sliding Window, Optimized**](medium/Longest_Substring_Without_Repeating_Characters) |
@@ -52,5 +52,4 @@
 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [**Heap,QuickSort**](medium/Kth_Largest_Element_in_an_Array) |
 | [Plus One Linked List](https://leetcode.com/problems/plus-one-linked-list/) | [**Solution**]() |
 | [Jump Game](https://leetcode.com/problems/jump-game/) | [**Solution**]() | 
-
 | [Problem]() | [**Solution**]() | 
