@@ -10,18 +10,16 @@
 class Solution(object):
     def ladderLength(self, beginWord, endWord, wordList):
         # return 0 if the endWord is not in the wordList
-        # set the total length of the words
         # set the map to hold combination of words that can be formed
         # iterate the words from the input
             # check all possible combinations by iterating the total length of the word
                 # store the intermediate words as the key and append the word as the value
         # create and append the beginWord and the number of changes in the queue
-        # set a map to track the visited word
+        # set a hashset to track the visited word
         # start the BFS until it reaches the endWord
             # pop from the queue 
             # check all possible combinations by iterating the total length of the word
-                # get the intermediate words for current word
-                # get all the possible candidates from the map
+                # get all the possible changes from the current word
                     # return the total number of changes if the word reached the goal
                     # if the converted word is not yet visited
                         # mark the converted word as visited
@@ -39,8 +37,7 @@ class Solution(object):
     def visitWordNode(self, queue, visited, others_visited):
         # pop from the queue
         # check all possible combinations by iterating the total length of the word
-            # get the intermediate words for current word
-            # get all the possible candidates from the map
+            # get all the possible candidates from the current word
                 # If the intermediate word is already visited by the other BFS 
                     # return the current number of conversions + conversions from other BFS 
                 # if the converted word is not yet visited                
@@ -51,7 +48,6 @@ class Solution(object):
 
     def ladderLength(self, beginWord, endWord, wordList):
         # return 0 if the endWord is not in the wordList      
-        # set the total length of the words
         # set the map to hold combination of words that can be formed
         # iterate the words from the input
             # check all possible combinations by iterating the total length of the word
