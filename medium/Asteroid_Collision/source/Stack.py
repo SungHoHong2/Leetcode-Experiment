@@ -4,23 +4,25 @@ class Solution:
         stack = list()
         # iterate the asteroids
         for asteroid in asteroids:
-            # case 1: when the left and right asteroids collide with different size
+            # set the flag for checking collision
+            collided = False
+            # when the left and right asteroids collides
             while stack and stack[-1] > 0 and asteroid < 0:
                 left, right = stack[-1], abs(asteroid)
+                # if the left asteroid is destroyed
                 if left < right:
                     stack.pop()
-                else:
+                # if the right asteroid is destroyed
+                elif left > right:
+                    collided = True
                     break
-            # case 2: when the left and right asteroids collide with the same size
-            if stack and stack[-1] > 0 and asteroid < 0:
-                # get the colliding asteroids
-                left, right = stack[-1], abs(asteroid)
-                # if the asteriods collided and the size is the same
-                if left == right:
-                    # destroy the both left and right
+                # if both asteroids are destroyed
+                else:
                     stack.pop()
-            # case 3: add new asteroid if there is no collision or right destroys the left
-            else:
+                    collided = True
+                    break
+            # add a new asteroid in the stack if there is no collision
+            if not collided:
                 stack.append(asteroid)
         # return the stack
         return stack
