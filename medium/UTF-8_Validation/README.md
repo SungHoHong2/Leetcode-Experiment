@@ -24,14 +24,12 @@ class Solution:
 class Solution:
     def validUtf8(self, data):
         # set the variable to keep track of the number of following bytes
-        # set a mask by shifting 00000001 to left 7 times -> 10000000
-        # set a mask by shifting 00000001 to left 6 times -> 01000000
         # iterate the numbers from the input
-            # set a mask by shifting 00000001 to left 7 times -> 10000000
+            # set a mask = 10000000
             # if the current byte is the first byte
                 # loop until the AND result becomes zero
                     # increase the number of total following bytes
-                    # shift the mask to right
+                    # shift the mask to right 
                 # continue if the there are no following bytes
                 # return false if the first byte is a following byte or has more than 4 following bytes
             # if the current byte is a following byte
