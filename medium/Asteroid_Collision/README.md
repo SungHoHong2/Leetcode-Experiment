@@ -6,9 +6,12 @@ class Solution:
     def asteroidCollision(self, asteroids: List[int]) -> List[int]:
         # create a stack for collecting the remaining asteroids
         # iterate the asteroids  
-            # case 1: when the left and right asteroids collide with different size                         
-            # case 2: when the left and right asteroids collide with the same size  
-            # case 3: add new asteroid if there is no collision or right destroys the left
+            # set the flag for checking collision 
+            # when the left and right asteroids collide e                         
+                # if the left asteroid is destroyed
+                # if the right asteroid is destroyed 
+                # if both asteroids are destroyed
+            # add a new asteroid in the stack if there is no collision
         # return the stack
         pass
 ```
