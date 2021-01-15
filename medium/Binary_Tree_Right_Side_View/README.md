@@ -28,13 +28,13 @@ class Solution:
         # set the return value
         # return the empty list if there is no input
         # create the first level with the sentinel
-        # set the pointer to the root node
+        # set a variable to track the rightmost nodes
         # explore the nodes in each level
             # assign the previous node and the next node
             # add child nodes for the next level
-                # stop until the node the queue reaches "None" (end of the level)
+                # stop until the current node reaches "None" (end of the level)
             # append the rightmost node to the return list
-            # add a sentinel to mark the end of the new level
+            # add a sentinel if there is a next level or let the queue be empty
         # return the list of the rightside nodes
         pass
 ```
@@ -61,7 +61,7 @@ class Solution:
 - [source code](source/dfs.py)
 ```python
 class Solution:
-    def helper(self, node, level):
+    def dfs(self, node, level):
         # current level matches with the number of returning nodes
             # append the node to the return list
         # explore the right node as the priority
