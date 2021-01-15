@@ -15,17 +15,18 @@ class Solution:
 ```python
 class Solution:
     def findKthLargest(self, nums, k):
-        def partition(left, right, pivot_index):
-            # get the value of the pivot 
-            # 1. move pivot to end
-            # 2. move all smaller values to the leftside
-            # 3. move pivot to its final place
-            # return the index of the pivot 
+
+        def partition(left, right):
+            # find the random pivot index and the value
+            # get the value of the pivot
+            # temporary hide the pivot value in the rightmost side 
+            # move all the values than the pivot behind the middle
+            # recover the pivot value from the rightmost side
+            # return the index of the middle
             pass
 
-        def select(left, right, k_smallest):
+        def qsort(left, right, K):
             # return the item if the recursion reach the leaf 
-            # select a random pivot_index between
             # get the index of the pivot from the partition
             # if the index of the pivot is the Kth smallest 
                 # return the value 
@@ -35,6 +36,6 @@ class Solution:
                 # search the rightside
             pass
             
-        # invoke the recursion [ kth largest = (n - k)th smallest ]
+        # return the kth largest value from the quicksort
         pass
 ```
