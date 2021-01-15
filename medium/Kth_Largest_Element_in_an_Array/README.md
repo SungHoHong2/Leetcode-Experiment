@@ -1,10 +1,12 @@
 - **Heap**
     - [source code](source/heap.py)
 ```python
+from heapq import heappush, heappop
 class Solution:
     def findKthLargest(self, nums, k):
-        # use the nlargest in the heapq 
-        pass 
+        # push the input to the heap 
+        # get the kth largest number
+        pass
 ```
 
 - **QuickSort**
