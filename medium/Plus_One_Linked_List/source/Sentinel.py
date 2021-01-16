@@ -12,7 +12,7 @@ class Solution:
                 not_nine = head
             head = head.next
 
-            # increase this rightmost not-nine digit by 1 [(1),9,9,9]
+        # increase this rightmost not-nine digit by 1 [(1),9,9,9]
         not_nine.val += 1
         not_nine = not_nine.next
 
