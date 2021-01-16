@@ -22,33 +22,33 @@ class Solution:
 class Solution:
     def trap(self, height: List[int]) -> int:
         # return zero if there is no input 
-        # get the size of the input 
         # set the table for the maximum height of left and right 
         # record the maximum height from the left 
         # record the maximum height from the right 
-        # get the minimum height from both left and right and get the available space 
+        # accumulate the available space for each of the x-axis
         # return the total available space for the rain water
-        pass 
+        pass
 ```
 
 **Using stacks**
 - [Concepts](images/stack.png)
 - [Source code](source/Stack.py)
 ```python
-
 class Solution:
     def trap(self, height: List[int]) -> int:
         # set the answer
         # set the stack
         # iterate the heights
-            # loop the stack until the heights lower than the current height is empty
-                # pop the previous heights that are smaller than the current height
-                # finish the loop if there is no more previous heights
-                    # calculate the distance
-                # calculate the avialble height height
+            # loop the stack until a hole is detected
+                # pop the height that serves as the bottom from the stack 
+                # finish the loop if there are no more left heights to compute area  
+                # calculate the distance
+                # get the left height from the stack
+                # get the right height 
+                # calculate the available height 
                 # aggregate the available space for the rain
-                # print(stack, {'left': height[stack[-1]], 'mid' : height[top],  'right' : height[current], 'area': x*y})
             # append the previous heights in the stack
+        # return the available space fore the rain
         pass
 ```
 
