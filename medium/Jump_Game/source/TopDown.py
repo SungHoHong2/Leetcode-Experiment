@@ -1,21 +1,24 @@
 class Solution:
-
-    def canJumpFromPosition(self, position, nums):
-
-        if self.memo[position] != None:
-            return self.memo[position]
-
-        availableJump = min(position + nums[position], len(nums) - 1)
-        for nextPosition in range(position + 1, availableJump + 1):
-            if self.canJumpFromPosition(nextPosition, nums):
-                self.memo[position] = True
+    def TopDown(self, position, nums):
+        # return the dp table if the index is explored
+        if self.dp[position] != None:
+            return self.dp[position]
+        # get the maximum jump of the current index
+        max_jump = min(position + nums[position], len(nums) - 1)
+        # iterate all the possible jumps from the current position
+        for jump in range(position + 1, max_jump + 1):
+            # record the dp table as true if the jump reaches the destination
+            if self.TopDown(jump, nums):
+                self.dp[position] = True
                 return True
-
-        self.memo[position] = False
+        # record the dp table as false
+        self.dp[position] = False
         return False
 
     def canJump(self, nums: List[int]) -> bool:
-
-        self.memo = [None for i in nums]
-        self.memo[len(nums) - 1] = True
-        return self.canJumpFromPosition(0, nums)
+        # set up the dp table
+        self.dp = [None for _ in nums]
+        # base case: final index reaches the destination
+        self.dp[len(nums) - 1] = True
+        # invoke the top up approach
+        return self.TopDown(0, nums)

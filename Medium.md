@@ -51,6 +51,6 @@
 | `w` [Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/) | [**DFS by recursion, DFS by iteration**](medium/Flatten_a_Multilevel_Doubly_Linked_List) |
 | `w` [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [**Heap,QuickSort**](medium/Kth_Largest_Element_in_an_Array) |
 | `w` [Plus One Linked List](https://leetcode.com/problems/plus-one-linked-list/) | [**Sentinel**]() |
-| `0` [Jump Game](https://leetcode.com/problems/jump-game/) | [**Solution**]() | 
+| `w` [Jump Game](https://leetcode.com/problems/jump-game/) | [**Solution**]() | 
 
 | [Problem]() | [**Solution**]() | 
