@@ -2,6 +2,10 @@
 **Sentinel**
 - [Source code](source/Sentinel.py)
 ```python
+# class ListNode:
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
 class Solution:
     def plusOne(self, head: ListNode) -> ListNode:
         # sentinel head [0,9,9,9]
