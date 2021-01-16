@@ -1,25 +1,25 @@
 class Solution:
     def plusOne(self, head: ListNode) -> ListNode:
-
-        # sentinel head [0,9,9,9]
-        sentinel = ListNode(0)
-        sentinel.next = head
-        not_nine = sentinel
-
-        # find the rightmost not-nine digit [(0),9,9,9]
-        while head:
-            if head.val != 9:
-                not_nine = head
-            head = head.next
-
-        # increase this rightmost not-nine digit by 1 [(1),9,9,9]
-        not_nine.val += 1
-        not_nine = not_nine.next
-
-        # set all the following nines to zeros [(1),0,0,0]
-        while not_nine:
-            not_nine.val = 0
-            not_nine = not_nine.next
-
+        # create the sentinel head
+        sentinel = ListNode(0, head)
+        curr = sentinel.next
+        not_nine = None
+        # find the rightmost not-nine digit
+        while curr:
+            if curr.val != 9:
+                not_nine = curr
+            curr = curr.next
+        # increase this rightmost not-nine digit by 1 if the not_nine is found
+        if not_nine:
+            not_nine.val += 1
+            curr = not_nine.next
+        # increase the sentinel by 1 if the not-nine digit is not found
+        else:
+            sentinel.val += 1
+            curr = sentinel.next
+        # set all the following nines to zeros
+        while curr:
+            curr.val = 0
+            curr = curr.next
         # return the whole linked-list if the sentinel is updated or return without the sentinel
-        return sentinel if sentinel.val else sentinel.next
+        return sentinel if sentinel.val != 0 else sentinel.next
