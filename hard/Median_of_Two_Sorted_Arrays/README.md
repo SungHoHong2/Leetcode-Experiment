@@ -1,6 +1,15 @@
 ### Median of Two Sorted Arrays
 **Binary Search**
 - [Concepts](images/Binary.png)
+    - Assume that there is
+        - `x1, x2, | x3, x4, x5, x6`
+        - `y1, y2, y3, y4, y5, | y6, y7, y8`
+    - if `x2 <= y6` and `y5 <= x3`
+        - then the all the left half is smaller than the right half
+        - finding the median can be calculated as  
+            - `avg(max(x2,y5), min(x3,y6))`
+                - `max(x2,y5)`: largest value of the left half 
+                - `min(x3,y6)`: smallest value of the right half 
 - [Source code](source/Binary.py)
 - [Reference #1](https://www.youtube.com/watch?v=LPFhl65R7ww&t=1013s)
 ```python

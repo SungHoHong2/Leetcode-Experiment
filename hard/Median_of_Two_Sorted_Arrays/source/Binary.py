@@ -24,7 +24,7 @@ class Solution:
             # update the index for right partition
             minRightX = float("inf") if partitionX == x else nums1[partitionX]
             minRightY = float("inf") if partitionY == y else nums2[partitionY]
-            # partitioned the array at the correct place
+            # if both the leftside of x and y are smaller than the rightside
             if maxLeftX <= minRightY and maxLeftY <= minRightX:
                 # return the result when the length of the whole array is even
                 if (x+y) % 2 == 0:
@@ -32,9 +32,9 @@ class Solution:
                 # return the result when the length of the whole array is odd
                 else:
                     return max(maxLeftX, maxLeftY)
-            # shrink the leftside partition
+            # decrease left-half if leftside of x contains an item larger than rightside of y
             elif maxLeftX > minRightY:
                 high = partitionX - 1
-            # shrink the rightside partition
-            else:
+            # increase right-half if leftside of y contains an item larger than rightside of x
+            elif minRightX < maxLeftY:
                 low = partitionX + 1
