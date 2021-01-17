@@ -1,6 +1,13 @@
 ### Maximum Profit in Job Scheduling
 
 **Top-Down**
+- Concept
+    - Sort the jobs according to the finish time 
+    - Update the dp table that tracks the maximum profit for each jobs 
+        - `dp[i] = max(dp[compatible]+job[i], dp[i-1])`
+            - `compatible`: job that can run right before `i` 
+            - `dp[i-1]`: the highest profit possible without considering the current job 
+            - `job[i]`: the profit of the current job
 - [Source code](source/TopDown.py)
 - [Source code(Textbook)](source/TopDown_2.py)
 
