@@ -32,5 +32,10 @@
 | [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/) | [**DP,Binary Search**](hard/Split_Array_Largest_Sum) | 
 | [Reaching Points](https://leetcode.com/problems/reaching-points/) | [**WorkBackward,+ Modulo**](hard/Reaching_Points) | 
 | [Consecutive Numbers Sum](https://leetcode.com/problems/consecutive-numbers-sum/) | [**Counting Consecutives**](hard/Consecutive_Numbers_Sum) | 
+| `0` [Minimum Difficulty of a Job Schedule](https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/) | [**Solution**]() | 
+| `0` [Strong Password Checker](https://leetcode.com/problems/strong-password-checker/) | [**Solution**]() | 
+| `0` [Design In-Memory File System](https://leetcode.com/problems/design-in-memory-file-system/) | [**Solution**]() | 
+| `0` [Basic Calculator](https://leetcode.com/problems/basic-calculator/) | [**Solution**]() | 
+| `0` [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | [**Solution**]() | 
 
 | [Problem]() | [**Solution**]() | 
