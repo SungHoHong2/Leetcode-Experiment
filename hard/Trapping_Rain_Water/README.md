@@ -29,8 +29,8 @@ class Solution:
     def trap(self, height: List[int]) -> int:
         # return zero if there is no input 
         # set the table for the maximum height of left and right 
-        # record the maximum height from the left 
-        # record the maximum height from the right 
+        # record the maximum area from the left 
+        # record the maximum area from the right 
         # accumulate the available space for each of the x-axis
         # return the total available space for the rain water
         pass
