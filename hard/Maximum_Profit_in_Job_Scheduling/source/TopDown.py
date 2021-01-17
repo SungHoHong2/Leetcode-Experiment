@@ -15,7 +15,7 @@ class Solution:
                 # return -1 if every job is conflicting
         return -1
 
-    def sortScheduling(self, jobs, j):
+    def topdown(self, jobs, j):
         # return 0 if the recursion requests for incompatible jobs
         if j == -1:
             return 0
@@ -27,7 +27,7 @@ class Solution:
             # find the compatible job
             compatible = self.getNonConflicting(jobs, j)
             # record the maximum possible profit for the current job
-            self.dp[j] = max(jobs[j].profit + self.sortScheduling(jobs, compatible), self.sortScheduling(jobs, j - 1))
+            self.dp[j] = max(jobs[j].profit + self.topdown(jobs, compatible), self.topdown(jobs, j - 1))
         # return the maximum possible profit for the current job
         return self.dp[j]
 
@@ -42,4 +42,4 @@ class Solution:
         # initialize a map that records the maximum profit for each jobs
         self.dp = [0 for _ in jobs]
         # run the recursvie tree from top to bottom
-        return self.sortScheduling(jobs, len(jobs) - 1)
+        return self.topdown(jobs, len(jobs) - 1)
