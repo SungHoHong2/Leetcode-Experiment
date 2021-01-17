@@ -4,15 +4,21 @@
 ```python
 class Solution:
     def trap(self, height: List[int]) -> int:
+        """
+        y-axis         #
+                   #   ## #
+                 # ## ######
+                    x-axis
+        """
         # initialize the answer variable
         # iterate the list
-            # set up the flags for checking maximum left and right 
+            # set up the flags for checking maximum left and right
             # find the biggest height of the leftside of the list
             # find the biggest height of the right of the list
             # calculate the current area that can trap the water
-            # accumulate the answer     
+            # accumulate the answer
         # return the answer
-        pass  
+        pass
 ```
 
 **Dynamic Programming**

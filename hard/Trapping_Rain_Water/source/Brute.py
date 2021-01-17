@@ -1,24 +1,29 @@
 class Solution:
     def trap(self, height: List[int]) -> int:
+        """
+        y-axis         #
+                   #   ## #
+                 # ## ######
+                    x-axis
+        """
         # initialize the answer variable
         ans = 0
         # iterate the list
-        for i in range(len(height)):
+        for x in range(len(height)):
             # set up the flags for checking maximum left and right
-            leftMax = 0
-            rightMax = 0
+            left_max, right_max = 0, 0
             # find the biggest height of the leftside of the list
-            curr = i
-            while 0 < curr:
-                curr -= 1
-                leftMax = max(leftMax, height[curr])
+            left = x
+            while 0 < left:
+                left -= 1
+                left_max = max(left_max, height[left])
             # find the biggest height of the right of the list
-            curr = i
-            while curr < len(height)-1:
-                curr += 1
-                rightMax = max(rightMax, height[curr])
-            # calculate the current area that can trap the water
-            area = max(min(leftMax, rightMax) - height[i],0)
+            right = x
+            while right < len(height) - 1:
+                right += 1
+                right_max = max(right_max, height[right])
+                # calculate the current area that can trap the water
+            area = max(min(left_max, right_max) - height[x], 0)
             # accumulate the answer
             ans += area
         # return the answer
