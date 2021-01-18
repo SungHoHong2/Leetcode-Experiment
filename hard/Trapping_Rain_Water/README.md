@@ -48,7 +48,7 @@ class Solution:
         # set the answer
         # set the stack
         # iterate the heights
-            # loop the stack until a hole is detected
+            # loop the stack until a hole is covered
                 # pop the height that serves as the bottom from the stack 
                 # finish the loop if there are no more left heights to compute area  
                 # calculate the distance
