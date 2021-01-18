@@ -2,26 +2,32 @@
 **Sliding Window**
 - [Source code](source/SlidingWindow.py)
 ```python
+class Window:
+    def __init__(self, length, left, right):
+        self.length = length 
+        self.left = left 
+        self.right = right
+
 class Solution:
     def minWindow(self, s, t):
         # return empty string if the input is invalid
-        # declare a hashmap that counts the frequency of the unqiue characters of string "t" 
-        # get the total number of unique characters of string "t"
+        # set a hashmap that counts the frequency of the unique characters of the target     
+        # get the total number of unique characters of the target
         # left and right pointer
-        # keep track of number of characters of string "t" that are matched with string "s"
-        # declare a hashmap that counts the frequency of the unqiue characters of the current window 
-        # declare a tuple of the form (window length, left, right)
+        # keep track of number of characters of target that are matched with input
+        # set a hashmap that counts the frequency of the unique characters of the current window 
+        # set a returning tuple (window length, left, right)
         # start expanding the window from the right
-            # Add one character from the right to the window
+            # get the new character from the right 
             # add to the map  
-            # check if the frequency of the character in the window matchs with the string "t"
-            # start shrinking the window from the left once it contains the substring of "t" 
+            # check if the frequency of the character in the window matches with the target
+            # start shrinking the window from the left once it contains the substring of the target 
+                # get the old character from the left 
                 # record the smallest window 
                 # deduct the characters from the left index 
-                # once the window does not satisfy the complete subset of string "t"
+                # once the window does not satisfy the complete subset of the target
                     # reduce the number of matched frequency
                 # shrink the window size 
-            # increase the window size
         # return empty string if there is no match or return the matched substring
         pass
 ```
