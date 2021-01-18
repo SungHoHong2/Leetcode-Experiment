@@ -44,14 +44,14 @@
 | `2` [Minimum Cost Tree From Leaf Values](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/) | [**Remove from the smallest, Optimized**](medium/Minimum_Cost_Tree_From_Leaf_Values) |
 | `2` [Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/) | [**Long Division**](medium/Fraction_to_Recurring_Decimal) |
 | `2` [Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/) | [**Sorted by Minutes**](medium/Minimum_Time_Difference) |
-| `w` [Asteroid Collision](https://leetcode.com/problems/asteroid-collision/) | [**Stack**](medium/Asteroid_Collision) |
-| `w` [Maximal Square](https://leetcode.com/problems/maximal-square/) | [**DP, Space Optimal DP**](medium/Maximal_Square) |
-| `w` [Longest String Chain](https://leetcode.com/problems/longest-string-chain/) | [**DP**](medium/Longest_String_Chain) |
-| `w` [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | [**BFS + Two Queues, BFS + Sentinel, BFS + Level Size, DFS**](medium/Binary_Tree_Right_Side_View) |
-| `w` [Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/) | [**DFS by recursion, DFS by iteration**](medium/Flatten_a_Multilevel_Doubly_Linked_List) |
-| `w` [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [**Heap,QuickSort**](medium/Kth_Largest_Element_in_an_Array) |
-| `w` [Plus One Linked List](https://leetcode.com/problems/plus-one-linked-list/) | [**Sentinel**](medium/Plus_One_Linked_List) |
-| `w` [Jump Game](https://leetcode.com/problems/jump-game/) | [**TopDown, BottmUp, Greedy**](medium/Jump_Game) | 
+| `1` [Asteroid Collision](https://leetcode.com/problems/asteroid-collision/) | [**Stack**](medium/Asteroid_Collision) |
+| `1` [Maximal Square](https://leetcode.com/problems/maximal-square/) | [**DP, Space Optimal DP**](medium/Maximal_Square) |
+| `1` [Longest String Chain](https://leetcode.com/problems/longest-string-chain/) | [**DP**](medium/Longest_String_Chain) |
+| `1` [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | [**BFS + Two Queues, BFS + Sentinel, BFS + Level Size, DFS**](medium/Binary_Tree_Right_Side_View) |
+| `1` [Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/) | [**DFS by recursion, DFS by iteration**](medium/Flatten_a_Multilevel_Doubly_Linked_List) |
+| `1` [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [**Heap,QuickSort**](medium/Kth_Largest_Element_in_an_Array) |
+| `1` [Plus One Linked List](https://leetcode.com/problems/plus-one-linked-list/) | [**Sentinel**](medium/Plus_One_Linked_List) |
+| `1` [Jump Game](https://leetcode.com/problems/jump-game/) | [**TopDown, BottmUp, Greedy**](medium/Jump_Game) | 
 | `0` [Design Underground System](https://leetcode.com/problems/design-underground-system/) | [**Solution**]() | 
 | `0` [Robot Bounded In Circle](https://leetcode.com/problems/robot-bounded-in-circle/) | [**Solution**]() |
 | `0` [Partition Labels](https://leetcode.com/problems/partition-labels/) | [**Solution**]() | 

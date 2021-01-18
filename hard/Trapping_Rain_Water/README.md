@@ -1,5 +1,8 @@
 ### Trapping Rain Water
 **Brute force**
+- Concepts
+    - Explore the highest height from left and right for each x-axis
+    - ``
 - [Source code](source/Brute.py)
 ```python
 class Solution:
