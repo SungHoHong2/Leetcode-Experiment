@@ -1,21 +1,19 @@
+from heapq import heappush, heappop
+
 class Solution(object):
     def mergeKLists(self, lists):
-        """
-        :type lists: List[ListNode]
-        :rtype: ListNode
-        """
-        head = point = ListNode(0)
-        # q = PriorityQueue()
-        heap = list()
-        heapq.heapify(heap)
-
+        # set the pointers for the returning linked-list
+        head = curr = ListNode(-1)
+        # set the priority queue min-heap
+        pq = list()
+        # append all the inputs from the lists to the priority queue
         for l in lists:
             while l:
-                heapq.heappush(heap, l.val)
+                heappush(pq, l.val)
                 l = l.next
-
-        while heap:
-            point.next = ListNode(heapq.heappop(heap))
-            point = point.next
-
+        # pop numbers from the min-heap and create the linked-list
+        while pq:
+            curr.next = ListNode(heappop(pq))
+            curr = curr.next
+        # return the sorted linked-list
         return head.next
