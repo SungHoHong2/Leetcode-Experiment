@@ -29,7 +29,7 @@ class Solution:
         pass
 ```
 
-**Optimize Approach 2 by Priority Queue**
+**Priority Queue**
 - [Source code](source/Priority.py)
 ```python
 from heapq import heappush, heappop
@@ -52,3 +52,24 @@ class Solution(object):
       - `merged = ((0),(2)),(4)`
       - `merged = ((0),(4))`
 - [Source code](source/Merge.py)
+```python
+class Solution(object):
+    def mergeKLists(self, lists):
+        # get the total number of lists 
+        # set the pointer to merge the neighboring lists 
+        # loop until the lists become a single list 
+            # iterate two lists per loop
+                # merge the neighboring lists
+            # increase the size of the combined neighbors 
+        # return the merged list
+        pass
+    
+    def merge(self, l1, l2):
+        # set the pointers of the returning linked-list 
+        # loop until one of the linked list is depleted
+            # append the smaller number from the two lists 
+        # append with second if the first is empty  
+        # append the first if the second is empty
+        # return the linked-list
+        pass
+```
