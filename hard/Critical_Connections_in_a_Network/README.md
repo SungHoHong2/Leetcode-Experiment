@@ -21,7 +21,7 @@ class Solution:
         # explore the neighbors 
             # if the vertex is not visited
                 # combine the returning edges by exploring the neighbors with dfs 
-            # if the node did not reach the deadend
+            # if the node did not reach the dead end
                 # update the lowest rank reachable once formed a cycle
                 # append the edge as the critical if the edge does not return as a cycle
         # return the critical edges 
