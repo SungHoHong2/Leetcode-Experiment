@@ -10,9 +10,8 @@ class Solution:
     def criticalConnections(self, n: int, connections: List[List[int]]) -> List[List[int]]:
         # set the hashmap to build an undirected graph
         # set the hashmap to record the minimum rank that the nodes can reach      
-        # set the table to mark the visited nodes 
-        # set the list for returning the critical edges
-        # start the dfs (rank, prev, src)
+        # set the hashset to mark the visited nodes 
+        # return the critical edges from the dfs (rank, prev, src)
         pass
         
     def dfs(self, rank, prev, src):
