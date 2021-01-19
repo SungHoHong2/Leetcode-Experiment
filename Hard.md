@@ -6,7 +6,7 @@
 | `1` [Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/) | [**TopDown,BottomUp**](hard/Maximum_Profit_in_Job_Scheduling) | 
 | `1` [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [**Binary Search**](hard/Median_of_Two_Sorted_Arrays) | 
 | `1` [Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/) | [**Tarjan**](hard/Critical_Connections_in_a_Network) | 
-| `w` [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [**Compare one by one, Priority Queue, Divide And Conquer**](hard/Merge_k_Sorted_Lists) | 
+| `1` [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [**Compare one by one, Priority Queue, Divide And Conquer**](hard/Merge_k_Sorted_Lists) | 
 | `w` [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | [**Sliding Window, Optimized**](hard/Minimum_Window_Substring) | 
 | `w` [Integer to English Words](https://leetcode.com/problems/integer-to-english-words/) | [**Divide and Conquer**](hard/Integer_to_English_Words) | 
 | `w` [Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/) | [**Backtracking, Optimized**](hard/Remove_Invalid_Parentheses) | 
