@@ -1,16 +1,4 @@
 ### Merge k Sorted Lists
-**Brute Force**
-- [Source code](source/Brute.py)
-```python
-class Solution:
-    def mergeKLists(self, lists: List[ListNode]) -> ListNode:
-        # set the array for storing all the lists
-        # set the fake header and the current pointer
-        # iterate all the lists
-            # append the items to the total array
-        # sort the array and create the returning linked-list
-        # return the result
-```
 
 **Compare one by one**
 - [Source code](source/Compare.py)
