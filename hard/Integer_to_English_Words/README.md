@@ -61,5 +61,4 @@ class Solution:
         # return string 'zero' of the input is invalid
         # construct a string from the integer
         pass
-
 ```

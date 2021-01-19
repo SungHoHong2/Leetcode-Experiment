@@ -14,7 +14,7 @@ class Solution:
             }
             return switcher.get(num)
 
-        def two_less_20(num):
+        def twenty(num):
             switcher = {
                 10: 'Ten',
                 11: 'Eleven',
@@ -44,41 +44,43 @@ class Solution:
 
         # get the string from the number with three digits
         def two(num):
-            if not num:
-                return ''
-            elif num < 10:
+            # case1: number is below 10
+            if num < 10:
                 return one(num)
+            # case2: number is below 20
             elif num < 20:
-                return two_less_20(num)
+                return twenty(num)
+            # case3: number is between 21 ~ 99
             else:
                 tenner = num // 10
                 rest = num - tenner * 10
                 return ten(tenner) + ' ' + one(rest) if rest else ten(tenner)
 
-        # get the string from the number with three digits
         def three(num):
-            hundred = num // 100
-            rest = num - hundred * 100
+            # get the number above hundred
+            hundred = num // pow(10,2)
+            rest = num - hundred * pow(10,2)
+            # case1: 123 or 103
             if hundred and rest:
                 return one(hundred) + ' Hundred ' + two(rest)
-            elif not hundred and rest:
-                return two(rest)
+            # case2: 100
             elif hundred and not rest:
                 return one(hundred) + ' Hundred'
+            # case3: 023 or 003
+            elif not hundred and rest:
+                return two(rest)
 
         # get the number above billion
-        billion = num // pow(10, 9)
+        billion = num // pow(10,9)
         # get the number above million
-        million = (num - billion * pow(10, 9)) // pow(10, 6)
+        million = (num - billion * pow(10,9)) // pow(10,6)
         # get the number above thousand
-        thousand = (num - billion * pow(10, 9) - million * pow(10, 6)) // pow(10, 3)
+        thousand = (num - billion * pow(10,9) - million * pow(10,6)) // pow(10,3)
         # get the below thousand
-        rest = num - billion * pow(10, 9) - million * pow(10, 6) - thousand * pow(10, 3)
-
+        rest = num - billion * pow(10,9) - million * pow(10,6) - thousand * pow(10,3)
         # return string 'zero' of the input is invalid
         if not num:
             return 'Zero'
-
         # construct a string from the integer
         result = ''
         if billion:
@@ -92,4 +94,5 @@ class Solution:
         if rest:
             result += ' ' if result else ''
             result += three(rest)
+        # return the accumulated string
         return result
