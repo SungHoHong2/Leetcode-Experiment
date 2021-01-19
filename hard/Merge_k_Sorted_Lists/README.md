@@ -34,11 +34,7 @@ class Solution(object):
 
 **Merge with Divide And Conquer**
 - Concept 
-    - Merge the lists by neighbors
-      - `merged = (0),(1),(2),(3),(4)`
-      - `merged = (0,1),(2,3),(4)`
-      - `merged = ((0),(2)),(4)`
-      - `merged = ((0),(4))`
+    - Merge neighbors recursively
 - [Source code v2](source/Merge2.py)
 - [Source code v1](source/Merge.py)
 ```python
