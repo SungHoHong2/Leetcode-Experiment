@@ -9,24 +9,22 @@
 class Solution:
     def criticalConnections(self, n: int, connections: List[List[int]]) -> List[List[int]]:
         # set the hashmap to build an undirected graph
-        # set the pointer for tracking the order of discovery
         # set the hashmap to record the minimum rank that the nodes can reach      
         # set the table to mark the visited nodes 
         # set the list for returning the critical edges
-        # set the pointer for the previous vertex
-        # set the pointer for the current vertex
-        # start the dfs
-        # return the critical edges 
+        # start the dfs (rank, prev, src)
         pass
         
     def dfs(self, rank, prev, src):
-        # mark the node as visited 
+        # set the list for returning the critical edges
+        # mark the node as visited
         # set the minimum rank
         # explore the neighbors 
             # if the vertex is not visited
-                # explore the neighbors with dfs 
+                # combine the returning edges by exploring the neighbors with dfs 
             # if the node did not reach the deadend
                 # update the lowest rank reachable once formed a cycle
                 # append the edge as the critical if the edge does not return as a cycle
+        # return the critical edges 
         pass
 ```
