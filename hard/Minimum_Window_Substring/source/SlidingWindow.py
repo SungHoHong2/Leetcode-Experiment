@@ -9,44 +9,42 @@ class Solution:
         # return empty string if the input is invalid
         if not t or not s:
             return ""
-        # set a hashmap that counts the frequency of the unqiue characters of the target
+        # set a hashmap that counts the frequency of the unique characters of the target
         target_count = collections.defaultdict(int)
         for c in t:
             target_count[c] += 1
-        # get the total number of unique characters of the target
-        required = len(target_count)
-        # left and right pointer
-        l, r = 0, 0
         # keep track of number of characters of target that are matched with input
-        formed = 0
-        # set a hashmap that counts the frequency of the unqiue characters of the current window
+        target_matched = 0
+        # set a hashmap that counts the frequency of the unique characters of the current window
         window_count = collections.defaultdict(int)
         # set a returning tuple (window length, left, right)
-        ans = Window(float("inf"), None, None)
+        ans = Window(float('inf'), None, None)
+        # set the left and right pointer
+        left, right = 0, 0
         # start expanding the window from the right
-        for r in range(len(s)):
+        for right in range(len(s)):
             # get the new character from the right
-            character = s[r]
+            char = s[right]
             # add to the map
-            window_count[character] += 1
-            # check if the frequency of the character in the window matchs with the target
-            if character in target_count and window_count[character] == target_count[character]:
-                formed += 1
+            window_count[char] += 1
+            # check if the frequency of the character in the window matches with the target
+            if char in target_count and window_count[char] == target_count[char]:
+                target_matched += 1
             # start shrinking the window from the left once it contains the substring of the target
-            while l <= r and formed == required:
+            while left <= right and target_matched == len(target_count):
                 # get the old character from the left
-                character = s[l]
+                char = s[left]
                 # record the smallest window
-                if r - l + 1 < ans.length:
-                    ans.length = r - l + 1
-                    ans.left, ans.right = l, r
+                if right - left + 1 < ans.length:
+                    ans.length = right - left + 1
+                    ans.left, ans.right = left, right
                 # deduct the characters from the left index
-                window_count[character] -= 1
+                window_count[char] -= 1
                 # once the window does not satisfy the complete subset of the target
-                if character in target_count and window_count[character] < target_count[character]:
+                if char in target_count and window_count[char] < target_count[char]:
                     # reduce the number of matched frequency
-                    formed -= 1
+                    target_matched -= 1
                 # shrink the window size
-                l += 1
+                left += 1
         # return empty string if there is no match or return the matched substring
-        return "" if ans.length == float("inf") else s[ans.left : ans.right + 1]
+        return "" if ans.length == float('inf') else s[ans.left:ans.right+1]

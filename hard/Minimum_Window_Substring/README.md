@@ -12,11 +12,10 @@ class Solution:
     def minWindow(self, s, t):
         # return empty string if the input is invalid
         # set a hashmap that counts the frequency of the unique characters of the target     
-        # get the total number of unique characters of the target
-        # left and right pointer
         # keep track of number of characters of target that are matched with input
         # set a hashmap that counts the frequency of the unique characters of the current window 
         # set a returning tuple (window length, left, right)
+        # set the left and right pointer
         # start expanding the window from the right
             # get the new character from the right 
             # add to the map  
