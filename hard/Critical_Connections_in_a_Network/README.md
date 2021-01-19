@@ -8,11 +8,10 @@
 ```python
 class Solution:
     def criticalConnections(self, n: int, connections: List[List[int]]) -> List[List[int]]:
-        # set the hashmap for storing the list of undirected src and dests
+        # set the hashmap to build an undirected graph
         # set the pointer for tracking the order of discovery
         # set the hashmap to record the minimum rank that the nodes can reach      
         # set the table to mark the visited nodes 
-        # build an undirected graph 
         # set the list for returning the critical edges
         # set the pointer for the previous vertex
         # set the pointer for the current vertex
@@ -20,7 +19,7 @@ class Solution:
         # return the critical edges 
         pass
         
-    def dfs(self, res, rank, prev, current):
+    def dfs(self, rank, prev, src):
         # mark the node as visited 
         # set the minimum rank
         # explore the neighbors 
@@ -28,6 +27,6 @@ class Solution:
                 # explore the neighbors with dfs 
             # if the node did not reach the deadend
                 # update the lowest rank reachable once formed a cycle
-                # append the critical edge if the edge does not return as a cycle
+                # append the edge as the critical if the edge does not return as a cycle
         pass
 ```
