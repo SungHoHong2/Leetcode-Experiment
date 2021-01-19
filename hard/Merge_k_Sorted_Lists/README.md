@@ -39,25 +39,19 @@ class Solution(object):
       - `merged = (0,1),(2,3),(4)`
       - `merged = ((0),(2)),(4)`
       - `merged = ((0),(4))`
-- [Source code](source/Merge.py)
+- [Source code v2](source/Merge2.py)
+- [Source code v1](source/Merge.py)
 ```python
-class Solution(object):
-    def mergeKLists(self, lists):
-        # get the total number of lists 
-        # set the pointer to merge the neighboring lists 
-        # loop until the lists become a single list 
-            # iterate two lists per loop
-                # merge the neighboring lists
-            # increase the size of the combined neighbors 
-        # return the merged list
-        pass
-    
-    def merge(self, l1, l2):
-        # set the pointers of the returning linked-list 
-        # loop until one of the linked list is depleted
-            # append the smaller number from the two lists 
-        # append with second if the first is empty  
-        # append the first if the second is empty
-        # return the linked-list
-        pass
+class Solution:
+    def mergeKLists(self, lists: List[ListNode]) -> ListNode:
+        # start divide and conquer
+        pass 
+        
+    def merge(self, lists):
+        # return nothing if there are no more linked-lists 
+        # return the head if the recursion reaches a single linked-list 
+        # collect the two linked list from the divide and conquer 
+        # merge & sort the two linked-list in an ascending order
+        # return the head of the merged linked-list 
+        pass      
 ```
