@@ -36,30 +36,30 @@ class Solution(object):
         pass
 ```
 
-**Limited Backtracking**
+**Optimized Backtracking**
 - [Source code](source/Optimized.py)
 ```python
 class Solution:
     def removeInvalidParentheses(self, s):
-
-        # Find out the number of misplaced left and right parenthesis.
-            # record the number of left parenthesis
-            # record the number of right parenthesis
-                # increment the number of misplaced right if left is zero
-                # decrement the number of misplaced left
-
-        def recurse(s, index, left_count, right_count, left_rem, right_rem, expr):
-            # if the recursion reached the leaf
+                              
+        def backtrack(index, left_count, right_count, left_rem, right_rem, expr):
+            # if the recursion explored all the string
                 # if the expression is valid
                     # add the answer
-            # if the recursion is on progress
-                # remove parenthesis only if the misplaced parenthesis exists
-                    # remove parenthesis for left or right
-                # if the current characetr is not a parenthesis
-                # if left parenthesis
-                # if right parenthesis and there are more left than right
+                # end the recursion
+            # remove parenthesis only if the misplaced parenthesis exists
+                # remove parenthesis for left or right
+            # ignore non-parenthesis
+            # explore additional left 
+            # explore additional right if there are more left than right
             pass
-
-        # Run the recursion tree and return the available answers
+                    
+        # find out the number of misplaced left and right parenthesis
+            # record the number of left parenthesis
+            # record the number of right parenthesis
+                # increment the number of misplaced right if there is no more left
+                # decrement the number of misplaced left
+        # invoke backtrack 
+        # return the valid parentheses
         pass
 ```
