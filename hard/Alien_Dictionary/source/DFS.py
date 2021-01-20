@@ -1,44 +1,47 @@
 class Solution:
     def alienOrder(self, words: List[str]) -> str:
-        # append all unique letters into the adjacency list
-        adj_list = {c : [] for word in words for c in word}
+        # set a hashmap accepting set as a value
+        adj_list = {c : list() for word in words for c in word}
         # iterate each pair of adjacent words
-        for first_word, second_word in zip(words, words[1:]):
+        for first, second in zip(words, words[1:]):
+            # set a flag to check if the neighbors are identical
+            identical = True
             # iterate each pair of characters from the adjacent words
-            for c, d in zip(first_word, second_word):
+            for src, dest in zip(first, second):
                 # if the character is different
-                if c != d:
-                    # append to the adjacency list
-                    adj_list[d].append(c)
+                if src != dest:
+                    # store the character in the adjacency list
+                    adj_list[dest].append(src)
+                    # mark as identical found
+                    identical = False
+                    # break because there is no way to identify the order beyond this
                     break
             # return empty string if the second word is a subset of the first word
-            else:
-                if len(second_word) < len(first_word):
-                    return ""
+            if identical and len(second) < len(first):
+                return ""
         # set a hashmap to check the visited nodes
-        seen = {} # False = grey, True = black.
+        seen = dict() # False = grey, True = black.
         # set the list to collect the order of characters
-        output = []
-        # run DFS
-        def visit(node):
+        output = list()
+        # run the DFS
+        def dfs(dest):
             # return the result of the visited node
-            if node in seen:
-                return seen[node]
+            if dest in seen:
+                return seen[dest]
             # mark the node as grey
-            seen[node] = False
+            seen[dest] = False
             # explore the adjacent nodes and return False if the cycle is detected
-            for next_node in adj_list[node]:
-                result = visit(next_node)
-                if not result:
+            for src in adj_list[dest]:
+                if not dfs(src):
                     return False
-            # mark the node as black
-            seen[node] = True # Mark node as black.
+            # mark the node as black if there is no cycle or the node is a single
+            seen[dest] = True
             # append the result
-            output.append(node)
+            output.append(dest)
             # return True
             return True
-        # if all the nodes return true
-        if not all(visit(node) for node in adj_list):
+        # return empty if one of the dfs returns False
+        if not all(dfs(node) for node in adj_list.keys()):
             return ""
-        #
+        # return the order of the characters as a string
         return "".join(output)
