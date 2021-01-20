@@ -11,7 +11,7 @@
 
 class Codec:
     def serialize(self, root):
-        def rserialize(root, string):
+        def rserialize(node, string):
             # append the string with "None," when the node is blank
             # if the node has value
                 # append the value to the return string
@@ -19,11 +19,12 @@ class Codec:
                 # append the value from the right child
             # return the string
             pass
+
         # start dfs
         pass
 
     def deserialize(self, data):
-        def rdeserialize(l):
+        def rdeserialize(queue):
             # if the current item is None
                 # pop the current item
                 # return None
@@ -33,8 +34,8 @@ class Codec:
             # create the right child
             # return the node
             pass
-        # create the array by dividing the string with ','
-        # invoke recursion
+
+        # invoke recursion using the splitted FIFO queue
         # return the tree
         pass
 ```

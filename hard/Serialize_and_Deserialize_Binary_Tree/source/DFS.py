@@ -6,20 +6,19 @@
 #         self.right = None
 
 class Codec:
-
     def serialize(self, root):
-        def rserialize(root, string):
+        def rserialize(node, string):
             # append the string with "None," when the node is blank
-            if root is None:
+            if not node:
                 string += 'None,'
             # if the node has value
             else:
                 # append the value to the return string
-                string += str(root.val) + ','
+                string += str(node.val) + ','
                 # append the value from the left child
-                string = rserialize(root.left, string)
+                string = rserialize(node.left, string)
                 # append the value from the right child
-                string = rserialize(root.right, string)
+                string = rserialize(node.right, string)
             # return the string
             return string
 
@@ -27,27 +26,25 @@ class Codec:
         return rserialize(root, '')
 
     def deserialize(self, data):
-        def rdeserialize(l):
+        def rdeserialize(queue):
             # if the current item is None
-            if l[0] == 'None':
+            if queue[0] == 'None':
                 # pop the current item
-                l.pop(0)
+                queue.popleft()
                 # return None
                 return None
             # create the node with the current item
-            root = TreeNode(l[0])
+            root = TreeNode(queue[0])
             # pop the current item
-            l.pop(0)
+            queue.popleft()
             # create the left child
-            root.left = rdeserialize(l)
+            root.left = rdeserialize(queue)
             # create the right child
-            root.right = rdeserialize(l)
+            root.right = rdeserialize(queue)
             # return the node
             return root
 
-        # create the array by dividing the string with ','
-        data_list = data.split(',')
-        # invoke recursion
-        root = rdeserialize(data_list)
+        # invoke recursion using the splitted FIFO queue
+        root = rdeserialize(collections.deque(data.split(',')))
         # return the tree
         return root
