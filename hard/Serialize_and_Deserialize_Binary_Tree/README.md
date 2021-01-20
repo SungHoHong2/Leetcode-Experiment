@@ -2,7 +2,7 @@
 **DFS**
 - [Source code](source/DFS.py)
 ```python
- class Codec:
+class Codec:
     def serialize(self, root):
         def dfs(node, string):
             # append the string with "None," when the node is blank
