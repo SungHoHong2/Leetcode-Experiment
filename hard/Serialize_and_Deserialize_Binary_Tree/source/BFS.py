@@ -1,10 +1,3 @@
-# Definition for a binary tree node.
-# class TreeNode(object):
-#     def __init__(self, x):
-#         self.val = x
-#         self.left = None
-#         self.right = None
-
 class Codec:
 
     def serialize(self, root):
@@ -26,7 +19,7 @@ class Codec:
                 res += 'None,'
                 continue
             # append the node value to the return string
-            res += str(node.val) +','
+            res += str(node.val) + ','
             # append the left child to the queue
             queue.append(node.left)
             # append the right child to the queue
@@ -54,15 +47,13 @@ class Codec:
             node = queue.popleft()
             # create the left child node if the item of the array is valid
             if array[i] != 'None':
-                left = TreeNode(int(array[i]))
-                node.left = left
-                queue.append(left)
+                node.left = TreeNode(int(array[i]))
+                queue.append(node.left)
             i += 1
             # create the right child node if the item of the array is valid
             if array[i] != 'None':
-                right = TreeNode(int(array[i]))
-                node.right = right
-                queue.append(right)
+                node.right = TreeNode(int(array[i]))
+                queue.append(node.right)
             i += 1
         # return the head of the tree
         return root

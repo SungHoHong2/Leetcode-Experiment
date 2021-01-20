@@ -7,14 +7,13 @@
 3. Topologically sorting the graph nodes
 
 **Breadth-First Search**
-- [Concepts](images/)
-    - Identify which letters have no incoming links left
-        - Count the number of incoming links for each node
-    - Maintain a queue for BFS by starting with the nodes with zero incoming links
+- Concepts
+    - Filter the letters with no incoming links
+    - Start the BFS search from the nodes with zero incoming links
 - [Source code](source/BFS.py)
 
 **DFS**
-- [Concepts](images/)
+- Concepts
     - Do not need to count the incoming links 
     - Detect cycles by using graph coloring 
 - [Source code](source/DFS.py)
