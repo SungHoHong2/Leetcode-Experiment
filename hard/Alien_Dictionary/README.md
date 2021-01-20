@@ -48,5 +48,27 @@ class Solution:
     - Detect cycles by using graph coloring 
 - [Source code](source/DFS.py)
 ```python
-
+class Solution:
+    def alienOrder(self, words: List[str]) -> str:
+        # set a hashmap accepting set as a value
+        # iterate each pair of adjacent words
+            # set a flag to check if the neighbors are identical
+            # iterate each pair of characters from the adjacent words
+                # if the character is different
+                    # store the character in the adjacency list
+                    # mark as identical found
+                    # break because there is no way to identify the order beyond this
+            # return empty string if the second word is a subset of the first word
+        # set a hashmap to check the visited nodes
+        # set the list to collect the order of characters
+        # run the DFS
+            # return the result of the visited node
+            # mark the node as grey
+            # explore the adjacent nodes and return False if the cycle is detected
+            # mark the node as black if there is no cycle or the node is a single
+            # append the result
+            # return True
+        # return empty if one of the dfs returns False
+        # return the order of the characters as a string
+        pass
 ```
