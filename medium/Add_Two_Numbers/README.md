@@ -10,8 +10,7 @@
 #         self.next = next
 class Solution:
     def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
-        # create return array
-        # pointer that will be used for the iteration
+        # set the fake header and the working pointer
         # initialize the carry
         # iterate until both l1 and l2 are empty
             # initialize x, y
@@ -23,4 +22,5 @@ class Solution:
             # move on to next iteration
         # send the carry value to the next node just in case this is the end of the iteration
         # return the result without the dummy head
+        pass
 ```
