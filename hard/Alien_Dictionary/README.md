@@ -12,8 +12,6 @@
     - Start the BFS search from the nodes with zero incoming links
 - [Source code](source/BFS.py)
 ```python
-from collections import defaultdict, deque
-
 class Solution:
     def alienOrder(self, words: List[str]) -> str:
         # set a hashmap accepting set as a value
