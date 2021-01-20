@@ -40,4 +40,5 @@ class Solution:
         # if all the nodes return true
         if not all(visit(node) for node in adj_list):
             return ""
+        #
         return "".join(output)
