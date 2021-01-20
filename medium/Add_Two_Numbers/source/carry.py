@@ -5,10 +5,8 @@
 #         self.next = next
 class Solution:
     def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
-        # create return array
-        head = ListNode(0)
-        # pointer that will be used for the iteration
-        curr = head
+        # set the fake header and the working pointer
+        head = curr = ListNode(0)
         # initialize the carry
         carry = 0
         # iterate until either l1 and l2 are empty
