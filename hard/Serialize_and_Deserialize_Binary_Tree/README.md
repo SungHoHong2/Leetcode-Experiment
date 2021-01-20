@@ -64,7 +64,7 @@ class Codec:
             # append the left child to the queue 
             # append the right child to the queue 
         # return the string 
-        pass 
+        pass
 
     def deserialize(self, data):
         # return None if the data is invalid 

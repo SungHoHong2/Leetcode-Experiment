@@ -26,7 +26,7 @@ class Codec:
                 res += 'None,'
                 continue
             # append the node value to the return string
-            res += str(node.val) + ','
+            res += str(node.val) +','
             # append the left child to the queue
             queue.append(node.left)
             # append the right child to the queue
@@ -39,9 +39,9 @@ class Codec:
         if not data:
             return None
         # convert the string to an array with ','
-        ls = data.split(',')
+        array = data.split(',')
         # create the root node
-        root = TreeNode(int(ls[0]))
+        root = TreeNode(int(array[0]))
         # create the double-ended queue
         queue = collections.deque()
         # append the root to the queue
@@ -49,18 +49,18 @@ class Codec:
         # set the index for the input array
         i = 1
         # loop until the queue or input array is depleted
-        while queue and i < len(ls):
+        while queue and i < len(array):
             # pop the queue from the left
             node = queue.popleft()
             # create the left child node if the item of the array is valid
-            if ls[i] != 'None':
-                left = TreeNode(int(ls[i]))
+            if array[i] != 'None':
+                left = TreeNode(int(array[i]))
                 node.left = left
                 queue.append(left)
             i += 1
             # create the right child node if the item of the array is valid
-            if ls[i] != 'None':
-                right = TreeNode(int(ls[i]))
+            if array[i] != 'None':
+                right = TreeNode(int(array[i]))
                 node.right = right
                 queue.append(right)
             i += 1
