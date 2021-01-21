@@ -17,16 +17,17 @@
 - [Source code](source/TopDown.py)
 ```python
 class Solution(object):
-    def dp(self, grid, r1, c1, c2):
+    def topdown(self, grid, r1, c1, c2):
         # calculate the r2
-        # set the total length
-        # return infinite if the row and columns of the two person reach the limit or meet the thorns
+        # get the total length of the grid
+        # return infinite if the index exceeds or have the thorns     
         # return the result if one person reached the destination
-        # use memoization if it is visited area
-        # if it is the unexplored area
+        # return the recorded result if exists    
+        # if index is the unexplored area
             # pick the cherry from one person and the second person if it is not the same
-            # recursively collect the maximum result
-        # use memoization to store the visited area
+            # recursively collect the maximum result        
+            # record the visited area
+            # return the total number of picked cherries 
         pass
 
     def cherryPickup(self, grid):
