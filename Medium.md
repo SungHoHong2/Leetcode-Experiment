@@ -2,10 +2,10 @@
 
 | Problem | Solution |
 | ------------ |  ------------ |
-| `3` [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [**Elementry Math**](medium/Add_Two_Numbers) |
-| `3` [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [**Expand from Center,DP**](medium/Longest_Palindromic_Substring) |
-| `3` [LRU Cache](https://leetcode.com/problems/lru-cache/) | [**HashMap + LinkedList**](medium/LRU) |
-| `3` [Number of Islands](https://leetcode.com/problems/number-of-islands/) | [**DFS,BFS,Disjoint Set**](medium/Number_of_Islands) |
+| `4` [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [**Elementry Math**](medium/Add_Two_Numbers) |
+| `4` [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [**Expand from Center,DP**](medium/Longest_Palindromic_Substring) |
+| `4` [LRU Cache](https://leetcode.com/problems/lru-cache/) | [**HashMap + LinkedList**](medium/LRU) |
+| `4` [Number of Islands](https://leetcode.com/problems/number-of-islands/) | [**DFS,BFS,Disjoint Set**](medium/Number_of_Islands) |
 | `3` [3Sum](https://leetcode.com/problems/3sum/) | [**Two Pointers,Hashset,No Sorting**](medium/3Sum) |
 | `3` [4Sum](https://leetcode.com/problems/4sum/) | [**Two Pointers,Hashset**](medium/4Sum) |
 | `3` [4Sum II](https://leetcode.com/problems/4sum-ii/) | [**Two Groups, Design for N arrays**](medium/4Sum_II) |
