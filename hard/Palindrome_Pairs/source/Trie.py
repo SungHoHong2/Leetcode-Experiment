@@ -1,52 +1,63 @@
 class TrieNode:
     def __init__(self):
-        # set the pointer for trienode
+        # set the pointer to the next level
         self.next = collections.defaultdict(TrieNode)
-        # set the indexes of the each word
-        self.ending_word = -1
-        # set a mark for palindromes
-        self.palindrome_suffixes = []
+        # set the indicator that the current level is a finished word
+        self.word_index = -1
+        # set the indicator that the current level is a palindrome
+        self.palindrome = list()
 
 class Solution:
+    """
+    case1: [CAT] [TAC]
+    case2: [CAT] [SOLOS TAC]
+    case3: [CAT SOLOS] [TAC]
+    """
     def palindromePairs(self, words):
-        # Create the Trie
+        # create the Trie
         trie = TrieNode()
-        # add the reversed nodes in the Trie
+        # iterate the words
         for i, word in enumerate(words):
+            # reverse the word
             word = word[::-1]
-            current_level = trie
+            # set the pointer to the current level of the trie
+            curr = trie
+            # iterate the chars from the word
             for j, c in enumerate(word):
-                # Label the the remainder if they are a palindrome.
+                # label the index of the word if the word is a palindrome
                 if word[j:] == word[j:][::-1]:
-                    current_level.palindrome_suffixes.append(i)
-                current_level = current_level.next[c]
-            # mark the current level with the current word
-            current_level.ending_word = i
+                    curr.palindrome.append(i)
+                # move down the trie to the next level
+                curr = curr.next[c]
+            # label the word after finish exploring the word
+            curr.word_index = i
 
-        # Look up each word in the Trie and find palindrome pairs.
-        solutions = []
+        # set the returning array
+        ans = list()
+        # iterate the word
         for i, word in enumerate(words):
-            current_level = trie
-            # case 3: if word1 is longer than word2
+            # set the pointer of the current level of the trie
+            curr = trie
+            # case3: if word1 is longer than word2
             for j, c in enumerate(word):
-                # if a matching word is found in the current level
-                if current_level.ending_word != -1:
-                    # check the rightside of word1 is a palindrome
+                # if the leftside is a word
+                if curr.word_index != -1:
+                    # if the rightside is a palindrome
                     if word[j:] == word[j:][::-1]:
-                        # add as a solution
-                        solutions.append([i, current_level.ending_word])
-                # break if no matching word is found
-                if c not in current_level.next:
+                        # add as a solution of case3
+                        ans.append([i, curr.word_index])
+                # break if the word does not exist
+                if c not in curr.next:
                     break
                 # go down to the deeper level of Trie
-                current_level = current_level.next[c]
-            # if case 3 is not applied after iterating teh whole word
+                curr = curr.next[c]
+            # if the entire level of the trie is a word with no case3
             else:
-                # case 1: a palindrome is found
-                if current_level.ending_word != -1 and current_level.ending_word != i:
-                    solutions.append([i, current_level.ending_word])
-                # case 2: if word2 is longer than word1 and word2 consists a palindrome
-                for j in current_level.palindrome_suffixes:
-                    solutions.append([i, j])
-        # return the palindrome pairs
-        return solutions
+                # case1: the whole word is a palindrome
+                if curr.word_index != -1 and curr.word_index != i:
+                    ans.append([i, curr.word_index])
+                # case2: leftside is a palindrome and the rightside is a word
+                for j in curr.palindrome:
+                    ans.append([i, j])
+                    # return the palindrome pairs
+        return ans

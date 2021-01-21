@@ -1,53 +1,47 @@
 class Solution:
-
-    def all_valid_prefixes(self, word):
-        # set the array to collect substrings that can be compared with word2
-        valid_prefixes = []
-        # iterate the word1
-        for i in range(len(word)):
-            # if there are palindrome within the rightside of word1
-            if word[i:] == word[i:][::-1]:
-                # return the lefovers that can be compared with word2
-                valid_prefixes.append(word[:i])
-        return valid_prefixes
-
-    def all_valid_suffixes(self, word):
-        # set the array to collect available substrings that can be compared with word1
-        valid_suffixes = []
+    def validSuffixes(self, word):
+        # set the array that collects word2 substring comparable to word1
+        ans = list()
         # iterate the word2
         for i in range(len(word)):
-            # if there are palindrome within the leftside of word2
+            # append the rightside to the array if the leftside is a palindrome
             if word[:i + 1] == word[:i + 1][::-1]:
-                # return the leftovers that can be compared with word1
-                valid_suffixes.append(word[i + 1:])
-        # return the availble substrings
-        return valid_suffixes
+                ans.append(word[i + 1:])
+        # return the substrings that can be compared with word1
+        return ans
+
+    def validPrefixes(self, word):
+        # set the array that collects word1 substring comparable to word2
+        ans = list()
+        # iterate the word1
+        for i in range(len(word)):
+            # append the leftside to the array if the rightside is a palindrome
+            if word[i:] == word[i:][::-1]:
+                ans.append(word[:i])
+        # return the substrings that can be compared with word2
+        return ans
 
     def palindromePairs(self, words):
-        # set the hashmap that stores the indexes of each word
-        word_lookup = {word: i for i, word in enumerate(words)}
+        # set the hashmap[word] = index
+        wordMap = {word: i for i, word in enumerate(words)}
         # set the array to store the possible pairs
-        solutions = []
-
+        ans = list()
         # iterate the input
-        for word_index, word in enumerate(words):
+        for idx, word in enumerate(words):
             # get the reversed word
-            reversed_word = word[::-1]
-            # case #1
-            if reversed_word in word_lookup and word_index != word_lookup[reversed_word]:
-                solutions.append([word_index, word_lookup[reversed_word]])
-
-            # case #2
-            for suffix in self.all_valid_suffixes(word):
-                reversed_suffix = suffix[::-1]
-                if reversed_suffix in word_lookup:
-                    solutions.append([word_lookup[reversed_suffix], word_index])
-
-            # case #3
-            for prefix in self.all_valid_prefixes(word):
-                reversed_prefix = prefix[::-1]
-                if reversed_prefix in word_lookup:
-                    solutions.append([word_index, word_lookup[reversed_prefix]])
-
-        # return the available pairs
-        return solutions
+            reverse = word[::-1]
+            # case1: both words are palindrome to each other
+            if reverse in wordMap and idx != wordMap[reverse]:
+                ans.append([idx, wordMap[reverse]])
+                # case2: if word1 is shorter than word2
+            for suffix in self.validSuffixes(word):
+                reverse = suffix[::-1]
+                if reverse in wordMap:
+                    ans.append([wordMap[reverse], idx])
+                    # case3: if word1 is longer than word2
+            for prefix in self.validPrefixes(word):
+                reverse = prefix[::-1]
+                if reverse in wordMap:
+                    ans.append([idx, wordMap[reverse]])
+                    # return the available pairs
+        return ans

@@ -11,29 +11,28 @@
 - [Source code](source/Hashmap.py)
 ```python
 class Solution:
-    def all_valid_prefixes(self, word):
-        # set the array to collect substrings that can be compared with word2
-        # iterate the word1
-            # if there are palindrome within the rightside of word1
-                # return the lefovers that can be compared with word2
-        pass
-
-    def all_valid_suffixes(self, word):
-        # set the array to collect available substrings that can be compared with word1
+    def validSuffixes(self, word):
+        # set the array that collects word2 substring comparable to word1
         # iterate the word2
-            # if there are palindrome within the leftside of word2
-                # return the leftovers that can be compared with word1
-        # return the availble substrings
+            # append the rightside to the array if the leftside is a palindrome
+        # return the substrings that can be compared with word1
+        pass
+    
+    def validPrefixes(self, word):
+        # set the array that collects word1 substring comparable to word2
+        # iterate the word1
+            # append the leftside to the array if the rightside is a palindrome
+        # return the substrings that can be compared with word2
         pass
 
     def palindromePairs(self, words):
-        # set the hashmap that stores the indexes of each word
+        # set the hashmap[word] = index
         # set the array to store the possible pairs
         # iterate the input
             # get the reversed word
-            # case #1
-            # case #2
-            # case #3
+            # case1: both words are palindrome to each other                    
+            # case2: if word1 is shorter than word2         
+            # case3: if word1 is longer than word2        
         # return the available pairs
         pass
 ```
