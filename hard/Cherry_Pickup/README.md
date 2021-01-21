@@ -46,15 +46,16 @@ class Solution(object):
         # get the total length of the grid (row == col)
         # set the 2D table
         # start from the beginning
-        # explore all the cells
+        # iterate all the layers
             # set the temporary dp table
-            # explore all possible directions of the two persons for each step
+            # the start of the layer increases after it moves beyond the half
+            # the end of the layer stops increasing after it moves beyond the half
+            # iterate the current layer 
                     # if one of the person meet a thorn
                     # collect the cherry from the first person
                     # add the second person if the he explored different location
-                    # accumulate the result from the 'concluded' dp table
-                    # note that before completing the first half of the dp table, there is an unncessary update)
-            # conclude the dp table
+                    # accumulate the dp table from the dp table made from the previous layer
+            # save the state of the dp table 
         # return the total collected cherries from the dp table
         pass
 ```
