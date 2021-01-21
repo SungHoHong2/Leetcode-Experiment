@@ -11,12 +11,12 @@
 | `1` [Integer to English Words](https://leetcode.com/problems/integer-to-english-words/) | [**Divide and Conquer**](hard/Integer_to_English_Words) | 
 | `1` [Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/) | [**Backtracking, Optimized**](hard/Remove_Invalid_Parentheses) | 
 | `1` [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | [**DFS,BFS**](hard/Serialize_and_Deserialize_Binary_Tree) | 
-| `w` [Alien Dictionary](https://leetcode.com/problems/alien-dictionary/) | [**BFS,DFS**](hard/Alien_Dictionary) | 
-| `w` [Text Justification](https://leetcode.com/problems/text-justification/) | [**RR**](hard/Text_Justification) | 
-| `w` [Cherry Pickup](https://leetcode.com/problems/cherry-pickup/) | [**Top Down,Bottom Up**](hard/Cherry_Pickup) | 
-| [Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/) | [**Hashmap,Trie**](hard/Palindrome_Pairs) | 
-| [First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | [**Hashmap O(n)**](hard/First_Missing_Positive) | 
-| [Burst Balloons](https://leetcode.com/problems/burst-balloons/) | [**TopDown,BottomUp**](hard/Burst_Balloons) | 
+| `1` [Alien Dictionary](https://leetcode.com/problems/alien-dictionary/) | [**BFS,DFS**](hard/Alien_Dictionary) | 
+| `1` [Text Justification](https://leetcode.com/problems/text-justification/) | [**RR**](hard/Text_Justification) | 
+| `1` [Cherry Pickup](https://leetcode.com/problems/cherry-pickup/) | [**Top Down,Bottom Up**](hard/Cherry_Pickup) | 
+| `w` [Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/) | [**Hashmap,Trie**](hard/Palindrome_Pairs) | 
+| `w` [First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | [**Hashmap O(n)**](hard/First_Missing_Positive) | 
+| `w` [Burst Balloons](https://leetcode.com/problems/burst-balloons/) | [**TopDown,BottomUp**](hard/Burst_Balloons) | 
 | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | [**Recursion**](hard/Binary_Tree_Maximum_Path_Sum) | 
 | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) | [**Recursion,Top Down,Bottom Up**](hard/Regular_Expression_Matching) | 
 | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) | [**DP,Stack,Without Space**](hard/Longest_Valid_Parentheses) | 
