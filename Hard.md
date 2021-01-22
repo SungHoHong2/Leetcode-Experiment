@@ -15,7 +15,7 @@
 | `1` [Text Justification](https://leetcode.com/problems/text-justification/) | [**RR**](hard/Text_Justification) | 
 | `1` [Cherry Pickup](https://leetcode.com/problems/cherry-pickup/) | [**Top Down,Bottom Up**](hard/Cherry_Pickup) | 
 | `1` [Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/) | [**Hashmap,Trie**](hard/Palindrome_Pairs) | 
-| `w` [First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | [**Hashmap O(n)**](hard/First_Missing_Positive) | 
+| `1` [First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | [**Hashmap O(n)**](hard/First_Missing_Positive) | 
 | `w` [Burst Balloons](https://leetcode.com/problems/burst-balloons/) | [**TopDown,BottomUp**](hard/Burst_Balloons) | 
 | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | [**Recursion**](hard/Binary_Tree_Maximum_Path_Sum) | 
 | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) | [**Recursion,Top Down,Bottom Up**](hard/Regular_Expression_Matching) | 

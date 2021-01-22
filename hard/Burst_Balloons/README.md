@@ -1,6 +1,6 @@
 ### Burst Balloons
 **Top Down**
-- Concepts
+- [Concepts](images/bottomUp.png)
     - Define a function dp to return the maximum number of coins obtainable on the open interval (left, right).
     - Base case 
         - No integers on our interval `(left + 1 == right)`
@@ -23,6 +23,8 @@ class Solution:
 ```
 
 **Bottom Up**
+- [Concepts](images/bottomUp.png)
+    - Start running the dp from the rightmost side
 - [Source code](source/BottomUp.py)
 ```python
 class Solution:
