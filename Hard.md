@@ -16,10 +16,10 @@
 | `1` [Cherry Pickup](https://leetcode.com/problems/cherry-pickup/) | [**Top Down,Bottom Up**](hard/Cherry_Pickup) | 
 | `1` [Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/) | [**Hashmap,Trie**](hard/Palindrome_Pairs) | 
 | `1` [First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | [**Hashmap O(n)**](hard/First_Missing_Positive) | 
-| `w` [Burst Balloons](https://leetcode.com/problems/burst-balloons/) | [**TopDown,BottomUp**](hard/Burst_Balloons) | 
-| [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | [**Recursion**](hard/Binary_Tree_Maximum_Path_Sum) | 
-| [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) | [**Recursion,Top Down,Bottom Up**](hard/Regular_Expression_Matching) | 
-| [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) | [**DP,Stack,Without Space**](hard/Longest_Valid_Parentheses) | 
+| `1` [Burst Balloons](https://leetcode.com/problems/burst-balloons/) | [**TopDown,BottomUp**](hard/Burst_Balloons) | 
+| `w` [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | [**Recursion**](hard/Binary_Tree_Maximum_Path_Sum) | 
+| `w` [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) | [**Recursion,Top Down,Bottom Up**](hard/Regular_Expression_Matching) | 
+| `w` [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) | [**DP,Stack,Without Space**](hard/Longest_Valid_Parentheses) | 
 | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | [**Stack**](hard/Largest_Rectangle_in_Histogram) | 
 | [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/) | [**Histogram,Stack,Max Height**](hard/Maximal_Rectangle) | 
 | [The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/) | [**Max Heap**](hard/The_Skyline_Problem) | 
