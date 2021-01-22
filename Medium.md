@@ -8,7 +8,7 @@
 | `4` [Number of Islands](https://leetcode.com/problems/number-of-islands/) | [**DFS,BFS,Disjoint Set**](medium/Number_of_Islands) |
 | `4` [3Sum](https://leetcode.com/problems/3sum/) | [**Two Pointers,Hashset,No Sorting**](medium/3Sum) |
 | `4` [4Sum](https://leetcode.com/problems/4sum/) | [**Two Pointers,Hashset**](medium/4Sum) |
-| `3` [4Sum II](https://leetcode.com/problems/4sum-ii/) | [**Two Groups, Design for N arrays**](medium/4Sum_II) |
+| `4` [4Sum II](https://leetcode.com/problems/4sum-ii/) | [**Two Groups, Design for N arrays**](medium/4Sum_II) |
 | `3` [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [**Left and Right, O(1) space**](medium/Product_of_Array_Except_Self) |
 | `3` [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [**Sliding Window, Optimized**](medium/Longest_Substring_Without_Repeating_Characters) |
 | `3` [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [**Sorting, MergeSorting the TreeNode**](medium/Merge_Intervals) |
