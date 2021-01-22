@@ -14,14 +14,13 @@
 #         self.right = right
 class Solution:
     def maxPathSum(self, root: TreeNode) -> int:
-        def max_gain(node):
+        def bsearch(node):
             # return 0 if it reached the leaf
-            # get the maximum sum from the left and right node
-            # get the total sum of the path that excludes the parent node
-            # discard the parent node path if the total sum is higher
-            # returning and building up a path that creates the total sum with the parent node
+            # get the maximum score from the left branch 
+            # get the maximum score from the right branch 
+            # update the highest score gained from the complete path
+            # return the largest possible path that starts from the leaf to the current node
             pass
-
         # set a global variable to keep track of the maximum sum
         # run the recursion
         # return the maximum sum
