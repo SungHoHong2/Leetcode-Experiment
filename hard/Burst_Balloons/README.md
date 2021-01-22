@@ -29,10 +29,10 @@ class Solution:
 ```python
 class Solution:
     def maxCoins(self, nums: List[int]) -> int:
-        # reframe problem as before
+        # reframe the input 
         # get the total length of the input
-        # dp will store the results of our calls
-        # expand the scope of dp from the [n-2:n] items numbers to all items [0:n]
-        # return the final result of the dp [0:n]
+        # set the dp table that stores maximum score for within the range of left and right
+        # start computing the dp from the rightmost side
+        # return the largest score between the first and the last balloon
         pass
 ```
