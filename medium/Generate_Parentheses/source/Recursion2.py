@@ -1,17 +1,21 @@
 class Solution(object):
     def generate(self, ans):
+        # set up the return array
+        res = list()
         # if the generated answer has the expected length
         if len(ans) == self.size:
             # if the generated array contains
             if self.valid(ans):
                 # add the answer to the return list
-                self.rtnArray.append(ans)
+                res.append(ans)
         # if the generated answer does not have the expected length
         else:
             # invoke the recursive with additional opening
-            self.generate(ans + '(')
+            res += self.generate(ans + '(')
             # invoke the recursive with additional closing
-            self.generate(ans + ')')
+            res += self.generate(ans + ')')
+        # return the parentheses
+        return res
 
     def valid(self, ans):
         # set the balance to check the validity of the parenthesis
@@ -22,20 +26,16 @@ class Solution(object):
             if c == '(':
                 bal += 1
                 # if the list contains closing decrement the balance
-            else:
+            elif c == ')':
                 bal -= 1
-            # if the number of closing is more than the opening
+                # if the number of closing is more than the opening
             if bal < 0:
                 return False
-                # return true if the number of opening and closing are equal
+        # return true if the number of opening and closing are equal
         return bal == 0
 
     def generateParenthesis(self, n):
-        # set up the return array
-        self.rtnArray = list()
         # set the total size of the parenthesis
         self.size = n * 2
-        # invoke the generate function
-        self.generate("")
-        # return the list of answers
-        return self.rtnArray
+        # return the list of answers from the recursion
+        return self.generate("")

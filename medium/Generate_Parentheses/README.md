@@ -8,13 +8,16 @@
 ```python
 class Solution(object):
     def generate(self, ans):
+        # set up the return array
         # if the generated answer has the expected length
             # if the generated array contains
                 # add the answer to the return list
         # if the generated answer does not have the expected length
             # invoke the recursive with additional opening
             # invoke the recursive with additional closing 
+        # return the parentheses
         pass
+        
     def valid(self, ans):
         # set the balance to check the validity of the parenthesis
         # iterate the list
@@ -23,11 +26,10 @@ class Solution(object):
             # if the number of closing is more than the opening
         # return true if the number of opening and closing are equal
         pass
+        
     def generateParenthesis(self, n):
-        # set up the return array
         # set the total size of the parenthesis
-        # invoke the generate function
-        # return the list of answers
+        # return the list of answers from the recursion 
         pass
 ```
 
