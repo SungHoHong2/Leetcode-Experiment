@@ -19,10 +19,10 @@
 | `1` [Burst Balloons](https://leetcode.com/problems/burst-balloons/) | [**TopDown,BottomUp**](hard/Burst_Balloons) | 
 | `1` [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | [**Recursion**](hard/Binary_Tree_Maximum_Path_Sum) | 
 | `1` [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) | [**Recursion,Top Down,Bottom Up**](hard/Regular_Expression_Matching) | 
-| `w` [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) | [**DP,Stack,Without Space**](hard/Longest_Valid_Parentheses) | 
-| [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | [**Stack**](hard/Largest_Rectangle_in_Histogram) | 
-| [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/) | [**Histogram,Stack,Max Height**](hard/Maximal_Rectangle) | 
-| [The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/) | [**Max Heap**](hard/The_Skyline_Problem) | 
+| `1` [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) | [**DP,Stack,Without Space**](hard/Longest_Valid_Parentheses) | 
+| `w` [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | [**Stack**](hard/Largest_Rectangle_in_Histogram) | 
+| `w` [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/) | [**Histogram,Stack,Max Height**](hard/Maximal_Rectangle) | 
+| `w` [The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/) | [**Max Heap**](hard/The_Skyline_Problem) | 
 | [Word Search II](https://leetcode.com/problems/word-search-ii/) | [**Trie**](hard/Word_Search_II) | 
 | [Edit Distance](https://leetcode.com/problems/edit-distance/) | [**DP**](hard/Edit_Distance) | 
 | [Jump Game II](https://leetcode.com/problems/jump-game-ii/) | [**Greedy**](hard/Jump_Game_II) | 
