@@ -10,7 +10,7 @@
 | `4` [4Sum](https://leetcode.com/problems/4sum/) | [**Two Pointers,Hashset**](medium/4Sum) |
 | `4` [4Sum II](https://leetcode.com/problems/4sum-ii/) | [**Two Groups, Design for N arrays**](medium/4Sum_II) |
 | `4` [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [**Left and Right, O(1) space**](medium/Product_of_Array_Except_Self) |
-| `3` [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [**Sliding Window, Optimized**](medium/Longest_Substring_Without_Repeating_Characters) |
+| `4` [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [**Sliding Window, Optimized**](medium/Longest_Substring_Without_Repeating_Characters) |
 | `3` [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [**Sorting, MergeSorting the TreeNode**](medium/Merge_Intervals) |
 | `3` [Minimum Domino Rotations For Equal Row](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/) | [**Greedy,Counting**](medium/Minimum_Domino_Rotations_For_Equal_Row) |
 | `3` [Game of Life](https://leetcode.com/problems/game-of-life/) | [**O(mn),O(1),Infinite Space**](medium/Game_of_Life) |
