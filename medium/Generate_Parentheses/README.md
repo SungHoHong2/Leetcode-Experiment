@@ -41,7 +41,8 @@ class Solution(object):
 
 ```python
 class Solution(object):
-    def generate(self, ans, left, right):
+    def backtrack(self, ans, left, right):
+        # set up the return array
         # if the answer has the expected length
             # include the answer to the return array
         # if the length of the generated string is not enough
@@ -49,12 +50,11 @@ class Solution(object):
                 # run the recursion with additional opening
             # if the number of closing is smaller than opening
                 # run the recursion with additional closing
+        # return the parentheses
         pass
         
     def generateParenthesis(self, n):
-        # set the return list
         # set the total size of the valid parenthesis
         # run the recursion function
-        # return the list of answers
         pass
 ```
