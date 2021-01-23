@@ -1,5 +1,5 @@
 ### Longest Valid Parentheses
-**Using Dynamic Programming**
+**Dynamic Programming**
 - [Concepts](images/DP.png)
     - Apply dynamic programming
 - [Source code](source/DP.py)
@@ -19,13 +19,40 @@ class Solution:
         pass
 ```
 
-**Using Stack**
-- [Concepts](images/)
-- [Source code](source/)
-- [Reference #1]()
-
+**Stack**
+- [Source code](source/Stack.py)
+```python
+class Solution:
+    def longestValidParentheses(self, s: str) -> int:
+        # set the maximum length of the parentheses as the return value
+        # set a stack 
+        # push a sentinel to mark the begining of the parenthese
+        # iterate the input 
+            # if the current char is an opening 
+                # push the opening to the stack 
+            # if the current char is a closing 
+                # pop the opening 
+                # push the closing as a sentinel if there is no more parenthese 
+                # record the max length with the sentinel in the stack
+        pass
+```
 
 **Without extra space**
-- [Concepts](images/)
-- [Source code](source/)
-- [Reference #1]()
+- [Source code](source/Space.py)
+```python
+class Solution:
+    def longestValidParentheses(self, s: str) -> int:
+        # set the index for left, right, and the maximum length
+        # iterate the input forward
+            # increment left if the char is an opening
+            # increment right if the char is an closing
+            # record the maximum length of the right if the parentheses is valid 
+            # reset the indexes if parenthesis is invalid 
+        # reset the indexes for left and right 
+        # iterate the input in reverse 
+            # increment left if the char is an opening
+            # increment right if the char is an closing
+            # record the maximum length of the left if the parentheses is valid 
+        # return the max length of the parentheses
+        pass
+```
