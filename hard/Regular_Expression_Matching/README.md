@@ -7,7 +7,7 @@ class Solution:
     def isMatch(self, text: str, pattern: str) -> bool:
         # return true if all the patterns and the inputs are explored
             # get the result of the validity of the first input
-        # if the next pattern is '*'(repeat)
+        # if the next pattern is '*'(zero or more repeated)
             # jump over the repeat pattern or check if the next input is repeated
         # if the next pattern is not a repeat
             # check the first input is valid and move to next input and next pattern
