@@ -1,6 +1,5 @@
 ### Regular Expression Matching
 **Recursion**
-- [Concepts](images/)
 - [Source code](source/Recursion.py)
 ```python
 class Solution:
@@ -14,10 +13,9 @@ class Solution:
         pass
 ```
 **Top Down**
-- [Concepts](images/)
 - [Source code](source/TopDown.py)
 ```python
-class Solution(object):__
+class Solution(object):
     def dp(self, i, j):
         # if state is not in the cache
             # if current pattern is the last pattern
@@ -40,7 +38,6 @@ class Solution(object):__
 ```
 
 **Bottom Up**
-- [Concepts](images/)
 - [Source code](source/BottomUp.py)
 ```python
 class Solution(object):
