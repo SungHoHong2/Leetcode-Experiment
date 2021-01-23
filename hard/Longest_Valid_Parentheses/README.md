@@ -26,7 +26,7 @@ class Solution:
     def longestValidParentheses(self, s: str) -> int:
         # set the maximum length of the parentheses as the return value
         # set a stack 
-        # push a sentinel to mark the begining of the parenthese
+        # push a sentinel to mark the beginning of the parentheses
         # iterate the input 
             # if the current char is an opening 
                 # push the opening to the stack 
