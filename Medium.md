@@ -15,7 +15,7 @@
 | `3` [Minimum Domino Rotations For Equal Row](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/) | [**Greedy,Counting**](medium/Minimum_Domino_Rotations_For_Equal_Row) |
 | `3` [Game of Life](https://leetcode.com/problems/game-of-life/) | [**O(mn),O(1),Infinite Space**](medium/Game_of_Life) |
 | `3` [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | [**Recursive,Iterative with O(N),O(1)**](medium/Copy_List_with_Random_Pointer) |
-| `2` [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [**BruteForce,Backtracking,Closure**](medium/Generate_Parentheses) |
+| `3` [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [**BruteForce,Backtracking,Closure**](medium/Generate_Parentheses) |
 | `2` [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/) | [**Priority Queues,Chronological Ordering**](medium/Meeting_Rooms_II) |
 | `2` [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | [**Hashmap**](medium/Subarray_Sum_Equals_K) |
 | `2` [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [**Binary search,One-pass Binary Search**](medium/Search_in_Rotated_Sorted_Array) |
@@ -52,7 +52,7 @@
 | `1` [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [**Heap,QuickSort**](medium/Kth_Largest_Element_in_an_Array) |
 | `1` [Plus One Linked List](https://leetcode.com/problems/plus-one-linked-list/) | [**Sentinel**](medium/Plus_One_Linked_List) |
 | `1` [Jump Game](https://leetcode.com/problems/jump-game/) | [**TopDown, BottmUp, Greedy**](medium/Jump_Game) | 
-| `0` [Design Underground System](https://leetcode.com/problems/design-underground-system/) | [**Solution**]() | 
+| `w` [Design Underground System](https://leetcode.com/problems/design-underground-system/) | [**Solution**]() | 
 | `0` [Robot Bounded In Circle](https://leetcode.com/problems/robot-bounded-in-circle/) | [**Solution**]() |
 | `0` [Partition Labels](https://leetcode.com/problems/partition-labels/) | [**Solution**]() | 
 | `0` [Number of Provinces](https://leetcode.com/problems/number-of-provinces/) | [**Solution**]() | 
