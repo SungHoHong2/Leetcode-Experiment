@@ -52,12 +52,11 @@
 | `1` [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [**Heap,QuickSort**](medium/Kth_Largest_Element_in_an_Array) |
 | `1` [Plus One Linked List](https://leetcode.com/problems/plus-one-linked-list/) | [**Sentinel**](medium/Plus_One_Linked_List) |
 | `1` [Jump Game](https://leetcode.com/problems/jump-game/) | [**TopDown, BottmUp, Greedy**](medium/Jump_Game) | 
-| `w` [Design Underground System](https://leetcode.com/problems/design-underground-system/) | [**Solution**]() | 
-| `0` [Robot Bounded In Circle](https://leetcode.com/problems/robot-bounded-in-circle/) | [**Solution**]() |
+| `1` [Design Underground System](https://leetcode.com/problems/design-underground-system/) | [**Two Hashmaps**](medium/Design_Underground_System) | 
+| `w` [Robot Bounded In Circle](https://leetcode.com/problems/robot-bounded-in-circle/) | [**Solution**]() |
 | `0` [Partition Labels](https://leetcode.com/problems/partition-labels/) | [**Solution**]() | 
 | `0` [Number of Provinces](https://leetcode.com/problems/number-of-provinces/) | [**Solution**]() | 
 | `0` [Minimum Knight Moves](https://leetcode.com/problems/minimum-knight-moves/) | [**Solution**]() | 
-
 
 
 | [Problem]() | [**Solution**]() | 

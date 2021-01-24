@@ -1,5 +1,5 @@
 ### Design Underground System
-**Two Hashmap**
+**Two Hashmaps**
 - [Concepts](images/)
 - [Source code](source/Hashmap.py)
 ```python
