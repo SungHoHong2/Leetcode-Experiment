@@ -22,10 +22,10 @@
 | `1` [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) | [**DP,Stack,Without Space**](hard/Longest_Valid_Parentheses) | 
 | `1` [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | [**Stack**](hard/Largest_Rectangle_in_Histogram) | 
 | `1` [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/) | [**Histogram,Stack,Max Height**](hard/Maximal_Rectangle) | 
-| `w` [The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/) | [**Max Heap**](hard/The_Skyline_Problem) | 
-| [Word Search II](https://leetcode.com/problems/word-search-ii/) | [**Trie**](hard/Word_Search_II) | 
-| [Edit Distance](https://leetcode.com/problems/edit-distance/) | [**DP**](hard/Edit_Distance) | 
-| [Jump Game II](https://leetcode.com/problems/jump-game-ii/) | [**Greedy**](hard/Jump_Game_II) | 
+| `1` [The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/) | [**Max Heap**](hard/The_Skyline_Problem) | 
+| `w` [Word Search II](https://leetcode.com/problems/word-search-ii/) | [**Trie**](hard/Word_Search_II) | 
+| `w` [Edit Distance](https://leetcode.com/problems/edit-distance/) | [**DP**](hard/Edit_Distance) | 
+| `w` [Jump Game II](https://leetcode.com/problems/jump-game-ii/) | [**Greedy**](hard/Jump_Game_II) | 
 | [Design Search Autocomplete System](https://leetcode.com/problems/design-search-autocomplete-system/) | [**Hashmap, Two level Hashmap, Trie**](hard/Design_Search_Autocomplete_System) | 
 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | [**Insertion Sort + Binary Search**](hard/Find_Median_from_Data_Stream) | 
 | [Employee Free Time](https://leetcode.com/problems/employee-free-time/) | [**Greedy,Heap**](hard/Employee_Free_Time) | 
