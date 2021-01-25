@@ -25,10 +25,10 @@
 | `1` [The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/) | [**Max Heap**](hard/The_Skyline_Problem) | 
 | `1` [Word Search II](https://leetcode.com/problems/word-search-ii/) | [**Trie**](hard/Word_Search_II) | 
 | `1` [Edit Distance](https://leetcode.com/problems/edit-distance/) | [**DP**](hard/Edit_Distance) | 
-| `w` [Jump Game II](https://leetcode.com/problems/jump-game-ii/) | [**Greedy**](hard/Jump_Game_II) | 
-| [Design Search Autocomplete System](https://leetcode.com/problems/design-search-autocomplete-system/) | [**Hashmap, Two level Hashmap, Trie**](hard/Design_Search_Autocomplete_System) | 
-| [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | [**Insertion Sort + Binary Search**](hard/Find_Median_from_Data_Stream) | 
-| [Employee Free Time](https://leetcode.com/problems/employee-free-time/) | [**Greedy,Heap**](hard/Employee_Free_Time) | 
+| `1` [Jump Game II](https://leetcode.com/problems/jump-game-ii/) | [**Greedy**](hard/Jump_Game_II) | 
+| `w` [Design Search Autocomplete System](https://leetcode.com/problems/design-search-autocomplete-system/) | [**Hashmap, Two level Hashmap, Trie**](hard/Design_Search_Autocomplete_System) | 
+| `w` [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | [**Insertion Sort + Binary Search**](hard/Find_Median_from_Data_Stream) | 
+| `w` [Employee Free Time](https://leetcode.com/problems/employee-free-time/) | [**Greedy,Heap**](hard/Employee_Free_Time) | 
 | [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/) | [**DP,Binary Search**](hard/Split_Array_Largest_Sum) | 
 | [Reaching Points](https://leetcode.com/problems/reaching-points/) | [**WorkBackward,+ Modulo**](hard/Reaching_Points) | 
 | [Consecutive Numbers Sum](https://leetcode.com/problems/consecutive-numbers-sum/) | [**Counting Consecutives**](hard/Consecutive_Numbers_Sum) | 
