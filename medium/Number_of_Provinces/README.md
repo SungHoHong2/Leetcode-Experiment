@@ -44,7 +44,51 @@ class Solution:
         pass
 ```
 
-**Solution3**
-- [Concepts](images/)
-- [Source code](source/)
-- [Reference #1]()
+**Union-Find**
+- [Source code](source/disjoint.py)
+```python
+class Solution:
+    def findCircleNum(self, adjacency: List[List[int]]) -> int:
+        # set the table of parents for the disjoint set
+        # set the table of ranking for the disjoint set
+        
+        def getParent(i):
+            # set the temporary pointer just in case the current node already has a parent
+            # if the selected node already has a parent
+                # get the address of the parent
+                # update the parent table of that node
+            # return the index of the parent
+            pass
+        
+        def setParent(curr, parent):
+            # store the parent address to the current cell
+            pass
+        
+        def getRank(parent):
+            # return the rank from the table
+            pass
+        
+        def setRank(parent, rank):
+            # update the rank
+            pass
+        
+        def union(a, b):
+            # get the parents of both 'a' and 'b'
+            # return the ranks of both 'a' and 'b'
+            # if the rank of the 'b' is higher
+                # set the parent of 'a' to parent of 'b'
+            # if the rank of the 'a' is higher
+                # set the parent of 'b' to parent of 'a'
+            # if the ranks of 'a' and 'b' are the same
+                # increase the number of rank and merge the group
+            pass
+
+        # iterate the number of nodes 
+            # iterate the neighbors 
+                # if the neighbor is valid 
+                    # merge two provinces
+            
+        # count the number of provinces that has the parent as itself
+        # return the total number of provinces
+        pass
+```
