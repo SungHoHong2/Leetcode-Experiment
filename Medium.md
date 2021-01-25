@@ -51,10 +51,10 @@
 | `1` [Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/) | [**DFS by recursion, DFS by iteration**](medium/Flatten_a_Multilevel_Doubly_Linked_List) |
 | `1` [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [**Heap,QuickSort**](medium/Kth_Largest_Element_in_an_Array) |
 | `1` [Plus One Linked List](https://leetcode.com/problems/plus-one-linked-list/) | [**Sentinel**](medium/Plus_One_Linked_List) |
-| `1` [Jump Game](https://leetcode.com/problems/jump-game/) | [**TopDown, BottmUp, Greedy**](medium/Jump_Game) | 
+| `1` [Jump Game](https://leetcode.com/problems/jump-game/) | [**TopDown, BottomUp, Greedy**](medium/Jump_Game) | 
 | `1` [Design Underground System](https://leetcode.com/problems/design-underground-system/) | [**Two Hashmaps**](medium/Design_Underground_System) | 
-| `1` [Robot Bounded In Circle](https://leetcode.com/problems/robot-bounded-in-circle/) | [**Solution**]() |
-| `0` [Partition Labels](https://leetcode.com/problems/partition-labels/) | [**Solution**]() | 
+| `1` [Robot Bounded In Circle](https://leetcode.com/problems/robot-bounded-in-circle/) | [**Trajectory**](medium/Robot_Bounded_In_Circle) |
+| `1` [Partition Labels](https://leetcode.com/problems/partition-labels/) | [**Greedy**](medium/Partition_Labels) | 
 | `0` [Number of Provinces](https://leetcode.com/problems/number-of-provinces/) | [**Solution**]() | 
 | `0` [Minimum Knight Moves](https://leetcode.com/problems/minimum-knight-moves/) | [**Solution**]() | 
 

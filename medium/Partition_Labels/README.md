@@ -1,6 +1,6 @@
 ### Partition Labels
 **Greedy**
-- [Concepts](images/)
+- Concepts
     - For each letter encountered, process the last occurrence of that letter, 
         - extending the current partition [anchor, j] appropriately.
 - [Source code](source/Greedy.py)
