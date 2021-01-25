@@ -55,7 +55,7 @@
 | `1` [Design Underground System](https://leetcode.com/problems/design-underground-system/) | [**Two Hashmaps**](medium/Design_Underground_System) | 
 | `1` [Robot Bounded In Circle](https://leetcode.com/problems/robot-bounded-in-circle/) | [**Trajectory**](medium/Robot_Bounded_In_Circle) |
 | `1` [Partition Labels](https://leetcode.com/problems/partition-labels/) | [**Greedy**](medium/Partition_Labels) | 
-| `0` [Number of Provinces](https://leetcode.com/problems/number-of-provinces/) | [**Solution**]() | 
+| `1` [Number of Provinces](https://leetcode.com/problems/number-of-provinces/) | [**DFS,BFS,Disjoint**](medium/Number_of_Provinces) | 
 | `0` [Minimum Knight Moves](https://leetcode.com/problems/minimum-knight-moves/) | [**Solution**]() | 
 
 | [Problem]() | [**Solution**]() | 
