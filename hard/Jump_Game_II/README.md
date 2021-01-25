@@ -1,7 +1,7 @@
 ### Jump Game II
 
 **Greedy**
-- [Concepts](images/)
+- Concepts
     - To minimize the number of jumps
     - Follow the "greedy" strategy and choose the longest possible jump
     - Repeat the process again and again, till we reach the last index.
