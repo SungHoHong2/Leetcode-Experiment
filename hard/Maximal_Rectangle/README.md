@@ -1,5 +1,5 @@
 ### Problem Title
-**Histogram:DP**
+**DP**
 - [Concepts](images/Histogram.png)
     - Compute the maximum width to convert the input into a set of histograms
     - Compute the maximal area for each histogram
@@ -8,17 +8,22 @@
 class Solution:
     def maximalRectangle(self, matrix: List[List[str]]) -> int:
         # set the variable to record the maximum area
-        # set a dp table 
+        # set a dp table
         # iterate the row of the dp table
-            # iterate the col of the dp table 
-                # continue if the area is not valid 
-                # compute the maximum width to convert the input into a set of histograms
-                # compute the maximum area rectangle from the precomputed rows 
-        # return the maximum area                
+            # iterate the col of the dp table
+                # continue if the area is not valid
+                # record the length of the valid width
+                # iterate the row from bottom to top
+                    # get the height
+                    # get the width
+                    # record the maximum area
+        # return the maximum area
+        pass
 ```
 
-**Histogram:Stack**
-- [Concepts](images/)
+**Stack**
+- Concepts
+    - Apply solution from the previous solution `Maximal Rectangle`
 - [Source code](source/Stack.py)
 ```python
 class Solution:
@@ -47,7 +52,7 @@ class Solution:
             pass
 ```
 
-**Maximum Height at Each Point:DP**
+**Maximum Height at Each Point**
 - [Concepts](images/)
 - [Source code](source/MaxHeight.py)
 ```python
@@ -60,10 +65,15 @@ class Solution:
         # set the variable for recording the maximum area
         # iterate the row of the input
             # set the current left and right
-            # update height
-            # update left
-            # update right
+            # accumulate the height for each columns or set as invalid 
+            # update the available left index 
+                # maintain the maximum width if the height is valid 
+                # reduce the maximum width if the height is invalid        
+            # update the available right index 
+                # maintain the maximum width if the height is valid
+                # reduce the maximum width if the height is invalid                 
             # update the area
+                # compute the area if the height is valid        
         # return the maximum area
         pass
 ```

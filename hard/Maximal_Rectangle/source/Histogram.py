@@ -9,11 +9,17 @@ class Solution:
             # iterate the col of the dp table
             for j in range(len(matrix[0])):
                 # continue if the area is not valid
-                if matrix[i][j] == '0': continue
-                # compute the maximum width to convert the input into a set of histograms
+                if matrix[i][j] == '0':
+                    continue
+                # record the length of the valid width
                 width = dp[i][j] = dp[i][j-1] + 1 if j else 1
-                # compute the maximum area rectangle from the precomputed rows
+                # iterate the row from bottom to top
                 for k in range(i, -1, -1):
+                    # get the height
+                    height = i-k+1
+                    # get the width
                     width = min(width, dp[k][j])
-                    maxarea = max(maxarea, width * (i-k+1))
+                    # record the maximum area
+                    maxarea = max(maxarea, width * height)
+        # return the maximum area
         return maxarea
