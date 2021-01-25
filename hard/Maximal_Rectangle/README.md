@@ -53,7 +53,6 @@ class Solution:
 ```
 
 **Maximum Height at Each Point**
-- [Concepts](images/)
 - [Source code](source/MaxHeight.py)
 ```python
 class Solution:
