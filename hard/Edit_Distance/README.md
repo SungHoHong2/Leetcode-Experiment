@@ -10,7 +10,7 @@
     - If the last character is the same `word1[i] = word2[j]`
         - `D[i][j] = 1 + min( D[i-1][j], D[i][j-1], D[i-1][j-1]-1 )`
             - `D[i-1][j]`: change 1 from word1 to become `word1[i] = word2[j]` 
-            - `D[i-1][j]`: change 1 from word2 to become `word1[i] = word2[j]`  
+            - `D[i][j-1]`: change 1 from word2 to become `word1[i] = word2[j]`  
             - `D[i-1][j-1]`: no need to change anything 
     - If the last character is not same `word1[i] != word2[j]`
         - `D[i][j] = 1 + min( D[i-1][j], D[i][j-1], D[i-1][j-1] )`

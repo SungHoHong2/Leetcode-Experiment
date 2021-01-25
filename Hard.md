@@ -23,7 +23,7 @@
 | `1` [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | [**Stack**](hard/Largest_Rectangle_in_Histogram) | 
 | `1` [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/) | [**Histogram,Stack,Max Height**](hard/Maximal_Rectangle) | 
 | `1` [The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/) | [**Max Heap**](hard/The_Skyline_Problem) | 
-| `w` [Word Search II](https://leetcode.com/problems/word-search-ii/) | [**Trie**](hard/Word_Search_II) | 
+| `1` [Word Search II](https://leetcode.com/problems/word-search-ii/) | [**Trie**](hard/Word_Search_II) | 
 | `w` [Edit Distance](https://leetcode.com/problems/edit-distance/) | [**DP**](hard/Edit_Distance) | 
 | `w` [Jump Game II](https://leetcode.com/problems/jump-game-ii/) | [**Greedy**](hard/Jump_Game_II) | 
 | [Design Search Autocomplete System](https://leetcode.com/problems/design-search-autocomplete-system/) | [**Hashmap, Two level Hashmap, Trie**](hard/Design_Search_Autocomplete_System) | 
