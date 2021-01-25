@@ -20,10 +20,19 @@
 ```python
 class Solution:
     def minDistance(self, word1: str, word2: str) -> int:
-        # if one of the strings is empty
-        # array to store the convertion history
-        # init boundaries
-        # DP compute
+        # get the length of the word1
+        # get the length of the word2 
+        # return the total length of a word if one of the word is empty
+        # set a dp table
+        # update the number of changes for word1
+        # update the number of changes for word2
+        # iterate the dp for word1  
+            # iterate the dp for word2
+                # case1: get the minimum number of changes for word1 to become word2
+                # case2: get the minimum number of changes for word2 to become word1
+                # case3: get the minimum number of changes for before word1 and word2 changes   
+                # increase the number of changes for case3 if word1 and word2 are not equal
+                # update the minimum number of changes for word1 and word2 become equal 
         # return the minimum number of changes
         pass
 ```
