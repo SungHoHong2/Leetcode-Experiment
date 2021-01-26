@@ -4,28 +4,22 @@
     1. Run the binary search for finding the rotation index
     1. If not rotated, search the whole array using binary search
     2. If rotated, search left or right half of the array that contains the target
-- [Source code](source/Binary.py)
+- [Source code](source/Binary2.py)
 ```python
 class Solution:
-    def find_rotate_index(self,nums, left, right):
+    def find_rotate_index(self, nums, left, right):
         # if first element is smaller than the last element
             # there was no rotation in the array 
         # loop until the whole array is searched 
             # get the middle pivot
-            # if the pivot is larger than the rightside neighbor
-            #            P N 
-            # ex) [4,5,6,7,0,1,2]
+            # if the rightside of the pivot is the rotated index
                 # return the index of the right side
-            # if the pivot is smaller than the left side
-            #            L   P   R
-            # ex) [4,5,6,7,0,1,2,3]            
+            # if the pivot is in the rightside of the rotated index     
                 # search for the left area
-            # if the pivot is larger than the left side
-            #        L   P   R
-            # ex) [4,5,6,7,0,1,2,3]               
-            # search for the right area     
-        pass               
-
+            # if the pivot is in the leftside of the rotated index       
+                # search for the right area     
+        pass
+                
     def binarySearch(self,nums, target, left, right):
         # loop until the whole array is searched 
             # get the middle pivot
@@ -40,8 +34,7 @@ class Solution:
                 
     def search(self, nums, target):
         # get the total length of nums
-        # if there are no numbers  
-            # return -1 
+        # return -1 if there are no numbers  
         # if there is a single number 
             # return zero if the single number matches with the target otherwise -1
         # find the rotate_index in the array = rotate_index 
@@ -49,14 +42,9 @@ class Solution:
             # return the rotate_index 
         # if array is not rotated
             # perform binary search on the entire array 
-        # if the target is smaller than the first element 
-        # ex) [4,5,6,7,0,1,2]
-        #     target = 2 first = 4 
+        # if the target is in the rightside of the rotated array
             # search from the rotate_index
-        # if the target is bigger than the first element
-        # ex) [4,5,6,7,0,1,2]
-        #     target = 6 first = 4 
-        # search until the rotate_index 
+        # search the leftside of the rotated array 
         pass
 ```
 
