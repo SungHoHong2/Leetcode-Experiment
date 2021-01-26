@@ -31,18 +31,24 @@ class AutocompleteSystem:
 ```
 
 **Using One level Indexing**
-- [Concepts](images/)
-    - make use of a Two level HashMap
+- Concepts
+    - One level HashMap
+        - The Top level stores the starting character of the sentence as the key
+        - The Second level stores the sentence as the key and the frequency as the value
 - [Source code](source/OneLevel.py)
 ```python
 class AutocompleteSystem:
     def __init__(self, sentences: List[str], times: List[int]):
+        # set a global one-level hashmap[sentence[0]] = hashmap[sentence[:]] = int
         # set a global prefix
         # store the history in the hashmap
         pass
+            
     def input(self, c: str) -> List[str]:
         # if the search ended
-            # store the new history to the hashamp
+            # store the new sentence to the hashmap 
+            # update the frequency of the sentence 
+            # reset the global prefix 
         # if ongoing search
             # accumulate the characters
             # create a return list
