@@ -63,18 +63,16 @@ class Solution:
 ```python
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
-        # set up the start pointer for binary search
-        # set up the end pointer for binary search
+        # set up the left and right pointer for binary search
         # loop until the array is completely explored
             # get the pivot
-            # if the pivot is the target
-                # return the index of the pivot
+            # return the pivot if the pivot is the target
             # if no rotation found between start and middle
-                # search the leftside if target is in the leftside 
-                # search rightside if target is in the rightside 
+                # search the leftside if target is in the rotation free array 
+                # search rightside if target is in the array that contains rotation  
             # if no rotation found between middle and end
-                # search rightside if the target is in the rightside 
-                # search leftside if the target is in the leftside
+                # search rightside if the target in the rotation free array  
+                # search leftside if the target is in the array that contains rotation  
         # return -1 if no target is found in the array
         pass
 ```
