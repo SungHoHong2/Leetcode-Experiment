@@ -1,35 +1,33 @@
-
 class AutocompleteSystem:
-
     def __init__(self, sentences: List[str], times: List[int]):
         # set a global hashmap[sentence]=times
         self.hashmap = collections.defaultdict(int)
         # set a global prefix
-        self.curSent = ""
+        self.curr = ""
         # store the history in the hashmap
         for i in range(len(sentences)):
             self.hashmap[sentences[i]] = times[i]
 
     def input(self, c: str) -> List[str]:
-        # if the search ended
+        # if search ended
         if c == '#':
-            # store the new history to the hashamp
-            self.hashmap[self.curSent] += 1
+            # store the new history to the hashmap
+            self.hashmap[self.curr] += 1
             # reset the prefix
-            self.curSent = ""
+            self.curr = ""
         # if ongoing search
         else:
             # accumulate the characters
-            self.curSent += c
+            self.curr += c
             # create a return list
-            tmp = list()
+            ans = list()
             # iterate the hashmap
             for sentence, time in self.hashmap.items():
                 # if the accumulated characters are the subset and starts at the beginning of the keys
-                if self.curSent in sentence and sentence.index(self.curSent) == 0:
+                if self.curr in sentence and self.curr == sentence[:len(self.curr)]:
                     # append to the return list
-                    tmp.append((sentence, time))
+                    ans.append((sentence, time))
             # sort the return list by frequency and ascii order
-            tmp.sort(key=lambda s: (-(s[1]), s[0]))
+            ans.sort(key=lambda s: (-s[1], s[0]))
             # return three recommendations
-            return [t[0] for t in tmp][:3]
+            return [t[0] for t in ans][:3]

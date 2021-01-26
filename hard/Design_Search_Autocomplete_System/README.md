@@ -1,6 +1,11 @@
 ### Design Search Autocomplete System
 **Hashmap**
-- [Concepts](images/)
+- Concept
+    - Apply the `hashmap` that maps the sentence with the frequency 
+    - Append the recommendations when the two conditions are met 
+        1. the search is part of the sentence 
+        1. the search is located at the start of the sentence
+    - Sort the recommendations according to the frequency 
 - [Source code](source/Hashmap.py)
 ```python
 class AutocompleteSystem:
@@ -12,7 +17,7 @@ class AutocompleteSystem:
 
     def input(self, c: str) -> List[str]:
         # if the search ended
-            # store the new history to the hashamp
+            # store the new history to the hashmap
             # reset the prefix
         # if ongoing search
             # accumulate the characters
