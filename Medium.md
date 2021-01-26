@@ -16,7 +16,7 @@
 | `3` [Game of Life](https://leetcode.com/problems/game-of-life/) | [**O(mn),O(1),Infinite Space**](medium/Game_of_Life) |
 | `3` [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | [**Recursive,Iterative with O(N),O(1)**](medium/Copy_List_with_Random_Pointer) |
 | `3` [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [**BruteForce,Backtracking,Closure**](medium/Generate_Parentheses) |
-| `2` [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/) | [**Priority Queues,Chronological Ordering**](medium/Meeting_Rooms_II) |
+| `3` [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/) | [**Priority Queues,Chronological Ordering**](medium/Meeting_Rooms_II) |
 | `2` [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | [**Hashmap**](medium/Subarray_Sum_Equals_K) |
 | `2` [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [**Binary search,One-pass Binary Search**](medium/Search_in_Rotated_Sorted_Array) |
 | `2` [Decode String](https://leetcode.com/problems/decode-string/) | [**Stack,Recursion**](medium/Decode_String) |
@@ -56,6 +56,11 @@
 | `1` [Robot Bounded In Circle](https://leetcode.com/problems/robot-bounded-in-circle/) | [**Trajectory**](medium/Robot_Bounded_In_Circle) |
 | `1` [Partition Labels](https://leetcode.com/problems/partition-labels/) | [**Greedy**](medium/Partition_Labels) | 
 | `1` [Number of Provinces](https://leetcode.com/problems/number-of-provinces/) | [**DFS,BFS,Disjoint**](medium/Number_of_Provinces) | 
-| `0` [Minimum Knight Moves](https://leetcode.com/problems/minimum-knight-moves/) | [**Solution**]() | 
+| `1` [Minimum Knight Moves](https://leetcode.com/problems/minimum-knight-moves/) | [**Solution**]() | 
+| [Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/) | [**Solution**]() | 
+| [Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/) | [**Solution**]() | 
+| [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [**Solution**]() | 
+| [Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/) | [**Solution**]() | 
+| [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) | [**Solution**]() | 
 
 | [Problem]() | [**Solution**]() | 
