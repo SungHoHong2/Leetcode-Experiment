@@ -3,6 +3,10 @@
 - [Concepts](images/)
 - [Source code](source/)
 
+**BFS + Pruning**
+- [Concepts](images/)
+- [Source code](source/)
+
 **Two direction BFS**
 - [Concepts](images/)
 - [Source code](source/)
