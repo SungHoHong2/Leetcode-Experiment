@@ -3,6 +3,9 @@
 **Hashmap**
 - [Concepts](images/Hashmap.png)
     1. Assuming the equation `sum[i]+sum[j]=k` 
+        - Suppose there is array that is represented by indexes
+            - `sum = [0,1,2,3,4,5,6,7,8,9,10]`
+            - `sum[i]=[0,1,2,3,4]`, `sum[j]=[6,7,8,9,10]`
     1. Use the `hashmap` to record the possible results from continuous subsets
         - Suppose that `[0,0,0,0,0]` equals to zero
         - The `hashmap` collects the possible subsets of zero and accumulate them as the results  
