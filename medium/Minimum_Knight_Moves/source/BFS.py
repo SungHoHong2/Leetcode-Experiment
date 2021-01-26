@@ -14,7 +14,7 @@ class Solution:
             if (a, b) == (x,y):
                 return step
             # search the direction
-            for dx, dy in [(1,2),(2,1),(1,-2),(2,-1),(-1,2),(-2,1), (-1, -2), (-2,-1)]:
+            for dx, dy in [(1,2),(2,1),(1,-2),(2,-1),(-1,2),(-2,1),(-1,-2),(-2,-1)]:
                 # if the destination is unvisited and the index is within the boundaries
                 if (a+dx, b+dy) not in visited:
                     # mark the position to the visited

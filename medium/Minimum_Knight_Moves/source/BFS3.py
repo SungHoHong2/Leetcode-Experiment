@@ -1,19 +1,32 @@
 class Solution:
     def minKnightMoves(self, x: int, y: int) -> int:
-        x, y = abs(x), abs(y)
+        # set the BFS queue that starts from the origin
         qo = collections.deque([(0, 0, 0)])
+        # set the BFS queue that starts from the destination
         qt = collections.deque([(x, y, 0)])
+        # set visited hashmap for both BFS queues
         do, dt = {(0,0): 0}, {(x,y): 0}
-        while True:
+        # iterate
+        while qo and qt:
+            # pop the position from the first queue
             ox, oy, ostep = qo.popleft()
-            if (ox, oy) in dt: return ostep + dt[(ox, oy)]
+            # return the steps if first BFS meets the second BFS
+            if (ox, oy) in dt:
+                return ostep + dt[(ox, oy)]
+            # pop the position from the second queue
             tx, ty, tstep = qt.popleft()
-            if (tx, ty) in do: return tstep + do[(tx, ty)]
+            # return the steps if second BFS meets the first BFS
+            if (tx, ty) in do:
+                return tstep + do[(tx, ty)]
+            # iterate the possible directions
             for dx, dy in [(1,2),(2,1),(1,-2),(2,-1),(-1,2),(-2,1),(-1,-2),(-2,-1)]:
-                if (ox+dx, oy+dy) not in do and -1 <= ox+dx <= x+2 and -1 <= oy+dy <= y+2:
+                # append the unvisited positions and increase the steps of the first BFS
+                if (ox+dx, oy+dy) not in do :
                     qo.append((ox+dx, oy+dy, ostep+1))
                     do[(ox+dx,oy+dy)] = ostep+1
-                if (tx+dx, ty+dy) not in dt and -1 <= tx+dx <= x+2 and -1 <= ty+dy <= y+2:
+                # append the unvisited positions and increase the steps of the second BFS
+                if (tx+dx, ty+dy) not in dt :
                     qt.append((tx+dx, ty+dy, tstep+1))
                     dt[(tx+dx,ty+dy)] = tstep+1
+        # return -1 if BFS fails to reach the destination
         return -1
