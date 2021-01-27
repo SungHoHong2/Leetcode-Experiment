@@ -57,6 +57,7 @@
 | `1` [Partition Labels](https://leetcode.com/problems/partition-labels/) | [**Greedy**](medium/Partition_Labels) | 
 | `1` [Number of Provinces](https://leetcode.com/problems/number-of-provinces/) | [**DFS,BFS,Disjoint**](medium/Number_of_Provinces) | 
 | `1` [Minimum Knight Moves](https://leetcode.com/problems/minimum-knight-moves/) | [**Solution**]() | 
+| `1` [Remove K Digits](https://leetcode.com/problems/remove-k-digits/) | [**Solution**]() | 
 | [Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/) | [**Solution**]() | 
 | [Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/) | [**Solution**]() | 
 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [**Solution**]() | 

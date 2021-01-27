@@ -27,7 +27,7 @@
 | `1` [Edit Distance](https://leetcode.com/problems/edit-distance/) | [**DP**](hard/Edit_Distance) | 
 | `1` [Jump Game II](https://leetcode.com/problems/jump-game-ii/) | [**Greedy**](hard/Jump_Game_II) | 
 | `1` [Design Search Autocomplete System](https://leetcode.com/problems/design-search-autocomplete-system/) | [**Hashmap, Two level Hashmap, Trie**](hard/Design_Search_Autocomplete_System) | 
-| `w` [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | [**Insertion Sort + Binary Search**](hard/Find_Median_from_Data_Stream) | 
+| `1` [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | [**Insertion Sort + Binary Search**](hard/Find_Median_from_Data_Stream) | 
 | `w` [Employee Free Time](https://leetcode.com/problems/employee-free-time/) | [**Greedy,Heap**](hard/Employee_Free_Time) | 
 | [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/) | [**DP,Binary Search**](hard/Split_Array_Largest_Sum) | 
 | [Reaching Points](https://leetcode.com/problems/reaching-points/) | [**WorkBackward,+ Modulo**](hard/Reaching_Points) | 
