@@ -18,34 +18,31 @@ class Solution:
 ```
 
 **Binary Search + Greedy**
-- [Concepts](images/)
-    - Suppose `[7,2,5,10,8]` and `2`
-    - `max_sum([7,2,5,10,8], 2)` will be in the range `[10, 32]` 
+- Concepts    
+    - Suppose there are `[7,2,5,10,8]` and `2`
+    - Start the binary search from a largest and the smallest maximum value
         - `32` is the largest value that the largest subset can have
         - `10` is the largest value that the smallest subset can have  
-    - Find the minimum value in this range with which can form 2 sub-arrays
-        1. Start with 10
-            - can form into 4 sub arrays `[7, 2],[5],[10],[8]`
-            - increase the minimum value to reduce the number into 2 sub arrays
-        1. Continue with `mid = (10+32)/2 = 21`
-            - can form into 2 sub arrays `[7,2,5],[10,8]` 
+    - Find the minimum value in this range with which can split into `2` sub-arrays
+        1. Find the middle value `mid = (10+32)/2 = 21`
+            - with the middle value, it can form into `[7,2,5],[10,8]` 
             - valid, record `21`, update `high = mid-1` reducing the range to `[10,20]`
             
         1. Continue with `mid = (10+20)/2 = 15`
-            - can form into 3 sub arrays `[7,2,5],[10],[8]` 
-            - invalid, update `low = mid+1` reducing the range to `[16,20]`            
+            - can form into `[7,2,5],[10],[8]` 
+            - invalid, because `3` subsets, update `low = mid+1` increase the range to `[16,20]`            
             
         1. Continue with `mid = (16+20)/2 = 18` 
             - can form into 2 sub arrays `[7,2,5],[10,8]`  
-            - record `18` and update `high = mid-1` reducing the range to `[16,17]`
+            - valid, record `18` and update `high = mid-1` reducing the range to `[16,17]`
           
         1. Continue with `mid = (16+17)/2 = 16` 
             - can form into 3 sub arrays `[7,2,5],[10],[8]`  
-            - invalid, update `left = mid+1` reducing the range to `[17,17]`          
+            - invalid, update `left = mid+1` increasing the range to `[17,17]`          
           
         1. Continue with `mid = (17+17)/2 = 17` 
             - can form into 3 sub arrays `[7,2,5],[10],[8]`  
-            - invalid, update `left = mid+1` reducing the range to `[18,17]`
+            - invalid, update `left = mid+1` increasing the range to `[18,17]`
          
         1. `[18,17]` breaks the loop and end the smallest maximum subset as `18` 
          
