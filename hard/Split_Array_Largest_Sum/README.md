@@ -9,9 +9,9 @@ class Solution:
         # set a dp table using columns as the number of subsets and n as the inputs in the array
         # create an array to easily create the potential jth subset
         # set the smallest maximum subset to zero when array is zero
-        # expanding the range of the array
-            # expanding the number of subsets
-                # get the minimum part
+        # iterate the range of usable numbers
+            # iterate the number of subsets
+                # iterate the accumulated value of subsets
                     # smallest maximum sum by comparing the j-1 subsets with potential jth subsets
         # return the smallest maximum subset
         pass
