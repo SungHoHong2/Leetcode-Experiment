@@ -28,10 +28,10 @@
 | `1` [Jump Game II](https://leetcode.com/problems/jump-game-ii/) | [**Greedy**](hard/Jump_Game_II) | 
 | `1` [Design Search Autocomplete System](https://leetcode.com/problems/design-search-autocomplete-system/) | [**Hashmap, Two level Hashmap, Trie**](hard/Design_Search_Autocomplete_System) | 
 | `1` [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | [**Insertion Sort + Binary Search**](hard/Find_Median_from_Data_Stream) | 
-| `w` [Employee Free Time](https://leetcode.com/problems/employee-free-time/) | [**Greedy,Heap**](hard/Employee_Free_Time) | 
-| [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/) | [**DP,Binary Search**](hard/Split_Array_Largest_Sum) | 
-| [Reaching Points](https://leetcode.com/problems/reaching-points/) | [**WorkBackward,+ Modulo**](hard/Reaching_Points) | 
-| [Consecutive Numbers Sum](https://leetcode.com/problems/consecutive-numbers-sum/) | [**Counting Consecutives**](hard/Consecutive_Numbers_Sum) | 
+| `1` [Employee Free Time](https://leetcode.com/problems/employee-free-time/) | [**Greedy,Heap**](hard/Employee_Free_Time) | 
+| `w` [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/) | [**DP,Binary Search**](hard/Split_Array_Largest_Sum) | 
+| `w` [Reaching Points](https://leetcode.com/problems/reaching-points/) | [**WorkBackward,+ Modulo**](hard/Reaching_Points) | 
+| `w` [Consecutive Numbers Sum](https://leetcode.com/problems/consecutive-numbers-sum/) | [**Counting Consecutives**](hard/Consecutive_Numbers_Sum) | 
 | `0` [Minimum Difficulty of a Job Schedule](https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/) | [**Solution**]() | 
 | `0` [Strong Password Checker](https://leetcode.com/problems/strong-password-checker/) | [**Solution**]() | 
 | `0` [Design In-Memory File System](https://leetcode.com/problems/design-in-memory-file-system/) | [**Solution**]() | 
