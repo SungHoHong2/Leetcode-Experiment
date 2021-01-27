@@ -52,18 +52,23 @@ class Solution:
 - [Source code](source/binary.py)
 ```python
 class Solution(object):
-    def is_valid(self, nums, m, mid):
-        # count the number of subsets that has the value within the pivot
-        # return true if the number of subsets is valid 
+    def valid(self, nums, m, pivot):
+        # set the number of subsets and the current accumulated value
+        # iterate the input
+            # accumulate the sum
+            # if the sum exceeds the pivot 
+                # create a subset 
+                # start the new accumulated value 
+        # return if the number of subsets are acceptable
         pass
     
     def splitArray(self, nums, m):
-        # set the smallest value of the subset as the low and the largest as the right
+        # get the smallest and largest possible value with a single subset
         # set the returning value that records the smallest maximum value of the subset        
-        # run binary search until low and high coverges
-            # get the pivot 
-            # update the answer and explore left if the subsets are valid
-            # explore right if the the subsets are invalid 
+        # run binary search until smallest and largest value converges
+            # get the pivot
+            # update the answer and explore the smaller possible values if the number of subsets are valid     
+            # explore larger possible values if the the number of subsets are invalid      
         # return the smallest maximum value of the subset 
         pass
 ```

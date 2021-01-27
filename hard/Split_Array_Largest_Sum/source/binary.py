@@ -1,29 +1,34 @@
 class Solution(object):
-    def is_valid(self, nums, m, mid):
-        # count the number of subsets that has the value within the pivot
-        cuts, curr_sum = 0, 0
-        for x in nums:
-            curr_sum += x
-            if curr_sum > mid:
-                cuts, curr_sum = cuts + 1, x
-        subs = cuts + 1
-        # return true if the number of subsets is valid
-        return (subs <= m)
+    def valid(self, nums, m, pivot):
+        # set the number of subsets and the current accumulated value
+        subsets, curr = 1, 0
+        # iterate the input
+        for num in nums:
+            # accumulate the sum
+            curr += num
+            # if the sum exceeds the pivot
+            if curr > pivot:
+                # create a subset
+                subsets += 1
+                # start the new accumulated value
+                curr = num
+                # return if the number of subsets are acceptable
+        return subsets <= m
 
     def splitArray(self, nums, m):
-        # set the smallest value of the subset as the low and the largest as the right
-        low, high = max(nums), sum(nums)
+        # get the smallest and largest possible value with a single subset
+        left, right = max(nums), sum(nums)
         # set the returning value that records the smallest maximum value of the subset
         ans = float('-inf')
         # run binary search until low and high coverges
-        while low <= high:
+        while left <= right:
             # get the pivot
-            mid = (low + high) // 2
-            # update the answer and explore left if the subsets are valid
-            if self.is_valid(nums, m, mid):
-                ans, high = mid, mid - 1
+            pivot = (left + right) // 2
+            # update the answer and explore the smaller possible values
+            if self.valid(nums, m, pivot):
+                ans, right = pivot, pivot - 1
             # explore right if the the subsets are invalid
             else:
-                low = mid + 1
-        # return the smallest maximum value of the subset
+                left = pivot + 1
+                # return the smallest maximum value of the subset
         return ans
