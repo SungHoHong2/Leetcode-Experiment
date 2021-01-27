@@ -56,8 +56,8 @@
 | `1` [Robot Bounded In Circle](https://leetcode.com/problems/robot-bounded-in-circle/) | [**Trajectory**](medium/Robot_Bounded_In_Circle) |
 | `1` [Partition Labels](https://leetcode.com/problems/partition-labels/) | [**Greedy**](medium/Partition_Labels) | 
 | `1` [Number of Provinces](https://leetcode.com/problems/number-of-provinces/) | [**DFS,BFS,Disjoint**](medium/Number_of_Provinces) | 
-| `1` [Minimum Knight Moves](https://leetcode.com/problems/minimum-knight-moves/) | [**Solution**]() | 
-| `1` [Remove K Digits](https://leetcode.com/problems/remove-k-digits/) | [**Solution**]() | 
+| `1` [Minimum Knight Moves](https://leetcode.com/problems/minimum-knight-moves/) | [**BFS, BFS with Pruning, BFS from two sides**](medium/Minimum_Knight_Moves) | 
+| `1` [Remove K Digits](https://leetcode.com/problems/remove-k-digits/) | [**Greedy with Stack**](medium/Remove_K_Digits) | 
 | [Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/) | [**Solution**]() | 
 | [Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/) | [**Solution**]() | 
 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [**Solution**]() | 
