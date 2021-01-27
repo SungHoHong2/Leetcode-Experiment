@@ -13,17 +13,17 @@ class Interval:
 """
 class Solution:
     def employeeFreeTime(self, schedule: '[[Interval]]') -> '[Interval]':
-        # create a array that collects the opening and closing time of intervals 
-        # sort the array 
-        # set a returning array that collects free intervals 
-        # set the flag to track number of opening and closing time 
-        # set a variable to track the previous time
-        # iterate the sorted times 
+        # create a array that collects the opening and closing time of intervals
+        # sort the array
+        # set a returning array that collects free intervals
+        # set the flag to track number of opening and closing time
+        # set first the starting time as previous time
+        # iterate the sorted times
             # if there is no openings and there was a closing event
-                # append the free interval to the returning array 
-            # update the number of openend events
-            # keep track of the latest time
-        # return the free intervals 
+                # append the free interval to the returning array
+            # update the number of opening events
+            # set the current time as previous
+        # return the free intervals
         pass
 ```
 

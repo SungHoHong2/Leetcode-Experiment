@@ -19,17 +19,17 @@ class Solution:
         ans = list()
         # set the flag to track number of opening and closing time
         bal = 0
-        # set a variable to track the previous time
-        prev = None
+        # set first the starting time as previous time
+        prev = events[0][0]
         # iterate the sorted times
         for curr, cmd in events:
             # if there is no openings and there was a closing event
-            if bal == 0 and prev != None and prev < curr:
+            if bal == 0 and prev < curr:
                 # append the free interval to the returning array
                 ans.append(Interval(prev, curr))
-            # update the number of openend events
+            # update the number of opening events
             bal += 1 if cmd == "OPEN" else -1
-            # keep track of the latest time
+            # set the current time as previous
             prev = curr
         # return the free intervals
         return ans
