@@ -25,7 +25,7 @@ class Solution:
         - `10` is the largest value that the smallest subset can have  
     - Find the minimum value in this range with which can split into `2` sub-arrays
         1. Find the middle value `mid = (10+32)/2 = 21`
-            - with the middle value, it can form into `[7,2,5],[10,8]` 
+            - can form into `[7,2,5],[10,8]` 
             - valid, record `21`, update `high = mid-1` reducing the range to `[10,20]`
             
         1. Continue with `mid = (10+20)/2 = 15`
