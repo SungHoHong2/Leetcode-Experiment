@@ -4,12 +4,25 @@
     - sort the whole intervals and apply Greedy 
 - [Source code](source/Events.py)
 ```python
+"""
+# Definition for an Interval.
+class Interval:
+    def __init__(self, start: int = None, end: int = None):
+        self.start = start
+        self.end = end
+"""
 class Solution:
     def employeeFreeTime(self, schedule: '[[Interval]]') -> '[Interval]':
-        # create a array that collects the start and closing time of intervals 
+        # create a array that collects the opening and closing time of intervals 
         # sort the array 
         # set a returning array that collects free intervals 
-        # start greedy
+        # set the flag to track number of opening and closing time 
+        # set a variable to track the previous time
+        # iterate the sorted times 
+            # if there is no openings and there was a closing event
+                # append the free interval to the returning array 
+            # update the number of openend events
+            # keep track of the latest time
         # return the free intervals 
         pass
 ```
