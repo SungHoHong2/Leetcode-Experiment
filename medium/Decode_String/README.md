@@ -52,15 +52,15 @@ class Solution:
     def __init__(self):
         # set the global index
         pass
+
     def decodeString(self, s: str) -> str:
         # set the result string
         # iterate until the input is depleted to the end
             # if the string is a digit
                 # compute the repeats
                 # ignore the open bracket
-                # get the string from recursive operations
+                # accumulate the strings from recursive operations
                 # ignore the closing bracket
-                # add the repeated number of strings from the recursive function
             # if the string is not a digit
                 # append to the result
                 # increase the index
