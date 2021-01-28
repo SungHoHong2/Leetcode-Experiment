@@ -5,12 +5,15 @@
 ```python
 class Solution:
     def consecutiveNumbersSum(self, N: int) -> int:
+        """
+        x                       = x+(0+0) 
+        x + (x+1)               = 2x+(0+1)
+        x + (x+1) + (x+2) ...   = 3x+(1+2) ...
+        """
         # return 1 if the input is 1 
-        # x + (x+1) + (x+2) + ...  = N 
-            # x+(0+0)=N, 2x+(0+1)=N, 3x+(1+2)=N, ... 
-            # (x)=N, (2x)+1=N, (3x)+3=N
-            # get the result from the division 
-            # return the total count if quotient becomes zero  
-            # if N is fully divided count the possible numbers 
-        pass
+        # construct the formula: x+(0+0)=N, 2x+(0+1)=N, 3x+(1+2)=N, ... 
+            # create the (prev + curr) == (0+0),(0+1),(1+2) ... 
+            # create the div*x == x, 2x, 3x, ...
+            # # return the answer when the formula exceeds N
+            # # count the number of consecutive numbers if formual equals to N       
 ```
