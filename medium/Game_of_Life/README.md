@@ -12,25 +12,6 @@ class Solution:
     def gameOfLife(self, board: List[List[int]]) -> None:
         # set the up the list of eight directions of the cell
         # set the length of row and column 
-        # iterate the board
-                # set the temporary variable to count the neighbors
-                # scan all the neighbors of the cell
-                    # if the index does not exceed the board and the cells are alive
-                        # increase the number of neighbor
-                # if the current cell is alive and the neighbors are not 2 or 3
-                    # the current cell dies
-                # if the current cell is dead and the total number of neighbors are 3
-                    # the current cell lives
-        pass
-```
-
-**O(1) Space Solution**
-- [Source code](source/Space2.py)
-```python
-class Solution:
-    def gameOfLife(self, board: List[List[int]]) -> None:
-        # set the up the list of eight directions of the cell
-        # set the length of row and column 
         # copy the board used for checking the previous status
         # iterate the board
                 # set the temporary variable to count the neighbors
@@ -45,6 +26,27 @@ class Solution:
         pass
 ```
 
+**O(1) Space Solution**
+- [Source code](source/Space2.py)
+
+```python
+class Solution:
+    def gameOfLife(self, board: List[List[int]]) -> None:
+        # set the up the list of eight directions of the cell
+        # set the length of row and column 
+        # iterate the board
+                # set the temporary variable to count the neighbors
+                # scan all the neighbors of the cell
+                    # if the index does not exceed the board and the cells are alive
+                        # increase the number of neighbor
+                # if the current cell is alive and the neighbors are not 2 or 3
+                    # the current cell dies
+                # if the current cell is dead and the total number of neighbors are 3
+                    # the current cell lives
+        pass
+```
+
+
 **Infinite Board**
 - Concept
     - Assume that the live cells are very sparsely distributed in the board
@@ -52,6 +54,7 @@ class Solution:
     - Avoid allocating the entire board in memory 
         - Allocate one row at a time when updating the board
 - [Source code](source/Infinite.py)
+
 ```python 
 class Solution:
     def iteration(self, live):

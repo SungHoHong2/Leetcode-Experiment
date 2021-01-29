@@ -12,7 +12,7 @@
 | `4` [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [**Left and Right, O(1) space**](medium/Product_of_Array_Except_Self) |
 | `4` [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [**Sliding Window, Optimized**](medium/Longest_Substring_Without_Repeating_Characters) |
 | `4` [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [**Sorting, MergeSorting the TreeNode**](medium/Merge_Intervals) |
-| `3` [Minimum Domino Rotations For Equal Row](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/) | [**Greedy,Counting**](medium/Minimum_Domino_Rotations_For_Equal_Row) |
+| `4` [Minimum Domino Rotations For Equal Row](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/) | [**Greedy,Counting**](medium/Minimum_Domino_Rotations_For_Equal_Row) |
 | `3` [Game of Life](https://leetcode.com/problems/game-of-life/) | [**O(mn),O(1),Infinite Space**](medium/Game_of_Life) |
 | `3` [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | [**Recursive,Iterative with O(N),O(1)**](medium/Copy_List_with_Random_Pointer) |
 | `3` [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [**BruteForce,Backtracking,Closure**](medium/Generate_Parentheses) |
