@@ -22,7 +22,6 @@ class Solution:
                     # the current cell dies
                 # if the current cell is dead and the total number of neighbors are 3
                     # the current cell lives
-        # update the -1 and 2 to get the correct return value
         pass
 ```
 
@@ -43,6 +42,7 @@ class Solution:
                     # the current cell dies
                 # if the current cell is dead and the total number of neighbors are 3
                     # the current cell lives
+        # update the -1 and 2 to get the correct return value
         pass
 ```
 
