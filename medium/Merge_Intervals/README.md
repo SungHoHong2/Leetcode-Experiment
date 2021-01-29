@@ -16,10 +16,13 @@ class Solution:
 ```
 
 **MergeSorting the TreeNode**
-- Solution without sorting, because:
-    - To add intervals and merge them for a large stream of intervals
-- Why use middle for comparison and not start or end boundaries?
-    - Can use merge-sort technique to query the merged intervals result when the left subtree does not overlap with the right subtree.    
+- Solution without **sorting** before running the algorithm  
+- Apply the merge-sort technique when querying the intervals
+    - add: 
+        - add intervals to left and right if not overlapped 
+        - merge intervals to the parent if overlapped 
+    - query:
+        - merge sort while checking for overlaps from left and right child   
 - [Source code](source/TreeMergeSort.py)
 ```python
 class TreeNode:
