@@ -21,7 +21,7 @@ class Solution:
             # if the hits from A and B - (both) equals the total number of dominos
             if countA[i] + countB[i] - same[i] == len(A):
                 # return the shortest possible result
-                return len(A) - max(countA[i], countB[i])
+                return min(countA[i], countB[i]) - same[i]
         # if cannot find return false
         return -1
 
