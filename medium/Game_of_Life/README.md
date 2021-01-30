@@ -46,7 +46,6 @@ class Solution:
         pass
 ```
 
-
 **Infinite Board**
 - Concept
     - Assume that the live cells are very sparsely distributed in the board
