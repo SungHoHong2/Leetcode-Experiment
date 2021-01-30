@@ -17,10 +17,10 @@
 | `4` [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | [**Recursive,Iterative with O(N),O(1)**](medium/Copy_List_with_Random_Pointer) |
 | `4` [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [**BruteForce,Backtracking,Closure**](medium/Generate_Parentheses) |
 | `4` [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/) | [**Priority Queues,Chronological Ordering**](medium/Meeting_Rooms_II) |
-| `3` [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | [**Hashmap**](medium/Subarray_Sum_Equals_K) |
-| `3` [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [**Binary search,One-pass Binary Search**](medium/Search_in_Rotated_Sorted_Array) |
-| `3` [Decode String](https://leetcode.com/problems/decode-string/) | [**Stack,Recursion**](medium/Decode_String) |
-| `3` [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [**Sort,Count**](medium/Group_Anagrams) |
+| `4` [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | [**Hashmap**](medium/Subarray_Sum_Equals_K) |
+| `4` [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [**Binary search,One-pass Binary Search**](medium/Search_in_Rotated_Sorted_Array) |
+| `4` [Decode String](https://leetcode.com/problems/decode-string/) | [**Stack,Recursion**](medium/Decode_String) |
+| `4` [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [**Sort,Count**](medium/Group_Anagrams) |
 | `2` [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | [**Simulation,Layers**](medium/Spiral_Matrix) |
 | `2` [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) | [**Sort,QuickSort**](medium/K_Closest_Points_to_Origin) |
 | `2` [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | [**Two Pointers**](medium/Container_With_Most_Water) |
